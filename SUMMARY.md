@@ -15,7 +15,7 @@
    * [Ubilinux](documentation/Ubilinux.md)
 * [Initialization](Initialization.md)
    * [Display Message](documentation/DisplayMessage.md)
-   * [Modules](IModules.md)
+   * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
 * [User Space](documentation/UserSpace.md)
    * [Kernel Interfaces](documentation/KernelInterfaces.md)
