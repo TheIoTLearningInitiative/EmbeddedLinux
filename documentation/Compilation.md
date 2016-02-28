@@ -13,9 +13,11 @@
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 ```
 
-## Building via Make
+## Board Support Package
 
-### Make Setup
+### Building via Make
+
+#### Make Setup
 
 ```sh
     user@host:~$ make setup
@@ -96,7 +98,7 @@
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
-### Make Image
+#### Make Image
 
 ```sh
     user@host:~$ make image
@@ -212,7 +214,7 @@
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
-### Make Building Workflow
+#### Make Building Workflow
 
 - meta-intel-edison/setup.sh
   - --dl_dir = bbcache/downloads
@@ -252,7 +254,7 @@
     meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
 ```
 
-### Make Flash
+#### Make Flash
 
 ```sh
     user@host:~$ make flash
@@ -302,7 +304,7 @@
     user@host:~$ bitbake edison-image
 ```
 
-## Building via Make + Bitbake
+### Building via Make + Bitbake
 
 ```sh
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
@@ -379,7 +381,7 @@
     Please plug and reboot the board
 ```
 
-## Building via Script
+### Building via Script
 
 ```sh
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
