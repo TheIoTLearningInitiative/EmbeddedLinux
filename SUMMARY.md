@@ -9,4 +9,5 @@
        * [Compilation](documentation/Compilation.md)
        * [Kernel](documentation/Kernel.md)
        * [Modules](documentation/Modules.md)
+* Kernel
 
