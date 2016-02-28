@@ -3,9 +3,7 @@ Building Blocks
 
 > In OpenEmbedded, a layer is just a collection of recipes and/or configuration that can be used on top of OE-Core. Typically each layer is organised around a specific theme, e.g. adding recipes for building web browser software.
 
-## Links
-
-- [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
+[Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
 
 
 ```sh
