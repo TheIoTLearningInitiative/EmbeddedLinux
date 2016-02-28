@@ -1,13 +1,5 @@
 # Compilation
 
-The Intel® Edison Board Support Package offers these features:
-
-- Kernel image based on Linux kernel 3.10.17
-- U-boot second stage bootloader
-- Bluetooth and Wi-Fi connectivity
-- Intel cloud connectivity middleware
-- Many base Linux packages provided by the Yocto project
-
 ## Links
 
 - [Board Support Package (BSP) User Guide for Boards and Kits](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005616.html)
