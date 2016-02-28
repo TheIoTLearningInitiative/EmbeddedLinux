@@ -1,7 +1,7 @@
 Modules
 ==
 
-## Intel Edison Linux Kernel Loaded Modules
+## Loaded Modules
 
 ```sh
     root@edison:~# lsmod
@@ -12,6 +12,16 @@ Modules
     libcomposite           39245  2 usb_f_acm,g_multi
     bcm_bt_lpm             13708  0 
     bcm4334x              587105  0 
+```
+
+# Modules
+
+```sh
+    for mod in `cat /proc/modules | cut -d " " -f 1`
+    do
+        desc=`modinfo -d $mod`
+        printf "%-20s $desc\n" "$mod:"
+    done
 ```
 
 ## Intel Edison Linux Kernel All Modules
