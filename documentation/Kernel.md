@@ -13,7 +13,6 @@ Kernel
 
 ## Links
 
-- [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
 - http://www.h-online.com/open/news/item/Intel-develops-simpler-alternative-to-ACPI-for-Linux-742161.html    
 - https://en.wikipedia.org/wiki/Simple_Firmware_Interface
 - https://simplefirmware.org/
