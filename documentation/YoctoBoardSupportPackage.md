@@ -20,6 +20,22 @@ The Intel® Edison Board Support Package offers these features:
 
 ```sh
  user@host:~$ wget http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
+ 
+ xe1gyq@jessie:~/Flash$ wget http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
+--2016-02-28 14:39:24--  http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
+Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
+Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 238469478 (227M) [application/x-zip-compressed]
+Saving to: ‘edison-iotdk-image-280915.zip’
+
+edison-iotdk-image- 100%[=====================>] 227.42M   450KB/s   in 11m 36ss
+
+2016-02-28 14:51:00 (335 KB/s) - ‘edison-iotdk-image-280915.zip’ saved [238469478/238469478]
+
+xe1gyq@jessie:~/Flash$ ls
+
+ 
  user@host:~$ unzip edison-iotdk-image-280915.zip
 ```
 
