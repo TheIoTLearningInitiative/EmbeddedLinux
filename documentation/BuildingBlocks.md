@@ -5,7 +5,6 @@ Building Blocks
 
 [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
 
-
 ```sh
     BBLAYERS ?= " \
       /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta \
