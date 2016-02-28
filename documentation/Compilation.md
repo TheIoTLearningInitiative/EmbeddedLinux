@@ -24,8 +24,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
-    user@host:~$ pwd
-    /home/xe1gyq/Projects/RealTime/v25/edison-src   
     user@host:~$ ls
     Makefile  meta-intel-edison
 ```
