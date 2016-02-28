@@ -31,6 +31,7 @@
 * [Subsystems](Subsystems.md)
    * [Pin Muxing](PinMuxing.md)
    * [General Purpose Input Output](GeneralPurposeInputOutput.md)
+   * Serial
 * [Debug](documentation/Debug.md)
 * [Application Development](ApplicationDevelopment.md)
    * [C Compiler](C.md)
