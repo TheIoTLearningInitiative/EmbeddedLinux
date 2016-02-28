@@ -37,7 +37,7 @@
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
    * [Power](documentation/Power.md)
-   * Networking
+   * [Networking](documentation/Networking.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
