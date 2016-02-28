@@ -10,6 +10,7 @@
        * [Kernel](documentation/Kernel.md)
            * [Source](documentation/Source.md)
            * [Patch](documentation/Patch.md)
+           * Building
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
 
