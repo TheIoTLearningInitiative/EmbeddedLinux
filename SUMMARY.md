@@ -9,7 +9,7 @@
        * [Compilation](documentation/Compilation.md)
        * [Kernel](documentation/Kernel.md)
            * [Source](documentation/Source.md)
-           * Building
+           * [Building](documentation/Building.md)
            * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
