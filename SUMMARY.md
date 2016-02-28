@@ -22,5 +22,5 @@
    * [Services](documentation/Services.md)
    * [Recovery](documentation/Recovery.md)
    * [Package Management Systems](documentation/PackageManagementSystems.md)
-       * Open Package Management
+       * [Open Package Management](documentation/OpenPackageManagement.md)
 
