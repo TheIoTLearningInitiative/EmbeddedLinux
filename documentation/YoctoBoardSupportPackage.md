@@ -19,6 +19,7 @@ The Intel® Edison Board Support Package offers these features:
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ```sh
+
     user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
     --2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
     Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
@@ -41,12 +42,13 @@ The Intel® Edison Board Support Package offers these features:
     edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
     edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
     edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
+    
     user@host:~$ ls
     Makefile  meta-intel-edison
+    
     user@host:~$ ls meta-intel-edison/
     COPYING.MIT  meta-intel-arduino     meta-intel-edison-distro  setup.sh
     MAINTAINERS  meta-intel-edison-bsp  README                    utils
-
 ```
 
 ## Intel® Edison Board Support Package Document
