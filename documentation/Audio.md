@@ -1,4 +1,4 @@
-Sound
+Audio
 ==
 
 ## Required Hardware
