@@ -85,7 +85,7 @@ It includes:
 - __u-boot-fw-utils__ U-boot bootloader fw_printenv/setenv utils
 - __u-boot-tools__ U-boot bootloader mkimage tool
 
-Links
+#### Links
 
 - [OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/)
 
@@ -105,7 +105,7 @@ Links
 
 - [Yocto meta-intel-iot-middleware](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware)
 
-## Links
+#### Links
 
 - [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
 - [Intel Galileo platform support](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-galileo/tree/)
