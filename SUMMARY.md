@@ -8,5 +8,5 @@
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Compilation](documentation/Compilation.md)
        * [Kernel](documentation/Kernel.md)
-       * Modules
+       * [Modules](documentation/Modules.md)
 
