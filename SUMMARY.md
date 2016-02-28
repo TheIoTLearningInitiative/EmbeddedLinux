@@ -8,7 +8,7 @@
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Compilation](documentation/Compilation.md)
        * [Kernel](documentation/Kernel.md)
-           * Source
+           * [Source](documentation/Source.md)
            * Patch
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
