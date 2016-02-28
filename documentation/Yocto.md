@@ -17,7 +17,7 @@ Yocto
 
 ## Building Yocto
 
-Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX and compare the processes
+Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX and compare both processes
 
 ### Qemu Image
 
