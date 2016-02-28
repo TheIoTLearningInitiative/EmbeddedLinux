@@ -12,6 +12,8 @@ The Intel® Edison Board Support Package offers these features:
 - Intel cloud connectivity middleware
 - Many base Linux packages provided by the Yocto project
 
+### Links
+
 - [Search Downloads Intel® Edison](https://downloadcenter.intel.com/search?keyword=edison)
 - [Intel® Edison Software Release 2.1](https://downloadcenter.intel.com/download/24910/Intel-Edison-Software-Release-2-1)
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
