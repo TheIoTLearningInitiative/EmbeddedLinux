@@ -1,5 +1,3 @@
-# Yocto Board Support Package
-
 Building Blocks
 ==
 
