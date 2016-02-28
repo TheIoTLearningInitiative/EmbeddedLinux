@@ -18,6 +18,8 @@ The Intel® Edison Board Support Package offers these features:
 - [Intel® Edison Software Release 2.1](https://downloadcenter.intel.com/download/24910/Intel-Edison-Software-Release-2-1)
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
+### Hands-On
+
 ```sh
  user@host:~$ wget http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
 ```
