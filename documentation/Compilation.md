@@ -1,5 +1,7 @@
 # Compilation
 
+> In computer programming, the translation of source code into object code by a compiler. [Wikipedia](https://en.wikipedia.org/wiki/Compilation)
+
 ## Dependencies
 
 ```sh
