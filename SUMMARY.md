@@ -27,4 +27,5 @@
    * [Libraries](documentation/Libraries.md)
        * Mraa
        * Upm
+       * OpenCv
 
