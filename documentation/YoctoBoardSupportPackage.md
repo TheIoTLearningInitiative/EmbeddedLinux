@@ -19,29 +19,20 @@ The Intel® Edison Board Support Package offers these features:
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ```sh
- user@host:~$ wget http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
- 
- xe1gyq@jessie:~/Flash$ wget http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
---2016-02-28 14:39:24--  http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
+ user@host:~$ $ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+--2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
 Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
 Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 238469478 (227M) [application/x-zip-compressed]
-Saving to: ‘edison-iotdk-image-280915.zip’
+Length: 6195269 (5.9M) [application/x-compressed]
+Saving to: ‘edison-src-ww25.5-15.tgz.1’
 
-edison-iotdk-image- 100%[=====================>] 227.42M   450KB/s   in 11m 36ss
+edison-src-ww25.5-1 100%[=====================>]   5.91M   987KB/s   in 7.1s   
 
-2016-02-28 14:51:00 (335 KB/s) - ‘edison-iotdk-image-280915.zip’ saved [238469478/238469478]
+2016-02-28 14:58:34 (857 KB/s) - ‘edison-src-ww25.5-15.tgz.1’ saved [6195269/6195269]
 
-xe1gyq@jessie:~/Flash$ ls
-xe1gyq@jessie:~/Flash$ mkdir EdisonSource
-xe1gyq@jessie:~/Flash$ cp edison-iotdk-image-280915.zip EdisonSource/
-xe1gyq@jessie:~/Flash$ cd Edison
-bash: cd: Edison: No such file or directory
-xe1gyq@jessie:~/Flash$ cd EdisonSource/
-
+xe1gyq@jessie:~/Flash$ 
  
- user@host:~$ unzip edison-iotdk-image-280915.zip
 ```
 
 ## Intel® Edison Board Support Package Document
