@@ -20,7 +20,7 @@ Yocto
 
 Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX.
 
-### Development Workstation, Qemu Image Compilaton
+#### Development Workstation, Qemu Image Compilaton
 
 ```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
@@ -34,7 +34,7 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
 ```
-### Development Workstation, Minnowboard Image Compilaton
+#### Development Workstation, Minnowboard Image Compilaton
 
 ```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
