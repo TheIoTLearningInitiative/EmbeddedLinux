@@ -2,7 +2,7 @@ Patch
 ==
 
 ```sh
-    user@host:~$ ls edisaon-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/
+    user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/
     defconfig  upstream_to_edison.patch
 ```
 
