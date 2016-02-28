@@ -42,6 +42,7 @@
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
    * [Clock](documentation/Clock.md)
+   * Peripheral Component Interconnect
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
