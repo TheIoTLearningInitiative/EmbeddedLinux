@@ -60,7 +60,7 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ bitbake virtual/kernel -c configure -f -v
 ```
 
-#### Development Workstation, Minnowboard MAX Flashing
+#### Minnowboard MAX Image Flashing
 
 ```
     user@host:~$ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
