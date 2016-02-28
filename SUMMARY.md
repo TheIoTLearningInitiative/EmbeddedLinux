@@ -41,6 +41,7 @@
    * [Block](documentation/Block.md)
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
+   * Clock
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
