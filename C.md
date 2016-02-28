@@ -1,7 +1,7 @@
 C
 ==
 
-## Native Compilation, GCC Compiler
+## GCC Compiler
 
 ### Socket Implementation, Server
 
