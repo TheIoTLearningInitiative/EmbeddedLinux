@@ -316,7 +316,7 @@ There will be another general vrtc driver for rtc subsystem
 
 > Intel Medfield platform has a high speed UART device, which could act as a early console. To enable early printk of HSU console, simply add "earlyprintk=hsu" in kernel command line. Currently we put the code in the early_printk_mrst.c as it is also for Intel MID platforms like the mrst early console
 
-Upstream patch
+#### Upstream patch
 
 - arch/x86/include/asm/intel_mid_hsu.h
 - arch/x86/include/asm/mrst.h
