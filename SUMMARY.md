@@ -30,6 +30,7 @@
        * [OpenCv](documentation/Opencv.md)
 * [Subsystems](Subsystems.md)
    * [Pin Muxing](PinMuxing.md)
+   * General Purpose Input Output
 * [Debug](documentation/Debug.md)
 * [Application Development](ApplicationDevelopment.md)
    * [C Compiler](C.md)
