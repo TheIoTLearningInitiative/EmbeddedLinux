@@ -396,7 +396,7 @@
 
 ## Native SDK
 
-> To cross-compile native applications for your image, you must generate an SDK containing a cross-compiler toolchain and sysroot. You can generate a full SDK for the Edison Development Board with the following command: 
+> To cross-compile native applications for your image, you must generate an SDK containing a cross-compiler toolchain and sysroot. You can generate a full SDK for the Edison Development Board.
 
 ### Building via Make
 
