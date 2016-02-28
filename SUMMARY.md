@@ -12,5 +12,5 @@
            * [Building](documentation/Building.md)
            * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
-* Initialization
+* [Initialization](Initialization.md)
 
