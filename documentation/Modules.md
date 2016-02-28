@@ -12,7 +12,6 @@
     user@host:~$ mkdir drivers/helloworld
     user@host:~$ nano drivers/helloworld/helloworld.c
 
-
 ```C
 #include <linux/init.h>
 #include <linux/kernel.h>
