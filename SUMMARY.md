@@ -40,7 +40,7 @@
    * [Networking](documentation/Networking.md)
    * [Block](documentation/Block.md)
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
-   * Inter Integrated Circuit
+   * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
