@@ -8,7 +8,6 @@
        * [Compilation](documentation/Compilation.md)
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
-           * [Source](documentation/Source.md)
            * [Patch](documentation/Patch.md)
            * [Building](documentation/Building.md)
            * [Headers](documentation/Headers.md)
