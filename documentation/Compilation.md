@@ -1,9 +1,5 @@
 # Compilation
 
-## Links
-
-- [Board Support Package (BSP) User Guide for Boards and Kits](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005616.html)
-
 ## Dependencies
 
 ```sh
