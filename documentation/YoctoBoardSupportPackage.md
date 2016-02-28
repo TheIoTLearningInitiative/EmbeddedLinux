@@ -43,6 +43,7 @@ The Intel® Edison Board Support Package offers these features:
     edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
     user@host:~$ ls
     Makefile  meta-intel-edison
+
 ```
 
 ## Intel® Edison Board Support Package Document
