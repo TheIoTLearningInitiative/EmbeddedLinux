@@ -52,6 +52,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     COPYING.MIT  meta-intel-arduino     meta-intel-edison-distro  setup.sh
     MAINTAINERS  meta-intel-edison-bsp  README                    utils
 ```
+
 ### Building via Make
 
 #### Make Setup
