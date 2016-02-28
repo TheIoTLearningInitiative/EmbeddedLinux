@@ -6,6 +6,19 @@ Building Blocks
 [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
 
 ```sh
+Mode	Name	Size	
+-rw-r--r--	.gitignore	29	logstatsplain
+-rw-r--r--	COPYING.MIT	1082	logstatsplain
+-rw-r--r--	MAINTAINERS	662	logstatsplain
+-rw-r--r--	README	2948	logstatsplain
+d---------	meta-intel-arduino	74	logstatsplain
+d---------	meta-intel-edison-bsp	267	logstatsplain
+d---------	meta-intel-edison-distro	438	logstatsplain
+-rwxr-xr-x	setup.sh	11075	logstatsplain
+d---------	utils	871	logstatsplain
+```
+
+```sh
     BBLAYERS ?= " \
       /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta \
       /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta-yocto \
