@@ -8,7 +8,6 @@ Ubilinux™, Debian Based Distribution
 - [Mr. Smirnov Intel Edison - Building Debian image](http://mr-smirnov.com/2016/02/08/intel-edison-building-debian-image/)
 -[3](https://communities.intel.com/thread/60224?start=0&tstart=0)
 
-
 ## Installation
 
 - [Emutexlabs ubilinux™ installation instructions for Intel® Edison](http://www.emutexlabs.com/ubilinux/29-ubilinux/218-ubilinux-installation-instructions-for-intel-edison)
