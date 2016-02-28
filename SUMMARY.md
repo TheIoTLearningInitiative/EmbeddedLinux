@@ -29,7 +29,7 @@
        * [Upm](documentation/Upm.md)
        * [OpenCv](documentation/Opencv.md)
 * [Subsystems](Subsystems.md)
-   * [Pin Muxing](PinMuxing.md)
+   * [Pin Muxing](documentation/PinMuxing.md)
    * [General Purpose Input Output](GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/Bluetooth.md)
