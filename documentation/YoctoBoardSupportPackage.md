@@ -43,6 +43,9 @@ The Intel® Edison Board Support Package offers these features:
     edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
     user@host:~$ ls
     Makefile  meta-intel-edison
+    user@host:~$ ls meta-intel-edison/
+    COPYING.MIT  meta-intel-arduino     meta-intel-edison-distro  setup.sh
+    MAINTAINERS  meta-intel-edison-bsp  README                    utils
 
 ```
 
