@@ -28,7 +28,7 @@
        * [Mraa](documentation/Mraa.md)
        * [Upm](documentation/Upm.md)
        * [OpenCv](documentation/Opencv.md)
-* [Subsystems](Subsystems.md)
+* [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [General Purpose Input Output](GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
