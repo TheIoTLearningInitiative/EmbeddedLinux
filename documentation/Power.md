@@ -1,8 +1,6 @@
 Power
 ==
 
-> The Intel® Edison board has a known error on all UARTs. When Edison goes into low power sleep, the UART internal FIFO and interface is powered down. Therefore, a two-wire UART (Rx/Tx) will lose the first received character whenever Edison is in sleep mode. In order to avoid this condition, when sleep mode is enabled, a four-wire UART (Rx, Tx, CTS, and RTS) is required.
-
 > D0, Device power state, equivalent to “fully on”. D1 and D2 are intermediate states; D3 is “Off”
 
 > S0ix, An “active idle” sleep state, which delivers the same power consumption as S3 sleep, yet provides a quick activate time into full S0 state
