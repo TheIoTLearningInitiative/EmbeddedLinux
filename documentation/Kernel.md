@@ -40,8 +40,11 @@ Kernel
 - https://communities.intel.com/message/273743
 - https://edison.internet-share.com/w/index.php?title=Using_a_stock_Linux_kernel_with_Intel_Edison&redirect=no
 
+
 ```sh
     User Linux Next
     git clone git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
     v4.1-rc6 tag, mrproper'd and rebuilt, 
-```sh
+```
+
+
