@@ -30,7 +30,7 @@
        * [OpenCv](documentation/Opencv.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
-   * [General Purpose Input Output](GeneralPurposeInputOutput.md)
+   * [General Purpose Input Output](documentation/GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/Bluetooth.md)
    * [WiFi](documentation/WiFi.md)
