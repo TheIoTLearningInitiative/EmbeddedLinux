@@ -11,8 +11,7 @@ Kernel
 
 ToDo Explain Linux Kernel Version, do we have this under Operating System?
 
-
-# Explain how we give support ot Linux Kernel
+## Explain how we give support ot Linux Kernel
 
 > Intel Silvermont (Atom)
 
