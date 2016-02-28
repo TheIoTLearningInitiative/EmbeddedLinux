@@ -1,7 +1,7 @@
 Modules
 ==
 
-## Linux Kernel Modules
+## Kernel Modules
 
 ### Intel Edison Linux Kernel Loaded Modules
 
