@@ -34,6 +34,11 @@ edison-iotdk-image- 100%[=====================>] 227.42M   450KB/s   in 11m 36ss
 2016-02-28 14:51:00 (335 KB/s) - ‘edison-iotdk-image-280915.zip’ saved [238469478/238469478]
 
 xe1gyq@jessie:~/Flash$ ls
+xe1gyq@jessie:~/Flash$ mkdir EdisonSource
+xe1gyq@jessie:~/Flash$ cp edison-iotdk-image-280915.zip EdisonSource/
+xe1gyq@jessie:~/Flash$ cd Edison
+bash: cd: Edison: No such file or directory
+xe1gyq@jessie:~/Flash$ cd EdisonSource/
 
  
  user@host:~$ unzip edison-iotdk-image-280915.zip
