@@ -9,10 +9,8 @@
        * [Compilation](documentation/Compilation.md)
        * [Kernel](documentation/Kernel.md)
            * [Source](documentation/Source.md)
-           * Patch
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
-   * [Source](documentation/Source.md)
    * [Patch](documentation/Patch.md)
    * [Modules](documentation/KernelModules.md)
 
