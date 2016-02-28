@@ -38,8 +38,10 @@ The Intel® Edison Board Support Package offers these features:
     edison-src/meta-intel-edison/README
     edison-src/meta-intel-edison/MAINTAINERS
     ...
-    
- 
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
+
 ```
 
 ## Intel® Edison Board Support Package Document
