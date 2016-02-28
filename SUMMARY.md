@@ -7,5 +7,5 @@
        * [Yocto](documentation/Yocto.md)
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Compilation](documentation/Compilation.md)
-       * Kernel
+       * [Kernel](documentation/Kernel.md)
 
