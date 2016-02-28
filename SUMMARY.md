@@ -38,7 +38,7 @@
    * [Camera](documentation/Camera.md)
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
-   * Block
+   * [Block](documentation/Block.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
