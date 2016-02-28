@@ -9,9 +9,7 @@ Kernel
     EXTRAVERSION =
     NAME = TOSSUG Baby Fish
 
-ToDo Explain Linux Kernel Version, do we have this under Operating System?
-
-## Explain how we give support ot Linux Kernel
+ToDo Explain Linux Kernel Version, do we have this under Operating System?, Explain how we give support ot Linux Kernel
 
 > Intel Silvermont (Atom)
 
