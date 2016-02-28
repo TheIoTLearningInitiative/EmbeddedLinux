@@ -20,5 +20,5 @@
 * [User Space](documentation/UserSpace.md)
    * [Kernel Interfaces](documentation/KernelInterfaces.md)
    * [Services](documentation/Services.md)
-   * Recovery
+   * [Recovery](documentation/Recovery.md)
 
