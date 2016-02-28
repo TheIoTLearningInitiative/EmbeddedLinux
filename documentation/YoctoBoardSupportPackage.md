@@ -19,27 +19,26 @@ The Intel® Edison Board Support Package offers these features:
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ```sh
- user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
---2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
-Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
-Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 6195269 (5.9M) [application/x-compressed]
-Saving to: ‘edison-src-ww25.5-15.tgz.1’
-
-edison-src-ww25.5-1 100%[=====================>]   5.91M   987KB/s   in 7.1s   
-
-2016-02-28 14:58:34 (857 KB/s) - ‘edison-src-ww25.5-15.tgz.1’ saved [6195269/6195269]
-
-user@host:~$ tar zxvf edison-src-ww25.5-15.tgz 
-edison-src/
-edison-src/Makefile
-edison-src/meta-intel-edison/
-edison-src/meta-intel-edison/README
-edison-src/meta-intel-edison/MAINTAINERS
-...
-
-
+    user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+    --2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+    Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
+    Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 6195269 (5.9M) [application/x-compressed]
+    Saving to: ‘edison-src-ww25.5-15.tgz.1’
+    
+    edison-src-ww25.5-1 100%[=====================>]   5.91M   987KB/s   in 7.1s   
+    
+    2016-02-28 14:58:34 (857 KB/s) - ‘edison-src-ww25.5-15.tgz.1’ saved [6195269/6195269]
+    
+    user@host:~$ tar zxvf edison-src-ww25.5-15.tgz 
+    edison-src/
+    edison-src/Makefile
+    edison-src/meta-intel-edison/
+    edison-src/meta-intel-edison/README
+    edison-src/meta-intel-edison/MAINTAINERS
+    ...
+    
  
 ```
 
