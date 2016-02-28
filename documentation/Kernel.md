@@ -47,4 +47,6 @@ Kernel
     v4.1-rc6 tag, mrproper'd and rebuilt, 
 ```
 
+## Links
 
+http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/
