@@ -15,7 +15,6 @@ Yocto
 - [Yocto Manage a Private Opkg Repository](http://www.jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html)
 - [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
 
-
 ## Yocto Customization
 
 ### Building Yocto
