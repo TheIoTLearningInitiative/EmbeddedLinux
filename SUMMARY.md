@@ -36,5 +36,5 @@
    * [WiFi](WiFi.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](ApplicationDevelopment.md)
-   * [C Compiler](C.md)
+   * [C Compiler](documentation/C.md)
 
