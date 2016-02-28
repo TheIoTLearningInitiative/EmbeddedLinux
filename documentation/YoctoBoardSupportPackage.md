@@ -31,7 +31,15 @@ edison-src-ww25.5-1 100%[=====================>]   5.91M   987KB/s   in 7.1s
 
 2016-02-28 14:58:34 (857 KB/s) - ‘edison-src-ww25.5-15.tgz.1’ saved [6195269/6195269]
 
-user@host:~$ 
+user@host:~$ tar zxvf edison-src-ww25.5-15.tgz 
+edison-src/
+edison-src/Makefile
+edison-src/meta-intel-edison/
+edison-src/meta-intel-edison/README
+edison-src/meta-intel-edison/MAINTAINERS
+...
+
+
  
 ```
 
