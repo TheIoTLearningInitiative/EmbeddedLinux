@@ -1,7 +1,11 @@
-# Patch
-
 Patch
 ==
+
+```sh
+    user@host:~$ ls edisaon-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/
+    defconfig  upstream_to_edison.patch
+```
+
 
 ```sh
     x86 Intel MID Platform
