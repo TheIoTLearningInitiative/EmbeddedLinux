@@ -33,7 +33,7 @@
    * [General Purpose Input Output](GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/Bluetooth.md)
-   * WiFi
+   * [WiFi](WiFi.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](ApplicationDevelopment.md)
    * [C Compiler](C.md)
