@@ -12,5 +12,4 @@
            * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
-   * [Modules](documentation/KernelModules.md)
 
