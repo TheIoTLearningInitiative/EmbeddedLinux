@@ -17,7 +17,7 @@ The Intel® Edison Board Support Package offers these features:
 - [Search Downloads Intel® Edison](https://downloadcenter.intel.com/search?keyword=edison)
 - [Intel® Edison Software Release 2.1](https://downloadcenter.intel.com/download/24910/Intel-Edison-Software-Release-2-1)
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
-
+ 
 ### Download & Decompression
 
 Go to [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
@@ -61,4 +61,5 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 > This document is for software and system engineers who are building and customizing images, kernels, and native SDKs for the Intel® Edison Development Platform. Precompiled versions of the BSP are available on the Intel
 website. Users who don’t want to modify the default images don’t need to read this document.
 
+- [Board Support Package (BSP) User Guide for Boards and Kits](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005616.html)
 - [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188005.pdf)
