@@ -10,3 +10,4 @@ website. Users who don’t want to modify the default images don’t need to rea
 - [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188005.pdf)
 - [Search Downloads Intel® Edison](https://downloadcenter.intel.com/search?keyword=edison)
 - [Intel® Edison Software Release 2.1](https://downloadcenter.intel.com/download/24910/Intel-Edison-Software-Release-2-1)
+- [Intel® Edison Software Release 2.1](https://software.intel.com/en-us/iot/hardware/edison/downloads)
