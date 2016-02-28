@@ -33,7 +33,7 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
 ```
-### Minnowboard Image
+### Minnowboard MAX Image
 
 ```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
@@ -53,7 +53,7 @@ Let's understand what it means to work with Yocto Project by building images for
     core-image-minimal-intel-corei7-64.hddimg
 ```
 
-#### Development Workstation, Minnowboard MAX Kernel Compilation
+#### Minnowboard MAX Kernel Compilation
 
 ```
     user@host:~$ bitbake virtual/kernel -c menuconfig
