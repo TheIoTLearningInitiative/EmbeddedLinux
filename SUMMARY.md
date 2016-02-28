@@ -9,8 +9,8 @@
        * [Compilation](documentation/Compilation.md)
        * [Kernel](documentation/Kernel.md)
            * [Source](documentation/Source.md)
-           * [Patch](documentation/Patch.md)
            * Building
+           * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
 
