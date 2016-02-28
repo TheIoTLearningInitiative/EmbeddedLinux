@@ -1,2 +1,0 @@
-Embedded Linux
-Embedded Linux
