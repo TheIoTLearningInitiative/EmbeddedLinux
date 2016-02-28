@@ -32,7 +32,7 @@
    * [Pin Muxing](PinMuxing.md)
    * [General Purpose Input Output](GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
-   * BlueTooth
+   * [BlueTooth](documentation/Bluetooth.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](ApplicationDevelopment.md)
    * [C Compiler](C.md)
