@@ -39,6 +39,7 @@
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
    * [Block](documentation/Block.md)
+   * Universal Serial Bus
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
