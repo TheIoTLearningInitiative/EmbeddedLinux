@@ -1,5 +1,7 @@
 # Yocto Board Support Package
 
+## 
+
 > In embedded systems, a board support package (BSP) is an implementation of specific support code (software) for a given (device motherboard) board that conforms to a given operating system. It is commonly built with a bootloader that contains the minimal device support to load the operating system and device drivers for all the devices on the board. [Wikipedia](https://en.wikipedia.org/wiki/Board_support_package)
 
 ## Intel Edison® Board Firmware Software Release
