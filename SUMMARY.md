@@ -23,5 +23,5 @@
    * [Recovery](documentation/Recovery.md)
    * [Package Management Systems](documentation/PackageManagementSystems.md)
        * [Open Package Management](documentation/OpenPackageManagement.md)
-       * Python Package Index
+       * [Python Package Index](documentation/PythonPackageIndex.md)
 
