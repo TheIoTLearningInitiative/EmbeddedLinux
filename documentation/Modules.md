@@ -119,11 +119,9 @@ Prompt: Hello Module Driver
     user@host:~$ find -name 
     user@host:~$ cp /build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0/linux-edison-standardbuild/.config build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6er0/defconfig
 
+## Linux Kernel Modules
 
-Linux Kernel Modules
-==
-
-## Intel Edison Linux Kernel Loaded Modules
+### Intel Edison Linux Kernel Loaded Modules
 
 ```sh
     root@edison:~# lsmod
@@ -135,7 +133,8 @@ Linux Kernel Modules
     bcm_bt_lpm             13708  0 
     bcm4334x              587105  0 
 ```
-## Intel Edison Linux Kernel All Modules
+
+### Intel Edison Linux Kernel All Modules
 
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
