@@ -2,6 +2,15 @@
 
 > In embedded systems, a board support package (BSP) is an implementation of specific support code (software) for a given (device motherboard) board that conforms to a given operating system. It is commonly built with a bootloader that contains the minimal device support to load the operating system and device drivers for all the devices on the board. [Wikipedia](https://en.wikipedia.org/wiki/Board_support_package)
 
+The Intel® Edison Board Support Package offers these features:
+
+- Kernel image based on Linux kernel 3.10.17
+- U-boot second stage bootloader
+- Bluetooth and Wi-Fi connectivity
+- Intel cloud connectivity middleware
+- Many base Linux packages provided by the Yocto project
+
+
 ## Intel Edison® Board Firmware Software Release
 
 - [Search Downloads Intel® Edison](https://downloadcenter.intel.com/search?keyword=edison)
