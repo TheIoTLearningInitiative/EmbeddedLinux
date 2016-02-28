@@ -14,7 +14,7 @@ Modules
     bcm4334x              587105  0 
 ```
 
-# Modules
+# Search for Modules
 
 ```sh
     for mod in `cat /proc/modules | cut -d " " -f 1`
