@@ -13,4 +13,5 @@
            * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
 * [Initialization](Initialization.md)
+   * Display Message
 
