@@ -11,8 +11,6 @@ Linux Kernel
 
 ToDo Explain Linux Kernel Version, do we have this under Operating System?
 
-
-
 Kernel
 ==
 
