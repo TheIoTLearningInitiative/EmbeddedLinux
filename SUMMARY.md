@@ -13,7 +13,7 @@
            * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
    * [Ubilinux](documentation/Ubilinux.md)
-* [Initialization](Initialization.md)
+* [Initialization](documentation/Initialization.md)
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
