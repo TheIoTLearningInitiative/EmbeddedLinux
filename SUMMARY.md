@@ -12,5 +12,4 @@
            * [Building](documentation/Building.md)
            * [Patch](documentation/Patch.md)
        * [Modules](documentation/Modules.md)
-* [Kernel](Kernel.md)
 
