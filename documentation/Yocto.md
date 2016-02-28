@@ -53,14 +53,14 @@ Let's understand what it means to work with Yocto Project by building images for
     core-image-minimal-intel-corei7-64.hddimg
 ```
 
-##### Development Workstation, Minnowboard MAX Kernel Compilation
+#### Development Workstation, Minnowboard MAX Kernel Compilation
 
 ```
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
 ```
 
-##### Development Workstation, Minnowboard MAX Flashing
+#### Development Workstation, Minnowboard MAX Flashing
 
 ```
     user@host:~$ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
