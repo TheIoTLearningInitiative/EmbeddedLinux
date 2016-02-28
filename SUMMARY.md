@@ -36,7 +36,7 @@
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
-   * Power
+   * [Power](documentation/Power.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
