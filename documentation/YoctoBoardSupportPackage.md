@@ -31,7 +31,7 @@ edison-src-ww25.5-1 100%[=====================>]   5.91M   987KB/s   in 7.1s
 
 2016-02-28 14:58:34 (857 KB/s) - ‘edison-src-ww25.5-15.tgz.1’ saved [6195269/6195269]
 
-xe1gyq@jessie:~/Flash$ 
+user@host:~$ 
  
 ```
 
