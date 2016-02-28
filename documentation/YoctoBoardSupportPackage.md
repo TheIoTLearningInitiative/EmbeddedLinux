@@ -41,6 +41,8 @@ The Intel® Edison Board Support Package offers these features:
     edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
     edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
     edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
+    user@host:~$ ls
+    Makefile  meta-intel-edison
 
 ```
 
