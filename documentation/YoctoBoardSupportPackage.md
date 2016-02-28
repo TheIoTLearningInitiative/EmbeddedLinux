@@ -16,6 +16,10 @@ The Intel® Edison Board Support Package offers these features:
 - [Intel® Edison Software Release 2.1](https://downloadcenter.intel.com/download/24910/Intel-Edison-Software-Release-2-1)
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
+```sh
+ $ wget http://downloadmirror.intel.com/25384/eng/edison-iotdk-image-280915.zip
+```
+
 ## Intel® Edison Board Support Package Document
 
 > This document is for software and system engineers who are building and customizing images, kernels, and native SDKs for the Intel® Edison Development Platform. Precompiled versions of the BSP are available on the Intel
