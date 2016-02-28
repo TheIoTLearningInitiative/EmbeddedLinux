@@ -49,4 +49,4 @@ Kernel
 
 ## Links
 
-http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/
+- [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
