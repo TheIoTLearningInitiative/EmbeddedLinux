@@ -1,7 +1,10 @@
 Source
 ==
 
-Where it is located?
+```sh
+ls meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/
+defconfig  upstream_to_edison.patch
+```
 
 ## Intel Edison Linux Kernel Patched Files
 
