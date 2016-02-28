@@ -34,7 +34,7 @@
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/Bluetooth.md)
    * [WiFi](documentation/WiFi.md)
-   * Audio
+   * [Audio](documentation/Audio.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
