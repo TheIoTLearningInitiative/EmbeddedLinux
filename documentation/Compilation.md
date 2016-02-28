@@ -2,7 +2,7 @@
 
 > In computer programming, the translation of source code into object code by a compiler. [Wikipedia](https://en.wikipedia.org/wiki/Compilation)
 
-## Host Developmentg Dependencies
+## Host Development Dependencies
 
 ```sh
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
