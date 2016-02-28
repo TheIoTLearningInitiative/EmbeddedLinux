@@ -1,7 +1,7 @@
 Initialization
 ==
 
-Finally, connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
+Connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
 
 ```sh
     $ sudo minicom -D /dev/ttyUSB0 115200
