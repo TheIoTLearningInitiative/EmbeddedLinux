@@ -11,4 +11,5 @@
        * [Modules](documentation/Modules.md)
 * [Kernel](Kernel.md)
    * Source
+   * Patch
 
