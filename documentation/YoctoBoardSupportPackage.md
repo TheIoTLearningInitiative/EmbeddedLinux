@@ -19,7 +19,7 @@ The Intel® Edison Board Support Package offers these features:
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ```sh
- user@host:~$ $ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+ user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
 --2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
 Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
 Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
