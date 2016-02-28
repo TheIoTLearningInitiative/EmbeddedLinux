@@ -284,7 +284,7 @@ Prompt: Hello Module Driver
     /lib/modules/3.10.17-yocto-standard/kernel/arch/x86/kernel/test_nx.ko
     /lib/modules/3.10.17-yocto-standard/modules.symbols.bin
 ```
-## Intel Edison Linux Kernel One Modules
+### Intel Edison Linux Kernel One Modules
 
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
