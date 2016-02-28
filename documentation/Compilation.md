@@ -1,8 +1,5 @@
 # Compilation
 
-Yocto Edison
-==
-
 The Intel® Edison Board Support Package offers these features:
 
 - Kernel image based on Linux kernel 3.10.17
