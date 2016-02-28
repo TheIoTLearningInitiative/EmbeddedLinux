@@ -18,6 +18,6 @@
    * [Modules](IModules.md)
    * [Filesystem](documentation/Filesystem.md)
 * [User Space](documentation/UserSpace.md)
-   * Kernel Interfaces
+   * [Kernel Interfaces](documentation/KernelInterfaces.md)
    * [Services](documentation/Services.md)
 
