@@ -7,11 +7,4 @@
 > This document is for software and system engineers who are building and customizing images, kernels, and native SDKs for the Intel® Edison Development Platform. Precompiled versions of the BSP are available on the Intel
 website. Users who don’t want to modify the default images don’t need to read this document.
 
-> The Intel® Edison Board Support Package offers these features:
-• Kernel image based on Linux kernel 3.10.17
-• U-boot second stage bootloader
-• Bluetooth and Wi-Fi connectivity
-• Intel cloud connectivity middleware
-• Many base Linux packages provided by the Yocto project
-
 - [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188005.pdf)
