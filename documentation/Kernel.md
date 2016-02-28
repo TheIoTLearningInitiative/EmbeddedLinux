@@ -1,6 +1,8 @@
 Kernel
 ==
 
+> [Wikipedia](https://en.wikipedia.org/wiki/Kernel_(operating_system))
+
 ## Intel Edison Default Version
 
     VERSION = 3
