@@ -35,6 +35,7 @@
    * [BlueTooth](documentation/Bluetooth.md)
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
+   * Camera
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
