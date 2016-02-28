@@ -1,4 +1,4 @@
-Block Subsystem
+Block
 ==
 
 ## Kernel Integration
