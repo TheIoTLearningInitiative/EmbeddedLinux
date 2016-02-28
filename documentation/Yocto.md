@@ -15,13 +15,11 @@ Yocto
 - [Yocto Manage a Private Opkg Repository](http://www.jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html)
 - [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
 
-## Customization
-
-### Building
+## Building Yocto
 
 Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX.
 
-#### Development Workstation, Qemu Image Compilaton
+### Development Workstation, Qemu Image Compilaton
 
 ```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
