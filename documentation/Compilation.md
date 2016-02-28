@@ -3,9 +3,6 @@
 ## Links
 
 - [Board Support Package (BSP) User Guide for Boards and Kits](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005616.html)
--[Mr. Smirnov Intel Edison - Building Debian image](http://mr-smirnov.com/2016/02/08/intel-edison-building-debian-image/)
--[2](https://communities.intel.com/thread/60446?start=0&tstart=0)
--[3](https://communities.intel.com/thread/60224?start=0&tstart=0)
 
 ## Dependencies
 
