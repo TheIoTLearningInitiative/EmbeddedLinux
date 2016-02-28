@@ -5,6 +5,10 @@ Ubilinux™, Debian Based Distribution
 
 - [Emutexlabs ubilinux™](http://www.emutexlabs.com/ubilinux)
 - [New ubilinux for Intel® Edison released](http://www.emutexlabs.com/blog/225-new-ubilinux-for-intel-edison-released)
+- [Mr. Smirnov Intel Edison - Building Debian image](http://mr-smirnov.com/2016/02/08/intel-edison-building-debian-image/)
+-[2](https://communities.intel.com/thread/60446?start=0&tstart=0)
+-[3](https://communities.intel.com/thread/60224?start=0&tstart=0)
+
 
 ## Installation
 
