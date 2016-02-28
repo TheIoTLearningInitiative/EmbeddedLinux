@@ -108,5 +108,4 @@ It includes:
 #### Links
 
 - [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
-- [Intel Galileo platform support](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-galileo/tree/)
-- [Intel Galileo Rebuild](http://www.embarcados.com.br/galileo-yocto/)
+
