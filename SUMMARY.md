@@ -29,7 +29,7 @@
        * [Upm](documentation/Upm.md)
        * [OpenCv](documentation/Opencv.md)
 * [Subsystems](Subsystems.md)
-   * Pin Muxing
+   * [Pin Muxing](PinMuxing.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](ApplicationDevelopment.md)
    * [C Compiler](C.md)
