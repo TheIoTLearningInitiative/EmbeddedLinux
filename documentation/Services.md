@@ -35,3 +35,11 @@ Services
     root@edison:~# systemctl status python-main.service -l
 ```
 
+## Web Server
+
+To stop actual webserver
+
+```sh
+    root@edison:~# systemctl disable edison_config
+    root@edison:~# systemctl stop edison_config 
+```
