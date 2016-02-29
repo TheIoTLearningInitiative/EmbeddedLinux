@@ -5,6 +5,8 @@ Services
 
 > systemctl command, the central management tool for controlling the init system
 
+## Script Execution at Boot Time
+
 ```sh
     root@edison:~# cd /home/root/
     root@edison:~# python main.py
