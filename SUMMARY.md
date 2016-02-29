@@ -14,7 +14,7 @@
        * [Modules](documentation/Modules.md)
    * [Ubilinux](documentation/Ubilinux.md)
 * [Initialization](documentation/Initialization.md)
-   * Boot Up
+   * [Boot Up](documentation/BootUp.md)
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
