@@ -14,10 +14,10 @@
        * [Modules](documentation/Modules.md)
    * [Ubilinux](documentation/Ubilinux.md)
 * [Initialization](documentation/Initialization.md)
+   * Boot Up
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
-   * Boot Up
 * [User Space](documentation/UserSpace.md)
    * [Kernel Interfaces](documentation/KernelInterfaces.md)
    * [Services](documentation/Services.md)
