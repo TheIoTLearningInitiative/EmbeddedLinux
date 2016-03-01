@@ -10,13 +10,51 @@
 
 ## Board Support Package
 
+### Download & Decompression
+
+Go to [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+and copy the link location for "Sources - Linux Sources Files" then download them
+
+```sh
+
+    user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+    --2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+    Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
+    Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 6195269 (5.9M) [application/x-compressed]
+    Saving to: ‘edison-src-ww25.5-15.tgz.1’
+    
+    edison-src-ww25.5-1 100%[=====================>]   5.91M   987KB/s   in 7.1s   
+    
+    2016-02-28 14:58:34 (857 KB/s) - ‘edison-src-ww25.5-15.tgz.1’ saved [6195269/6195269]
+    
+    user@host:~$ tar zxvf edison-src-ww25.5-15.tgz 
+    edison-src/
+    edison-src/Makefile
+    edison-src/meta-intel-edison/
+    edison-src/meta-intel-edison/README
+    edison-src/meta-intel-edison/MAINTAINERS
+    ...
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
+    
+    user@host:~$ ls
+    Makefile  meta-intel-edison
+    
+    user@host:~$ ls meta-intel-edison/
+    COPYING.MIT  meta-intel-arduino     meta-intel-edison-distro  setup.sh
+    MAINTAINERS  meta-intel-edison-bsp  README                    utils
+```
+
 ### Building via Make
 
 #### Make Setup
 
 ```sh
     user@host:~$ make setup
-    abraham@aarcemor-desk:~/edison-src$ make setup
+    user@host:~$ make setup
     Setup buildenv for SDK host linux64
     ./meta-intel-edison/setup.sh  --dl_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/downloads --sstate_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/sstate-cache --build_dir=/home/abraham/Projects/RealTime/v25/edison-src/out/linux64 --build_name=custom_build_aarcemor@20151220153244 --sdk_host=linux64
     We are building in external mode
