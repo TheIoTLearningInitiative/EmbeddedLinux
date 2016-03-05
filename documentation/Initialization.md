@@ -14,10 +14,7 @@ In Linux
     [11940.538144] usb 6-1: Endpoint 2 MaxPacketSize 64
     [11940.538147] usb 6-1: Setting MaxPacketSize 64
     [11940.540185] usb 6-1: FTDI USB Serial Device converter now attached to ttyUSB0
-```
-
-```sh
-    $ sudo minicom -D /dev/ttyUSB0 115200
+   $ sudo minicom -D /dev/ttyUSB0 115200
 ```
 
 ## Bootup U-Boot
