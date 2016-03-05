@@ -4,6 +4,14 @@ Initialization
 Connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
 
 ```sh
+    $ dmesg
+    [11940.538090] ftdi_sio 6-1:1.0: FTDI USB Serial Device converter detected
+    [11940.538137] usb 6-1: Detected FT232RL
+    [11940.538139] usb 6-1: Number of endpoints 2
+    [11940.538142] usb 6-1: Endpoint 1 MaxPacketSize 64
+    [11940.538144] usb 6-1: Endpoint 2 MaxPacketSize 64
+    [11940.538147] usb 6-1: Setting MaxPacketSize 64
+    [11940.540185] usb 6-1: FTDI USB Serial Device converter now attached to ttyUSB0
     $ sudo minicom -D /dev/ttyUSB0 115200
 ```
 
