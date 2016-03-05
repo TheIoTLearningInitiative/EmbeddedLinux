@@ -7,6 +7,7 @@ Display Message
 
 ```sh
     root@edison:~# dmesg
+    ...
     root@edison:~# dmesg > dmesg.file
     root@edison:~# vi dmesg.file
     
@@ -19,6 +20,7 @@ Display Message
 
 ```sh
 root@edison:~# tail -f /var/log/messages
+...
 root@edison:~# dmesg
 [    0.000000] Initializing cgroup subsys cpuset
 [    0.000000] Initializing cgroup subsys cpu
