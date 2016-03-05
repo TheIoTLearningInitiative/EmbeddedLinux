@@ -5,8 +5,10 @@ Kernel
 
 Intel Edison Default Version
 
+```sh
     VERSION = 3
     PATCHLEVEL = 10
     SUBLEVEL = 17
     EXTRAVERSION =
     NAME = TOSSUG Baby Fish
+```
