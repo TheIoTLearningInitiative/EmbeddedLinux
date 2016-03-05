@@ -1,7 +1,7 @@
 Modules
 ==
 
-## Loaded Modules
+## Default Modules
 
 ```sh
     root@edison:~# lsmod
