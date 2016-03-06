@@ -29,5 +29,8 @@ Cloud9
     bin           docs          package.json  server.js
     root@edison:~/c9sdk# ./scripts/install-sdk.sh
     ...
-    
+    checking for LIBEVENT... yes
+    checking for library containing setupterm... no
+    configure: error: "curses not found"
+    ...
 ```
