@@ -186,6 +186,7 @@ Also what is going to be added is  how to  programmatically do the device discov
 - https://software.intel.com/en-us/articles/connecting-to-intel-edison-from-android-with-bluetooth-le-ble
 - http://stephaniemoyerman.com/?p=100
 - https://software.intel.com/en-us/articles/connecting-the-intel-edison-board-to-your-android-phone-with-serial-port-profile-spp
+- https://github.com/smoyerman/edison-ibeacon
 
 ## SandBox
 
