@@ -25,6 +25,7 @@
     LICENSE       build         local         plugins       settings
     README.md     configs       node_modules  scripts       test
     bin           docs          package.json  server.js
-    ...
     root@edison:~/c9sdk# ./scripts/install-sdk.sh
+    ...
+    
 ```
