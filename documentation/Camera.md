@@ -52,3 +52,4 @@ Camera
 
 - https://www.ffmpeg.org/
 - https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py
+- https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py
