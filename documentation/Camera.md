@@ -51,3 +51,4 @@ Camera
 ## Links
 
 - https://www.ffmpeg.org/
+- https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py
