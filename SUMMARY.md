@@ -30,6 +30,7 @@
        * [Mraa](documentation/Mraa.md)
        * [Upm](documentation/Upm.md)
        * [OpenCv](documentation/Opencv.md)
+   * lOGS
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [General Purpose Input Output](documentation/GeneralPurposeInputOutput.md)
