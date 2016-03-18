@@ -37,6 +37,8 @@ Services
     root@edison:~# systemctl status python-main.service -l
 ```
 
+- [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
+
 ## Web Server
 
 To stop actual webserver
