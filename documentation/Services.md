@@ -9,7 +9,8 @@ Services
 
 ```sh
     root@edison:~# cd /home/root/
-    root@edison:~# cat python-main.sh
+    root@edison:~# nano python-main.sh
+    root@edison:~# chmod +x python-main.sh
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
 ```
