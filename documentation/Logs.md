@@ -1,7 +1,7 @@
 # Logs
 
 ```
-/etc/systemd/journald.conf
+root@edison:~# nano /etc/systemd/journald.conf
 Storage=persistent
 Storage=None
 root@edison:~# cd /var/log/journal/
