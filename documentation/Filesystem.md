@@ -19,7 +19,7 @@ Filesystem
     /dev/mmcblk0p7            5.8M      5.3M    456.0K  92% /boot
     /dev/mmcblk0p10           1.3G      2.0M      1.3G   0% /home
     /dev/mmcblk0p5         1003.0K     19.0K    913.0K   2% /factory
-```sh
+```
 
 ### Ubilinux, Fresh Installation
 
@@ -35,4 +35,4 @@ Filesystem
     tmpfs            481M     0  481M   0% /tmp
     /dev/mmcblk0p7    32M  5.3M   27M  17% /boot
     /dev/mmcblk0p10  1.3G  2.0M  1.3G   1% /home
-```sh
+```
