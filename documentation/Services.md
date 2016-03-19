@@ -5,11 +5,8 @@ Services
 
 > systemctl command, the central management tool for controlling the init system
 
-## Start Up Script Execution, Direct
 
-
-
-## Start Up Script Execution, Service
+## Service, Start Up Script Execution
 
 ```sh
     root@edison:~# cd /home/root/
