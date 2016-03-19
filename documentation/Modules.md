@@ -115,15 +115,6 @@ Prompt: Hello Module Driver
     user@host:~$ cd ../../..
     user@host:~$ make image
     user@host:~$ make flash
-    
-## Development Board, Hello World Kernel Module
-
-```sh
-    root@edison:~# wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
-```
-
-- [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
-- [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
 
 ## Others
 
