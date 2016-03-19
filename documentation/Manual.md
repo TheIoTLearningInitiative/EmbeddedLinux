@@ -17,6 +17,21 @@
     100%[======================================>] 25,166       139KB/s   in 0.2s   
     
     2016-03-19 18:51:27 (139 KB/s) - 'pywapi-0.3.8.tar.gz.1' saved [25166/25166]
-    
-
+    root@edison:~# tar zxvf pywapi-0.3.8.tar.gz
+    pywapi-0.3.8/examples/pywapi-countries-example.py
+    pywapi-0.3.8/setup.py
+    pywapi-0.3.8/MANIFEST
+    pywapi-0.3.8/examples/
+    pywapi-0.3.8/examples/pywapi-noaa-example.py
+    pywapi-0.3.8/examples/pywapi-example.py
+    pywapi-0.3.8/pywapi.pyc
+    pywapi-0.3.8/LICENSE
+    pywapi-0.3.8/examples/pywapi-weather-com-example.py
+    pywapi-0.3.8/pywapi.py
+    pywapi-0.3.8/examples/pywapi-cities-example.py
+    pywapi-0.3.8/CHANGELOG
+    pywapi-0.3.8/README
+    pywapi-0.3.8/
+    pywapi-0.3.8/examples/pywapi-yahoo-example.py
+    pywapi-0.3.8/examples/get-weather.py
 ```
