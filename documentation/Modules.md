@@ -125,6 +125,8 @@ Prompt: Hello Module Driver
 
 ## Hello World Kernel Module
 
-https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
+```sh
+root@edison:~# wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
+```
 
 https://communities.intel.com/thread/62873?start=0&tstart=0
