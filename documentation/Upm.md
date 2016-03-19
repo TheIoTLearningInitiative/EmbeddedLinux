@@ -4,7 +4,6 @@ UPM
 > Sensor/Actuator repository for libmraa
 
 > High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time. 
-> 
 
 ## Setup
 
