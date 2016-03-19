@@ -208,7 +208,15 @@ Modules
     ./lib/modules/
     ./lib/modules/3.10.17-poky-edison/
     ./lib/modules/3.10.17-poky-edison/build
-
+    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/tsrelease.h
+    #define UTS_RELEASE "3.10.17-poky-edison+"
+    <Save Changes>
+    root@edison:/lib/modules/3.10.17-poky-edison+# ls
+    extra                modules.builtin.bin  modules.softdep
+    kernel               modules.dep          modules.symbols
+    modules.alias        modules.dep.bin      modules.symbols.bin
+    modules.alias.bin    modules.devname
+    modules.builtin      modules.order
 ```
 
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
