@@ -198,7 +198,17 @@ Modules
 ```sh
     root@edison:~# scp user@host:/home/user/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb .
     root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
-    
+    root@edison:~# ls data.tar.gz 
+    data.tar.gz
+    root@edison:~# tar -xvf data.tar.gz
+    ...
+    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
+    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Kconfig
+    ./lib/
+    ./lib/modules/
+    ./lib/modules/3.10.17-poky-edison/
+    ./lib/modules/3.10.17-poky-edison/build
+
 ```
 
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
