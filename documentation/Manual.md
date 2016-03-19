@@ -7,7 +7,6 @@ Manual
 
 [Pywapi Pip Homepage](https://pypi.python.org/pypi/pywapi)
 
-
 ```sh
     root@edison:~# wget https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
     --2016-03-19 18:51:24--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
