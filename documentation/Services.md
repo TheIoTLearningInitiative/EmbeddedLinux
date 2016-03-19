@@ -13,10 +13,10 @@ Services
 
 ```sh
     root@edison:~# cd /home/root/
-    root@edison:~# nano python-main.sh
+    root@edison:~# nano hello-world.sh
     echo "Hello World!"
     <Save Changes>
-    root@edison:~# chmod +x python-main.sh
+    root@edison:~# chmod +x hello-world.sh
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
 ```
