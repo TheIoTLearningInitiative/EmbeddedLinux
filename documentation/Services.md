@@ -18,7 +18,7 @@ Services
     <Save Changes>
     root@edison:~# chmod +x hello-world.sh
     root@edison:~# cd /lib/systemd/system
-    root@edison:~# nano python-main.service
+    root@edison:~# nano hello-world.service
 ```
 
 ```sh
