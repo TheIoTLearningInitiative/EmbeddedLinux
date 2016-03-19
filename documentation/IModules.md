@@ -14,7 +14,7 @@ Modules
     bcm4334x              587105  0 
 ```
 
-# Search for the Name of the Default Loaded Kernel Modules
+# Search for the name of the default loaded kernel modules
 
 ```sh
     root@edison:~# nano searchm.sh
@@ -54,7 +54,7 @@ Output
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name ''
 ```
 
-## Hello World Kernel Module Native Compilation
+## Hello World kernel module native compilation
 
 ```sh
     user@host:~$ wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
@@ -155,7 +155,7 @@ clean:
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
 - [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
 
-## Intel Edison Linux Kernel All Modules
+## Intel Edison Linux Kernel all modules
 
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
