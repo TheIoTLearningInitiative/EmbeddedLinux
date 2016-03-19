@@ -53,7 +53,7 @@ MRAA
 
 Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison)
  
-## Hands-On
+## Hello Mraa
 
 ```sh
     root@edison:~# cd mraa/examples
