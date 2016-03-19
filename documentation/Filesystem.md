@@ -5,6 +5,8 @@ Filesystem
 
 ### Yocto, Fresh Installation
 
+```sh
+    root@edison:~# df -h
     Filesystem                Size      Used Available Use% Mounted on
     /dev/root                 1.4G    428.6M    934.8M  31% /
     devtmpfs                479.8M         0    479.8M   0% /dev
@@ -17,9 +19,11 @@ Filesystem
     /dev/mmcblk0p7            5.8M      5.3M    456.0K  92% /boot
     /dev/mmcblk0p10           1.3G      2.0M      1.3G   0% /home
     /dev/mmcblk0p5         1003.0K     19.0K    913.0K   2% /factory
+```sh
 
 ### Ubilinux, Fresh Installation
 
+```sh
     edison@ubilinux:~$ df -h
     Filesystem       Size  Used Avail Use% Mounted on
     rootfs           1.4G  812M  504M  62% /
@@ -31,3 +35,4 @@ Filesystem
     tmpfs            481M     0  481M   0% /tmp
     /dev/mmcblk0p7    32M  5.3M   27M  17% /boot
     /dev/mmcblk0p10  1.3G  2.0M  1.3G   1% /home
+```sh
