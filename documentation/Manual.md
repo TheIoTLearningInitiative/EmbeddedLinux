@@ -60,5 +60,6 @@ Manual
     byte-compiling /usr/lib/python2.7/site-packages/pywapi.py to pywapi.pyc
     running install_egg_info
     Writing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
-
+    root@edison:~/pywapi-0.3.8# cd
+    root@edison:~# 
 ```
