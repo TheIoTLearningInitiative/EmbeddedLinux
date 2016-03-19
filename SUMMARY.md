@@ -26,6 +26,7 @@
        * [Open Package Management](documentation/OpenPackageManagement.md)
        * [Python Package Index](documentation/PythonPackageIndex.md)
        * [Advanced Packaging Tool](documentation/AdvancedPackagingTool.md)
+       * Manual
    * [Libraries](documentation/Libraries.md)
        * [Mraa](documentation/Mraa.md)
        * [Upm](documentation/Upm.md)
