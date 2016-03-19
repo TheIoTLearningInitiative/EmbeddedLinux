@@ -123,3 +123,6 @@ Prompt: Hello Module Driver
     user@host:~$ find -name 
     user@host:~$ cp /build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0/linux-edison-standardbuild/.config build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6er0/defconfig
 
+## Hello World Kernel Module
+
+https://communities.intel.com/thread/62873?start=0&tstart=0
