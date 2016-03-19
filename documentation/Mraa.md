@@ -9,7 +9,7 @@ MRAA
 
 ## Setup
 
-### Yocto Compilation
+### Yocto
 
 ```sh
     root@edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
