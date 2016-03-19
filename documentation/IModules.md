@@ -195,5 +195,9 @@ Modules
     user@host:~$ unzip linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
 ```
 
+```sh
+    
+```
+
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
 - [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
