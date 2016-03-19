@@ -5,7 +5,7 @@ Modules
 
 > In computing, a loadable kernel module (or LKM) is an object file that contains code to extend the running kernel, or so-called base kernel, of an operating system. LKMs are typically used to add support for new hardware (as device drivers) and/or filesystems, or for adding system calls. When the functionality provided by a LKM is no longer required, it can be unloaded in order to free memory and other resources. [Wikipedia](https://en.wikipedia.org/wiki/Loadable_kernel_module)
 
-## Host Development, Hello World Kernel Module
+## Development Host, Hello World Kernel Module
 
     user@host:~$ pwd
     /home/xe1gyq/.../edison-src
@@ -116,17 +116,17 @@ Prompt: Hello Module Driver
     user@host:~$ make image
     user@host:~$ make flash
     
+## Development Board, Hello World Kernel Module
+
+```sh
+    root@edison:~# wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
+```
+
+- [GUIDE: compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
+
 ## Others
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
     user@host:~$ find -name 
     user@host:~$ cp /build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0/linux-edison-standardbuild/.config build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6er0/defconfig
-
-## Board Development, Hello World Kernel Module
-
-```sh
-    root@edison:~# wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
-```
-
-https://communities.intel.com/thread/62873?start=0&tstart=0
