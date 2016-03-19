@@ -23,11 +23,11 @@ Services
 
 ```sh
     [Unit]
-    Description=Python Main
+    Description=Hello World
     After=sys-subsystem-net-devices-%i.device
 
     [Service]
-    ExecStart=/bin/bash /home/root/python-main.sh
+    ExecStart=/bin/bash /home/root/hello-world.sh
     Restart=always
     RestartSec=10 
 
