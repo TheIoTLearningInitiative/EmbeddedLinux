@@ -31,6 +31,7 @@ UPM
     root@ubilinux:~# make install
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+
 Testing
 
 Tbd
