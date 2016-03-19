@@ -38,9 +38,9 @@ Services
 
 ```sh
     root@edison:~# systemctl daemon-reload
-    root@edison:~# systemctl --system enable python-main
-    root@edison:~# systemctl start python-main
-    root@edison:~# systemctl status python-main.service -l
+    root@edison:~# systemctl --system enable hello-world
+    root@edison:~# systemctl start hello-world
+    root@edison:~# systemctl status hello-world.service -l
 ```
 
 - [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
