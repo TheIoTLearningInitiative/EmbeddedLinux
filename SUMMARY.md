@@ -14,6 +14,7 @@
        * [Modules](documentation/Modules.md)
    * [Ubilinux](documentation/Ubilinux.md)
 * Boot Loaders
+   * U-Boot
 * [Initialization](documentation/Initialization.md)
    * [Boot Up](documentation/BootUp.md)
    * [Display Message](documentation/DisplayMessage.md)
