@@ -14,7 +14,7 @@ Modules
     bcm4334x              587105  0 
 ```
 
-# Search for the Name of the Modules
+# Search for the Name of the Default Loaded Kernel Modules
 
 ```sh
     root@edison:~# nano searchm.sh
