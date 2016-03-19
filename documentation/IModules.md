@@ -263,19 +263,27 @@ all:
   make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 clean:
   make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
-
 ```
 
 ```sh
     root@edison:~# make
-    make -C /lib/modules/3.10.17-poky-edison+/build M=/home/root modules
+    root@edison:~/kernelmodule# make
+    make -C /lib/modules/3.10.17-poky-edison+/build M=/home/root/kernelmodule modules
     make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-      CC [M]  /home/root/module.o
+      CC [M]  /home/root/kernelmodule/helloworld.o
       Building modules, stage 2.
       MODPOST 1 modules
-      CC      /home/root/module.mod.o
-      LD [M]  /home/root/module.ko
+      CC      /home/root/kernelmodule/helloworld.mod.o
+      LD [M]  /home/root/kernelmodule/helloworld.ko
     make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+    root@edison:~/kernelmodule# dmesg
+    ...
+    [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
+    root@edison:~/kernelmodule# insmod helloworld.ko
+    root@edison:~/kernelmodule# dmesg
+    ...
+    [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
+    [26227.828425] Module? Hello!
 ```
 
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
