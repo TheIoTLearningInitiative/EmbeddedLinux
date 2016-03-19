@@ -18,13 +18,13 @@ UPM
 
 ### Upm
 
-    root@Edison:~$ git clone https://github.com/intel-iot-devkit/upm.git
-    root@Edison:~$ cd upm
-    root@Edison:~$ mkdir build
-    root@Edison:~$ cd build
-    root@Edison:~$ cmake ..
-    root@Edison:~$ make
-    root@Edison:~# make install
+    root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
+    root@ubilinux:~$ cd upm
+    root@ubilinux:~$ mkdir build
+    root@ubilinux:~$ cd build
+    root@ubilinux:~$ cmake ..
+    root@ubilinux:~$ make
+    root@ubilinux:~# make install
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 Testing
