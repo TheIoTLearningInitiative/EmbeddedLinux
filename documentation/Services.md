@@ -14,7 +14,7 @@ Services
 ```sh
     root@edison:~# cd /home/root/
     root@edison:~# nano python-main.sh
-    <write your content>
+    echo "Hello World!"
     root@edison:~# chmod +x python-main.sh
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
