@@ -223,8 +223,9 @@ Modules
 ```
 
 ```sh
-    user@host:~$ mkdir kernelmodule
-    user@host:~$ nano drivers/helloworld/helloworld.c
+    root@edison:~# mkdir kernelmodule
+    root@edison:~# cd kernelmodule/
+    root@edison:~/kernelmodule# nano helloworld.c
 ```
 
 ```C
@@ -251,6 +252,13 @@ module_init(module_init_function);
 module_exit(module_exit_function);
 ```
 
+```sh
+    root@edison:~/kernelmodule# nano Makefile
+```
+
+```Makefile
+
+```
 
 ```sh
     root@edison:~# make
