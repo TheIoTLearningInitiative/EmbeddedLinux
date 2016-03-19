@@ -9,7 +9,7 @@ UPM
 
 ## Setup
 
-### Ubilinux
+### Ubilinux Compilation
 
 #### Cmake
 
