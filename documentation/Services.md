@@ -32,7 +32,7 @@ Services
     RestartSec=10 
 
     [Install]
-    Alias=pythonmain
+    Alias=HelloWorld
     WantedBy=multi-user.target
 ```
 
