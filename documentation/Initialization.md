@@ -3,7 +3,7 @@ Initialization
 
 https://0xax.gitbooks.io/linux-insides/content/
 
-## Board Connection
+## Host Computer / Board Connection
 
 Connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
 
