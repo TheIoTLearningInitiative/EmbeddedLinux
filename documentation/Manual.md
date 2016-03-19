@@ -34,5 +34,16 @@
     pywapi-0.3.8/
     pywapi-0.3.8/examples/pywapi-yahoo-example.py
     pywapi-0.3.8/examples/get-weather.py
-    
+    root@edison:~# cd pywapi-0.3.8
+    root@edison:~/pywapi-0.3.8# ls
+    CHANGELOG   MANIFEST    examples    pywapi.pyc
+    LICENSE     README      pywapi.py   setup.py
+    root@edison:~/pywapi-0.3.8# python setup.py build
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying pywapi.py -> build/lib
+    root@edison:~/pywapi-0.3.8# python setup.py install
+
 ```
