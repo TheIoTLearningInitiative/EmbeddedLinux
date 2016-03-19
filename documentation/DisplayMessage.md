@@ -20,7 +20,8 @@ Display Message
 
 ```sh
 root@edison:~# tail -f /var/log/messages
-...
+tail: can't open '/var/log/messages': No such file or directory
+tail: no files
 root@edison:~# dmesg
 [    0.000000] Initializing cgroup subsys cpuset
 [    0.000000] Initializing cgroup subsys cpu
