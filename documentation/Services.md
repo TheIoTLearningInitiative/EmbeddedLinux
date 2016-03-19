@@ -15,6 +15,7 @@ Services
     root@edison:~# cd /home/root/
     root@edison:~# nano python-main.sh
     echo "Hello World!"
+    <Save Changes>
     root@edison:~# chmod +x python-main.sh
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
