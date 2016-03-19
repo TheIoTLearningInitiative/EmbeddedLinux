@@ -220,5 +220,17 @@ Modules
     root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
 ```
 
+
+    root@edison:~# make
+    make -C /lib/modules/3.10.17-poky-edison+/build M=/home/root modules
+    make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+      CC [M]  /home/root/module.o
+      Building modules, stage 2.
+      MODPOST 1 modules
+      CC      /home/root/module.mod.o
+      LD [M]  /home/root/module.ko
+    make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+
+
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
 - [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
