@@ -14,7 +14,11 @@ Modules
     bcm4334x              587105  0 
 ```
 
-# Search for Modules
+# Search for the Name of the Modules
+
+```sh
+    root@edison:~# nano searchm.sh
+```
 
 ```sh
     for mod in `cat /proc/modules | cut -d " " -f 1`
@@ -22,6 +26,18 @@ Modules
         desc=`modinfo -d $mod`
         printf "%-20s $desc\n" "$mod:"
     done
+```
+
+Output
+
+```sh
+    root@edison:~# sh searchm.sh
+    usb_f_acm:
+    u_serial:
+    g_multi:             Multifunction Composite Gadget
+    libcomposite:
+    bcm_bt_lpm:          bcm43xx_bluetooth
+    bcm4334x:
 ```
 
 ## Intel Edison Linux Kernel All Modules
