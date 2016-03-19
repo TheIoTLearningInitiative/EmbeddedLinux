@@ -32,7 +32,7 @@ Filesystem
     /dev/mmcblk0p7    32M  5.3M   27M  17% /boot
     /dev/mmcblk0p10  1.3G  2.0M  1.3G   1% /home
 
-## SandBox
+## File System Disk Space Customization
 
     user@host:~$ nano edison-src/device-software/meta-edison-distro/recipes-bsp/u-boot/files/edison.env
     user@host:~$ nano edison-src/device-software/meta-edison/recipes-bsp/u-boot/files/edison.env
