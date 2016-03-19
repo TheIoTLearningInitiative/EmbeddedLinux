@@ -38,7 +38,7 @@ Services
 ```
 
 - [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
-- [Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
+- [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
 
 ## Web Server
 
