@@ -5,6 +5,8 @@ MRAA
 
 > C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
 
+- [MRAA Github](https://github.com/intel-iot-devkit/mraa)
+
 ## Setup
 
 ### Yocto Compilation
@@ -61,7 +63,3 @@ Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/
       Version: v0.6.2
       Running on Intel Edison
 ```
-
-## Links
-
- - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
