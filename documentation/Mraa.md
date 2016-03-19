@@ -27,25 +27,25 @@ MRAA
 ### Ubilinux Compilation
 
 ```sh
-    root@Edison:~# apt-get update
-    root@Edison:~# apt-cache search pcre
-    root@Edison:~# apt-get install libpcre3-dev
-    root@Edison:~# apt-get install git
-    root@Edison:~# apt-get install cmake
-    root@Edison:~# apt-get install python-dev
-    root@Edison:~# apt-get install swig
-    root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
-    root@Edison:~# mkdir mraa/build && cd $_
-    root@Edison:~# cmake .. -DBUILDSWIGNODE=OFF
-    root@Edison:~# make
-    root@Edison:~# make install
-    root@Edison:~# cd
-    root@edison:~# nano /etc/ld.so.conf
+    root@ubilinux:~# apt-get update
+    root@ubilinux:~# apt-cache search pcre
+    root@ubilinux:~# apt-get install libpcre3-dev
+    root@ubilinux:~# apt-get install git
+    root@ubilinux:~# apt-get install cmake
+    root@ubilinux:~# apt-get install python-dev
+    root@ubilinux:~# apt-get install swig
+    root@ubilinux:~# git clone https://github.com/intel-iot-devkit/mraa.git
+    root@ubilinux:~# mkdir mraa/build && cd $_
+    root@ubilinux:~# cmake .. -DBUILDSWIGNODE=OFF
+    root@ubilinux:~# make
+    root@ubilinux:~# make install
+    root@ubilinux:~# cd
+    root@ubilinux:~# nano /etc/ld.so.conf
     /usr/local/lib/i386-linux-gnu/
-    root@edison:~# ldconfig
-    root@edison:~# ldconfig -p | grep mraa
-    root@edison:~# export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
-    root@edison:~# nano ~/.bashrc
+    root@ubilinux:~# ldconfig
+    root@ubilinux:~# ldconfig -p | grep mraa
+    root@ubilinux:~# export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
+    root@ubilinux:~# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
 ```
 
