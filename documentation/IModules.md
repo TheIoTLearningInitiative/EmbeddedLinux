@@ -217,6 +217,7 @@ Modules
     modules.alias        modules.dep.bin      modules.symbols.bin
     modules.alias.bin    modules.devname
     modules.builtin      modules.order
+    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
 ```
 
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
