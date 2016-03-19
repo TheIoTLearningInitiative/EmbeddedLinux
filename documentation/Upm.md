@@ -9,7 +9,7 @@ UPM
 
 ## Setup
 
-### Cmake
+#### Cmake
 
     root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
     root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
@@ -18,7 +18,7 @@ UPM
     root@ubilinux:~$ make
     root@ubilinux:~# make install
 
-### Upm
+#### Upm
 
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@ubilinux:~$ cd upm
