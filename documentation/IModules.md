@@ -40,7 +40,7 @@ Output
     bcm4334x:
 ```
 
-## Intel Edison Linux Kernel One Module
+## Search for a specific kernel module loaded or compiled
 
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
