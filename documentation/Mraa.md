@@ -10,7 +10,7 @@ MRAA
 ### Yocto Compilation
 
 ```sh
-    root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
+    root@edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
     root@edison:~# mkdir mraa/build && cd $_
     root@edison:~# cmake ..
     root@edison:~# make
