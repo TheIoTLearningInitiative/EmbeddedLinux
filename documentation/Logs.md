@@ -1,6 +1,6 @@
 # Logs
 
-Limit 
+Limit logging space
 
 ```sh
     root@edison:~# nano /etc/systemd/journald.conf
