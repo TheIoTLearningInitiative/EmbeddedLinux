@@ -78,6 +78,24 @@ if __name__ == "__main__":
     idFaceRecognition.detect()
 ```
 
+## Low Resolution Picture
+
+```sh
+    root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/output/in.jpeg
+    --2016-03-20 00:49:32--  https://raw.githubusercontent.com/xe1gyq/core/master/output/in.jpeg
+    Resolving raw.githubusercontent.com... 23.235.40.133
+    Connecting to raw.githubusercontent.com|23.235.40.133|:443... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 13400 (13K) [image/jpeg]
+    Saving to: 'in.jpeg'
+    
+    100%[======================================>] 13,400      --.-K/s   in 0s      
+    
+    2016-03-20 00:49:33 (27.5 MB/s) - 'in.jpeg' saved [13400/13400]
+    root@edison:~/opencv# python facerecognition.py 
+    Found 17 faces!
+```
+
 ## High Resolution Picture
 
 ```sh
@@ -97,18 +115,3 @@ if __name__ == "__main__":
     root@edison:~/opencv# time python facerecognition.py
 ```
 
-## Low Resolution Picture
-
-```sh
-    root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/output/in.jpeg
-    --2016-03-20 00:49:32--  https://raw.githubusercontent.com/xe1gyq/core/master/output/in.jpeg
-    Resolving raw.githubusercontent.com... 23.235.40.133
-    Connecting to raw.githubusercontent.com|23.235.40.133|:443... connected.
-    HTTP request sent, awaiting response... 200 OK
-    Length: 13400 (13K) [image/jpeg]
-    Saving to: 'in.jpeg'
-    
-    100%[======================================>] 13,400      --.-K/s   in 0s      
-    
-    2016-03-20 00:49:33 (27.5 MB/s) - 'in.jpeg' saved [13400/13400]    
-```
