@@ -68,6 +68,8 @@ Check IP address assigned
     root@edison:~# ifconfig
     lo        Link encap:Local Loopback  
               inet addr:127.0.0.1  Mask:255.0.0.0
+    usb0      Link encap:Ethernet  HWaddr 02:00:86:58:c2:af  
+              inet addr:192.168.2.15  Bcast:192.168.2.255  Mask:255.255.255.0
     wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 ```
