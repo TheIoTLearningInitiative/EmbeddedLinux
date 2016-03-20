@@ -92,8 +92,13 @@ if __name__ == "__main__":
     100%[======================================>] 13,400      --.-K/s   in 0s      
     
     2016-03-20 00:49:33 (27.5 MB/s) - 'in.jpeg' saved [13400/13400]
-    root@edison:~/opencv# python facerecognition.py 
+    root@edison:~/opencv# time python facerecognition.py                       
     Found 17 faces!
+    
+    real    0m2.249s
+    user    0m2.010s
+    sys     0m0.220s
+    
 ```
 
 ## High Resolution Picture
