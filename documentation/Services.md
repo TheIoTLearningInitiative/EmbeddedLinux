@@ -50,5 +50,5 @@ To stop actual webserver
 ```sh
     root@edison:~# systemctl disable edison_config
     root@edison:~# systemctl stop edison_config
-    systemctl status  edison_config
+    root@edison:~# systemctl status edison_config
 ```
