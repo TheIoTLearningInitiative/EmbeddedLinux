@@ -6,4 +6,7 @@ Storage=persistent
 Storage=None
 root@edison:~# cd /var/log/journal/
 root@edison:/var/log/journal# rm -rf *
+# vi /etc/systemd/journald.conf
+SystemMaxUse=20M
 ```
+
