@@ -75,6 +75,7 @@ Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/
 ## Hello Mraa
 
 ```sh
+    root@edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
     root@edison:~# cd mraa/examples
     root@edison:~# gcc -lmraa hellomraa.c -o hellomraa
     root@edison:~# ./hellomraa
