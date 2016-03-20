@@ -10,22 +10,22 @@ Open Source Computer Vision
 ### Opkg Installation
 
 ```sh
-    root@Edison:~# opkg update
-    root@Edison:~# opkg install opencv opencv-samples opencv-apps
-    root@Edison:~# opkg install opencv-dev opencv-samples-dev
-    root@Edison:~# opkg install libopencv-imgproc-dev
-    root@Edison:~# opkg install python-numpy python-opencv
+    root@edison:~# opkg update
+    root@edison:~# opkg install opencv opencv-samples opencv-apps
+    root@edison:~# opkg install opencv-dev opencv-samples-dev
+    root@edison:~# opkg install libopencv-imgproc-dev
+    root@edison:~# opkg install python-numpy python-opencv
 ```
 
 ### Apt-Get Installation
 
 ```sh
-    root@Edison:~# apt-get update
-    root@Edison:~# apt-get install git python-pip python-serial python-pyparsing
-    root@Edison:~# apt-get install opencv opencv-samples opencv-apps
-    root@Edison:~# apt-get install opencv-dev opencv-samples-dev 
-    root@Edison:~# apt-get install libopencv-imgproc-dev
-    root@Edison:~# apt-get install python-numpy python-opencv
+    root@edison:~# apt-get update
+    root@edison:~# apt-get install git python-pip python-serial python-pyparsing
+    root@edison:~# apt-get install opencv opencv-samples opencv-apps
+    root@edison:~# apt-get install opencv-dev opencv-samples-dev 
+    root@edison:~# apt-get install libopencv-imgproc-dev
+    root@edison:~# apt-get install python-numpy python-opencv
 ```
 
 ## Testing
