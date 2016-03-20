@@ -70,3 +70,14 @@ Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/
       Version: v0.6.2
       Running on Intel Edison
 ```
+## Upgrade
+
+```sh
+    root@edison:~# opkg install libmraa0
+    Upgrading libmraa0 from 0.7.2-r0 to 0.7.3 on root.
+    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/libmraa0_0.7.3_i586.ipk.
+    Removing package libmraa-dev from root...
+    Removing package libmraa-doc from root...
+    Removing obsolete file /usr/lib/libmraa.so.0.7.2.
+    Configuring libmraa0.
+```
