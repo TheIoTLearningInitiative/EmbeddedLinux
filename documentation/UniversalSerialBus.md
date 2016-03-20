@@ -12,7 +12,6 @@ Universal Serial Bus
 ## Userspace Applications
 
 ```sh
-    root@edison:~# opkg install libusb-1.0-dev
     root@edison:~# dmesg
     root@edison:~# lsusb
     unable to initialize libusb: -99
