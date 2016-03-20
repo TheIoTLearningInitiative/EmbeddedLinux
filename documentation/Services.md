@@ -51,6 +51,12 @@ Location of the web server content
     root@edison:~# ls /usr/lib/edison_config_tools/public/
 ```
 
+Location of the web server configuration script 
+
+```sh
+    root@edison:~# ls /usr/lib/edison_config_tools/edison-config-server.js
+```
+
 To stop actual webserver
 
 ```sh
