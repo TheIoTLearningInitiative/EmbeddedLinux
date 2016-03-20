@@ -36,6 +36,7 @@ Open Source Computer Vision
     root@edison:~# mkdir opencv
     root@edison:~# cd opencv/
     root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
+    root@edison:~/opencv# nano facerecognition.py
 ```
 
 ```sh
@@ -76,4 +77,7 @@ if __name__ == "__main__":
     idFaceRecognition = xFaceRecognition(imageinput='in.jpeg', imageoutput='out.jpeg')
     idFaceRecognition.detect()
 ```
+
+```sh
+https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
 
