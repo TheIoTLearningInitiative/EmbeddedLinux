@@ -79,5 +79,5 @@ if __name__ == "__main__":
 ```
 
 ```sh
-root@edison:~/opencv# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
+    root@edison:~/opencv# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
 ```
