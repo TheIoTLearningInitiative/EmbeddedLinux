@@ -55,7 +55,7 @@ Testing
     Removing obsolete file /usr/lib/libupm-wt5001.so.0.3.1.
     ...
     Configuring upm.
-    
+    root@edison:~# 
 ```
 
 Tbd
