@@ -35,6 +35,6 @@ Open Source Computer Vision
 ```sh
     root@edison:~# mkdir opencv
     root@edison:~# cd opencv/
-    root@edison:~/opencv# 
+    root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
 ```
 
