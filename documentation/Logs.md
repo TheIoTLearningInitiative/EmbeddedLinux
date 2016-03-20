@@ -1,5 +1,11 @@
 # Logs
 
+Show logging space
+
+```sh
+    root@edison:~# journalctl --disk-usage
+```
+
 Limit logging space
 
 ```sh
