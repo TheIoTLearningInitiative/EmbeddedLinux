@@ -98,6 +98,7 @@ if __name__ == "__main__":
     real    0m2.249s
     user    0m2.010s
     sys     0m0.220s
+    root@edison:~/opencv# cp out.jpeg /usr/lib/edison_config_tools/public/
     root@edison:~/opencv# 
 ```
 
