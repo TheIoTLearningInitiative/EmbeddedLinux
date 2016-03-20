@@ -74,6 +74,8 @@ Check if RMAA and UPM Libraries are installed and upgrade them
     root@edison:~# 
 ```
 
+## Upgrade
+
 ```sh
     root@edison:~# opkg install upm
     Upgrading upm from 0.3.1-r0 to 0.3.2 on root.
