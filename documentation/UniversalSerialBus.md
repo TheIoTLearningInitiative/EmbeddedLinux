@@ -83,3 +83,4 @@ root@edison:~# lsusb
 ## Links
 
 - http://www.yoctopuce.com/
+- http://pagealh.com/2015/08/09/getting-started-intel-edison-usb-host/
