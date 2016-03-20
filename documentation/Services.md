@@ -45,6 +45,12 @@ Services
 
 ## Web Server
 
+Location of the web server content
+
+```sh
+    root@edison:~# ls /usr/lib/edison_config_tools/public/
+```
+
 To stop actual webserver
 
 ```sh
