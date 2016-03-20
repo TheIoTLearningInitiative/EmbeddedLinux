@@ -30,10 +30,7 @@ Open Source Computer Vision
     root@edison:~# apt-get install python-numpy python-opencv
 ```
 
-## Testing
+## Hello OpenCV
 
     Tbd
 
-## Hands-On
-
-    Tbd
