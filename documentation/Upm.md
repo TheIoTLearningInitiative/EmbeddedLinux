@@ -20,7 +20,7 @@ UPD Updates
 - ZWave—USB Controllers
 - ISM (Industrial, Scientific & Medical) Frequency Shift Keying (FSK) at 434 and 915 MHz
 
-## Setup
+## Manual Setup
 
 ### Ubilinux Compilation
 
