@@ -6,6 +6,7 @@ Open Source Computer Vision
 - [OpenCV Homepage](http://opencv.org/)
 - [OpenCV 3.0.0-Beta ( IPP & TBB enabled ) on Yocto with Intel® Edison](https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison)
 - [OpenCV 3.0.0 ( IPP & TBB enabled ) on Yocto with Intel® Edison with new Yocto image release](https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison)
+- [Maker Garage Facial Recognition with Intel® Edison Guide](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/garage-content/garage-facial-recognition-instructions.html)
 
 ## Required Applications
 
