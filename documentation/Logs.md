@@ -15,6 +15,8 @@ Limit logging space
     Storage=None
 ```
 
+Remove all logs
+
 ```sh
     root@edison:~# cd /var/log/journal/
     root@edison:/var/log/journal# rm -rf *
