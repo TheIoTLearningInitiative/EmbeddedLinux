@@ -32,5 +32,9 @@ Open Source Computer Vision
 
 ## Hello OpenCV
 
-    Tbd
+```sh
+    root@edison:~# mkdir opencv
+    root@edison:~# cd opencv/
+    root@edison:~/opencv# 
+```
 
