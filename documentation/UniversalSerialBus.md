@@ -12,10 +12,13 @@ Universal Serial Bus
 ## Userspace Applications
 
 ```sh
+    root@edison:~# opkg install libusb-1.0-dev
     root@edison:~# dmesg
     root@edison:~# lsusb
     unable to initialize libusb: -99
-    root@edison:~# opkg install libusb-1.0-dev
+    root@edison:~# lsusb
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
     root@edison:~# dmesg
     root@edison:~# ls -l /sys/bus/usb/drivers
     total 0
