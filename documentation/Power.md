@@ -11,6 +11,7 @@ Links
 - https://communities.intel.com/thread/61067?tstart=0
 - cat scaling_available_frequencies
 - https://communities.intel.com/message/338257#338257
+- [Intel Edison Power consumption](http://www.helios.de/heliosapp/edison/)
 
 
 ## Kernel Integration
