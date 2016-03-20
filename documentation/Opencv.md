@@ -78,6 +78,8 @@ if __name__ == "__main__":
     idFaceRecognition.detect()
 ```
 
+## High Resolution Picture
+
 ```sh
     root@edison:~/opencv# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
     --2016-03-20 00:24:03--  https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
