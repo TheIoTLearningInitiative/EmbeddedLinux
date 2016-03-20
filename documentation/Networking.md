@@ -4,6 +4,7 @@ Networking
 ## Links
 
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
+- http://pagealh.com/2015/09/12/getting-started-with-edison-static-ip-address/
 
 ## CAN
 
