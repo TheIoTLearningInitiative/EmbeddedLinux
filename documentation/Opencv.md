@@ -49,7 +49,7 @@ class xFaceRecognition(object):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
         self.directoryoutput = self.directorycurrent + '/output/'
         self.imageinput = self.directoryoutput + imageinput
-        self.cascPath = self.directorycurrent + "/configuration/haarcascade_frontalface_alt.xml"
+        self.cascPath = self.directorycurrent + "haarcascade_frontalface_alt.xml"
         self.imageoutput = self.directoryoutput + imageoutput
 
     def detect(self):
