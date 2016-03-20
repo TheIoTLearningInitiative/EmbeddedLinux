@@ -7,9 +7,11 @@ Limit logging space
     SystemMaxUse=20M
 ```
 
+ Stop logging
+
 ```sh
     root@edison:~# nano /etc/systemd/journald.conf
-    Storage=persistent
+    #Storage=persistent
     Storage=None
 ```
 
