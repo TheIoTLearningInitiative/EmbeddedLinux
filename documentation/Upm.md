@@ -57,14 +57,3 @@ Testing
     Configuring upm.
     root@edison:~# 
 ```
-
-Tbd
-Hands-On
-
-Tbd
-Links
-
-UPM Documentation
-UPM Sensor Categories
-UPM Github
-UPM Python Exampes
