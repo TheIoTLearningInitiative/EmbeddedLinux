@@ -16,7 +16,7 @@ Universal Serial Bus
     root@edison:~# lsusb
     unable to initialize libusb: -99
     root@edison:~# opkg install libusb-1.0-dev
-    root@edison:~#  dmesg
+    root@edison:~# dmesg
     root@edison:~# ls -l /sys/bus/usb/drivers
     total 0
     drwxr-xr-x 2 root root 0 Jan  1 00:01 asix
