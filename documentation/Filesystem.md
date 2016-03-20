@@ -1,6 +1,8 @@
 Filesystem
 ==
-    
+
+- [Get additional 800 MB disk space](http://www.helios.de/heliosapp/edison/)
+
 ## File System Disk Space Usage
 
 ### Yocto, Fresh Installation
