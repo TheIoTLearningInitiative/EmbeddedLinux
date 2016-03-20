@@ -80,6 +80,6 @@ Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/
     root@edison:~# gcc -lmraa hellomraa.c -o hellomraa
     root@edison:~# ./hellomraa
      hello mraa
-      Version: v0.6.2
+      Version: v0.7.3
       Running on Intel Edison
 ```
