@@ -30,7 +30,7 @@ Open Source Computer Vision
     root@edison:~# apt-get install python-numpy python-opencv
 ```
 
-## Hello OpenCV
+## Hello OpenCV, Face Recognition
 
 ```sh
     root@edison:~# mkdir opencv
