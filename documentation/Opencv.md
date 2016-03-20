@@ -92,6 +92,6 @@ if __name__ == "__main__":
     2016-03-20 00:24:20 (122 KB/s) - 'Barack_Obama_family_portrait_2011.jpg' saved [1972894/1972894]
     
     root@edison:~/opencv# mv Barack_Obama_family_portrait_2011.jpg in.jpeg
-    root@edison:~/opencv# python facerecognition.py
+    root@edison:~/opencv# time python facerecognition.py
 
 ```
