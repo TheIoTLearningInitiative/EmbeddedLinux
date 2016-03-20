@@ -48,10 +48,10 @@ class xFaceRecognition(object):
 
     def __init__(self, imageinput="in.jpeg", imageoutput="out.jpeg"):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryoutput = self.directorycurrent + '/'
-        self.imageinput = self.directoryoutput + imageinput
-        self.cascPath = self.directorycurrent + "haarcascade_frontalface_alt.xml"
-        self.imageoutput = self.directoryoutput + imageoutput
+        self.directoryoutput = self.directorycurrent
+        self.imageinput = imageinput
+        self.cascPath = "haarcascade_frontalface_alt.xml"
+        self.imageoutput = imageoutput
 
     def detect(self):
         faceCascade = cv2.CascadeClassifier(self.cascPath)
