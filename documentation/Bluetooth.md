@@ -16,8 +16,8 @@ BlueTooth
 
 Bluetooth Kernel Subsystem
 
-bluetooth.git
-bluetooth-next.git
+[bluetooth.git](http://git.kernel.org/?p=linux/kernel/git/bluetooth/bluetooth.git;a=summary)
+[bluetooth-next.git](http://git.kernel.org/?p=linux/kernel/git/bluetooth/bluetooth-next.git;a=summary)
 
 Bluez Tools
 
