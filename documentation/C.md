@@ -3,6 +3,12 @@ C Language
 
 ## GCC Compiler
 
+
+
+```sh
+    root@edison:~# opkg upgrade packagegroup-core-buildessential
+```
+
 ### Socket Implementation, Server
 
     root@edison:~# nano socketserver.c
