@@ -43,7 +43,28 @@ WiFi
     bcm4334x              587105  0 
 ```
 
-## WiFi Yocto Default Configuration
+## Applications / Libraries
+
+### RFKill
+
+> rfkill is a small userspace tool to query the state of the rfkill switches, buttons and subsystem interfaces. Some devices come with a hard switch that lets you kill different types of RF radios: 802.11 / Bluetooth / NFC / UWB / WAN / WIMAX / FM. Some times these buttons may kill more than one RF type. The Linux kernel rfkill subsystem exposes these hardware buttons and lets userspace query its status and set its status through a /dev/rfkill. Given that at times some RF devices do not have hardware rfkill buttons rfkill the Linux kernel also exposes software rfkill capabilities that allows userspace to mimic a hardware rfkill event and turn on or off RF. 
+
+- [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
+
+```sh
+    root@edison:~# rfkill list 
+    0: phy0: wlan
+            Soft blocked: no
+            Hard blocked: no
+    1: brcmfmac-wifi: wlan
+            Soft blocked: no
+            Hard blocked: no
+    2: bcm43xx Bluetooth: bluetooth
+            Soft blocked: yes
+            Hard blocked: no
+```
+
+### WiFi Yocto Default Configuration
 
 ```sh
     root@Edison:~# configure_edison --wifi
@@ -67,27 +88,6 @@ WiFi
     3 packets transmitted, 3 packets received, 0% packet loss
     round-trip min/avg/max = 28.487/29.217/29.773 ms
     root@edison:~# 
-```
-
-## Applications / Libraries
-
-### RFKill
-
-> rfkill is a small userspace tool to query the state of the rfkill switches, buttons and subsystem interfaces. Some devices come with a hard switch that lets you kill different types of RF radios: 802.11 / Bluetooth / NFC / UWB / WAN / WIMAX / FM. Some times these buttons may kill more than one RF type. The Linux kernel rfkill subsystem exposes these hardware buttons and lets userspace query its status and set its status through a /dev/rfkill. Given that at times some RF devices do not have hardware rfkill buttons rfkill the Linux kernel also exposes software rfkill capabilities that allows userspace to mimic a hardware rfkill event and turn on or off RF. 
-
-- [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
-
-```sh
-    root@edison:~# rfkill list 
-    0: phy0: wlan
-            Soft blocked: no
-            Hard blocked: no
-    1: brcmfmac-wifi: wlan
-            Soft blocked: no
-            Hard blocked: no
-    2: bcm43xx Bluetooth: bluetooth
-            Soft blocked: yes
-            Hard blocked: no
 ```
 
 ### Exercise
