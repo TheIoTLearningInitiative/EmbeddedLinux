@@ -83,6 +83,10 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
 
 #### OpenCv Live Stream
 
+```sh
+    root@edison:~# vi livestream.py
+```
+
 ```Python
 from flask import Flask, Response
 import cv2
