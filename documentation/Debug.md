@@ -65,6 +65,10 @@ Debug
 
 - [Linux Magic System Request Key Hacks](https://www.kernel.org/doc/Documentation/sysrq.txt)
 
+### Ftrace
+
+- [](https://lwn.net/Articles/365835/)
+
 ## Applications / Libraries
 
 ### Programs
