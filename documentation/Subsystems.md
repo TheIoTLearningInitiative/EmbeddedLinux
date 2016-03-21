@@ -39,5 +39,5 @@ Subsystems
     tmpfs on /var/volatile type tmpfs (rw,relatime)
     /dev/mmcblk0p5 on /factory type ext4 (ro,nosuid,nodev,noatime,discard,noauto_da_alloc)
     /dev/mmcblk0p10 on /home type ext4 (rw,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered)
-    /dev/mmcblk0p7 on /boot type vfat (rw,nosuid,nodev,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortna)    
+    /dev/mmcblk0p7 on /boot type vfat (rw,nosuid,nodev,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortna)
 ```
