@@ -185,11 +185,6 @@ Install "Locate Beacon" Android App
     root@edison:~# rfcomm bind 0 40:78:6A:26:4A:C2
 ```
 
-#### Audio
-
-```sh
-```
-
 #### BlueTooth Headsets
 
 ```sh
@@ -258,8 +253,6 @@ Then in an android device install a [Bluetooth SPP Manager](https://play.google.
 At this point you need to pair the Intel Edison with your android device (see example above on how to use **bluetoothctl**, **hcicontrol** or any other user level application in your Edison).
 
 Once paired, open the Bluetooth SPP Manager app, hit search, and when the Intel Edison appears  tap on in to connect.  now you can send text messages to Edison which can be seen on the terminal window of the Edison.
-
---
 
 I know this need a lil' bit further explanation. just dropped here so i won't forget.
 Also what is going to be added is  how to  programmatically do the device discovering, pairing  and SPP using c and python
