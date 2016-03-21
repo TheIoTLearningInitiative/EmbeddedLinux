@@ -8,7 +8,16 @@ Camera
 ### Kernel Display Message
 
 ```sh
-
+    [ 1857.820461] usb 1-1: new high-speed USB device number 3 using dwc3-host
+    [ 1858.108224] usb 1-1: New USB device found, idVendor=046d, idProduct=0826
+    [ 1858.108256] usb 1-1: New USB device strings: Mfr=0, Product=2, SerialNumber=1
+    [ 1858.108277] usb 1-1: Product: HD Webcam C525
+    [ 1858.108296] usb 1-1: SerialNumber: 99DB4F90
+    [ 1858.458453] set resolution quirk: cval->res = 384
+    [ 1858.568064] uvcvideo: Found UVC 1.00 device HD Webcam C525 (046d:0826)
+    [ 1858.582220] input: HD Webcam C525 as /devices/pci0000:00/0000:00:11.0/dwc3-host.2/usb1/1-1/1-1:1.2/input/input3
+    [ 1858.582896] usbcore: registered new interface driver uvcvideo
+    [ 1858.582915] USB Video Class driver (1.1.1)
 ```
 
 ### Kernel Modules
