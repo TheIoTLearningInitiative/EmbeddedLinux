@@ -40,7 +40,7 @@
        * [Cylon JS](documentation/CylonJs.md)
        * [Johnny Five](documentation/JohnnyFive.md)
        * [ROS](documentation/Ros.md)
-       * [GoBot](documentation/GoBot.md)
+       * [Gobot](documentation/GoBot.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
