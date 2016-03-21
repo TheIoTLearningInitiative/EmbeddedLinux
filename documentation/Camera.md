@@ -61,7 +61,12 @@ USB Camera HD Webcam C525
 ```sh
     root@edison:~# opkg install kernel-module-uvcvideo
     Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
-    root@edison:~# lsmod | grep uvc
+    root@edison:~# opkg install libx264-133 libx264-bin libx264-dev libx264-staticdev
+    Installing libx264-133 (r2265+git0+ffc3ad4945-r0) on root.
+    Installing libx264-bin (r2265+git0+ffc3ad4945-r0) on root.
+    Installing libx264-dev (r2265+git0+ffc3ad4945-r0) on root.
+    Installing libx264-staticdev (r2265+git0+ffc3ad4945-r0) on root.
+    
 ```
 ### Programs
 
