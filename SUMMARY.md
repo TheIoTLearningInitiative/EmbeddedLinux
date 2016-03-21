@@ -28,7 +28,7 @@
    * [Package Management Systems](documentation/PackageManagementSystems.md)
        * [Open Package Management](documentation/OpenPackageManagement.md)
        * [Python Package Index](documentation/PythonPackageIndex.md)
-       * Nicely Package Make
+       * [Nicely Package Make](documentation/NicelyPackageMake.md)
        * [Advanced Packaging Tool](documentation/AdvancedPackagingTool.md)
        * [Manual](documentation/Manual.md)
        * [Conda](documentation/Conda.md)
