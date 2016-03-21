@@ -36,11 +36,7 @@ Networking
     root@edison:~# systemctl start wpa_supplicant
 ```
 
-## Anaconda
-
-
-- [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
-- [Conda Test Drive](http://conda.pydata.org/docs/test-drive.html)
+## Butterfly
 
 ```sh
     root@edison:~# pip install butterfly
