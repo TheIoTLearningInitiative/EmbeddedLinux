@@ -1,7 +1,7 @@
 Networking
 ==
 
-## Automatic WiFi Connection
+## Automatic WiFi Persistent Connection
 
 ```sh
     root@edison:~# configure_edison -wifi
