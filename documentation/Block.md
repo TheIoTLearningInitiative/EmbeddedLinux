@@ -115,7 +115,7 @@ Block
     root@edison:~# mkfs.ext4 -t ext4 /dev/mmcblk1
 ```
 
-### Mount Manually SD Card
+#### SD Cards, Manual Mount
 
 ```sh
     root@edison:~# mkdir localdirectory
