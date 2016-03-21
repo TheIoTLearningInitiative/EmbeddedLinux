@@ -45,6 +45,7 @@ Networking
     root@edison:~# opkg install python-pip
     root@edison:~# pip install butterfly
     root@edison:~# pip install pyserial
+    
 ```
 
 ## Links
