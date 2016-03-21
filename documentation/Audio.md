@@ -35,6 +35,19 @@ USB Audio Dongle
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
 ```
 
+### Kernel Modules
+
+```sh
+    root@edison:~# lsmod
+    Module                  Size  Used by
+    usb_f_acm              14335  1 
+    ...
+    bcm_bt_lpm             13708  0 
+    bcm4334x              587105  0 
+```
+
+## 
+
 ### ProcFs
 
 ```sh
