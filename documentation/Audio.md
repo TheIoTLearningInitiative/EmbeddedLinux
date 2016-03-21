@@ -213,18 +213,14 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
     pcm.!default sysdefault:Headset
 ```
 
-### Testing
+### Speaker-Test
 
-```sh    
-    root@edison:~# mpg123
-    
+```sh
     root@edison:~# speaker-test 
     speaker-test 1.0.28
     Playback device is default
     Stream parameters are 48000Hz, S16_LE, 1 channels
     Using 16 octaves of pink noise
-    
-    root@edison:~# espeak
 ```
 
 ## Links
