@@ -8,23 +8,23 @@ Universal Serial Bus
 ### Kernel Display Message
 
 ```sh
-root@edison:/tmp/temptmpfs# dmesg | grep -i usb
-[    0.207321] usbcore: registered new interface driver usbfs
-[    0.207421] usbcore: registered new interface driver hub
-[    0.207628] usbcore: registered new device driver usb
-[    0.742079] usbcore: registered new interface driver asix
-[    0.742161] usbcore: registered new interface driver cdc_subset
-[    0.742291] usbcore: registered new interface driver cdc_ncm
-[    0.744743] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[    0.745063] usbcore: registered new interface driver cdc_acm
-[    0.745081] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
-[    0.745196] usbcore: registered new interface driver usb-storage
-[    0.745383] usbcore: registered new interface driver usbserial
-[    0.745454] usbcore: registered new interface driver pl2303
-[    0.745521] usbserial: USB Serial support registered for pl2303
-[    1.666307] usbcore: registered new interface driver usbhid
+    root@edison:~# dmesg | grep -i usb
+    [    0.207321] usbcore: registered new interface driver usbfs
+    [    0.207421] usbcore: registered new interface driver hub
+    [    0.207628] usbcore: registered new device driver usb
+    [    0.742079] usbcore: registered new interface driver asix
+    [    0.742161] usbcore: registered new interface driver cdc_subset
+    [    0.742291] usbcore: registered new interface driver cdc_ncm
+    [    0.744743] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+    [    0.745063] usbcore: registered new interface driver cdc_acm
+    [    0.745081] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+    [    0.745196] usbcore: registered new interface driver usb-storage
+    [    0.745383] usbcore: registered new interface driver usbserial
+    [    0.745454] usbcore: registered new interface driver pl2303
+    [    0.745521] usbserial: USB Serial support registered for pl2303
+    [    1.666307] usbcore: registered new interface driver usbhid
 ...
-```sh
+```
 
 ## Userspace Interfaces
 
