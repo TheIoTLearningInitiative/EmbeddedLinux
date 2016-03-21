@@ -44,6 +44,12 @@ One I2C sensor
      16:          0          0   IO-APIC-fasteoi   i2c-designware-7
 ```
 
+## Applications / Libraries
+
+### Setup
+
+#### Opkg
+
 ```sh
     i2cdetect -y -r 1
 ```
