@@ -179,7 +179,18 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
   Subdevices: 1/1
   Subdevice #0: subdevice #0
 ```
-## Device Configuration
+
+#### Record / Play
+
+```sh
+root@edison:~# arecord -f cd -D plughw:2,0 -d 20 test.wav # USB
+Recording WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+^CAborted by signal Interrupt...
+root@edison:~# aplay -D hw:2,0 test.wav # USB
+Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+```
+
+#### Device Configuration
 
 ```sh
     root@edison:~# vi ~/.asoundrc
