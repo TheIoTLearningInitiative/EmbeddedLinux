@@ -9,17 +9,19 @@
 ```sh
     apt-get install squid3 squid3-common
 ```
+
 ## DHCP
 
-
+```sh
     apt-get install dhcpd
-
+```
 
 ## Apache
 
 
+```sh
     apt-get install apache2
     apache2 -k restart # Wrong
     /etc/init.d/apache2 restart # Ok
-
+```
 
