@@ -5,7 +5,7 @@ Camera
 
 ### Required Hardware
 
-USB Camera
+USB Camera HD Webcam C525
 
 ## Kernel Integration
 
