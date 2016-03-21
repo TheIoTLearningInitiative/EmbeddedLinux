@@ -76,7 +76,6 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
 
 #### Online Examples
 
-- https://www.ffmpeg.org/
-- https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py
+- [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
 - https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py
 - http://rustemiskuzhin.com/?p=1
