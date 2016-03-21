@@ -48,16 +48,14 @@ USB Camera HD Webcam C525
     root@edison:~# ls -l /dev/video0
     crw-rw----    1 root     video      81,   0 Mar 21 18:21 /dev/video0
 ```
+## Applications / Libraries
+
+### Setup
+
 ## Userspace Applications
 
 ```sh
     root@edison:~# ffmpeg
-```
-
-## Setup
-
-```sh
-    root@edison:~# find /lib/modules/* -name 'uvc'
 ```
 
 ### Opkg
