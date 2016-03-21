@@ -149,7 +149,7 @@ if __name__ == '__main__':
      * Debugger pin code: 775-529-825
 ```
 
-See Live Stream by connectong from a web browser to http://youripaddress:5000/
+See Live Stream by connecting from a web browser to http://youripaddress:5000/
 
 
 ```sh
