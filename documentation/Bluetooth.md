@@ -29,6 +29,8 @@ Bluez Tools
 - bluetooth-agent
 - bluetoothctl
 
+### Kernel Display Message
+
 ```sh
     root@edison:~# dmesg | grep -i blue
     [    0.235619] Bluetooth: Core ver 2.16
