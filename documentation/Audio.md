@@ -101,7 +101,7 @@ USB Audio Dongle
     root@edison:~# apt-get install alsa-utils mpg123 espeak
 ```
 
-### Usage Models
+### Programs
 
 #### List Capture Hardware Devices
 
