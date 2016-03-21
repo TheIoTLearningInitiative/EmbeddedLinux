@@ -89,7 +89,6 @@ Bluez Tools
 - bluetooth-agent
 - bluetoothctl
 
-
 ```sh
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
