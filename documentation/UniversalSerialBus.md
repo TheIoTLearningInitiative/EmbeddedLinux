@@ -6,7 +6,9 @@ Universal Serial Bus
 ## Kernel Integration
 
 
-## Debug
+## Userspace Interfaces
+
+### Sysfs
 
 ```sh
     root@edison:~# ls -l /sys/bus/usb/drivers/
