@@ -53,7 +53,10 @@ Serial
     [    3.833730] systemd[1]: Created slice system-serial\x2dgetty.slice.
     [    3.833870] systemd[1]: Starting system-getty.slice.
     [    3.883637] systemd[1]: Created slice system-getty.slice.
+```
+## Userspace Interfaces
 
+```sh
     root@edison:~# find /sys/ -name 'tty:ttyS*'
     /sys/devices/pci0000:00/0000:00:04.1/tty
     /sys/devices/pci0000:00/0000:00:04.1/tty/ttyMFD0
