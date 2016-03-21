@@ -182,7 +182,7 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
   Subdevice #0: subdevice #0
 ```
 
-#### Record / Play
+#### Arecord / Aplay
 
 ```sh
 root@edison:~# arecord -f cd -D plughw:2,0 -d 20 test.wav # USB
