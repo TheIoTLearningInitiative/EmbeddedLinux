@@ -9,7 +9,7 @@ C Language
     root@edison:~# opkg upgrade packagegroup-core-buildessential
 ```
 
-### Sockets
+### Native Compilation Sockets
 
 #### Socket Implementation, Server
 
