@@ -64,7 +64,7 @@ BlueTooth
     root@edison:~# /etc/init.d/bluetooth start
 ```
 
-## Userspace Applications
+## Applications
 
 - bluetooth-agent
 - bluetoothctl
