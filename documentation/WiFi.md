@@ -13,6 +13,8 @@ WiFi
 
 ## Kernel Integration
 
+### Kernel Display Message
+
 ```sh
     root@edison:~# dmesg | grep -i wifi
     [    0.189658] Using generic wifi platform data
@@ -28,6 +30,11 @@ WiFi
     [   38.194403] wifi_platform_set_power = 1
     [   39.117444] wifi_platform_get_mac_addr
     [   39.117488] wifi_get_mac_addr_intel: unable to open /config/wifi/mac.txt
+```
+
+### Kernel Modules
+
+```sh
     root@edison:~# lsmod
     Module                  Size  Used by0
     usb_f_acm              14335  1 
