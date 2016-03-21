@@ -90,7 +90,7 @@ WiFi
     root@edison:~# 
 ```
 
-### Manual Configuration
+### Manual Persistent Configuration
 
 Make sure there are no soft blocks
 
