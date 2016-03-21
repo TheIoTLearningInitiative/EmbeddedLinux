@@ -58,8 +58,9 @@ USB Camera HD Webcam C525
     root@edison:~# opkg install kernel-module-uvcvideo
     root@edison:~# lsmod | grep uvc
 ```
+### Programs
 
-## Device Configuration
+#### Device Configuration
 
 ```sh
     root@edison:~# lsmod | grep uvc
