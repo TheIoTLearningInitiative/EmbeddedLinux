@@ -41,7 +41,7 @@
        * [Johnny Five](documentation/JohnnyFive.md)
        * [ROS](documentation/Ros.md)
        * [Gobot](documentation/GoBot.md)
-       * Pixhawk
+       * [Pixhawk](documentation/Pixhawk.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
