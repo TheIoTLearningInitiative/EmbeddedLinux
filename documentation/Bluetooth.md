@@ -92,6 +92,7 @@ Bluez Tools
 
 ```sh
     root@edison:~# apt-get install bluetooth
+    root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
     root@edison:~# /etc/init.d/bluetooth start
 ```
 
@@ -193,7 +194,6 @@ Install "Locate Beacon" Android App
 #### BlueTooth Headsets
 
 ```sh
-    root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
     root@edison:~# rfkill unblock bluetooth
     root@edison:~# bluetoothctl
     root@edison:~# scan on
@@ -210,7 +210,6 @@ Install "Locate Beacon" Android App
 #### Bluetooth Sound
 
 ```sh
-    root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
     root@edison:~# opkg install alsa-utils kernel-module-snd-usb-audio bluez5 gstreamer pulseaudio
     root@edison:~# opkg install kernel-module-ftdi-sio
     root@edison:~# rfkill unblock bluetooth
