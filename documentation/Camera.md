@@ -76,7 +76,7 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
 
 ```sh
     root@edison:~# pip install flask
-    root@edison:~# pip install flask
+    root@edison:~# pip install opencv python-opencv
 ```
 
 ### Programs
