@@ -97,6 +97,7 @@ WiFi
 
 ```sh
     root@edison:~# configure_edison -wifi
+    ...
     root@edison:~# systemctl enable wpa_supplicant
     root@edison:~# systemctl start wpa_supplicant
 ```
