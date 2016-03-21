@@ -56,13 +56,6 @@ Block
 
 ### Setup
 
-#### Apt-Get
-
-```sh
-    root@edison:~# apt-get update
-    root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
-```
-
 #### Opkg
 
 ```sh
@@ -70,6 +63,12 @@ Block
     root@edison:~# opkg install e2fsprogs dosfstools
 ```
 
+#### Apt-Get
+
+```sh
+    root@edison:~# apt-get update
+    root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
+```
 ## Device Configuration
 
 ### Format SD Card
