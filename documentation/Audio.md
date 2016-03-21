@@ -103,9 +103,13 @@ USB Audio Dongle
 
 #### List Capture Hardware Devices
 
-## Device Configuration
+```sh
 
 ```
+
+## Device Configuration
+
+```sh
     root@edison:~# vi ~/.asoundrc
     pcm.!default {
         type plug
