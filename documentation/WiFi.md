@@ -90,6 +90,8 @@ WiFi
             Hard blocked: no
 ```
 
+##
+
 Make sure there are no soft blocks
 
 ```sh
