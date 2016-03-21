@@ -67,7 +67,7 @@ Debug
 
 ### Ftrace
 
-- [Debugging the kernel using Ftrace - part 1](https://lwn.net/Articles/365835/)
+- [Debugging the kernel using Ftrace - Part 1](https://lwn.net/Articles/365835/)
 
 ```
 root@edison:~# cd /sys/kernel/debug/tracing
