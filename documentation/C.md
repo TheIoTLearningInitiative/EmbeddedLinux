@@ -203,4 +203,7 @@ void main (){
 
 ```sh
     root@edison:~# g++ -o helloworld helloworld.c
+    root@edison:~# ./helloworld
+    Hello World
+    root@edison:~# 
 ```
