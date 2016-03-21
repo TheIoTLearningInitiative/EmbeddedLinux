@@ -117,8 +117,10 @@ Serial
     root@edison:~# cu /dev/ttyUSB0 115200
     root@edison:~# setserial -g /dev/ttyS[0123]
     root@edison:~# setserial -g /dev/ttyUSBS[0123]
+    root@edison:~# setserial -g /dev/ttyMFD[0123]
     root@edison:~# setserial /dev/ttyS0 115200
-    root@edison:~# stty -F /dev/ttyUSB0 115200 
+    root@edison:~# stty -F /dev/ttyUSB0 115200
+    root@edison:~# stty -F /dev/ttyMFD 115200
 ```
 
 ### Python
