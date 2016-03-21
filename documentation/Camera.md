@@ -99,7 +99,7 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
 
 #### Python OpenCv Live Stream
 
-- [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
+From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
 
 ```sh
     root@edison:~# vi livestream.py
