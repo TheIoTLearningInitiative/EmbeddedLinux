@@ -128,14 +128,14 @@ Block
     root@edison:~/localdirectory# 
 ```
 
-### UmountSD Card
+#### SD Cards, Umount
 
 ```sh
     root@edison:~# umount localdirectory
     root@edison:~# umount /dev/mmcblk1
 ```
 
-### Mount Automatically SD Card
+#### SD Cards, Automatic Mount
 
 ```sh
     root@edison:~# vi /etc/fstab
