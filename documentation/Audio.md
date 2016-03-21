@@ -2,6 +2,8 @@ Audio
 ==
 > An audio signal is a representation of sound, typically as an electrical voltage. Audio signals have frequencies in the audio frequency range of roughly 20 to 20,000 Hz (the limits of human hearing). [wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
 
+- [Intel Edison Audio Setup Guide](http://download.intel.com/support/edison/sb/edisonaudio_332434001.pdf)
+
 ### Required Hardware
 
 USB Audio Dongle USB PnP Sound Device
