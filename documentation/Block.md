@@ -146,6 +146,8 @@ Block
 
 #### tmpfs
 
+
+
 ```sh
     root@edison:~# cd /tmp
     root@edison:~# mkdir temptmpfs
