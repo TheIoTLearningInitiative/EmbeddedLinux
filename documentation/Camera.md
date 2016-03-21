@@ -62,7 +62,7 @@ USB Camera HD Webcam C525
 
 #### FFMpeg
 
-#### Examples
+#### Online Examples
 
 - https://www.ffmpeg.org/
 - https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py
