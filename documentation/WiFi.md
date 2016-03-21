@@ -47,7 +47,7 @@ WiFi
     bcm4334x              587105  0 
 ```
 
-## Applications / Libraries
+## Applications
 
 ### RFKill
 
