@@ -110,7 +110,7 @@ After:
     gpio126      gpio130      gpio134      gpiochip0    gpiochip248
 ```
 
-this directory, is a control interface used to get userspace control over GPIO48, therefore can have the following read/write attributes:
+This directory, is a control interface used to get userspace control over GPIO48, therefore can have the following read/write attributes:
 
 ```sh
 	"direction" ... reads as either "in" or "out". This value may
