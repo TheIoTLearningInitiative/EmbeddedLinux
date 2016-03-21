@@ -14,7 +14,7 @@ BlueTooth
 
 - [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
 
-### Opkg
+### Opkg Installation
 
 ```sh
     root@edison:~# opkg install bluez5-dev
