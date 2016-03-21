@@ -3,8 +3,6 @@ Debug
 
 > Debugging is the process of finding and resolving or defects that prevent correct operation of computer software or a system. Debugging tends to be harder when various subsystems are tightly coupled, as changes in one may cause bugs to emerge in another. [Wikipedia](https://en.wikipedia.org/wiki/Debugging)
 
-- [Linux Magic System Request Key Hacks](https://www.kernel.org/doc/Documentation/sysrq.txt)
-
 ## Kernel Configuration
 
 ```sh
@@ -63,6 +61,7 @@ Debug
 
 > It is a 'magical' key combo you can hit which the kernel will respond to regardless of whatever else it is doing, unless it is completely locked up. [Documentation](https://www.kernel.org/doc/Documentation/sysrq.txt)
 
+- [Linux Magic System Request Key Hacks](https://www.kernel.org/doc/Documentation/sysrq.txt)
 
 ## Applications / Libraries
 
