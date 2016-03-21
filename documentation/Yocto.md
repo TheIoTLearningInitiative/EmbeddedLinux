@@ -68,14 +68,3 @@ Let's understand what it means to work with Yocto Project by building images for
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
 ```
-
-## SandBox
-
-ToDo Important Topics To Cover
-
-- Example Project
-- Adding Recipes to the Build System
-- Adding New Recipes to the Build System
-- Build an Example Package based on a Git Repository Commit
-- Build an example package based on a Remote Source Archive
-- Build an example package based on a Local Source Archive
