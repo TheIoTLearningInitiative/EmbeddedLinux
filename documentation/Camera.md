@@ -125,6 +125,9 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
 ```
 
+```sh
+    root@edison:~# python livestream.py
+```
 #### Online Examples
 
 - [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
