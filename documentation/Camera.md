@@ -60,6 +60,7 @@ USB Camera HD Webcam C525
 
 ```sh
     root@edison:~# opkg install kernel-module-uvcvideo
+    Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
     root@edison:~# lsmod | grep uvc
 ```
 ### Programs
