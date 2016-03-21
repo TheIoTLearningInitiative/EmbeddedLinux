@@ -35,6 +35,8 @@ U-Boot
     boot > 
 ```
 
+## help
+
 ```sh
     boot > help
     ?       - alias for 'help'
