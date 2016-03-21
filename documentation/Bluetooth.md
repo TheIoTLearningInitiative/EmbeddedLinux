@@ -115,7 +115,16 @@ Bluez Tools
 ### Python
 
 ```Python
-    
+    root@edison:~# git clone https://github.com/karulis/pybluez
+    Cloning into 'pybluez'...
+    remote: Counting objects: 1082, done.
+    remote: Compressing objects: 100% (19/19), done.
+    remote: Total 1082 (delta 5), reused 0 (delta 0), pack-reused 1061
+    Receiving objects: 100% (1082/1082), 415.85 KiB | 407.00 KiB/s, done.
+    Resolving deltas: 100% (658/658), done.
+    Checking connectivity... done.
+    root@edison:~# 
+
 ```
 
 ### Usage Models
