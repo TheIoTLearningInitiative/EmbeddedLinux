@@ -3,7 +3,7 @@ Block
 
 ## Kernel Integration
 
-### Kernel Display Message
+### Kernel Display Message Card Insertion
 
 ```sh
     root@edison:~# dmesg
