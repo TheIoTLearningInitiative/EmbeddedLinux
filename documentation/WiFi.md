@@ -89,7 +89,7 @@ WiFi
             Soft blocked: yes
             Hard blocked: no
 ```
-## Userspace Applications
+## Applications / Libraries
 
 Make sure there are no soft blocks
 
