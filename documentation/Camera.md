@@ -50,6 +50,10 @@ USB Camera HD Webcam C525
 ```
 ## Applications / Libraries
 
+### FFMpeg
+
+> A complete, cross-platform solution to record, convert and stream audio and video.
+
 ### Setup
 
 #### Opkg
