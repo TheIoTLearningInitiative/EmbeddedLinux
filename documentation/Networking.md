@@ -13,6 +13,8 @@ Networking
 
 > A sleek web based terminal emulator
 
+[Butterfly Github](https://github.com/paradoxxxzero/butterfly)
+
 ```sh
     root@edison:~# pip install butterfly
     root@edison:~# pip install pyserial
