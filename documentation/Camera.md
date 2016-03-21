@@ -130,7 +130,7 @@ if __name__ == '__main__':
     root@edison:~# python livestream.py
 ```
 
-Connect through http://192.168.1.71:5000/
+Connect through http://youripaddress:5000/
 
 #### Online Examples
 
