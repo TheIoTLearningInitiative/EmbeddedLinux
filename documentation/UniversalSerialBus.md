@@ -9,8 +9,9 @@ Universal Serial Bus
 ## Debug
 
 ```sh
-    root@edison:~# ls –l /sys/bus/usb/drivers/
-    root@edison:~# ls -l /sys/bus/usb/drivers/       drwxr-xr-x    2 root     root             0 Jan  1  2000 asix
+
+    root@edison:~# ls -l /sys/bus/usb/drivers/
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 asix
     drwxr-xr-x    2 root     root             0 Jan  1  2000 cdc_acm
     drwxr-xr-x    2 root     root             0 Jan  1  2000 cdc_ncm
     drwxr-xr-x    2 root     root             0 Jan  1  2000 cdc_subset
