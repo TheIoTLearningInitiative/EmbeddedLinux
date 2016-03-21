@@ -126,7 +126,7 @@ Serial
     root@edison:~# stty -F /dev/ttyMFD 115200
 ```
 
-### Scripting Python
+### Python
 
 ```python
 #!/usr/bin/python
