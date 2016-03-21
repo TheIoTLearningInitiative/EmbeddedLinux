@@ -56,7 +56,7 @@ Debug
     dynamic_debug         pmic_ccsm             x86
     emmc_ipanic           pmu_force_d0i0
     gpio                  pmu_force_d0i3
-    root@edison:~#
+    root@edison:~# 
 ```
 
 ## Applications / Libraries
