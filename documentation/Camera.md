@@ -8,6 +8,8 @@ Camera
 ### Kernel Display Message
 
 ```sh
+    root@edison:~# dmesg
+    ...
     [ 1857.820461] usb 1-1: new high-speed USB device number 3 using dwc3-host
     [ 1858.108224] usb 1-1: New USB device found, idVendor=046d, idProduct=0826
     [ 1858.108256] usb 1-1: New USB device strings: Mfr=0, Product=2, SerialNumber=1
