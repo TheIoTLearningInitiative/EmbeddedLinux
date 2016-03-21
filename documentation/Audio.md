@@ -223,6 +223,15 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
     Using 16 octaves of pink noise
 ```
 
+### Mpg123
+
+```sh
+    root@edison:~# mpg123 
+```
+
+### Speak
+
+
 ## Links
 
 - http://repo.opkg.net/edison/repo/edison/kernel-module-snd-usb-audio_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
