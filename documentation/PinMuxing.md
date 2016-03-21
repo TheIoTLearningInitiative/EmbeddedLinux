@@ -70,7 +70,7 @@ Pin Muxing
     echo mode1 > /sys/kernel/debug/gpio_debug/gpio183/current_pinmux
     echo high > /sys/class/gpio/gpio214/direction
     
-    echo "PWM pins configured"
+    echo "PWM Pins Configured"
 ```
 
 You should be able to use any of the PWM pins as output. For example pin IO6:
