@@ -24,6 +24,13 @@ One I2C sensor
 ```
 ## Userspace Interfaces
 
+
+### SysFs
+
+```sh
+root@edison:~# ls /sys/class/i2c-dev/
+i2c-1  i2c-2  i2c-3  i2c-4  i2c-5  i2c-6  i2c-7
+
 ### DevFs
 
 ```sh
