@@ -104,6 +104,14 @@ Block
     root@edison:~# umount
     root@edison:~# umount /media/sdcard/
     root@edison:~# mkfs.ext4 /dev/mmcblk1
+    mke2fs 1.42.9 (28-Dec-2013)
+    Discarding device blocks: done                            
+    Filesystem label=
+    OS type: Linux
+    Block size=4096 (log=2)
+    ...
+    Creating journal (16384 blocks): done
+    Writing superblocks and filesystem accounting information: done 
     root@edison:~# mkfs.ext4 -t ext4 /dev/mmcblk1
 ```
 
@@ -114,6 +122,10 @@ Block
     root@edison:~# mount -t ext4 /dev/mmcblk1 localdirectory
     root@edison:~# mount | grep mmcblk1
     /dev/mmcblk1 on /root/localdirectory type ext4 (rw,relatime,data=ordered)
+    root@edison:~# cd localdirectory/
+    root@edison:~/localdirectory# ls
+    lost+found
+    root@edison:~/localdirectory# 
 ```
 
 ### UmountSD Card
