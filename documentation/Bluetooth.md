@@ -110,6 +110,7 @@ Bluez Tools
     ...
     root@edison:~# hcitool scan
 ```
+### Python
 
 ### Usage Models
 
