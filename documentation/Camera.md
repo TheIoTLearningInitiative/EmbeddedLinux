@@ -97,7 +97,7 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
     root@edison:~# fswebcam -r 1280x1024 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner image.jpg
 ```
 
-#### OpenCv Live Stream
+#### Python OpenCv Live Stream
 
 ```sh
     root@edison:~# vi livestream.py
