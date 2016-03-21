@@ -38,6 +38,7 @@
    * [Frameworks](documentation/Frameworks.md)
        * [Drone Code](documentation/DroneCode.md)
        * [Cylon JS](documentation/CylonJs.md)
+       * Johnny Five
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
