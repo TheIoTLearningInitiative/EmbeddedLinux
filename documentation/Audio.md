@@ -2,7 +2,11 @@ Audio
 ==
 > An audio signal is a representation of sound, typically as an electrical voltage. Audio signals have frequencies in the audio frequency range of roughly 20 to 20,000 Hz (the limits of human hearing). [wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
 
-- [Advanced Linux Sound Architecture](http://www.alsa-project.org/main/index.php/Main_Page)
+### Advanced Linux Sound Architecture
+
+> The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
+
+- [Advanced Linux Sound Architecture Homepage](http://www.alsa-project.org/main/index.php/Main_Page)
 
 ## Required Hardware
 
