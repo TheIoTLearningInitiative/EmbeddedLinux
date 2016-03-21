@@ -9,7 +9,9 @@ Networking
     root@edison:~# systemctl start wpa_supplicant
 ```
 
-## Butterfly
+## Applications / Libraries
+
+### Butterfly
 
 > A sleek web based terminal emulator
 
