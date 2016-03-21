@@ -142,9 +142,7 @@ Block
     /dev/mmcblk1  /path/to/localdirectory
 ```
 
-## Applications
-
-## Usage Models
+### Usage Models
 
 ```sh
     root@edison:~# cd /tmp
