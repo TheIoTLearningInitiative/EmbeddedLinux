@@ -48,7 +48,7 @@
    * [Pin Muxing](documentation/PinMuxing.md)
    * [General Purpose Input Output](documentation/GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
-   * [BlueTooth](documentation/Bluetooth.md)
+   * [Bluetooth](documentation/Bluetooth.md)
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
