@@ -136,6 +136,11 @@ if __name__ == '__main__':
 
 See Live Stream by connectong from a web browser to http://youripaddress:5000/
 
+
+```sh
+    192.168.1.70 - - [21/Mar/2016 18:48:16] "GET / HTTP/1.1" 200 -
+    192.168.1.70 - - [21/Mar/2016 18:48:17] "GET / HTTP/1.1" 200 -
+```
 #### Online Examples
 
 - [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
