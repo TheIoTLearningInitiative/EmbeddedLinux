@@ -42,6 +42,14 @@ USB Audio Dongle
     ...
 ```
 
+```sh
+    root@edison:~# lsusb 
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+    Bus 001 Device 002: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    root@edison:~# 
+```
+
 ## Userspace Interfaces
 
 ### ProcFs
