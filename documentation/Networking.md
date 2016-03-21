@@ -11,6 +11,8 @@ Networking
 
 ## Butterfly
 
+> A sleek web based terminal emulator
+
 ```sh
     root@edison:~# pip install butterfly
     root@edison:~# pip install pyserial
