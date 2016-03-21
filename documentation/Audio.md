@@ -8,9 +8,8 @@ USB Audio Dongle USB PnP Sound Device
 
 ## Kernel Integration
 
-### Advanced Linux Sound Architecture
-
-> The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
+> Advanced Linux Sound Architecture
+> > The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
 
 - [Advanced Linux Sound Architecture Homepage](http://www.alsa-project.org/main/index.php/Main_Page)
 
