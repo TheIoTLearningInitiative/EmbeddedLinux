@@ -79,12 +79,14 @@ T & A Mobile Phones
 
 #### Sakis 3G
 
+```sh
     root@ubilinux:~# wget "http://www.sakis3g.com/downloads/sakis3g.tar.gz" -O sakis3g.tar.gz
     root@ubilinux:~# tar -xzvf sakis3g.tar.gz
     root@ubilinux:~# chmod +x sakis3g
     root@ubilinux:~# ./sakis3g --interactive
     ...
     root@ubilinux:~# ping google.com
+```
 
 ## Links  
     
