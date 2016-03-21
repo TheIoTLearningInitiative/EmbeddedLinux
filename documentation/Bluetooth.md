@@ -158,8 +158,8 @@ Install "Locate Beacon" Android App
 #### Device Pairing
 
 ```sh
-    root@galileo:~# rfkill unblock bluetooth
-    root@galileo:~# bluetoothctl
+    root@edison:~# rfkill unblock bluetooth
+    root@edison:~# bluetoothctl
     [bluetooth]# scan on
     [bluetooth]# scan off
     [bluetooth]# pair 40:78:6A:26:4A:C2
