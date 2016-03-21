@@ -70,14 +70,19 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
     Installing libx264-133 (r2265+git0+ffc3ad4945-r0) on root.
     Installing libx264-bin (r2265+git0+ffc3ad4945-r0) on root.
     Installing libx264-dev (r2265+git0+ffc3ad4945-r0) on root.
-    Installing libx264-staticdev (r2265+git0+ffc3ad4945-r0) on root. 
+    Installing libx264-staticdev (r2265+git0+ffc3ad4945-r0) on root.
+    root@edison:~# opkg install opencv python-opencv
+    root@edison:~# opkg install fswebcam
+    Installing fswebcam (20140113-r0) on root.
+    Installing libgd3 (2.1.0-r0) on root.
+    Installing libvpx (1.3.0-r0) on root.
+    
 ```
 
 #### Pip
 
 ```sh
     root@edison:~# pip install flask
-    root@edison:~# pip install opencv python-opencv
 ```
 
 ### Programs
