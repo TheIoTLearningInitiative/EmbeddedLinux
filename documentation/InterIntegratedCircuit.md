@@ -12,7 +12,7 @@ One I2C sensor
 ### Kernel Display Message
 
 ```sh
-    root@edison:~/libusb# dmesg | grep -i i2c
+    root@edison:~# dmesg | grep -i i2c
     [    0.190675] I2C bus = 1, name =      pcal9555a-1, irq = 0x 0, addr = 0x20
     [    0.190711] I2C bus = 1, name =      pcal9555a-2, irq = 0x 0, addr = 0x21
     [    0.190743] I2C bus = 1, name =      pcal9555a-3, irq = 0x 0, addr = 0x22
