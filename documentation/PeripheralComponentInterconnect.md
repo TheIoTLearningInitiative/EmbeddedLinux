@@ -23,6 +23,13 @@ Peripheral Component Interconnect
     [    0.214615] PCI host bridge to bus 0000:00
 ```
 
+## Applications / Libraries
+
+### Programs
+
+> lspci
+> > A command on Unix-like operating systems that prints ("lists") detailed information about all PCI buses and devices in the system. It is based on a common portable library libpci which offers access to the PCI configuration space on a variety of operating systems.
+
 ```sh
     root@edison:~# lspci
     00:00.0 Host bridge: Intel Corporation Device 1170 (rev 01)             
