@@ -1,6 +1,8 @@
 Block
 ==
 
+> Block devices are hardware devices distinguished by the random (that is, not necessarily sequential) access of fixed-size chunks of data, called blocks. The most common block device is a hard disk, but many other block devices exist, such as floppy drives, CD-ROM drives, and flash memory. Notice how these are all devices on which you mount a filesystemfilesystems are the lingua franca of block devices.
+
 
 
 - [Differences between flash devices and block drives](http://www.linux-mtd.infradead.org/faq/general.html#L_mtd_vs_hdd)
