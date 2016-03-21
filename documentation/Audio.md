@@ -209,6 +209,8 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
     pcm.!default sysdefault:Headset
 ```
 
+#### Command Line Device Configuration
+
 ```
     root@edison:~# lsusb
     root@edison:~# opkg install alsa-utils
