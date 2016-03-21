@@ -5,7 +5,6 @@ WiFi
 
 - [WiFi Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi)
 
-
 ### Intel Edison WiFi Features
 
 - Wi-Fi peer-to-peer connectivity with Wi-Fi Direct, Allows two Intel® Edison devices (or one Intel® Edison device and a smartphone) to create a direct Wi-Fi connection to each other without an access point.
