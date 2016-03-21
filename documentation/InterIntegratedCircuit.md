@@ -65,7 +65,7 @@ One I2C sensor
 ```
 ### Programs
 
-#### i2cdetec
+#### i2cdetect
 
 ```sh
     root@edison:~# i2cdetect -y -r 1
