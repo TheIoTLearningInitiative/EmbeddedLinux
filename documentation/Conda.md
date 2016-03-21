@@ -25,5 +25,15 @@ Conda
 - [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
 
 ```sh
-    root@edison:~# 
+    root@edison:~# wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh
+    --2016-03-21 06:23:29--  https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh
+    Resolving repo.continuum.io... 23.21.234.195, 54.197.250.243, 23.23.254.16, ...
+    Connecting to repo.continuum.io|23.21.234.195|:443... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 29686993 (28M) [application/octet-stream]
+    Saving to: 'Miniconda3-latest-Linux-x86.sh'
+    
+    100%[============================================================================================>] 29,686,993  1.20MB/s   in 25s
+    
+    2016-03-21 06:23:55 (1.13 MB/s) - 'Miniconda3-latest-Linux-x86.sh' saved [29686993/29686993]
 ```
