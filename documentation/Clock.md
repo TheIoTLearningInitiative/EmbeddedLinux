@@ -45,7 +45,6 @@ Clock
     Configuring ntpdate.
     adding crontab
     ln -s '/lib/systemd/system/ntpdate.service' '/etc/systemd/system/multi-user.target.wants/ntpdate.service'
-
 ```
 
 ### Programs
