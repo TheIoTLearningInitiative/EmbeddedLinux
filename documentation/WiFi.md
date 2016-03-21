@@ -178,7 +178,7 @@ WiFi to connect at power up:
     systemctl start wpa_supplicant
 ```
 
-## Intel Edison Ubilinux Mode AP
+## Mode AP @ Ubilinux
 
 - http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd
 
