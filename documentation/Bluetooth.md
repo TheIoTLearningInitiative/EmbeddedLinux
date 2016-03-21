@@ -100,6 +100,8 @@ Bluez Tools
     2: bcm43xx Bluetooth: bluetooth
     ...
     3: hci0: bluetooth
+            Soft blocked: no
+            Hard blocked: no
     ...
     root@edison:~# hciconfig hci0 down
     root@edison:~# hciconfig hci0 up
