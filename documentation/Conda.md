@@ -7,13 +7,6 @@ Conda
 - [Conda Download](https://www.continuum.io/downloads)
 - [Conda Test Drive](http://conda.pydata.org/docs/test-drive.html)
 
-## Miniconda
-
-> These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments, etc. 
-
-- [Miniconda Python on Intel Edison](https://scivision.co/miniconda-python-on-intel-edison/)
-- [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
-
 ```sh
     root@edison:~# opkg install python-pip
     root@edison:~# wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-2.1.0-Linux-x86.sh
@@ -23,3 +16,12 @@ Conda
     tar: lib/python2.7/site-packages/sklearn/utils/weight_vector.so: Cannot write: No space left on device
     tar: Exiting with failure status due to previous errors
 ```
+
+## Miniconda
+
+> These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments, etc. 
+
+- [Miniconda Python on Intel Edison](https://scivision.co/miniconda-python-on-intel-edison/)
+- [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
+
+
