@@ -51,7 +51,8 @@ One I2C sensor
 #### Opkg
 
 ```sh
-    root@edison:~# opkg install 
+    root@edison:~# opkg install i2c-tools
+    Package i2c-tools (3.1.1-r0) installed in root is up to date.
     ...
 ```    
 ```sh
