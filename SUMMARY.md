@@ -43,7 +43,7 @@
        * [ROS](documentation/Ros.md)
        * [Gobot](documentation/GoBot.md)
        * [Pixhawk](documentation/Pixhawk.md)
-       * Misc
+       * [Misc](documentation/Misc.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
