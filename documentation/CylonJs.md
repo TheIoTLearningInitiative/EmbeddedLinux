@@ -7,7 +7,7 @@ Cylon JS
 
 - [Cylon.Js](https://cylonjs.com/)
 - [Cylon.Js OpenCv](https://npm.taobao.org/package/cylon-opencv)
-- [Cylon.Js ](http://cylonjs.com/documentation/platforms/edison/)
+- [Cylon.Js Intel® Edison](http://cylonjs.com/documentation/platforms/edison/)
 
 ```sh
     root@edison:~# npm install cylon cylon-opencv
