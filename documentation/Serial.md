@@ -107,7 +107,7 @@ Serial
     /dev/tty19    /dev/tty30    /dev/tty42    /dev/tty54    /dev/tty9
 ```
 
-## Userspace Applications
+## Applications
 
 ```sh
     root@edison:~# screen /dev/ttyS0
