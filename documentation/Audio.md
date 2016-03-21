@@ -4,7 +4,7 @@ Audio
 
 ### Required Hardware
 
-USB Audio Dongle
+USB Audio Dongle USB PnP Sound Device
 
 ## Kernel Integration
 
