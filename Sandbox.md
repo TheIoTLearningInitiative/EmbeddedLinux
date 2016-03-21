@@ -73,3 +73,20 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?, Expl
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
     root@edison:~# ls /dev/rfcomm0
 ```
+
+### PCI
+
+
+## Links
+
+- https://communities.intel.com/thread/61150?wapkw=intel+edison+mpcie
+- https://communities.intel.com/thread/89971?start=0&tstart=0
+- https://www.aisler.net/projects/7252
+- http://pinball-mods.com/blogs/?p=580
+- https://hackaday.io/project/4571-intel-edison-usb-storage-sled
+- https://wiki.archlinux.org/index.php/Huawei_E220
+- https://techship.se/products/mpcie-usb-adapt-9-pin/
+- https://techship.se/products/pci-express-mini-card-to-usb-adapter/
+- https://techship.se/products/pci-express-mini-card-to-usb-adapter-with-external-voltage/
+- http://www.amazon.com/Mini-PCIe-mSATA-Micro-Adapter/dp/B00KZIANT0
+- http://www.newegg.com/Product/Product.aspx?Item=N82E16815158354
