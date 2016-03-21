@@ -50,8 +50,11 @@ USB Audio Dongle
     root@edison:~# cat /proc/asound/cards
      0 [Loopback       ]: Loopback - Loopback
                           Loopback 1
-     1 [Device         ]: USB-Audio - USB PnP Sound Device
-                          C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
+     1 [dummyaudio     ]: dummy-audio - dummy-audio
+                          dummy-audio
+     2 [Device         ]: USB-Audio - USB PnP Sound Device
+                          C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1, full speed
+
 ```
 
 ## Applications / Libraries
