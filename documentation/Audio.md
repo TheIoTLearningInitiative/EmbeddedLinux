@@ -46,7 +46,7 @@ USB Audio Dongle
     bcm4334x              587105  0 
 ```
 
-## 
+## Userspace Interfaces
 
 ### ProcFs
 
