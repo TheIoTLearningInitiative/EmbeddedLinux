@@ -26,6 +26,16 @@ Networking
     [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.71:8885/
 ```
 
+### 
+
+```sh
+    root@edison:~#  cd /etc/systemd/system
+    root@edison:~#  curl -O https://raw.githubusercontent.com/paradoxxxzero/butterfly/master/butterfly.service
+    root@edison:~#  curl -O https://raw.githubusercontent.com/paradoxxxzero/butterfly/master/butterfly.socket
+    root@edison:~#  systemctl enable butterfly.socket
+    root@edison:~#  systemctl start butterfly.socket
+```
+
 ## Others
 
 ```sh
