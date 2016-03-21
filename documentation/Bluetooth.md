@@ -112,6 +112,8 @@ Bluez Tools
 ```
 ### Python
 
+
+
 ### Usage Models
 
 #### Device Pairing
