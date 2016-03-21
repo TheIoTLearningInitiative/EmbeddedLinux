@@ -109,6 +109,8 @@ Serial
 
 ## Applications
 
+### Userspace
+
 ```sh
     root@edison:~# screen /dev/ttyS0
     root@edison:~# minicom /dev/ttyS0
@@ -119,7 +121,7 @@ Serial
     root@edison:~# stty -F /dev/ttyUSB0 115200 
 ```
 
-## Python Applications
+### Python
 
 ```python
 import serial
