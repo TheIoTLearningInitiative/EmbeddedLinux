@@ -57,6 +57,10 @@ BlueTooth
 
 ```sh
     root@edison:~# opkg install bluez5-dev
+```
+### Pip
+
+```sh
     root@edison:~# pip install pybluez
 ```
 
