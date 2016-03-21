@@ -52,6 +52,7 @@ Networking
 ```
 
 - [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
+- [Conda Test Drive](http://conda.pydata.org/docs/test-drive.html)
 
 ## Links
 
