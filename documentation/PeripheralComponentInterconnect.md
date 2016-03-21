@@ -5,6 +5,24 @@ Peripheral Component Interconnect
 
 - [Wikipedia Peripheral Component Interconnect](https://es.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
+## Kernel Integration
+
+### Kernel Display Message
+
+```sh
+root@edison:~# dmesg | grep -i pci
+[    0.000000] e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+[    0.191609] PCI: MMCONFIG for domain 0000 [bus 00-00] at [mem 0x3f500000-0x3f5fffff] (base 0x3f500000)
+[    0.191633] PCI: MMCONFIG at [mem 0x3f500000-0x3f5fffff] reserved in E820
+[    0.191647] PCI: Using MMCONFIG for extended config space
+[    0.191660] PCI: Using configuration type 1 for base access
+[    0.214309] Intel MID platform detected, using MID PCI ops
+[    0.214322] PCI: Probing PCI hardware
+[    0.214337] PCI: root bus 00: using default resources
+[    0.214352] PCI: Probing PCI hardware (bus 00)
+[    0.214615] PCI host bridge to bus 0000:00
+```
+
 ```sh
     root@edison:~# lspci
     00:00.0 Host bridge: Intel Corporation Device 1170 (rev 01)             
