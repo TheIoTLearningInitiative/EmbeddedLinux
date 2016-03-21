@@ -24,4 +24,6 @@ Conda
 - [Miniconda Python on Intel Edison](https://scivision.co/miniconda-python-on-intel-edison/)
 - [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
 
-
+```sh
+    root@edison:~# 
+```
