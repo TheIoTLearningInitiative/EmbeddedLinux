@@ -35,6 +35,7 @@ USB Camera HD Webcam C525
     videobuf2_vmalloc      13003  1 uvcvideo
     videobuf2_memops       13001  1 videobuf2_vmalloc
     videobuf2_core         37707  1 uvcvideo
+    ...
     root@edison:~# find /lib/modules/* -name 'uvc'
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
     /lib/modules/3.10.17-yocto-standard-r2/kernel/drivers/media/usb/uvc
