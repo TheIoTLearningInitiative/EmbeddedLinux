@@ -79,9 +79,9 @@ Block
     root@edison:~# apt-get update
     root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
 ```
-## Device Configuration
+### Programs
 
-### Mount
+#### Mount
 
 ```sh
     root@edison:~# mount
