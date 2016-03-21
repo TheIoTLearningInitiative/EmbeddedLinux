@@ -109,7 +109,7 @@ Serial
 
 ## Applications
 
-### Userspace
+### Programs
 
 ```sh
     root@edison:~# screen /dev/ttyS0
