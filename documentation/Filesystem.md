@@ -3,6 +3,15 @@ Filesystem
 
 - [Get additional 800 MB disk space](http://www.helios.de/heliosapp/edison/)
 
+```sh
+    root@edison:~# mv /var/cache /home
+    root@edison:~# cd /var
+    root@edison:~# ln -sf /home/cache cache
+    root@edison:~# mv /usr/share /home
+    root@edison:~# cd /usr
+    root@edison:~# ln -sf /home/share share
+```
+
 ## File System Disk Space Usage
 
 ### Yocto, Fresh Installation
