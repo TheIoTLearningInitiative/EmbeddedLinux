@@ -3,6 +3,8 @@ Block
 
 ## Kernel Integration
 
+### Kernel Display Message
+
 ```sh
     root@edison:~# dmesg | grep mmc
     [    0.190762] SDIO bus = 1, name = bcm43xx_clk_vmmc, ref_clock = 26000000, addr =0x401
@@ -50,16 +52,18 @@ Block
     [    8.557697] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: (null)
 ```
 
-## Setup
+## Applications / Libraries
 
-### Apt-Get
+### Setup
+
+#### Apt-Get
 
 ```sh
     root@edison:~# apt-get update
     root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
 ```
 
-### Opkg
+#### Opkg
 
 ```sh
     root@edison:~# opkg update
