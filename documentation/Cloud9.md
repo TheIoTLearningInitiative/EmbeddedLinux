@@ -42,3 +42,11 @@ Cloud9
     configure: error: "curses not found"
     ...
 ```
+
+```sh
+    root@edison:~# git clone https://github.com/navin-bhaskar/Cloud9-on-Intel-Edison.git c9
+    root@edison:~# cd c9
+    root@edison:~# sh Setup_Cloud9_On_Edison.sh install
+    <Install a Ps specific version>
+    sh Setup_Cloud9_On_Edison.sh
+```
