@@ -5,7 +5,7 @@ Pin Muxing
 
 > MRAA Low Level Skeleton Library for IO Communication on GNU/Linux platforms
 
-**Configuring all 4 of the PWM pins** 
+## Configuring all 4 of the PWM pins
 
 ```sh
     root@edison:~# vi pinmuxpwm.sh
