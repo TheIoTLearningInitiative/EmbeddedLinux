@@ -130,6 +130,22 @@ BlueTooth
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 ```
 
+### Bluetooth Sound
+
+```sh
+    root@edison:~# opkg install alsa-utils kernel-module-snd-usb-audio bluez5 gstreamer pulseaudio
+    root@edison:~# opkg install kernel-module-ftdi-sio
+    root@edison:~# rfkill unblock bluetooth
+    root@edison:~# bluetoothctl
+    [NEW] Controller 98:4F:EE:04:1A:8C edison [default]
+    [bluetooth]# power on
+    [bluetooth]# agent on
+    [bluetooth]# scan on
+    [bluetooth]# pair <id you find>
+    [bluetooth]# trust <id>
+    [bluetooth]# connect <id you paired with>
+```
+
 ### Serial Port Profile (SPP)
 
 Libraries
