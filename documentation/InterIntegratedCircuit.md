@@ -51,5 +51,9 @@ One I2C sensor
 #### Opkg
 
 ```sh
+    root@edison:~# opkg install 
+    ...
+```    
+```sh
     i2cdetect -y -r 1
 ```
