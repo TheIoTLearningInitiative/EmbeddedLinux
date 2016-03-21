@@ -26,6 +26,16 @@ Universal Serial Bus
     ...
 ```
 
+```sh
+    root@edison:~# lsmod
+    Module                  Size  Used by
+    ...
+    usb_f_acm              14335  1 
+    u_serial               18582  6 usb_f_acm
+    g_multi                70924  0 
+    libcomposite           39245  2 usb_f_acm,g_multi
+    ...
+```
 ## Userspace Interfaces
 
 ### Sysfs
