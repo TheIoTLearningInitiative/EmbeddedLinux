@@ -40,7 +40,7 @@ Pin Muxing
     echo 225 > /sys/class/gpio/export
     echo 214 > /sys/class/gpio/export
     
-    echo "exports done"
+    echo "Exports Done"
     
     # FIRST Shield_pinIO3
     echo low > /sys/class/gpio/gpio214/direction
