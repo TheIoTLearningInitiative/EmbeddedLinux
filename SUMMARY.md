@@ -65,6 +65,6 @@
    * [C Compiler](documentation/C.md)
    * [Cloud9](documentation/Cloud9.md)
    * [Cross Compile](documentation/CrossCompile.md)
-   * Python
+   * [Python](documentation/Python.md)
 * [SandBox](Sandbox.md)
 
