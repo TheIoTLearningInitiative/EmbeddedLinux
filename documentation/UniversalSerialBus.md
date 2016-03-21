@@ -11,7 +11,9 @@ Universal Serial Bus
 > libusb
 > > C library that gives applications easy access to USB devices on many different operating systems. [libusb homepage](http://www.libusb.org/)
 
-## Userspace Applications
+### Programs
+
+#### Lsubs
 
 If USB-host is not powered
 
