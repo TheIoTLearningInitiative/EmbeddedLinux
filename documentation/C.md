@@ -3,7 +3,7 @@ C Language
 
 ## GCC Compiler
 
-
+### Upgrade
 
 ```sh
     root@edison:~# opkg upgrade packagegroup-core-buildessential
