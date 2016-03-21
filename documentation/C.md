@@ -190,23 +190,4 @@ int main(int argc, char *argv[]) {
     compilation terminated.
 ```
 
-## Others
-
-```sh
-    root@edison:~# journalctl 
-    root@edison:~# cat /etc/modprobe.d/bcm4334x.conf 
-    options bcm4334x firmware_path=/etc/firmware/fw_bcmdhd.bin nvram_path=/etc/firmware/bcmdhd.cal op_mode=4
-    root@edison:~# cat /etc/modprobe.d/g_multi.conf  
-    options g_multi file=/dev/mmcblk0p9 stall=0 idVendor=0x8087 idProduct=0x0A9E iProduct=Edison iManufacturer=Intel
-```
-
-## Links
-
-- [Intel® Edison Native Application Guide](http://www.intel.com/support/edison/sb/CS-035382.htm)
-- http://dev.ardupilot.com/wiki/edison-for-drones/
-- https://github.com/catmaker/chippy
-- https://github.com/MakersTeam/Edison
-- https://github.com/tokoro10g/galileo-makefile
-- https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison
-- http://flask.pocoo.org/
 
