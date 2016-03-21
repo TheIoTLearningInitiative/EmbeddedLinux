@@ -1,5 +1,6 @@
 # Introduction
 
-- [Linux on Embedded Systems](https://en.wikipedia.org/wiki/Linux_on_embedded_systems)
+> Operating systems based on the Linux kernel are used in embedded systems such as consumer electronics (i.e. set-top boxes, smart TVs, in-vehicle infotainment (IVI), networking equipment (such as wireless routers), machine control, industrial automation, navigation equipment, spacecraft flight software, and medical instruments in general). [Wikipedia Linux on Embedded Systems](https://en.wikipedia.org/wiki/Linux_on_embedded_systems)
+
 - [Texas Instruments Hands-On Training for TI Embedded Processors](http://processors.wiki.ti.com/index.php/Hands-On_Training_for_TI_Embedded_Processors)
 
