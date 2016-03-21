@@ -59,8 +59,6 @@ USB Camera HD Webcam C525
     root@edison:~# lsmod | grep uvc
 ```
 
-### Apt-Get
-
 ## Device Configuration
 
 ```sh
