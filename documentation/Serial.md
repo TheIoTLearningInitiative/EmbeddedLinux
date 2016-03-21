@@ -124,7 +124,10 @@ Serial
 ### Python
 
 ```python
+#!/usr/bin/python
+
 import serial
+
 ser = serial.Serial("/dev/ttyMFD0", timeout=10)
 lines = ser.readlines()
 for i in range(10):
