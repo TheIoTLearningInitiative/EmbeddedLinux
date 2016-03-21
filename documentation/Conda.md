@@ -1,7 +1,8 @@
 Conda
 ==
-
 > Conda is a package manager application that quickly installs, runs, and updates packages and their dependencies. [Intro to Conda](http://conda.pydata.org/docs/intro.html)
+
+> Anaconda is a free, easy-to-install package manager, environment manager, Python distribution, and collection of over 720 open source packages with free community support. Hundreds more open source packages and their dependencies can be installed with a simple “conda install [packagename]”. It’s platform-agnostic, can be used on Windows, OS X and Linux.
 
 ## Miniconda
 
