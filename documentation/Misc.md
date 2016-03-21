@@ -48,3 +48,11 @@ Misc
     root@ubilinux:~# wget http://prdownloads.sourceforge.net/phlickr/Phlickr-0.2.5.tgz?download
     root@ubilinux:~# pear install Phlickr-0.2.5.tgz\?download
 ```
+
+## FreeRadius
+
+```sh
+    apt-get install freeradius
+```
+
+- [FreeRadius Homepage](http://freeradius.org/)
