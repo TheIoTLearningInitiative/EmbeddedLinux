@@ -13,7 +13,7 @@ Networking
 
 ### Programs
 
-### Butterfly
+#### Butterfly
 
 > A sleek web based terminal emulator
 
@@ -30,7 +30,7 @@ Networking
     [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.71:8885/
 ```
 
-### Systemd Automatic Run
+##### Systemd Automatic Run
 
 ```sh
     root@edison:~#  cd /etc/systemd/system
