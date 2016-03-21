@@ -5,6 +5,8 @@ BlueTooth
 
 - [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
 
+## Kernel Integration
+
 ### Bluez
 
 > Bluez. Official Linux Bluetooth Protocol Stack
@@ -21,8 +23,6 @@ Bluez Tools
 - **hcitool** - Generic writing and monitoring to the HCI interface
 - bluetooth-agent
 - bluetoothctl
-
-## Kernel Integration
 
 ```sh
     root@edison:~# dmesg | grep -i blue
@@ -53,7 +53,7 @@ Bluez Tools
 
 ### ConnMan
 
-> ConnMan is a daemon for managing Internet connections within embedded device and integrates a vast range of communication features usually split between many daemons such as DHCP, DNS and NTP. The result of this consolidation is low memory consumption with a fast, coherent, synchronized reaction to changing network conditions. [Homepage](https://01.org/connman)
+> ConnMan is a daemon for managing Internet connections within embedded device and integrates a vast range of communication features usually split between many daemons such as DHCP, DNS and NTP. The result of this consolidation is low memory consumption with a fast, coherent, synchronized reaction to changing network conditions. [ConnMan Homepage](https://01.org/connman)
 
 ### RFKill
 
