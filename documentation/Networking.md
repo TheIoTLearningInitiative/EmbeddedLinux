@@ -13,6 +13,8 @@ Networking
 
 > A sleek web based terminal emulator
 
+> Butterfly is a xterm compatible terminal that runs in your browser
+
 [Butterfly Github](https://github.com/paradoxxxzero/butterfly)
 
 ```sh
