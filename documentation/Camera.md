@@ -38,11 +38,13 @@ USB Camera HD Webcam C525
     ...
     root@edison:~# find /lib/modules/* -name 'uvc'
     /lib/modules/3.10.17-poky-edison+/kernel/drivers/media/usb/uvc
-    root@edison:~# ls -l /dev/video0
 ```
 
 ### Devfs
 
+```sh
+    root@edison:~# ls -l /dev/video0
+```
 ## Userspace Applications
 
 ```sh
