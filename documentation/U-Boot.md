@@ -54,6 +54,7 @@ U-Boot
 
 ```sh
 boot > printenv
+audio_codec_name=audio_codec="dummy"
 boot_target_cmd=run do_flash_os;run do_probe_dfu;run do_compute_target;run mmc-bootargs;run load_kernel;zboot ${loadaddr}
 bootargs_console=console=ttyMFD2 earlyprintk=ttyMFD2,keep
 bootargs_debug=loglevel=4
@@ -64,6 +65,7 @@ bootdelay=1
 dfu_alt_info_ram=kernel ram ${loadaddr} 0x800000
 dfu_alt_info_reset=reset ram 0x0 0x0
 dfu_to_sec=3
+do_audio_support=setenv audio_support platform_mrfld_audio.${audio_codec_name}
 do_boot=run boot_target_cmd;
 do_bootargs_rootfs=setenv bootargs_rootfs rootwait root=PARTUUID=${uuid_rootfs} rootfstype=ext4
 do_compute_target=if itest.b ${first_install_retry} -gt ${first_install_max_retries} || itest.b ${ota_update_retry} -gt $i
@@ -100,9 +102,25 @@ ota_script_addr=0x100000
 ota_update_max_retries=3
 ota_update_retry=0
 partitions=uuid_disk=${uuid_disk};name=u-boot0,start=1MiB,size=2MiB,uuid=${uuid_uboot0};name=u-boot-env0,size=1MiB,uuid=$;
-...
+serial#=4d143757d2d7fce20e89640fee58c2af
+stderr=serial
+stdin=serial
+stdout=serial
+target_name=blank
+usb0addr=02:00:86:58:c2:af
+uuid_boot=db88503d-34a5-3e41-836d-c757cb682814
+uuid_disk=21200400-0804-0146-9dcc-a8c51255994f
+uuid_factory=333a128e-d3e3-b94d-92f4-d3ebd9b3224f
+uuid_home=f13a0978-b1b5-1a4e-8821-39438e24b627
+uuid_panic=f20aa902-1c5d-294a-9177-97a513e3cae4
+uuid_rootfs=012b3303-34ac-284d-99b4-34e03a2335f4
+uuid_uboot0=d117f98e-6f2c-d04b-a5b2-331a19f91cb2
+uuid_uboot1=8a4bb8b4-e304-ae48-8536-aff5c9c495b1
+uuid_uboot_env0=25718777-d0ad-7443-9e60-02cb591c9737
+uuid_uboot_env1=08992135-13c6-084b-9322-3391ff571e19
 uuid_update=faec2ecf-8544-e241-b19d-757e796da607
 
 Environment size: 4962/65531 bytes
 boot > 
+
 ```
