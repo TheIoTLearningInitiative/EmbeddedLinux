@@ -190,6 +190,13 @@ int main(int argc, char *argv[]) {
     root@edison:~# g++
     g++: fatal error: no input files
     compilation terminated.
+    root@edison:~# vi helloworld.c
 ```
 
+```c++
+#include <stdio.h>
 
+void main (){
+    printf("Hello World\n");
+}
+```
