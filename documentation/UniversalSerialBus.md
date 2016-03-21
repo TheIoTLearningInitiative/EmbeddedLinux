@@ -61,7 +61,7 @@ If USB-host is powered
     drwxr-xr-x 2 root root 0 Jan  1 00:01 uvcvideo
 ```
 
-#### Libusb Git Repository
+##### Libusb Git Repository
 
 ```sh
     root@edison:~# git clone https://github.com/libusb/libusb.git
