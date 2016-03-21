@@ -5,6 +5,7 @@ Compilation
 
 - [Intel® Edison Board Support Package](https://software.intel.com/en-us/node/593590)
 - [Yocto Linux Image build for Intel Edison – Simple and Easy](https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/)
+- [Using Make for Easy Yocto Builds On Intel Edison](http://www.hackgnar.com/2016/01/using-make-for-easy-yocto-builds-on.html)
 
 ## Host Development Dependencies
 
