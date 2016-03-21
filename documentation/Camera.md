@@ -42,7 +42,7 @@ USB Camera HD Webcam C525
 
 ## Userspace Interfaces
 
-### Devfs
+### DevFs
 
 ```sh
     root@edison:~# ls -l /dev/video0
