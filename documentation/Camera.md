@@ -41,6 +41,8 @@ USB Camera HD Webcam C525
     root@edison:~# ls -l /dev/video0
 ```
 
+### Devfs
+
 ## Userspace Applications
 
 ```sh
