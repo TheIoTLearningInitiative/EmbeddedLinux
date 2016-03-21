@@ -100,7 +100,8 @@ USB Audio Dongle
 ```
 
 ### Usage Models
-List Capture Hardware Devices
+
+#### List Capture Hardware Devices
 
 ## Device Configuration
 
