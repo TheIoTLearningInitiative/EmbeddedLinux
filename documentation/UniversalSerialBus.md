@@ -26,6 +26,8 @@ Universal Serial Bus
     ...
 ```
 
+### Kernel Modules
+
 ```sh
     root@edison:~# lsmod
     Module                  Size  Used by
