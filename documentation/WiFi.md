@@ -64,7 +64,7 @@ WiFi
             Hard blocked: no
 ```
 
-### WiFi Yocto Default Configuration
+### Default Configuration
 
 ```sh
     root@Edison:~# configure_edison --wifi
@@ -90,7 +90,7 @@ WiFi
     root@edison:~# 
 ```
 
-### Exercise
+### Manual Configuration
 
 Make sure there are no soft blocks
 
