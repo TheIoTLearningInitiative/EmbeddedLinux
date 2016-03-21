@@ -98,6 +98,11 @@ Serial
     Installing screen (4.0.3-r4) on root.
     ...
     Configuring screen.
+    root@edison:~# 
+```
+### Pip
+
+```sh
     root@edison:~# pip install pyserial
     Cleaning up...
     root@edison:~# 
