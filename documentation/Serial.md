@@ -6,7 +6,7 @@ Serial
 - [Intel Edison: using UART ttyMFD1 serial port](https://scivision.co/intel-edison-using-uart-ttymfd1-serial-port/)
 - [Using USB-serial FTDI adapters with Intel Edison](https://scivision.co/using-usb-serial-ftdi-adapters-with-intel-edison/)
 
-## Required Applications
+## Required Applications / Libraries
 
 ### Opkg
 
