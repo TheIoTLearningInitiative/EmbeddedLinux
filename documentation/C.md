@@ -9,7 +9,9 @@ C Language
     root@edison:~# opkg upgrade packagegroup-core-buildessential
 ```
 
-### Socket Implementation, Server
+### Sockets
+
+#### Socket Implementation, Server
 
     root@edison:~# nano socketserver.c
 
@@ -90,7 +92,7 @@ int main( int argc, char *argv[] ) {
     
     root@edison:~# gcc socketserver.c -o socketserver
 
-### Socket Implementation, Client
+#### Socket Implementation, Client
 
 ```C
 #include <stdio.h>
@@ -175,7 +177,7 @@ int main(int argc, char *argv[]) {
     root@edison:~# gcc socketclient.c -o socketclient
 ```
 
-### Socket Implementation, Test
+#### Socket Implementation, Test
 
 ```sh
     root@edison:~# ./socketserver &
