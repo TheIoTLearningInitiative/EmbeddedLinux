@@ -63,6 +63,9 @@ One I2C sensor
     Package i2c-tools (3.1.1-r0) installed in root is up to date.
     ...
 ```
+### Programs
+
+#### i2cdetec
 
 ```sh
     root@edison:~# i2cdetect -y -r 1
