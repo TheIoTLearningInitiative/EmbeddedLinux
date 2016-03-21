@@ -3,6 +3,13 @@ Universal Serial Bus
 
 > USB, short for Universal Serial Bus, is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.[4] It is currently developed by the USB Implementers Forum. [Wikipedia](https://en.wikipedia.org/wiki/USB)
 
+
+> Yoctopuce
+> > Yoctopuce designs, manufactures and sells USB devices to let your computer sit in the real world, not in the cloud. Our USB modules are tiny, easy to install and easy to drive programmatically. [Homepage](http://www.yoctopuce.com/)
+
+- http://pagealh.com/2015/08/09/getting-started-intel-edison-usb-host/
+
+
 ## Kernel Integration
 
 ### Kernel Display Message
@@ -129,8 +136,3 @@ If USB-host is powered
     05e3:0606 (bus 1, device 2) path: 1
     1d6b:0002 (bus 1, device 1)
 ```
-
-## Links
-
-- http://www.yoctopuce.com/
-- http://pagealh.com/2015/08/09/getting-started-intel-edison-usb-host/
