@@ -43,16 +43,6 @@ Networking
 - [Conda Test Drive](http://conda.pydata.org/docs/test-drive.html)
 
 ```sh
-    root@edison:~# opkg install python-pip
-    root@edison:~# wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-2.1.0-Linux-x86.sh
-    root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/bash_4.3-r0_core2-32.ipk
-    root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/tar_1.27.1-r0_core2-32.ipk
-    root@edison:~# bash ./Anaconda-2.1.0-Linux-x86.sh
-    tar: lib/python2.7/site-packages/sklearn/utils/weight_vector.so: Cannot write: No space left on device
-    tar: Exiting with failure status due to previous errors
-```
-
-```sh
     root@edison:~# pip install butterfly
     root@edison:~# pip install pyserial
     root@edison:~# butterfly.server.py --unsecure --host=192.168.1.71 --port=8885
