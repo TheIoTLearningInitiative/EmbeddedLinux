@@ -3,4 +3,6 @@ Johnny Five
 
 > The JavaScript "Tessel 2" Programming Framework
 
+> Johnny-Five is the original JavaScript Robotics programming framework. Released by Bocoup in 2012, Johnny-Five is maintained by a community of passionate software developers and hardware engineers. Over 75 developers have made contributions towards building a robust, extensible and composable ecosystem.
+
 [](http://johnny-five.io/)
