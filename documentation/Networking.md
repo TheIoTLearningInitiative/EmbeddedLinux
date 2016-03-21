@@ -52,6 +52,10 @@ Networking
     tar: Exiting with failure status due to previous errors
     root@edison:~# pip install butterfly
     root@edison:~# pip install pyserial
+    root@edison:~# butterfly.server.py --unsecure --host=192.168.1.71 --por 
+butterfly.conf installed in /etc/butterfly/butterfly.conf
+[W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.71:8885/
+
     
 ```
 
