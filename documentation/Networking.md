@@ -8,7 +8,7 @@ Networking
     connmanctl> enable_wifi
     connmanctl> scan_wifi
     connmanctl> agent_on
-    connmanctl> connect wifi_
+    connmanctl> connect ...
 ```
 
 ## Links
