@@ -135,7 +135,7 @@ Bluez Tools
     Resolving deltas: 100% (658/658), done.
     Checking connectivity... done.
     root@edison:~# cd pybluez/examples
-    root@edison:~/pybluez/examples# 
+    root@edison:~/pybluez/examples# ls
 
 ```
 
