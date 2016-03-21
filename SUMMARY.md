@@ -31,6 +31,7 @@
        * [Advanced Packaging Tool](documentation/AdvancedPackagingTool.md)
        * [Manual](documentation/Manual.md)
        * [Conda](documentation/Conda.md)
+       * Nicely Package Make
    * [Libraries](documentation/Libraries.md)
        * [Mraa](documentation/Mraa.md)
        * [Upm](documentation/Upm.md)
