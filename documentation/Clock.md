@@ -45,6 +45,12 @@ Clock
 #### Network Time Protocol
 
 ```sh
+root@edison:~# ntpdate -s time.nist.gov
+root@edison:~# date
+Mon Mar 21 20:14:51 UTC 2016
+```
+
+```sh
     apt-get ntp server
 ```
 
