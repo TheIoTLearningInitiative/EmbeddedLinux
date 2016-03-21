@@ -9,6 +9,8 @@
 
 ## Kernel Integration
 
+### Kernel Display Message
+
 ```sh
     root@edison:~# dmesg | grep -i gpio
     [    0.000000] SFI: GPIO E3A27, 0964 (v1  INTEL INTELFDK)
