@@ -6,9 +6,7 @@ Universal Serial Bus
 ## Applications / Libraries
 
 > libusb
-> > A C library that gives applications easy access to USB devices on many different operating systems.
-
-- [libusb homepage](http://www.libusb.org/)
+> > C library that gives applications easy access to USB devices on many different operating systems. [libusb homepage](http://www.libusb.org/)
 
 ## Kernel Integration
 
