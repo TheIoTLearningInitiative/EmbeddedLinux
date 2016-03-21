@@ -3,6 +3,8 @@ Debug
 
 > Debugging is the process of finding and resolving or defects that prevent correct operation of computer software or a system. Debugging tends to be harder when various subsystems are tightly coupled, as changes in one may cause bugs to emerge in another. [Wikipedia](https://en.wikipedia.org/wiki/Debugging)
 
+- [Ubuntu Kernel Debugging Tricks](https://wiki.ubuntu.com/Kernel/KernelDebuggingTricks)
+
 ## Kernel Configuration
 
 ```sh
