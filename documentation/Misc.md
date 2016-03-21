@@ -6,9 +6,9 @@
 
 - [Squid Proxy on Debian Linux](http://linuxaria.com/pills/how-to-setup-a-squid-proxy-on-your-debian-linux)
 
+```sh
     apt-get install squid3 squid3-common
-
-
+```
 ## DHCP
 
 
