@@ -7,6 +7,14 @@ Inter Integrated Circuit
 
 One I2C sensor
 
+## Kernel Integration
+
+### Kernel Display Message
+
+```sh
+
+```
+
 ```sh
     i2cdetect -y -r 1
 ```
