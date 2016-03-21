@@ -153,7 +153,7 @@ This directory, is a control interface used to get userspace control over GPIO48
 		setting.
 ```
 
-### Exercise 1: Change GPIO direction
+### Exercise Change GPIO direction
 
 As explained before the GPIO control interface has some read/write attributes, so lets go ahead and change the default direction of the **GPIO48**.
 
