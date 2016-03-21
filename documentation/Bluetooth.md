@@ -145,7 +145,6 @@ Bluez Tools
     root@edison:~# npm install -g async
     root@edison:~# npm install noble
     root@edison:~# npm install bleno
-
 ```
 
 ### Usage Models
