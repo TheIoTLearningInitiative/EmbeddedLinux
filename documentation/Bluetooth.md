@@ -136,7 +136,7 @@ Bluez Tools
     Checking connectivity... done.
     root@edison:~# cd pybluez/examples
     root@edison:~/pybluez/examples# ls
-
+    advanced   ble        bluezchat  simple
 ```
 
 ### Usage Models
