@@ -5,4 +5,5 @@
 > The Embedded Debian Project is making Debian GNU/Linux a mainstream choice for embedded projects. [Emdebian Homepage](http://www.emdebian.org/)
 
 - [Texas Instruments Hands-On Training for TI Embedded Processors](http://processors.wiki.ti.com/index.php/Hands-On_Training_for_TI_Embedded_Processors)
+- [Linux Insides](https://www.gitbook.com/book/0xax/linux-insides/details)
 
