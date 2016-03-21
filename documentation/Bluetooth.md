@@ -141,6 +141,8 @@ Bluez Tools
 
 ### Npm
 
+Install "Locate Beacon" Android App
+
 ```sh
     root@edison:~# npm install -g async
     root@edison:~# npm install noble
