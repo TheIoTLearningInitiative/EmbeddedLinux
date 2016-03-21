@@ -11,6 +11,10 @@ Networking
     connmanctl> connect ...
 ```
 
+```sh
+    root@edison:~# vi /lib/systemd/system/sshd.socket
+```
+
 ## Links
 
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
