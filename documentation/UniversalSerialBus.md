@@ -6,6 +6,26 @@ Universal Serial Bus
 ## Kernel Integration
 
 
+## Debug
+
+```sh
+    root@edison:~# ls –l /sys/bus/usb/drivers/
+    root@edison:/tmp/temptmpfs# ls -l /sys/bus/usb/drivers/       drwxr-xr-x    2 root     root             0 Jan  1  2000 asix
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 cdc_acm
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 cdc_ncm
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 cdc_subset
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 hub
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 pl2303
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 snd-usb-audio
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 usb
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 usb-storage
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 usbfs
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 usbhid
+    drwxr-xr-x    2 root     root             0 Jan  1  2000 usbserial
+    drwxr-xr-x    2 root     root             0 Mar 21 18:21 uvcvideo
+    root@edison:~# cat /sys/bus/usb/drivers/option/***/bInterface*
+    root@edison:~# cat /proc/bus/usb/devices
+```
 ## Applications / Libraries
 
 > libusb
@@ -74,16 +94,6 @@ If USB-host is powered
     0458:708a (bus 1, device 3) path: 1.1
     05e3:0606 (bus 1, device 2) path: 1
     1d6b:0002 (bus 1, device 1)
-```
-
-## Usage Models
-
-## Debug
-
-```sh
-    root@edison:~# ls –l /sys/bus/usb/drivers/option/***/
-    $ cat /sys/bus/usb/drivers/option/***/bInterface*
-    $ cat /proc/bus/usb/devices
 ```
 
 ## Links
