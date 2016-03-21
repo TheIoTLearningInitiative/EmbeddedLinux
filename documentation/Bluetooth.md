@@ -14,14 +14,14 @@ BlueTooth
 
 - [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
 
-### Opkg Installation
+### Opkg
 
 ```sh
     root@edison:~# opkg install bluez5-dev
     root@edison:~# pip install pybluez
 ```
 
-### Apt-Get Installation
+### Apt-Get
 
 ```sh
     root@edison:~# apt-get install bluetooth
