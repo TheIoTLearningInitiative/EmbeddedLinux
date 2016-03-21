@@ -67,10 +67,17 @@ Debug
 
 ### Ftrace
 
-- [](https://lwn.net/Articles/365835/)
+- [Debugging the kernel using Ftrace - part 1](https://lwn.net/Articles/365835/)
+
+```
+root@edison:~# cd /sys/kernel/debug/tracing
+root@edison:/sys/kernel/debug/tracing# cat available_tracers 
+blk function_graph wakeup_rt wakeup preemptirqsoff preemptoff irqsoff function nop
+root@edison:/sys/kernel/debug/tracing# 
+```
 
 ## Applications / Libraries
 
 ### Programs
 
-
+None
