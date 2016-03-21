@@ -67,7 +67,9 @@ USB Audio Dongle
 
 ## Applications / Libraries
 
-### Opkg
+### Setup
+
+#### Opkg
 
 ```sh
     root@edison:~# opkg install alsa-utils mpg123 espeak
@@ -93,7 +95,7 @@ USB Audio Dongle
     Front_Right.wav   Rear_Left.wav     Side_Right.wav
 ```
 
-### Apt-Get
+#### Apt-Get
 
 ```sh
     root@edison:~# apt-get install alsa-utils mpg123 espeak
