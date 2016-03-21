@@ -41,16 +41,6 @@ WiFi
     ...
     bcm_bt_lpm             13708  0 
     bcm4334x              587105  0 
-    root@edison:~# rfkill list 
-    0: phy0: wlan
-            Soft blocked: no
-            Hard blocked: no
-    1: brcmfmac-wifi: wlan
-            Soft blocked: no
-            Hard blocked: no
-    2: bcm43xx Bluetooth: bluetooth
-            Soft blocked: yes
-            Hard blocked: no
 ```
 
 ## WiFi Yocto Default Configuration
@@ -87,6 +77,24 @@ WiFi
 
 - [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
 
+```sh
+    root@edison:~# lsmod
+    Module                  Size  Used by0
+    usb_f_acm              14335  1 
+    ...
+    bcm_bt_lpm             13708  0 
+    bcm4334x              587105  0 
+    root@edison:~# rfkill list 
+    0: phy0: wlan
+            Soft blocked: no
+            Hard blocked: no
+    1: brcmfmac-wifi: wlan
+            Soft blocked: no
+            Hard blocked: no
+    2: bcm43xx Bluetooth: bluetooth
+            Soft blocked: yes
+            Hard blocked: no
+```
 ## Userspace Applications
 
 Make sure there are no soft blocks
