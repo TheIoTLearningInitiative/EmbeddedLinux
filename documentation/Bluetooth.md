@@ -6,7 +6,7 @@ BlueTooth
 - [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
 
 
-## Applications / Libraries Setup
+## Applications / Libraries
 
 ### RFKill
 
