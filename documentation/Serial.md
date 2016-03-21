@@ -117,6 +117,19 @@ Serial
 
 ## Applications
 
+### Python
+
+```python
+#!/usr/bin/python
+
+import serial
+
+ser = serial.Serial("/dev/ttyMFD0", timeout=10)
+lines = ser.readlines()
+for i in range(10):
+    print(lines[i].strip())
+```
+
 ### Programs
 
 ```sh
@@ -129,18 +142,5 @@ Serial
     root@edison:~# setserial /dev/ttyS0 115200
     root@edison:~# stty -F /dev/ttyUSB0 115200
     root@edison:~# stty -F /dev/ttyMFD 115200
-```
-
-### Python
-
-```python
-#!/usr/bin/python
-
-import serial
-
-ser = serial.Serial("/dev/ttyMFD0", timeout=10)
-lines = ser.readlines()
-for i in range(10):
-    print(lines[i].strip())
 ```
 
