@@ -113,7 +113,7 @@ Bluez Tools
 ### Python
 
 ```Python
-
+    
 ```
 
 ### Usage Models
