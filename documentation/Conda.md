@@ -56,5 +56,9 @@ Conda
     root@edison:~# conda update conda
     ...
     root@edison:~# conda search --full-name python
+    python                       1.0.1                         0  defaults
+    ...
+                              *  3.5.1                         0  defaults
+    root@edison:~# conda create --name snakes python=3
 
 ```
