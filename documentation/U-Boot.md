@@ -35,3 +35,15 @@ U-Boot
     boot > 
 ```
 
+```sh
+    boot > help
+    ?       - alias for 'help'
+    askenv  - get environment variables from stdin
+    base    - print or set address offset
+    bdinfo  - print Board Info structure
+    ...
+    true    - do nothing, successfully
+    version - print monitor, compiler and linker version
+    zboot   - Boot bzImage
+    boot > 
+```
