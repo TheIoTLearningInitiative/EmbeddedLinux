@@ -35,7 +35,7 @@ USB Audio Dongle
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
 ```
 
-### Kernel Modules
+### USB Devices
 
 ```sh
     root@edison:~# lsusb 
