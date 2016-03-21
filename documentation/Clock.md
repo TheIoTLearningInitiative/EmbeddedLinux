@@ -21,7 +21,7 @@ Clock
 
 ### Programs
 
-#### 
+#### Network Time Protocol
 
 ```sh
     apt-get ntp server
