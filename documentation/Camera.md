@@ -52,7 +52,7 @@ USB Camera HD Webcam C525
 
 ### FFMpeg
 
-> A complete, cross-platform solution to record, convert and stream audio and video.
+> A complete, cross-platform solution to record, convert and stream audio and video. [FFMpeg Homepage](https://www.ffmpeg.org/)
 
 ### Setup
 
