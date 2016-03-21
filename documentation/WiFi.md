@@ -78,12 +78,6 @@ WiFi
 - [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
 
 ```sh
-    root@edison:~# lsmod
-    Module                  Size  Used by0
-    usb_f_acm              14335  1 
-    ...
-    bcm_bt_lpm             13708  0 
-    bcm4334x              587105  0 
     root@edison:~# rfkill list 
     0: phy0: wlan
             Soft blocked: no
