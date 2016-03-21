@@ -1,6 +1,8 @@
 Serial
 ==
 
+- [Intel Edison: using UART ttyMFD1 serial port](https://scivision.co/intel-edison-using-uart-ttymfd1-serial-port/)
+
 ## Required Applications
 
 ### Opkg
