@@ -53,5 +53,8 @@ Conda
     root@edison:~# export PATH=/home/root/miniconda3/bin:$PATH
     root@edison:~# conda --version
     conda 3.19.0
-    
+    root@edison:~# conda update conda
+    ...
+    root@edison:~# conda search --full-name python
+
 ```
