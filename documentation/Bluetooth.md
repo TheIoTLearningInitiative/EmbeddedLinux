@@ -76,15 +76,11 @@ BlueTooth
 
 Bluez Tools
 
-> hciconfig - HCI device configuration utility
-
-> hciattach - HCI UART driver initialization utility
-
-> l2ping - L2CAP ping
-
-> hcidump - HCI packet analyzer
-
-> hcitool - Generic writing and monitoring to the HCI interface
+- **hciconfig** - HCI device configuration utility
+- **hciattach** - HCI UART driver initialization utility
+- **l2ping** - L2CAP ping
+- **hcidump** - HCI packet analyzer
+- **hcitool** - Generic writing and monitoring to the HCI interface
 
 - bluetooth-agent
 - bluetoothctl
