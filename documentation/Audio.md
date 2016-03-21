@@ -39,7 +39,7 @@ USB Audio Dongle
 
 ```sh
     root@edison:~# lsmod
-    ToDo
+    ...
 ```
 
 ## Userspace Interfaces
