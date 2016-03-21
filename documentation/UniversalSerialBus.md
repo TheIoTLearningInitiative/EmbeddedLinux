@@ -11,6 +11,21 @@ Universal Serial Bus
 > libusb
 > > C library that gives applications easy access to USB devices on many different operating systems. [libusb homepage](http://www.libusb.org/)
 
+### Setup
+
+#### Opkg
+
+```sh
+    root@edison:~# opkg install libusb-1.0-dev libudev1-dev
+```
+
+#### Apt-Get
+
+```sh
+    root@edison:~# apt-get install libusb-1.0-dev libudev-dev
+    root@edison:~# apt-get install libtool
+```
+
 ### Programs
 
 #### Lsusb
@@ -44,20 +59,7 @@ root@edison:~# lsusb
     drwxr-xr-x 2 root root 0 Jan  1 00:01 uvcvideo
 ```
 
-## Setup
 
-### Opkg
-
-```sh
-    root@edison:~# opkg install libusb-1.0-dev libudev1-dev
-```
-
-### Apt-Get
-
-```sh
-    root@edison:~# apt-get install libusb-1.0-dev libudev-dev
-    root@edison:~# apt-get install libtool
-```
 
 ## Device Configuration
 
