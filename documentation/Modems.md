@@ -3,6 +3,9 @@ Modems
 
 > A modem (modulator-demodulator) is a network hardware device that modulates one or more carrier wave signals to encode digital information for transmission and demodulates signals to decode the transmitted information. The goal is to produce a signal that can be transmitted easily and decoded to reproduce the original digital data. [Wikipedia](https://en.wikipedia.org/wiki/Modem)
 
+
+T & A Mobile Phones
+
 ## Applications / Libraries
 
 ## T & A Mobile Phones
