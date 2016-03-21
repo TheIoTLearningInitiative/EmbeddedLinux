@@ -5,6 +5,10 @@ Serial
 
 - [Intel Edison: using UART ttyMFD1 serial port](https://scivision.co/intel-edison-using-uart-ttymfd1-serial-port/)
 - [Using USB-serial FTDI adapters with Intel Edison](https://scivision.co/using-usb-serial-ftdi-adapters-with-intel-edison/)
+- [Intel Edison Types of Serial Ports](https://communities.intel.com/thread/54236)
+- [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
+- [TLDP Serial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
+
 
 ## Kernel Integration
 
@@ -135,10 +139,4 @@ lines = ser.readlines()
 for i in range(10):
     print(lines[i].strip())
 ```
-
-## Links
-
-- [Intel Edison Types of Serial Ports](https://communities.intel.com/thread/54236)
-- [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
-- [TLDP Serial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
 
