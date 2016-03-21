@@ -134,7 +134,8 @@ Bluez Tools
     Receiving objects: 100% (1082/1082), 415.85 KiB | 407.00 KiB/s, done.
     Resolving deltas: 100% (658/658), done.
     Checking connectivity... done.
-    root@edison:~# 
+    root@edison:~# cd pybluez/examples
+    root@edison:~/pybluez/examples# 
 
 ```
 
