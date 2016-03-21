@@ -68,7 +68,9 @@ WiFi
             Hard blocked: no
 ```
 
-### Default Configuration
+### Usage Models
+
+#### Default Configuration
 
 ```sh
     root@Edison:~# configure_edison --wifi
@@ -94,7 +96,7 @@ WiFi
     root@edison:~# 
 ```
 
-### Manual Persistent Configuration
+#### Manual Persistent Configuration
 
 Make sure there are no soft blocks
 
@@ -182,6 +184,6 @@ WiFi to connect at power up:
     systemctl start wpa_supplicant
 ```
 
-## Mode Access Point @ Ubilinux
+### Mode Access Point @ Ubilinux
 
 - [Ubilinux Access Point Hostapd](http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd)
