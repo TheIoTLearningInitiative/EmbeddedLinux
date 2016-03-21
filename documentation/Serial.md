@@ -1,6 +1,8 @@
 Serial
 ==
 
+> In telecommunication and computer science, serial communication is the process of sending data one bit at a time, sequentially, over a communication channel or computer bus. This is in contrast to parallel communication, where several bits are sent as a whole, on a link with several parallel channels. [Wikipedia](https://en.wikipedia.org/wiki/Serial_communication)
+
 - [Intel Edison: using UART ttyMFD1 serial port](https://scivision.co/intel-edison-using-uart-ttymfd1-serial-port/)
 - [Using USB-serial FTDI adapters with Intel Edison](https://scivision.co/using-usb-serial-ftdi-adapters-with-intel-edison/)
 
