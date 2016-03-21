@@ -1,6 +1,26 @@
 Networking
 ==
 
+## Automatic WiFi Connection
+
+```sh
+    root@edison:~# configure_edison -wifi
+    root@edison:~# systemctl enable wpa_supplicant
+    root@edison:~# systemctl start wpa_supplicant
+```
+
+## Butterfly
+
+```sh
+    root@edison:~# pip install butterfly
+    root@edison:~# pip install pyserial
+    root@edison:~# butterfly.server.py --unsecure --host=192.168.1.71 --port=8885
+    butterfly.conf installed in /etc/butterfly/butterfly.conf
+    [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.71:8885/
+```
+
+## Others
+
 ```sh
     root@edison:~# systemctl start connman
     root@edison:~# systemctl start wpa_supplicant
@@ -26,24 +46,6 @@ Networking
 
     [Install]
     WantedBy=sockets.target
-```
-
-## Automatic WiFi Connection
-
-```sh
-    root@edison:~# configure_edison -wifi
-    root@edison:~# systemctl enable wpa_supplicant
-    root@edison:~# systemctl start wpa_supplicant
-```
-
-## Butterfly
-
-```sh
-    root@edison:~# pip install butterfly
-    root@edison:~# pip install pyserial
-    root@edison:~# butterfly.server.py --unsecure --host=192.168.1.71 --port=8885
-    butterfly.conf installed in /etc/butterfly/butterfly.conf
-    [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.71:8885/
 ```
 
 ## Links
