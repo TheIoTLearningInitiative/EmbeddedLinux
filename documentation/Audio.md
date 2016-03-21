@@ -35,8 +35,6 @@ USB Audio Dongle
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
 ```
 
-## Userspace Interfaces
-
 ### ProcFs
 
 ```sh
@@ -47,7 +45,7 @@ USB Audio Dongle
                           C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
 ```
 
-## Required Applications
+## Applications / Libraries
 
 ### Opkg
 
