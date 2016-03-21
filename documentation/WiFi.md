@@ -93,6 +93,14 @@ WiFi
     root@edison:~# 
 ```
 
+#### Persistent Connection
+
+```sh
+    root@edison:~# configure_edison -wifi
+    root@edison:~# systemctl enable wpa_supplicant
+    root@edison:~# systemctl start wpa_supplicant
+```
+
 #### Manual Persistent Configuration
 
 Make sure there are no soft blocks
