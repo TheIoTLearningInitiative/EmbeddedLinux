@@ -2,8 +2,7 @@ Networking
 ==
 
 ```
-
-
+    root@edison:~# systemctl start connman
 ```
 
 ## Links
