@@ -30,6 +30,7 @@ One I2C sensor
     root@edison:~# ls /dev/i2c-*
     /dev/i2c-1  /dev/i2c-2  /dev/i2c-3  /dev/i2c-4  /dev/i2c-5  /dev/i2c-6  /dev/i2c-7
 ```
+
 ```sh
     i2cdetect -y -r 1
 ```
