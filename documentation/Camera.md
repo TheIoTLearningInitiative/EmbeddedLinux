@@ -159,5 +159,4 @@ See Live Stream by connecting from a web browser to http://youripaddress:5000/
 #### Online Examples
 
 - [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
-- [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
 - [Rustem Iskuzhin Making your own live streaming camera](http://rustemiskuzhin.com/?p=1)
