@@ -85,6 +85,33 @@ Block
 
 ```sh
     root@edison:~# mount
+    /dev/mmcblk0p8 on / type ext4 (rw,nodev,noatime,discard,noauto_da_alloc,data=ordered)
+    devtmpfs on /dev type devtmpfs (rw,relatime,size=491272k,nr_inodes=122818,mode=755)
+    proc on /proc type proc (rw,relatime)
+    sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+    tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+    devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620)
+    tmpfs on /run type tmpfs (rw,nosuid,nodev,mode=755)
+    tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+    cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cg)
+    pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+    cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+    cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpuacct,cpu)
+    cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+    cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+    cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+    cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+    systemd-1 on /boot type autofs (rw,relatime,fd=22,pgrp=1,timeout=300,minproto=5,maxproto=5,direct)
+    tmpfs on /tmp type tmpfs (rw)
+    debugfs on /sys/kernel/debug type debugfs (rw,relatime)
+    mqueue on /dev/mqueue type mqueue (rw,relatime)
+    systemd-1 on /home type autofs (rw,relatime,fd=31,pgrp=1,timeout=300,minproto=5,maxproto=5,direct)
+    configfs on /sys/kernel/config type configfs (rw,relatime)
+    fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
+    tmpfs on /var/volatile type tmpfs (rw,relatime)
+    /dev/mmcblk0p5 on /factory type ext4 (ro,nosuid,nodev,noatime,discard,noauto_da_alloc)
+    /dev/mmcblk0p10 on /home type ext4 (rw,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered)
+    /dev/mmcblk0p7 on /boot type vfat (rw,nosuid,nodev,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortna)    
     /dev/mmcblk1p1 on /media/sdcard type ext3 (rw,relatime,errors=continue,user_xattr,acl,barrier=1,data=writeback)
 ```
 
