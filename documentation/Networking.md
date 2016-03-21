@@ -48,6 +48,8 @@ Networking
     
 ```
 
+[The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
+
 ## Links
 
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
