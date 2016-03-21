@@ -76,7 +76,11 @@ Serial
     /sys/class/tty/ttymcu1                     
     /sys/class/tty/ttymcu2                     
     /sys/class/tty/ttyGS0
+```
 
+### Devfs
+
+```sh
     root@edison:~# ls /dev/tty*
     /dev/tty      /dev/tty2     /dev/tty31    /dev/tty43    /dev/tty55    /dev/ttyGS0
     /dev/tty0     /dev/tty20    /dev/tty32    /dev/tty44    /dev/tty56    /dev/ttyMFD0
