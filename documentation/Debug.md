@@ -73,9 +73,4 @@ Debug
 
 ### Programs
 
-## Ftrace
-
-Tbd
-
-## Links
 
