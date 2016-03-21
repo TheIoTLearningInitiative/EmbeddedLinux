@@ -15,7 +15,6 @@ WiFi
 - [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
 - [Intel® Edison Network Access](https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board)
 
-
 ## Kernel Integration
 
 ### Kernel Display Message
