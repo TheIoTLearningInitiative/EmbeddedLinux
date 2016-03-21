@@ -54,7 +54,7 @@ USB Audio Dongle
                           dummy-audio
      2 [Device         ]: USB-Audio - USB PnP Sound Device
                           C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1, full speed
-
+    root@edison:~# 
 ```
 
 ## Applications / Libraries
