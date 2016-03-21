@@ -4,7 +4,7 @@ Audio
 
 ### Required Hardware
 
-USB Audio Card
+USB Audio Dongle
 
 ## Kernel Integration
 
