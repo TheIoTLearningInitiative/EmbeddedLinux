@@ -38,6 +38,14 @@ Clock
     Configuring ntp-tickadj.
     Configuring ntp.
     ln -s '/lib/systemd/system/ntpd.service' '/etc/systemd/system/multi-user.target.wants/ntpd.service'
+    root@edison:~# opkg install ntpdate
+    root@edison:~# opkg install ntpdate
+    Installing ntpdate (4.2.6p5-r6.0) on root.
+    Downloading http://repo.opkg.net/edison/repo/core2-32/ntpdate_4.2.6p5-r6.0_core2-32.ipk.
+    Configuring ntpdate.
+    adding crontab
+    ln -s '/lib/systemd/system/ntpdate.service' '/etc/systemd/system/multi-user.target.wants/ntpdate.service'
+
 ```
 
 ### Programs
