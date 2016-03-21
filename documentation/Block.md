@@ -91,6 +91,8 @@ Block
     /dev/mmcblk1p1 on /media/sdcard type ext3 (rw,relatime,errors=continue,user_xattr,acl,barrier=1,data=writeback)
 ```
 
+### Usage Models
+
 #### SD Cards, Mount
 
 ```sh
@@ -142,8 +144,6 @@ Block
     root@edison:~# vi /etc/fstab
     /dev/mmcblk1  /path/to/localdirectory
 ```
-
-### Usage Models
 
 #### tmpfs
 
