@@ -40,6 +40,8 @@ Serial
 ```
 ## Userspace Interfaces
 
+### Sysfs
+
 ```sh
     root@edison:~# find /sys/ -name 'tty:ttyS*'
     /sys/devices/pci0000:00/0000:00:04.1/tty
