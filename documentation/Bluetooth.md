@@ -193,6 +193,7 @@ Also what is going to be added is  how to  programmatically do the device discov
 - Intel® Edison to a Bluetooth Network
 - Intel® Edison from a peer device 
 - [Raspberry Pi & Bluetooth LE part 1 with Tony D! @adafruit #LIVE](https://youtu.be/5fQR2PHMDWE)
+- [Bluetooth on the Intel Edison](https://scivision.co/bluetooth-on-the-intel-edison/)
 
 ```sh
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
