@@ -43,6 +43,8 @@ Cloud9
     ...
 ```
 
+- [Cloud 9 IDE on Intel Edison by NavinB](http://www.instructables.com/id/Cloud-9-IDE-on-Intel-Edison/?ALLSTEPS)
+
 ```sh
     root@edison:~# git clone https://github.com/navin-bhaskar/Cloud9-on-Intel-Edison.git c9
     root@edison:~# cd c9
