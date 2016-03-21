@@ -4,7 +4,7 @@ Conda
 
 > Anaconda is a free, easy-to-install package manager, environment manager, Python distribution, and collection of over 720 open source packages with free community support. Hundreds more open source packages and their dependencies can be installed with a simple “conda install [packagename]”. It’s platform-agnostic, can be used on Windows, OS X and Linux. [New to Anaconda Start Here](https://docs.continuum.io/new-anaconda-start-here)
 
-[Conda Download](https://www.continuum.io/downloads)
+- [Conda Download](https://www.continuum.io/downloads)
 - [Conda Test Drive](http://conda.pydata.org/docs/test-drive.html)
 
 ## Miniconda
