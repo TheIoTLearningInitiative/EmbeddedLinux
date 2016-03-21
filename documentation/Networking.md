@@ -44,6 +44,8 @@ Networking
     root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/bash_4.3-r0_core2-32.ipk
     root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/tar_1.27.1-r0_core2-32.ipk
     root@edison:~# bash ./Anaconda-2.1.0-Linux-x86.sh
+    tar: lib/python2.7/site-packages/sklearn/utils/weight_vector.so: Cannot write: No space left on device
+    tar: Exiting with failure status due to previous errors
     root@edison:~# pip install butterfly
     root@edison:~# pip install pyserial
     
