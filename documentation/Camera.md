@@ -40,6 +40,8 @@ USB Camera HD Webcam C525
     /lib/modules/3.10.17-poky-edison+/kernel/drivers/media/usb/uvc
 ```
 
+## Userspace Interfaces
+
 ### Devfs
 
 ```sh
