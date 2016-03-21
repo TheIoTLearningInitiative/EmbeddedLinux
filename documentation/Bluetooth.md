@@ -96,7 +96,7 @@ BlueTooth
     root@edison:~# hcitool scan
 ```
 
-## Userspace Applications Usage Models
+### Usage Models
 
 ### Device Pairing
 
