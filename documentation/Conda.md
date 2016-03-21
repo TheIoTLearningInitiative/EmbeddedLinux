@@ -36,4 +36,10 @@ Conda
     100%[============================================================================================>] 29,686,993  1.20MB/s   in 25s
     
     2016-03-21 06:23:55 (1.13 MB/s) - 'Miniconda3-latest-Linux-x86.sh' saved [29686993/29686993]
+    root@edison:~# bash Miniconda3-latest-Linux-x86.sh
+    ...
+    [/home/root/miniconda3] >>>
+    PREFIX=/home/root/miniconda3
+    installing: _cache-0.0-py35_x0 ...
+    installing: python-3.5.1-0 ...
 ```
