@@ -229,7 +229,7 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
     root@edison:~# mpg123 
 ```
 
-### Speak
+### Espeak
 
 
 ## Links
