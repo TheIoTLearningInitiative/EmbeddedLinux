@@ -126,7 +126,7 @@ Bluez Tools
     ...
     root@edison:~# hcitool scan
 ```
-### Python
+#### Python
 
 ```Python
     root@edison:~# git clone https://github.com/karulis/pybluez
@@ -142,7 +142,7 @@ Bluez Tools
     advanced   ble        bluezchat  simple
 ```
 
-### Npm
+#### Npm
 
 Install "Locate Beacon" Android App
 
