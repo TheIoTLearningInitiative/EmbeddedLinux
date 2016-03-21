@@ -35,7 +35,7 @@ One I2C sensor
 
 ```sh
     root@edison:~# cat /proc/interrupts | grep i2c
-      7:         44          0   IO-APIC-fasteoi   i2c-designware-1
+      7:         44          0   IO-APIC-fasteoi   i2c-    designware-1
      10:          0          0   IO-APIC-fasteoi   i2c-designware-2
      12:          0          0   IO-APIC-fasteoi   watchdog, i2c-designware-3
      13:          0          0   IO-APIC-fasteoi   i2c-designware-4
