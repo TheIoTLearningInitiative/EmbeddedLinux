@@ -5,13 +5,6 @@ Debug
 
 - [Linux Magic System Request Key Hacks](https://www.kernel.org/doc/Documentation/sysrq.txt)
 
-## Linux Debug Filesystem
-
-> Debugfs exists as a simple way for kernel developers to make information available to user space.  Unlike /proc, which is only meant for information about a process, or sysfs, which has strict one-value-per-file rules, debugfs has no rules at all. [Wikipedia](https://en.wikipedia.org/wiki/Debugfs)
-
-- [Linux Kernel Documentation Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
-- [Linux Kernel Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
-
 ## Kernel Configuration
 
 ```sh
@@ -33,6 +26,13 @@ Debug
 ```
 
 ## Kernel Integration
+
+### Linux Debug Filesystem
+
+> Debugfs exists as a simple way for kernel developers to make information available to user space.  Unlike /proc, which is only meant for information about a process, or sysfs, which has strict one-value-per-file rules, debugfs has no rules at all. [Wikipedia](https://en.wikipedia.org/wiki/Debugfs)
+
+- [Linux Kernel Documentation Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
+- [Linux Kernel Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
 
 ```sh
     root@edison:~# mount -t debugfs none /sys/kernel/debug
