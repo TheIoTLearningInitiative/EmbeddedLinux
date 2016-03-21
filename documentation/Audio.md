@@ -14,6 +14,8 @@ USB Audio Dongle
 
 - [Advanced Linux Sound Architecture Homepage](http://www.alsa-project.org/main/index.php/Main_Page)
 
+### Kernel Display Message
+
 ```sh
     root@edison:~# dmesg | grep -i audio
     [ 9635.624279] usb 1-1.2: new full-speed USB device number 4 using dwc3-host
@@ -31,6 +33,11 @@ USB Audio Dongle
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     Bus 001 Device 003: ID 0458:708a KYE Systems Corp. (Mouse Systems) 
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
+```
+
+### ProcFs
+
+```sh
     root@edison:~# cat /proc/asound/cards
      0 [Loopback       ]: Loopback - Loopback
                           Loopback 1
