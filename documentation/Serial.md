@@ -99,7 +99,9 @@ Serial
 
 ## Applications / Libraries
 
-### Opkg
+### Setup
+
+#### Opkg
 
 ```sh
     root@edison:~# opkg install screen
@@ -108,7 +110,7 @@ Serial
     Configuring screen.
     root@edison:~# 
 ```
-### Pip
+#### Pip
 
 ```sh
     root@edison:~# pip install pyserial
@@ -116,14 +118,12 @@ Serial
     root@edison:~# 
 ```
 
-### Apt-Get
+#### Apt-Get
 
 ```sh
     root@edison:~# apt-get install screen minicom cu setserial stty
     root@edison:~# pip install pyserial
 ```
-
-## Applications
 
 ### Programs
 
