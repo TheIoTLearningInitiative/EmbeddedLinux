@@ -42,7 +42,7 @@ Clock
 
 ### Programs
 
-#### Network Time Protocol
+#### Network Time Protocol Client
 
 ```sh
     root@edison:~# ntpdate -s time.nist.gov
