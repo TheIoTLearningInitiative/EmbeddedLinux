@@ -1,7 +1,7 @@
 Filesystem
 ==
 
-- [Get additional 800 MB disk space](http://www.helios.de/heliosapp/edison/)
+## File System Disk Space Free Up
 
 ```sh
     root@edison:~# mv /var/cache /home
@@ -11,6 +11,8 @@ Filesystem
     root@edison:~# cd /usr
     root@edison:~# ln -sf /home/share share
 ```
+
+- [Get additional 800 MB disk space](http://www.helios.de/heliosapp/edison/)
 
 ## File System Disk Space Usage
 
