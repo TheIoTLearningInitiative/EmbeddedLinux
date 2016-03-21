@@ -38,7 +38,7 @@ Networking
 
 ## Anaconda
 
-
+[](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
 
 ```sh
     root@edison:~# wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-2.1.0-Linux-x86.sh
