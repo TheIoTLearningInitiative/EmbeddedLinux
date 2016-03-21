@@ -34,6 +34,8 @@ Let's understand what it means to work with Yocto Project by building images for
 ```
 ### Minnowboard MAX Image
 
+- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
+
 ```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~$ mkdir source
@@ -66,10 +68,6 @@ Let's understand what it means to work with Yocto Project by building images for
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
 ```
-
-#### Links
-
-- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
 
 ## SandBox
 
