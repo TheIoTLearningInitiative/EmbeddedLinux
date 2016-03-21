@@ -16,7 +16,7 @@ Universal Serial Bus
 #### Opkg
 
 ```sh
-    root@edison:~# opkg install libusb-1.0-dev libudev1-dev
+    root@edison:~# opkg install libusb-1.0-dev
 ```
 
 #### Apt-Get
