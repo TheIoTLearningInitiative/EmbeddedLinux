@@ -53,7 +53,7 @@ Networking
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
 - http://pagealh.com/2015/09/12/getting-started-with-edison-static-ip-address/
 
-## CAN
+## Controller Area Network
 
 - https://communities.intel.com/message/294647#294647
 - https://www.sparkfun.com/products/13262
