@@ -1,5 +1,6 @@
 Audio
 ==
+> An audio signal is a representation of sound, typically as an electrical voltage. Audio signals have frequencies in the audio frequency range of roughly 20 to 20,000 Hz (the limits of human hearing). [wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
 
 ## Required Hardware
 
