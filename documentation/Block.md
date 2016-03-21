@@ -81,6 +81,13 @@ Block
 ```
 ## Device Configuration
 
+### Mount
+
+```sh
+    root@edison:~# mount
+    /dev/mmcblk1p1 on /media/sdcard type ext3 (rw,relatime,errors=continue,user_xattr,acl,barrier=1,data=writeback)
+```
+
 ### Format SD Card
 
 ```sh
