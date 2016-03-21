@@ -91,7 +91,7 @@ Serial
 
 ## Applications / Libraries
 
-### Opkg Installation
+### Opkg
 
 ```sh
     root@edison:~# opkg install screen
@@ -103,7 +103,7 @@ Serial
     root@edison:~# 
 ```
 
-### Apt-Get Installation
+### Apt-Get
 
 ```sh
     root@edison:~# apt-get install screen minicom cu setserial stty
