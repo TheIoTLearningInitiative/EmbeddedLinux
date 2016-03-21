@@ -21,6 +21,7 @@ Peripheral Component Interconnect
     [    0.214337] PCI: root bus 00: using default resources
     [    0.214352] PCI: Probing PCI hardware (bus 00)
     [    0.214615] PCI host bridge to bus 0000:00
+    ...
 ```
 
 ## Applications / Libraries
