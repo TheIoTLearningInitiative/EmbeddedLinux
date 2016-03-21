@@ -92,7 +92,6 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?, Expl
 - http://www.newegg.com/Product/Product.aspx?Item=N82E16815158354
 
 ## Modems
-## Links  
     
 - https://boundarydevices.com/cellular-modems-on-i-mx6-boards/
 - https://answers.launchpad.net/ubuntu/+source/gnome-nettool/+question/211095
