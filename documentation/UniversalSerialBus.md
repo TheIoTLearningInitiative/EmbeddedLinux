@@ -23,7 +23,7 @@ Universal Serial Bus
     [    0.745454] usbcore: registered new interface driver pl2303
     [    0.745521] usbserial: USB Serial support registered for pl2303
     [    1.666307] usbcore: registered new interface driver usbhid
-...
+    ...
 ```
 
 ## Userspace Interfaces
