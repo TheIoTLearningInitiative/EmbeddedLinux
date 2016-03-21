@@ -184,7 +184,7 @@ WiFi to connect at power up:
 
 ## Mode AP @ Ubilinux
 
-- http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd
+- [Ubilinux Access Point Hostapd](http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd)
 
 ## Links
 
