@@ -212,8 +212,6 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 #### Command Line Device Configuration
 
 ```
-    root@edison:~# lsusb
-    root@edison:~# opkg install alsa-utils
     root@edison:~# aplay -Ll
     root@edison:~# vi ~/.asoundrc
     root@edison:~# vi /etc/asound.conf
