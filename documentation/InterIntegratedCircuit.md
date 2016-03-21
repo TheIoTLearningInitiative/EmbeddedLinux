@@ -31,6 +31,19 @@ One I2C sensor
     /dev/i2c-1  /dev/i2c-2  /dev/i2c-3  /dev/i2c-4  /dev/i2c-5  /dev/i2c-6  /dev/i2c-7
 ```
 
+### ProcFs
+
+```sh
+root@edison:~# cat /proc/interrupts | grep i2c
+  7:         44          0   IO-APIC-fasteoi   i2c-designware-1
+ 10:          0          0   IO-APIC-fasteoi   i2c-designware-2
+ 12:          0          0   IO-APIC-fasteoi   watchdog, i2c-designware-3
+ 13:          0          0   IO-APIC-fasteoi   i2c-designware-4
+ 14:          0          0   IO-APIC-fasteoi   i2c-designware-5
+ 15:          0          0   IO-APIC-fasteoi   i2c-designware-6
+ 16:          0          0   IO-APIC-fasteoi   i2c-designware-7
+```
+
 ```sh
     i2cdetect -y -r 1
 ```
