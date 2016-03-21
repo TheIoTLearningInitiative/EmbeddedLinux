@@ -12,7 +12,12 @@ Serial
 
 ```sh
     root@edison:~# opkg install screen
+    Installing screen (4.0.3-r4) on root.
+    ...
+    Configuring screen.
     root@edison:~# pip install pyserial
+    Cleaning up...
+    root@edison:~# 
 ```
 
 ### Apt-Get
