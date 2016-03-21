@@ -78,6 +78,8 @@ BlueTooth
 > Bluez. Official Linux Bluetooth Protocol Stack
 > > Bluetooth tools and daemons. This package contains tools and system daemons for using Bluetooth devices. BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source project distributed under GNU General Public License (GPL). [Bluez Homepage](http://www.bluez.org/)
 
+- [Bluez Source Code](http://git.kernel.org/cgit/bluetooth/bluez.git/tree/)
+
 Bluez Tools
 
 - **hciconfig** - HCI device configuration utility
