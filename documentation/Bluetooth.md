@@ -145,6 +145,10 @@ Bluez Tools
     root@edison:~# npm install -g async
     root@edison:~# npm install noble
     root@edison:~# npm install bleno
+    root@edison:~# node node_modules/bleno/test-ibeacon.js
+    bleno - iBeacon
+    on -> stateChange: poweredOn
+    on -> advertisingStart
 ```
 
 ### Usage Models
