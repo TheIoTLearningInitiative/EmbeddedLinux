@@ -51,13 +51,11 @@ USB Camera HD Webcam C525
 ```
 ## Applications / Libraries
 
-### fswebcam
-
-> fswebcam  is  a  small  and  simple webcam app for *nix. It can capture images  from  a  number  of  different  sources  and   perform   simple manipulation  on  the  captured image. The image can be saved as one or more PNG or JPEG files.
+> fswebcam
+> > a  small  and  simple webcam app for *nix. It can capture images  from  a  number  of  different  sources  and   perform   simple manipulation  on  the  captured image. The image can be saved as one or more PNG or JPEG files.
        
-### ffmpeg
-
-> A complete, cross-platform solution to record, convert and stream audio and video. [FFMpeg Homepage](https://www.ffmpeg.org/)
+> ffmpeg
+> > A complete, cross-platform solution to record, convert and stream audio and video. [FFMpeg Homepage](https://www.ffmpeg.org/)
 
 ### Setup
 
