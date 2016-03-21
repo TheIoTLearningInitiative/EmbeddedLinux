@@ -1,6 +1,11 @@
-# Compilation
+Compilation
+==
 
 > In computer programming, the translation of source code into object code by a compiler. [Wikipedia](https://en.wikipedia.org/wiki/Compilation)
+
+- [Intel® Edison Board Support Package](https://software.intel.com/en-us/node/593590)
+- [Yocto Linux Image build for Intel Edison – Simple and Easy](https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/)
+
 
 ## Host Development Dependencies
 
