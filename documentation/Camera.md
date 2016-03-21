@@ -129,6 +129,9 @@ if __name__ == '__main__':
 ```sh
     root@edison:~# python livestream.py
 ```
+
+Connect through http://192.168.1.71:5000/
+
 #### Online Examples
 
 - [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
