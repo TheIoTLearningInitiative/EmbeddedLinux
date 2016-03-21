@@ -5,6 +5,12 @@ Camera
 
 ## Kernel Integration
 
+### Kernel Display Message
+
+```sh
+
+```
+
 ### Kernel Modules
 
 ```sh
