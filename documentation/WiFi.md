@@ -3,13 +3,18 @@ WiFi
 
 > Wi-Fi (or WiFi) is a local area wireless computer networking technology that allows electronic devices to connect to the network, mainly using the 2.4 gigahertz (12 cm) UHF and 5 gigahertz (6 cm) SHF ISM radio bands. Wikipedia
 
+> Intel Edison Features
+
+> > Wi-Fi peer-to-peer connectivity with Wi-Fi Direct, Allows two Intel® Edison devices (or one Intel® Edison device and a smartphone) to create a direct Wi-Fi connection to each other without an access point.
+
+> > Wi-Fi multirole, Allows a connection to an access point simultaneously with Wi-Fi Direct operation. 
+
+> > Wi-Fi IBSS mode, Allows creation of multinode ad hoc networks that contain no access point.
+
 - [WiFi Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi)
+- [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
+- [Intel® Edison Network Access](https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board)
 
-### Intel Edison Features
-
-- Wi-Fi peer-to-peer connectivity with Wi-Fi Direct, Allows two Intel® Edison devices (or one Intel® Edison device and a smartphone) to create a direct Wi-Fi connection to each other without an access point.
-- Wi-Fi multirole, Allows a connection to an access point simultaneously with Wi-Fi Direct operation. 
-- Wi-Fi IBSS mode, Allows creation of multinode ad hoc networks that contain no access point.
 
 ## Kernel Integration
 
@@ -184,5 +189,3 @@ WiFi to connect at power up:
 
 ## Links
 
-- [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
-- https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
