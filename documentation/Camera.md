@@ -52,13 +52,7 @@ USB Camera HD Webcam C525
 
 ### Setup
 
-## Userspace Applications
-
-```sh
-    root@edison:~# ffmpeg
-```
-
-### Opkg
+#### Opkg
 
 ```sh
     root@edison:~# opkg install kernel-module-uvcvideo
