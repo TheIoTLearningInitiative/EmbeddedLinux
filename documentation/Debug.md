@@ -36,6 +36,8 @@ Debug
 
 ```sh
     root@edison:~# mount -t debugfs none /sys/kernel/debug
+    mount: none is already mounted or /sys/kernel/debug busy
+           none is already mounted on /tmp/temptmpfs
     root@edison:~# ls /sys/kernel/debug/
     asoc                  gpio_debug            pmu_sync_d0ix
     bdi                   hid                   pwm
