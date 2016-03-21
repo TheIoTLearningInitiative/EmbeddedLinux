@@ -50,6 +50,6 @@ Conda
     
     Share your notebooks and packages on Anaconda Cloud!
     Sign up for free: https://anaconda.org
-    
+    root@edison:~#
 
 ```
