@@ -8,6 +8,7 @@ Serial
 - [Intel Edison Types of Serial Ports](https://communities.intel.com/thread/54236)
 - [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
 - [TLDP Serial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
+- [Linux Journal Greg Kroah-Hartman The Serial Driver Layer](http://www.linuxjournal.com/article/6331)
 
 ## Kernel Integration
 
