@@ -56,6 +56,10 @@ USB Camera HD Webcam C525
 
 ### Setup
 
+#### Manual
+
+Install ffmpeg by following [Video streaming on Intel Edison](https://github.com/drejkim/edi-cam)
+
 #### Opkg
 
 ```sh
