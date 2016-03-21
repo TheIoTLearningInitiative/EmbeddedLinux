@@ -84,25 +84,25 @@ Bluez Tools
             Hard blocked: no
 ```
 
-### Opkg
+### Setup
+
+#### Opkg
 
 ```sh
     root@edison:~# opkg install bluez5-dev
 ```
-### Pip
+#### Pip
 
 ```sh
     root@edison:~# pip install pybluez
 ```
 
-### Apt-Get
+#### Apt-Get
 
 ```sh
     root@edison:~# apt-get install bluetooth pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
     root@edison:~# /etc/init.d/bluetooth start
 ```
-
-## Applications
 
 ### Programs
 
