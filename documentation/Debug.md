@@ -5,7 +5,7 @@ Debug
 
 - [Linux Magic System Request Key Hacks](https://www.kernel.org/doc/Documentation/sysrq.txt)
 
-## Debug Filesystem
+## Linux Debug Filesystem
 
 > Debugfs exists as a simple way for kernel developers to make information available to user space.  Unlike /proc, which is only meant for information about a process, or sysfs, which has strict one-value-per-file rules, debugfs has no rules at all. [Wikipedia](https://en.wikipedia.org/wiki/Debugfs)
 
