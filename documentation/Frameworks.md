@@ -10,3 +10,4 @@ Frameworks
 - [Cylon.Js](https://cylonjs.com/)
 - [Cylon.Js OpenCv](https://npm.taobao.org/package/cylon-opencv)
 
+$ npm install cylon cylon-opencv
