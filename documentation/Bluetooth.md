@@ -91,8 +91,7 @@ Bluez Tools
 ### Apt-Get
 
 ```sh
-    root@edison:~# apt-get install bluetooth
-    root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
+    root@edison:~# apt-get install bluetooth pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
     root@edison:~# /etc/init.d/bluetooth start
 ```
 
