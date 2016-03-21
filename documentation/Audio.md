@@ -37,7 +37,7 @@ USB Audio
      1 [Device         ]: USB-Audio - USB PnP Sound Device
                           C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
 ```
-ç
+
 ## Required Applications
 
 ### Opkg
