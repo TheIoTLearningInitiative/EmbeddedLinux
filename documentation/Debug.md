@@ -59,6 +59,11 @@ Debug
     root@edison:~# 
 ```
 
+### 
+
+> It is a 'magical' key combo you can hit which the kernel will respond to regardless of whatever else it is doing, unless it is completely locked up.
+
+
 ## Applications / Libraries
 
 ### Programs
