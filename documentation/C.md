@@ -200,3 +200,7 @@ void main (){
     printf("Hello World\n");
 }
 ```
+
+```sh
+    root@edison:~# g++ -o helloworld helloworld.c
+```
