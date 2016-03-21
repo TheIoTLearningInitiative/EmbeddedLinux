@@ -60,5 +60,18 @@ Conda
     ...
                               *  3.5.1                         0  defaults
     root@edison:~# conda create --name snakes python=3
-
+    #
+    # To activate this environment, use:
+    # $ source activate snakes
+    #
+    # To deactivate this environment, use:
+    # $ source deactivate
+    #
+    root@edison:~# conda info --envs
+    # conda environments:
+    #
+    snakes                   /home/root/miniconda3/envs/snakes
+    root                  *  /home/root/miniconda3
+    
+    root@edison:~# 
 ```
