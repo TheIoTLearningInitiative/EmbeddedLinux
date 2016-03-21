@@ -62,17 +62,6 @@ USB Camera HD Webcam C525
 
 #### FFMpeg
 
-#### Device Configuration
-
-```sh
-    root@edison:~# lsmod | grep uvc
-    root@edison:~# ls -al /dev/video0
-```
-
-## Usage Models
-
-### IP Webcam
-
 ## Links
 
 - https://www.ffmpeg.org/
