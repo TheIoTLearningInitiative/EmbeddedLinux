@@ -21,6 +21,7 @@ Bluez Tools
 - **hcitool** - Generic writing and monitoring to the HCI interface
 - bluetooth-agent
 - bluetoothctl
+
 ## Kernel Integration
 
 ```sh
