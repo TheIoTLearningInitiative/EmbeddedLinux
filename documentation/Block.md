@@ -3,7 +3,16 @@ Block
 
 ## Kernel Integration
 
-### Kernel Display Message
+### Kernel Display Message Default
+
+
+```sh
+    root@edison:~# dmesg
+    ...
+    [ 4430.481280] mmc1: new high speed SDHC card at address 1234
+    [ 4430.482221] mmcblk1: mmc1:1234 SA04G 3.63 GiB 
+    [ 4430.485107]  mmcblk1: p1
+```
 
 ```sh
     root@edison:~# dmesg | grep mmc
