@@ -21,7 +21,7 @@ BlueTooth
     root@edison:~# pip install pybluez
 ```
 
-### Apt-Get
+### Apt-Get Installation
 
 ```sh
     root@edison:~# apt-get install bluetooth
