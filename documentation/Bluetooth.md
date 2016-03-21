@@ -5,6 +5,22 @@ BlueTooth
 
 - [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
 
+## Bluez
+
+> Bluez. Official Linux Bluetooth Protocol Stack
+> > Bluetooth tools and daemons. This package contains tools and system daemons for using Bluetooth devices. BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source project distributed under GNU General Public License (GPL). [Bluez Homepage](http://www.bluez.org/)
+
+- [Bluez Source Code](http://git.kernel.org/cgit/bluetooth/bluez.git/tree/)
+
+Bluez Tools
+
+- **hciconfig** - HCI device configuration utility
+- **hciattach** - HCI UART driver initialization utility
+- **l2ping** - L2CAP ping
+- **hcidump** - HCI packet analyzer
+- **hcitool** - Generic writing and monitoring to the HCI interface
+- bluetooth-agent
+- bluetoothctl
 ## Kernel Integration
 
 ```sh
@@ -75,25 +91,8 @@ BlueTooth
 
 ### Programs
 
-> Bluez. Official Linux Bluetooth Protocol Stack
-> > Bluetooth tools and daemons. This package contains tools and system daemons for using Bluetooth devices. BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source project distributed under GNU General Public License (GPL). [Bluez Homepage](http://www.bluez.org/)
-
-- [Bluez Source Code](http://git.kernel.org/cgit/bluetooth/bluez.git/tree/)
-
-Bluez Tools
-
-- **hciconfig** - HCI device configuration utility
-- **hciattach** - HCI UART driver initialization utility
-- **l2ping** - L2CAP ping
-- **hcidump** - HCI packet analyzer
-- **hcitool** - Generic writing and monitoring to the HCI interface
-- bluetooth-agent
-- bluetoothctl
-
 > Connman
 > > ConnMan is a daemon for managing Internet connections within embedded device and integrates a vast range of communication features usually split between many daemons such as DHCP, DNS and NTP. The result of this consolidation is low memory consumption with a fast, coherent, synchronized reaction to changing network conditions.
-
-
 
 ```sh
     root@edison:~# systemctl status bluetooth.service
