@@ -38,3 +38,38 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?, Expl
 - http://geektimes.ru/post/255136/
 - https://communities.intel.com/message/273743
 - https://edison.internet-share.com/w/index.php?title=Using_a_stock_Linux_kernel_with_Intel_Edison&redirect=no
+
+## Blkuetooth
+## Links
+
+- [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
+- http://alextgalileo.altervista.org/blog/install-kernel-from-repo-onto-edison-official-image/
+- https://software.intel.com/en-us/articles/intel-edison-board-getting-started-with-bluetooth
+- http://rexstjohn.com/lets-turn-intel-edison-into-an-ibeacon/
+- http://unix.stackexchange.com/questions/53546/debian-squeeze-connect-to-a2dp-bluetooth-through-command-line
+- https://software.intel.com/en-us/articles/using-the-generic-attribute-profile-gatt-in-bluetooth-low-energy-with-your-intel-edison
+- https://software.intel.com/en-us/articles/connecting-the-intel-edison-board-to-your-android-phone-with-serial-port-profile-spp
+- [Profiles](https://downloadmirror.intel.com/24909/eng/edison-bsp_rn_332032-007.pdf)
+- https://learn.sparkfun.com/tutorials/bluetooth-basics
+- [PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html)
+- [PIP package manager](https://pip.pypa.io/en/stable/)
+- http://shawnhymel.com/665/using-python-and-ble-to-receive-data-from-the-rfduino/
+- http://shawnhymel.com/703/bluetooth-low-energy-peripherals-with-javascript/
+- http://stephaniemoyerman.com/?p=100
+- https://github.com/w4ilun/edison-guides/wiki/Configure-Intel-Edison-for-BLE---Bluetooth-Smart-Development
+- https://software.intel.com/en-us/articles/connecting-to-intel-edison-from-android-with-bluetooth-le-ble
+- http://stephaniemoyerman.com/?p=100
+- https://software.intel.com/en-us/articles/connecting-the-intel-edison-board-to-your-android-phone-with-serial-port-profile-spp
+- https://github.com/smoyerman/edison-ibeacon
+
+## SandBox
+
+- Intel® Edison to a Bluetooth Network
+- Intel® Edison from a peer device 
+- [Raspberry Pi & Bluetooth LE part 1 with Tony D! @adafruit #LIVE](https://youtu.be/5fQR2PHMDWE)
+- [Bluetooth on the Intel Edison](https://scivision.co/bluetooth-on-the-intel-edison/)
+
+```sh
+    root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
+    root@edison:~# ls /dev/rfcomm0
+```
