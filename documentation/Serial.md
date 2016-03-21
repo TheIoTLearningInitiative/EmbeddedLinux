@@ -89,9 +89,9 @@ Serial
     /dev/tty19    /dev/tty30    /dev/tty42    /dev/tty54    /dev/tty9
 ```
 
-## Applications / Libraries Setup
+## Applications / Libraries
 
-### Opkg
+### Opkg Installation
 
 ```sh
     root@edison:~# opkg install screen
@@ -103,7 +103,7 @@ Serial
     root@edison:~# 
 ```
 
-### Apt-Get
+### Apt-Get Installation
 
 ```sh
     root@edison:~# apt-get install screen minicom cu setserial stty
