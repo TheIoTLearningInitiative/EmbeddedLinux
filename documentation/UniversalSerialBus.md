@@ -4,6 +4,7 @@ Universal Serial Bus
 > USB, short for Universal Serial Bus, is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.[4] It is currently developed by the USB Implementers Forum. [Wikipedia](https://en.wikipedia.org/wiki/USB)
 
 - [Intel Edison USB Host](http://pagealh.com/2015/08/09/getting-started-intel-edison-usb-host/)
+- [Linux Journal Greg Kroah-Hartman Writing a Simple USB Driver](http://www.linuxjournal.com/article/7353?page=0,0)
 
 > Yoctopuce
 > > Yoctopuce designs, manufactures and sells USB devices to let your computer sit in the real world, not in the cloud. Our USB modules are tiny, easy to install and easy to drive programmatically. [Homepage](http://www.yoctopuce.com/)
