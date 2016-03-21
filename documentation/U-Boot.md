@@ -31,6 +31,7 @@ U-Boot
     In:    serial
     Out:   serial
     Err:   serial
-    Hit any key to stop autoboot:  0 
+    Hit any key to stop autoboot:  0
+    boot > 
 ```
 
