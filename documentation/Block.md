@@ -86,8 +86,7 @@ Block
 ```sh
     root@edison:~# mount
     /dev/mmcblk0p8 on / type ext4 (rw,nodev,noatime,discard,noauto_da_alloc,data=ordered)
-    /dev/mmcblk0p5 on /factory type ext4 (ro,nosuid,nodev,noatime,discard,noauto_da_alloc)
-    /dev/mmcblk0p10 on /home type ext4 (rw,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered)
+    ...
     /dev/mmcblk0p7 on /boot type vfat (rw,nosuid,nodev,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortna)    
     /dev/mmcblk1p1 on /media/sdcard type ext3 (rw,relatime,errors=continue,user_xattr,acl,barrier=1,data=writeback)
 ```
