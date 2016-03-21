@@ -99,6 +99,8 @@ USB Audio Dongle
     root@edison:~# apt-get install alsa-utils mpg123 espeak
 ```
 
+## Userspace Applications
+
 ### Usage Models
 
 #### List Capture Hardware Devices
@@ -209,28 +211,6 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
-```
-
-## Userspace Applications
-
-### Playback Hardware Devices
-
-```sh
-    root@edison:~# aplay -Ll
-    card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
-```
-
-### Capture Hardware Devices
-
-```sh
-    root@edison:~# arecord -Ll
-    card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    root@edison:~# record -f cd -D plughw:1,0 -d 20 test.wav
 ```
 
 ### Testing
