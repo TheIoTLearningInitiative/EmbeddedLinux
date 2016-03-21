@@ -5,4 +5,5 @@ Drone Code
 
 - [Drone Code Homepage](https://www.dronecode.org/)
 - [Intel® Edison Takes Flight](https://github.com/jbrosenz/Edison-Takes-Flight)
+- [Intel® Edison as a Companion Computer](http://dev.ardupilot.com/wiki/edison-for-drones/)
 
