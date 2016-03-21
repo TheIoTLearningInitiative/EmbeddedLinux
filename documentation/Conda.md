@@ -7,4 +7,4 @@ Conda
 
 > These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments, etc. 
 
-
+- [](https://scivision.co/miniconda-python-on-intel-edison/)
