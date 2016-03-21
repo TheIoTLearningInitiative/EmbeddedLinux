@@ -11,6 +11,8 @@ Serial
 
 ## Kernel Integration
 
+### Kernel Display Message
+
 ```sh
     root@edison:~# dmesg | grep -i serial
     [    0.000000] Kernel command line: rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,keep loglevel=4 g_multi.ethernet_config=cdc systemd.unit=multi-user.target hardware_id=00 g_multi.iSerialNumber=5e7bb54a65035af180191c2d7bd527b6 g_multi.dev_addr=02:00:86:d5:27:b6 platform_mrfld_audio.audio_codec=dummy
