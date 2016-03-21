@@ -120,3 +120,26 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?, Expl
 - https://github.com/tokoro10g/galileo-makefile
 - https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison
 - http://flask.pocoo.org/
+
+## Audio
+
+## Links
+
+- http://repo.opkg.net/edison/repo/edison/kernel-module-snd-usb-audio_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+- http://www.tektyte.com/docs/docpages/edison-reference/ALSA.html
+- http://blog.niise.idv.tw/2015/01/intel-edison-mini-breakout-board-w-mpd.html?m=1
+- http://hackaday.com/2015/12/02/audio-effects-on-the-intel-edison/
+
+
+## Tbd
+
+```sh
+    sudo modprobe -v snd_usb_audio
+    sudo modprobe --force-vermagic snd-usb-audio.ko
+    sudo depmod -a
+    sudo alsactl init
+    sudo alsa-utils stop/start
+    sudo dpkg-reconfigure alsa-base
+    cat /dev/sndstat
+    cat /proc/asound/cards
+```sh
