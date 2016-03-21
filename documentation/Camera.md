@@ -46,6 +46,7 @@ USB Camera HD Webcam C525
 
 ```sh
     root@edison:~# ls -l /dev/video0
+    crw-rw----    1 root     video      81,   0 Mar 21 18:21 /dev/video0
 ```
 ## Userspace Applications
 
