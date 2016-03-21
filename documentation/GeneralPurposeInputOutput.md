@@ -153,7 +153,7 @@ This directory, is a control interface used to get userspace control over GPIO48
 		setting.
 ```
 
-### Exercise Change GPIO direction
+### Exercise Change GPIO Direction
 
 As explained before the GPIO control interface has some read/write attributes, so lets go ahead and change the default direction of the **GPIO48**.
 
@@ -173,7 +173,7 @@ Then checking again the GPIO status we can see, that direction has changed. Here
     | gpio-48  (sysfs               ) **in**  lo| gpio-48  (sysfs               ) **out**  lo |
 ```
 
-### Exercise 2: Use Python Bindings
+### Exercise Use Python Bindings
 
 ```sh
     mraa
