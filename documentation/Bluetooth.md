@@ -90,6 +90,11 @@ Bluez Tools
 - bluetooth-agent
 - bluetoothctl
 
+> Connman
+> > ConnMan is a daemon for managing Internet connections within embedded device and integrates a vast range of communication features usually split between many daemons such as DHCP, DNS and NTP. The result of this consolidation is low memory consumption with a fast, coherent, synchronized reaction to changing network conditions.
+
+
+
 ```sh
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
