@@ -90,3 +90,12 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?, Expl
 - https://techship.se/products/pci-express-mini-card-to-usb-adapter-with-external-voltage/
 - http://www.amazon.com/Mini-PCIe-mSATA-Micro-Adapter/dp/B00KZIANT0
 - http://www.newegg.com/Product/Product.aspx?Item=N82E16815158354
+
+## Modems
+## Links  
+    
+- https://boundarydevices.com/cellular-modems-on-i-mx6-boards/
+- https://answers.launchpad.net/ubuntu/+source/gnome-nettool/+question/211095
+- http://www.monblocnotes.com/node/1943
+- http://www.paoli.cz/en/lte-modules-1/huawei-me909u-521-mini-pcie.html?cur=1&lang=1&&redirected=1
+- http://www.paoli.cz/out/media/Guide_to_Kernel_Driver_Integration_in_Linux_for_Huawei_Modules(1).pdf
