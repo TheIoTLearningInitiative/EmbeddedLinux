@@ -37,6 +37,8 @@ root@edison:~# lsusb
     unable to initialize libusb: -99
 ```
 
+If USB-host is powered
+
 ```sh
     root@edison:~# lsusb
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
@@ -59,9 +61,7 @@ root@edison:~# lsusb
     drwxr-xr-x 2 root root 0 Jan  1 00:01 uvcvideo
 ```
 
-
-
-## Device Configuration
+#### Libusb Git Repository
 
 ```sh
     root@edison:~# git clone https://github.com/libusb/libusb.git
