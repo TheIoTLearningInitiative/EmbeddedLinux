@@ -42,5 +42,14 @@ Conda
     PREFIX=/home/root/miniconda3
     installing: _cache-0.0-py35_x0 ...
     ...
+    You may wish to edit your .bashrc or prepend the Miniconda3 install location:
+    
+    $ export PATH=/home/root/miniconda3/bin:$PATH
+    
+    Thank you for installing Miniconda3!
+    
+    Share your notebooks and packages on Anaconda Cloud!
+    Sign up for free: https://anaconda.org
+    
 
 ```
