@@ -5,7 +5,6 @@ Ubilinux™, Debian Based Distribution
 
 - [Emutexlabs ubilinux™](http://www.emutexlabs.com/ubilinux)
 - [New ubilinux for Intel® Edison released](http://www.emutexlabs.com/blog/225-new-ubilinux-for-intel-edison-released)
-- [Mr. Smirnov Intel Edison - Building Debian image](http://mr-smirnov.com/2016/02/08/intel-edison-building-debian-image/)
 - [ubilinux (Debian) Kernel Update R2 BETA](https://communities.intel.com/thread/60224?start=0&tstart=0)
 - [Installing ROS on Galileo: The Debian way](http://wiki.ros.org/IntelGalileo/Debian)
 
@@ -17,6 +16,7 @@ Ubilinux™, Debian Based Distribution
 
 ## Compilation
 
+- [Mr. Smirnov Intel Edison - Building Debian image](http://mr-smirnov.com/2016/02/08/intel-edison-building-debian-image/)
 - [Hackgnar Building Debian Linux for Intel Edison](http://www.hackgnar.com/2016/02/building-debian-linux-for-intel-edison.html)
 
 ## Programs
