@@ -13,6 +13,19 @@ Networking
 
 ```sh
     root@edison:~# vi /lib/systemd/system/sshd.socket
+    [Unit]
+    Conflicts=sshd.service
+    
+    [Socket]
+    ExecStartPre=/bin/mkdir -p /var/run/sshd
+    ListenStream=22
+    # restrict access to wired access for security reasons
+    # comment this line to remove restriction
+    BindToDevice=usb0
+    Accept=yes
+
+    [Install]
+    WantedBy=sockets.target
 ```
 
 ## Links
