@@ -30,7 +30,7 @@
        * [Python Package Index](documentation/PythonPackageIndex.md)
        * [Advanced Packaging Tool](documentation/AdvancedPackagingTool.md)
        * [Manual](documentation/Manual.md)
-       * Conda
+       * [Conda](documentation/Conda.md)
    * [Libraries](documentation/Libraries.md)
        * [Mraa](documentation/Mraa.md)
        * [Upm](documentation/Upm.md)
