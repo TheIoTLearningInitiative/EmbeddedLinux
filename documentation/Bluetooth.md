@@ -98,7 +98,7 @@ BlueTooth
 
 ### Usage Models
 
-### Device Pairing
+#### Device Pairing
 
 ```sh
     root@galileo:~# rfkill unblock bluetooth
@@ -112,7 +112,7 @@ BlueTooth
     [bluetooth]# exit
 ```
 
-### Text
+#### Text
 
 ```sh
     root@edison:~# systemctl status bluetooth.service
@@ -126,13 +126,13 @@ BlueTooth
     root@edison:~# rfcomm bind 0 40:78:6A:26:4A:C2
 ```
 
-### Audio
+#### Audio
 
 ```sh
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 ```
 
-### Bluetooth Sound
+#### Bluetooth Sound
 
 ```sh
     root@edison:~# opkg install alsa-utils kernel-module-snd-usb-audio bluez5 gstreamer pulseaudio
@@ -148,7 +148,7 @@ BlueTooth
     [bluetooth]# connect <id you paired with>
 ```
 
-### Serial Port Profile (SPP)
+#### Serial Port Profile (SPP)
 
 Libraries
 
