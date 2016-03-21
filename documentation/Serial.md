@@ -9,7 +9,6 @@ Serial
 - [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
 - [TLDP Serial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
 
-
 ## Kernel Integration
 
 ```sh
