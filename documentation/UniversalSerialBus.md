@@ -13,7 +13,7 @@ Universal Serial Bus
 
 ### Programs
 
-#### Lsubs
+#### Lsusb
 
 If USB-host is not powered
 
