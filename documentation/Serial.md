@@ -6,27 +6,6 @@ Serial
 - [Intel Edison: using UART ttyMFD1 serial port](https://scivision.co/intel-edison-using-uart-ttymfd1-serial-port/)
 - [Using USB-serial FTDI adapters with Intel Edison](https://scivision.co/using-usb-serial-ftdi-adapters-with-intel-edison/)
 
-## Required Applications / Libraries
-
-### Opkg
-
-```sh
-    root@edison:~# opkg install screen
-    Installing screen (4.0.3-r4) on root.
-    ...
-    Configuring screen.
-    root@edison:~# pip install pyserial
-    Cleaning up...
-    root@edison:~# 
-```
-
-### Apt-Get
-
-```sh
-    root@edison:~# apt-get install screen minicom cu setserial stty
-    root@edison:~# pip install pyserial
-```
-
 ## Kernel Integration
 
 ```sh
@@ -105,6 +84,27 @@ Serial
     /dev/tty17    /dev/tty29    /dev/tty40    /dev/tty52    /dev/tty7
     /dev/tty18    /dev/tty3     /dev/tty41    /dev/tty53    /dev/tty8
     /dev/tty19    /dev/tty30    /dev/tty42    /dev/tty54    /dev/tty9
+```
+
+## Applications / Libraries
+
+### Opkg
+
+```sh
+    root@edison:~# opkg install screen
+    Installing screen (4.0.3-r4) on root.
+    ...
+    Configuring screen.
+    root@edison:~# pip install pyserial
+    Cleaning up...
+    root@edison:~# 
+```
+
+### Apt-Get
+
+```sh
+    root@edison:~# apt-get install screen minicom cu setserial stty
+    root@edison:~# pip install pyserial
 ```
 
 ## Applications
