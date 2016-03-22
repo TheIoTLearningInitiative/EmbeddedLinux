@@ -9,6 +9,6 @@
 
 ## Kernel Size
 
-> One big problem area when using Linux in an embedded project is the size of the Linux kernel.
+> One big problem area when using Linux in an embedded project is the size of the Linux kernel. 
 
 - [](http://elinux.org/Kernel_Size_Tuning_Guide)
