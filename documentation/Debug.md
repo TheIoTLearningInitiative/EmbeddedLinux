@@ -8,6 +8,7 @@ Debug
 ## Kernel Configuration
 
 ```sh
+    
     Kernel hacking
 
         -*- Kernel debugging
