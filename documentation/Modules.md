@@ -116,7 +116,7 @@ Prompt: Hello Module Driver
     user@host:~$ make image
     user@host:~$ make flash
 
-## Hello World kernel module native compilation
+## Hello World Kernel Module Native Compilation
 
 Might not be the best place to be ... please review!
 
