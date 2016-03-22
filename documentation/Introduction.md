@@ -7,3 +7,6 @@
 - [Texas Instruments Hands-On Training for TI Embedded Processors](http://processors.wiki.ti.com/index.php/Hands-On_Training_for_TI_Embedded_Processors)
 - [Linux Insides](https://www.gitbook.com/book/0xax/linux-insides/details)
 
+## Kernel Size
+
+- [](http://elinux.org/Kernel_Size_Tuning_Guide)
