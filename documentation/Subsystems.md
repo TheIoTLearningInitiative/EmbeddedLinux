@@ -3,7 +3,7 @@ Subsystems
 
 ## Procfs
 
- > Tbd
+> Tbd
 
 ## Devfs
 
