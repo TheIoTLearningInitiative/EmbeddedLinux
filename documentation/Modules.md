@@ -116,6 +116,109 @@ Prompt: Hello Module Driver
     user@host:~$ make image
     user@host:~$ make flash
 
+## Hello World kernel module native compilation
+
+Might not be the best place to be ... please review!
+
+```sh
+    user@host:~$ wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
+    user@host:~$ unzip linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
+```
+
+```sh
+    root@edison:~# scp user@host:/home/user/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb .
+    root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
+    root@edison:~# ls data.tar.gz 
+    data.tar.gz
+    root@edison:~# tar -xvf data.tar.gz
+    ...
+    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
+    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Kconfig
+    ./lib/
+    ./lib/modules/
+    ./lib/modules/3.10.17-poky-edison/
+    ./lib/modules/3.10.17-poky-edison/build
+    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/tsrelease.h
+    #define UTS_RELEASE "3.10.17-poky-edison+"
+    <Save Changes>
+    root@edison:/lib/modules/3.10.17-poky-edison+# ls
+    extra                modules.builtin.bin  modules.softdep
+    kernel               modules.dep          modules.symbols
+    modules.alias        modules.dep.bin      modules.symbols.bin
+    modules.alias.bin    modules.devname
+    modules.builtin      modules.order
+    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
+    root@edison:/lib/modules/3.10.17-poky-edison+# cd
+    root@edison:~# 
+```
+
+```sh
+    root@edison:~# mkdir kernelmodule
+    root@edison:~# cd kernelmodule/
+    root@edison:~/kernelmodule# nano helloworld.c
+```
+
+```C
+#include <linux/init.h>
+#include <linux/kernel.h>
+#include <linux/module.h>
+
+static int module_init_function(void)
+{
+    printk(KERN_INFO "Module? Hello!\n");
+    return 0;
+}
+
+static void module_exit_function(void)
+{
+    printk(KERN_INFO "Module? Bye!\n");
+}
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("xe1gyq");
+MODULE_DESCRIPTION("My First Linux Kernel Module");
+
+module_init(module_init_function);
+module_exit(module_exit_function);
+```
+
+```sh
+    root@edison:~/kernelmodule# nano Makefile
+```
+
+```Makefile
+obj-m += helloworld.o
+
+all:
+  make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+clean:
+  make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+```
+
+```sh
+    root@edison:~# make
+    root@edison:~/kernelmodule# make
+    make -C /lib/modules/3.10.17-poky-edison+/build M=/home/root/kernelmodule modules
+    make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+      CC [M]  /home/root/kernelmodule/helloworld.o
+      Building modules, stage 2.
+      MODPOST 1 modules
+      CC      /home/root/kernelmodule/helloworld.mod.o
+      LD [M]  /home/root/kernelmodule/helloworld.ko
+    make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+    root@edison:~/kernelmodule# dmesg
+    ...
+    [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
+    root@edison:~/kernelmodule# insmod helloworld.ko
+    root@edison:~/kernelmodule# dmesg
+    ...
+    [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
+    [26227.828425] Module? Hello!
+```
+
+- [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
+- [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
+
 ## Others
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
