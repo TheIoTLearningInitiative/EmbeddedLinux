@@ -13,6 +13,7 @@
            * [Headers](documentation/Headers.md)
        * [Modules](documentation/Modules.md)
        * [Filesystem](documentation/FilesystemCustomization.md)
+       * Flashing
    * [Ubilinux](documentation/Ubilinux.md)
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
