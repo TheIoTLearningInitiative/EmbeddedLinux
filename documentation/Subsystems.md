@@ -3,7 +3,7 @@ Subsystems
 
 ## Procfs
 
-> Tbd
+> The proc filesystem (procfs) is a special filesystem in Unix-like operating systems that presents information about processes and other system information in a hierarchical file-like structure, providing a more convenient and standardized method for dynamically accessing process data held in the kernel than traditional ... [Wikipedia](https://en.wikipedia.org/wiki/Procfs)
 
 ## Devfs
 
