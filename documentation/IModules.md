@@ -56,6 +56,8 @@ Output
 
 ## Hello World kernel module native compilation
 
+Might not be the best place to be ... please revisit!
+
 ```sh
     user@host:~$ wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
     user@host:~$ unzip linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
