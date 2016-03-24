@@ -1,6 +1,8 @@
 Subsystems
 ==
 
+- [Hacking platform drivers into Intel Edison](http://virtuslab.com/blog/hacking-platform-drivers-intel-edison/)
+
 ## Procfs
 
 > The proc filesystem (procfs) is a special filesystem in Unix-like operating systems that presents information about processes and other system information in a hierarchical file-like structure, providing a more convenient and standardized method for dynamically accessing process data held in the kernel than traditional tracing methods or direct access to kernel memory. Typically, it is mapped to a mount point named /proc at boot time. [Wikipedia](https://en.wikipedia.org/wiki/Procfs)
