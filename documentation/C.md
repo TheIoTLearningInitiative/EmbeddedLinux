@@ -1,6 +1,8 @@
 C Language
 ==
 
+- [Exploring Intel Edison in C](http://www.i-programmer.info/programming/hardware/8682-exploring-edison-in-c.html)
+
 ## GCC Compiler
 
 ### Upgrade
