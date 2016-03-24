@@ -4,6 +4,7 @@ BlueTooth
 > Bluetooth is a wireless technology standard for exchanging data over short distances from fixed and mobile devices, and building personal area networks ... [Wikipedia](https://en.wikipedia.org/wiki/Bluetooth)
 
 - [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
+- [Setting Up a New Intel Edison Set Up Bluetooth](http://rwx.io/blog/2015/02/18/seting-up-an-edison/)
 
 ## Kernel Integration
 
