@@ -21,7 +21,7 @@ Ubilinux™, Debian Based Distribution
 
 ## Programs
 
-- [](https://github.com/oskarpearson/mmeowlink/wiki/Prepare-the-Edison-for-OpenAPS)
+- [Prepare the Edison for OpenAPS](https://github.com/oskarpearson/mmeowlink/wiki/Prepare-the-Edison-for-OpenAPS)
 
 ```sh
     root@ubilinux:~# apt-get install systemd
