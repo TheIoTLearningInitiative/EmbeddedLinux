@@ -18,6 +18,8 @@ Yocto
 
 Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX and compare both processes
 
+- [How to run Yocto Linux OS in a Virtual Machine](https://software.intel.com/en-us/articles/how-to-run-yocto-linux-os-in-a-virtual-machine)
+
 ### Qemu Image
 
 ```sh
