@@ -5,16 +5,6 @@ Installation
 - [A set of node-red nodes for connecting to johnny-five IO Plugins](https://github.com/monteslu/node-red-contrib-gpio)
 - [Intel Galileo & Intel Edison IO Plugin for Johnny-Five](https://github.com/rwaldron/galileo-io/)
 
-## Nodes
-
-- Input
-- Output
-- Function
-- social
-- Storage
-- Analysis
-- Advanced
-
 ## i386
 
 ```sh
