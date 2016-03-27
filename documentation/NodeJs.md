@@ -55,7 +55,12 @@ In a web browser go to http://192.168.1.65:8085/
 
 ## Using a Rotary Encoder on Intel Edison, XDK
 
-- [Rorary Encoder Demo](https://github.com/m2aglabs/rotary_encoder_demo)
+- [Rotary Encoder Demo](https://github.com/m2aglabs/rotary_encoder_demo)
+
+Requirements
+
+- Grove Rotary Encoders on D2 and D3
+- Grove Button on D4
 
 ```sh
 itot@edison:~/trash# git clone https://github.com/m2aglabs/rotary_encoder_demo.g 
