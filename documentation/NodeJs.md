@@ -26,7 +26,13 @@ pinDigital.write(1);
 ## Nodejs, Socket.io and Intel Edison
 
 ```sh
-
+root@edison:~/socket.io-demo# npm install -g express socket.io
+-\|/-\|/-\|/-\-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/--\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\s
+��├��─��─ escape-html@1.0.3
+��├��─��─ range-parser@1.0.3
+...
+��├��─��─ socket.io-adapter@0.4.0 (socket.io-parser@2.2.2)
+��└��─��─ socket.io-client@1.4.5 (to-array@0.1.4, indexof@0.0.1, component-
 ```
 
 ```sh
