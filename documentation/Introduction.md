@@ -6,7 +6,7 @@
 
 - [Texas Instruments Hands-On Training for TI Embedded Processors](http://processors.wiki.ti.com/index.php/Hands-On_Training_for_TI_Embedded_Processors)
 - [Linux Insides](https://www.gitbook.com/book/0xax/linux-insides/details)
-- [](http://www.linuxjournal.com/magazine/introduction-typical-embedded-system)
+- [Introduction: a Typical Embedded System](http://www.linuxjournal.com/magazine/introduction-typical-embedded-system)
 
 ## Linux Kernel Size
 
