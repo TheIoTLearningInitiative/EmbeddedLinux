@@ -35,4 +35,8 @@ board.on("ready", function() {
 
 ```sh
     root@edison:~# node jf.js
+    1459102398059 Device(s) Intel Edison  
+    1459102398074 Connected Intel Edison  
+    1459102398097 Repl Initialized  
+    >> 
 ```
