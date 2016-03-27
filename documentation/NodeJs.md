@@ -8,11 +8,10 @@ NodeJS
 
 ## Mraa
 
+```sh
+    root@edison:~# nano mr.js
 ```
-    root@edison:~# pip install Flask
-    root@edison:~# apt-get install python-flask
-    root@edison:~# nano myflask.py
-```
+
 ```js
 var mraa = require('mraa');
 var pinDigital = new mraa.Gpio(13);
@@ -21,6 +20,10 @@ console.log('MRAA Version: ' + m.getVersion());
 
 pinDigital.dir(mraa.DIR_OUT);
 pinDigital.write(1);
+```
+
+```sh
+    root@edison:~# node mr.js
 ```
 
 ## Nodejs, Socket.io and Intel Edison
