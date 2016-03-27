@@ -8,6 +8,11 @@ Johnny Five
 - [Johnny Five Homepage](http://johnny-five.io/)
 - [Johnny Five Github](https://github.com/rwaldron/johnny-five)
 
+## galileo-io
+
+> Intel Galileo &amp; Intel Edison IO Plugin for Johnny-Five JavaScript Robotics
+
+- [NPM JS Galileo-Io](https://www.npmjs.com/package/galileo-io)
 
 ```sh
     root@edison:~# npm install galileo-io johnny-five
