@@ -7,6 +7,7 @@ Johnny Five
 
 - [Johnny Five Homepage](http://johnny-five.io/)
 - [Johnny Five Github](https://github.com/rwaldron/johnny-five)
+- [Johnny Five IO Plugins](https://github.com/rwaldron/johnny-five#io-plugins)
 
 ## galileo-io
 
