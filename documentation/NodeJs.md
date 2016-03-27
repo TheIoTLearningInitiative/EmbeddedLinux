@@ -26,7 +26,7 @@ pinDigital.write(1);
 ## Nodejs, Socket.io and Intel Edison
 
 ```sh
-    root@edison:~/socket.io-demo# npm install -g express socket.io
+    root@edison:~# npm install -g express socket.io
     -\|/-\|/-\|/-\-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/--\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\s
     ��├��─��─ escape-html@1.0.3
     ��├��─��─ range-parser@1.0.3
