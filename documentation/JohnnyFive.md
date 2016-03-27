@@ -26,3 +26,7 @@ board.on("ready", function() {
   led.blink(500);
 });
 ```
+
+```sh
+    root@edison:~# node jf.js
+```
