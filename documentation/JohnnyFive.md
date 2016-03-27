@@ -39,4 +39,6 @@ board.on("ready", function() {
     1459102398074 Connected Intel Edison  
     1459102398097 Repl Initialized  
     >> 
+    ^C
+    >> 1459102426530 Board Closing. 
 ```
