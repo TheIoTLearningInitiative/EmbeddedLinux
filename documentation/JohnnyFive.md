@@ -55,7 +55,7 @@ board.on("ready", function() {
 
 Requirements:
 
-- Grove Button to D4
+- Grove Button D4
 
 ```sh
     root@edison:~/trash# npm install edison-io
