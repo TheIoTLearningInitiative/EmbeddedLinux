@@ -11,6 +11,12 @@ Johnny Five
 
 ```sh
     root@edison:~# npm install galileo-io johnny-five
+    -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\-\|/-\|/--\|/-\|
+    > galileo-io@0.9.4 postinstall /home/root/node_modules/galileo-io
+    > node scripts/postinstall
+    ...
+    ��├��─��─ es6-shim@0.35.0
+    ��└��─��─ serialport@2.0.6 (bindings@1.2.1, sf@0.1.7, async@0.9.0, debug@2.2.0, optimist@0.6.1, nan@2.0.9)
     root@edison:~# vi jf.js
 ```
 
