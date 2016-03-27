@@ -90,7 +90,7 @@ board.on("ready", function() {
     >> 
 ```
 
-Push button and see Led
+Push Grove Button and see Board Led
 
 ```sh
     ^C
