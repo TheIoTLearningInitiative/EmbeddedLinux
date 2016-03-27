@@ -45,6 +45,7 @@
        * [Gobot](documentation/GoBot.md)
        * [Pixhawk](documentation/Pixhawk.md)
        * [Misc](documentation/Misc.md)
+       * Artoo
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
