@@ -33,6 +33,13 @@ pinDigital.write(1);
     ...
     ��├��─��─ socket.io-adapter@0.4.0 (socket.io-parser@2.2.2)
     ��└��─��─ socket.io-client@1.4.5 (to-array@0.1.4, indexof@0.0.1, component-
+    root@edison:~# git clone https://github.com/m2aglabs/socket.io-demo.git
+    Cloning into 'socket.io-demo'...
+    remote: Counting objects: 22, done.
+    remote: Total 22 (delta 0), reused 0 (delta 0), pack-reused 22
+    Unpacking objects: 100% (22/22), done.
+    Checking connectivity... done.
+    
 ```
 
 ```sh
