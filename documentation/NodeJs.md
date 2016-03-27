@@ -7,7 +7,8 @@ NodeJS
 - [Debug Node js remotely on Intel Edison with Jetbrains Idea](https://m2aglabs.com/2015/11/04/debug-node-js-remotely-on-intel-edison-with-jetbrains-idea/)
 - [Arduino Experimenter's Guide for NodeJS](http://node-ardx.org/)
 - [JavaScript: The Perfect Language for the Internet of Things (IoT)](https://blog.jscrambler.com/javascript-the-perfect-language-for-the-internet-of-things-iot/)
-- [NodeJs for Embedded Systems](http://embeddednodejs.com/chapters.html)
+- [Node.Js for Embedded Systems](http://embeddednodejs.com/chapters.html)
+- [Programming the Internet of Things with Node.Js](http://cdn.oreillystatic.com/en/assets/1/event/127/Programming%20the%20Internet%20of%20Things%20with%20Node_js%20and%20HTML5%20Presentation.pdf)
 
 ## Mraa
 
