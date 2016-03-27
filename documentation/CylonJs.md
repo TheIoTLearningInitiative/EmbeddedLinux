@@ -26,7 +26,8 @@ Cylon JS
     ��└��─��─ cylon-i2c@0.23.0
     root@edison:~# npm install cylon-gpio
     -\|/-\|/-\|/-\|/cylon-gpio@0.27.0 node_modules/cylon-gpio
-    
+    root@edison:~# npm install cylon-i2c
+    -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-cylon-i2c@0.24.0 node_modules/cylon-i2c
     root@edison:~# vi c.js
 ```
 
