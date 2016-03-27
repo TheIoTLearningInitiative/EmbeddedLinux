@@ -108,7 +108,6 @@ Push Grove Button and see Board Led
 ## LCD I2C
 
 ```js
-root@edison:~/trash# cat lcd.js 
 var five = require("johnny-five");
 var Edison = require("edison-io");
 var board = new five.Board({
@@ -122,11 +121,8 @@ board.on("ready", function() {
   });
 
   lcd.useChar("heart");
-
   lcd.cursor(0, 0).print("hello :heart:");
-
   lcd.blink();
-
   lcd.cursor(1, 0).print("Blinking? ");
 });
 ```
