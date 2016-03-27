@@ -53,6 +53,10 @@ board.on("ready", function() {
 
 ## edison-io
 
+Requirements:
+
+- Grove Button to D4
+
 ```sh
     root@edison:~/trash# npm install edison-io
     -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-npm WARN engine edison-io@0.9.4: wanted: {"node":"latest"} (current: {"node":"0.10.38",")
