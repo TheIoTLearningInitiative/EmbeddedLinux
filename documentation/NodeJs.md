@@ -57,6 +57,24 @@ In a web browser go to http://192.168.1.65:8085/
 
 - [Rorary Encoder Demo](https://github.com/m2aglabs/rotary_encoder_demo)
 
+```sh
+itot@edison:~/trash# git clone https://github.com/m2aglabs/rotary_encoder_demo.g 
+Cloning into 'rotary_encoder_demo'...
+remote: Counting objects: 25, done.
+remote: Total 25 (delta 0), reused 0 (delta 0), pack-reused 25
+Unpacking objects: 100% (25/25), done.
+Checking connectivity... done.
+root@edison:~/trash# cd rotary_encoder_demo/
+root@edison:~/trash/rotary_encoder_demo# ls
+LICENSE.md        index.html        rotary_demo.xdk
+README.md         js                rotary_demo.xdke
+icon.png          package.json      server.js
+root@edison:~/trash/rotary_encoder_demo# node server.js 
+MRAA Version: v0.8.0
+```
+
+In a web browser go to http://192.168.1.65:8085/
+
 ## NodeJS Modules
 
 ```sh
