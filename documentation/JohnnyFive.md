@@ -11,4 +11,18 @@ Johnny Five
 
 ```sh
     root@edison:~# npm install galileo-io johnny-five
+    root@edison:~# 
+```
+
+```js
+var five = require("johnny-five");
+var Edison = require("galileo-io");
+var board = new five.Board({
+  io: new Edison()
+});
+ 
+board.on("ready", function() {
+  var led = new five.Led(13);
+  led.blink(500);
+});
 ```
