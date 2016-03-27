@@ -1,6 +1,8 @@
 Bower
 ==
 
+> Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you.
+
 ```sh
     root@edison:~# npm install -g bower
     -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/usr/bin/bower -> /usr/lib/node_mor
