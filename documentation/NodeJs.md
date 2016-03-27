@@ -5,6 +5,21 @@ NodeJS
 - [A set of node-red nodes for connecting to johnny-five IO Plugins](https://github.com/monteslu/node-red-contrib-gpio)
 - [Intel Galileo & Intel Edison IO Plugin for Johnny-Five](https://github.com/rwaldron/galileo-io/)
 
+var m = require('mraa'); //require mraa
+console.log('MRAA Version: ' + m.getVersion()); //write the mraa version to the console
+
+var myDigitalPin = new m.Gpio(5); //setup digital read on pin 5
+myDigitalPin.dir(m.DIR_OUT); //set the gpio direction to output
+myDigitalPin.write(1); //set the digital pin to high (1)
+
+var mraa = require('mraa');
+var pinDigital = new mraa.Gpio(13);
+
+console.log('MRAA Version: ' + m.getVersion());
+
+pinDigital.dir(mraa.DIR_OUT);
+pinDigital.write(1);
+
 
 ```sh
 root@edison:~# ls /usr/lib/node_modules/
