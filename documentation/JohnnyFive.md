@@ -11,7 +11,7 @@ Johnny Five
 
 ```sh
     root@edison:~# npm install galileo-io johnny-five
-    root@edison:~# 
+    root@edison:~# vi jf.js
 ```
 
 ```js
