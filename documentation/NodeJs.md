@@ -48,7 +48,7 @@ pinDigital.write(1);
     MRAA Version: v0.8.0
 ```
 
-Go to http://192.168.1.65:8085/
+In a web browser go to http://192.168.1.65:8085/
 
 ## NodeJS Modules
 
