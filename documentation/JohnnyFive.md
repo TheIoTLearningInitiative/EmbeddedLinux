@@ -83,12 +83,14 @@ board.on("ready", function() {
 ```
 
 ```sh
-    root@edison:~/trash# node t.js
+    root@edison:~/trash# node edi.js
     1459107445851 Device(s) Intel Edison  
     1459107445867 Connected Intel Edison  
     1459107445892 Repl Initialized  
     >> 
 ```
+
+Push button and see Led
 
 ```sh
     ^C
