@@ -7,3 +7,8 @@ Johnny Five
 
 - [Johnny Five Homepage](http://johnny-five.io/)
 - [Johnny Five Github](https://github.com/rwaldron/johnny-five)
+
+
+```sh
+    root@edison:~# npm install galileo-io johnny-five
+```
