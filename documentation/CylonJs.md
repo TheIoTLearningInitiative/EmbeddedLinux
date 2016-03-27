@@ -49,6 +49,15 @@ Cylon.robot({
 }).start();
 ```    
 
+```sh
+    root@edison:~# node c.js 
+    2016-03-27T18:24:03.339Z : [Robot 1] - Starting connections.
+    2016-03-27T18:24:03.412Z : [Robot 1] - Starting connection 'edison'.
+    2016-03-27T18:24:03.415Z : [Robot 1] - Starting devices.
+    2016-03-27T18:24:03.416Z : [Robot 1] - Starting device 'led' on pin 13.
+    2016-03-27T18:24:03.416Z : [Robot 1] - Working.
+    ^Croot@edison:~# 
+```
 ## Cylon OpenCV
 
 ```sh
