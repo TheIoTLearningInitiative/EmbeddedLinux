@@ -148,6 +148,8 @@ Bluez Tools
 Install "Locate Beacon" Android App
 
 ```sh
+    root@edison:~# opkg update
+    root@edison:~# opkg install bluez5-dev
     root@edison:~# npm install -g async
     root@edison:~# npm install noble
     root@edison:~# npm install bleno
