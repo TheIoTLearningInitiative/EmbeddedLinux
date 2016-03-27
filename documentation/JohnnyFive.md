@@ -68,18 +68,9 @@ var board = new five.Board({
 
 board.on("ready", function() {
 
-  // Plug the Button module into the
-  // Grove Shield's D4 jack
   var button = new five.Button(4);
-
-  // Plug the LED module into the
-  // Grove Shield's D6 jack. See
-  // grove-led for more information.
   var led = new five.Led(13);
 
-  // The following will turn the Led
-  // on and off as the button is
-  // pressed and released.
   button.on("press", function() {
     led.on();
   });
