@@ -44,7 +44,7 @@
        * [ROS](documentation/Ros.md)
        * [Gobot](documentation/GoBot.md)
        * [Pixhawk](documentation/Pixhawk.md)
-       * Artoo
+       * [Artoo](documentation/Artoo.md)
        * [Misc](documentation/Misc.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
