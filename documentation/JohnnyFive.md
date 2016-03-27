@@ -8,6 +8,7 @@ Johnny Five
 - [Johnny Five Homepage](http://johnny-five.io/)
 - [Johnny Five Github](https://github.com/rwaldron/johnny-five)
 - [Johnny Five IO Plugins](https://github.com/rwaldron/johnny-five#io-plugins)
+- - [Intel Galileo & Intel Edison IO Plugin for Johnny-Five](https://github.com/rwaldron/galileo-io/)
 
 ## galileo-io
 
