@@ -57,11 +57,49 @@ board.on("ready", function() {
     root@edison:~/trash# npm install edison-io
     -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-npm WARN engine edison-io@0.9.4: wanted: {"node":"latest"} (current: {"node":"0.10.38",")
     edison-io@0.9.4 ../node_modules/edison-io
+```
+
+```js
+var five = require("johnny-five");
+var Edison = require("edison-io");
+var board = new five.Board({
+  io: new Edison()
+});
+
+board.on("ready", function() {
+
+  // Plug the Button module into the
+  // Grove Shield's D4 jack
+  var button = new five.Button(4);
+
+  // Plug the LED module into the
+  // Grove Shield's D6 jack. See
+  // grove-led for more information.
+  var led = new five.Led(13);
+
+  // The following will turn the Led
+  // on and off as the button is
+  // pressed and released.
+  button.on("press", function() {
+    led.on();
+  });
+
+  button.on("release", function() {
+    led.off();
+  });
+});
+```
+
+```sh
     root@edison:~/trash# node t.js
     1459107445851 Device(s) Intel Edison  
     1459107445867 Connected Intel Edison  
     1459107445892 Repl Initialized  
     >> 
+```
+
+```sh
+    ^C
     (^C again to quit)
     >> 
     1459107452651 Board Closing.  
