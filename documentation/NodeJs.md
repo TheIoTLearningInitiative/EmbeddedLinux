@@ -6,6 +6,8 @@ NodeJS
 - [Intel Galileo & Intel Edison IO Plugin for Johnny-Five](https://github.com/rwaldron/galileo-io/)
 - [Debug Node js remotely on Intel Edison with Jetbrains Idea](https://m2aglabs.com/2015/11/04/debug-node-js-remotely-on-intel-edison-with-jetbrains-idea/)
 
+## Mraa
+
 ```
     root@edison:~# pip install Flask
     root@edison:~# apt-get install python-flask
@@ -19,6 +21,12 @@ console.log('MRAA Version: ' + m.getVersion());
 
 pinDigital.dir(mraa.DIR_OUT);
 pinDigital.write(1);
+```
+
+## Nodejs, Socket.io and Intel Edison
+
+```sh
+
 ```
 
 ```sh
