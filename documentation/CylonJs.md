@@ -19,13 +19,6 @@ Cylon JS
 
 ```sh
     root@edison:~# npm install cylon cylon-intel-iot
-    
-```
-
-## Cylon OpenCV
-
-```sh
-    root@edison:~# npm install cylon cylon-opencv
     -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/cylon@1.2.0 node_modules/cylon
     
     cylon-intel-iot@0.8.1 node_modules/cylon-intel-iot
@@ -50,4 +43,10 @@ Cylon.robot({
     every((1).second(), my.led.toggle);
   }
 }).start();
+```    
+
+## Cylon OpenCV
+
+```sh
+    root@edison:~# npm install cylon cylon-opencv
 ```
