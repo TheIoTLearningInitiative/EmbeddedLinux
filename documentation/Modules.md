@@ -196,7 +196,6 @@ clean:
 ```
 
 ```sh
-    root@edison:~# make
     root@edison:~/kernelmodule# make
     make -C /lib/modules/3.10.17-poky-edison+/build M=/home/root/kernelmodule modules
     make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
