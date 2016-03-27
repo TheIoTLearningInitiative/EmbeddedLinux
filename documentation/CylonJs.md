@@ -31,5 +31,23 @@ Cylon JS
     cylon-intel-iot@0.8.1 node_modules/cylon-intel-iot
     ��├��─��─ cylon-gpio@0.27.0
     ��└��─��─ cylon-i2c@0.23.0
-    root@edison:~# 
+    root@edison:~# vi c.js
+```
+
+```js
+var Cylon = require('cylon');
+ 
+Cylon.robot({
+  connections: {
+    edison: { adaptor: 'intel-iot' }
+  },
+ 
+  devices: {
+    led: { driver: 'led', pin: 13 }
+  },
+ 
+  work: function(my) {
+    every((1).second(), my.led.toggle);
+  }
+}).start();
 ```
