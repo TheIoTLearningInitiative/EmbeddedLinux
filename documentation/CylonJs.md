@@ -15,7 +15,7 @@ Cylon JS
 > Cylon module for Intel-IoT platforms
 > > This repository contains the Cylon adaptor for the Intel Edison and Intel Galileo IoT platforms. It uses the MRAA node module (https://github.com/intel-iot-devkit/mraa)
 
-- [](https://www.npmjs.com/package/cylon-intel-iot)
+- [NPM JS Intel IoT](https://www.npmjs.com/package/cylon-intel-iot)
 
 ```sh
     root@edison:~# npm install cylon cylon-opencv
