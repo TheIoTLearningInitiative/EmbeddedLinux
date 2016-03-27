@@ -41,4 +41,5 @@ board.on("ready", function() {
     >> 
     ^C
     >> 1459102426530 Board Closing. 
+    root@edison:~# 
 ```
