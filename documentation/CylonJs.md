@@ -19,6 +19,7 @@ Cylon JS
 
 ```sh
     root@edison:~# npm install cylon cylon-intel-iot
+    
 ```
 
 ## Cylon OpenCV
