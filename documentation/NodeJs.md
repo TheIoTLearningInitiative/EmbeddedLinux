@@ -53,7 +53,7 @@ pinDigital.write(1);
 
 In a web browser go to http://192.168.1.65:8085/
 
-## 
+## Using a Rotary Encoder on Intel Edison, XDK
 
 - [Rorary Encoder Demo](https://github.com/m2aglabs/rotary_encoder_demo)
 
