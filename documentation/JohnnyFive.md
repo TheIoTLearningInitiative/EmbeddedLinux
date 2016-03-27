@@ -57,4 +57,12 @@ board.on("ready", function() {
     root@edison:~/trash# npm install edison-io
     -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-npm WARN engine edison-io@0.9.4: wanted: {"node":"latest"} (current: {"node":"0.10.38",")
     edison-io@0.9.4 ../node_modules/edison-io
+    root@edison:~/trash# node t.js
+    1459107445851 Device(s) Intel Edison  
+    1459107445867 Connected Intel Edison  
+    1459107445892 Repl Initialized  
+    >> 
+    (^C again to quit)
+    >> 
+    1459107452651 Board Closing.  
 ```
