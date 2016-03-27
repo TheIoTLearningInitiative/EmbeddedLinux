@@ -18,6 +18,11 @@ Cylon JS
 - [NPM JS Intel IoT](https://www.npmjs.com/package/cylon-intel-iot)
 
 ```sh
-    root@edison:~# npm install cylon cylon-opencv
     root@edison:~# npm install cylon cylon-intel-iot
+```
+
+## Cylon OpenCV
+
+```sh
+    root@edison:~# npm install cylon cylon-opencv
 ```
