@@ -59,7 +59,7 @@ In a web browser go to http://192.168.1.65:8085/
 
 Requirements
 
-- Grove Rotary Encoders on D2 and D3
+- Grove Rotary Encoders on D2
 - Grove Button on D4
 
 ```sh
