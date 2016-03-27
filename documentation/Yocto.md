@@ -30,9 +30,10 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ git clone git://git.yoctoproject.org/poky --branch fido
     user@host:~$ source poky/oe-init-build-env yocto-x86-minimal
     user@host:~$ bitbake core-image-minimal
+    user@host:~$ runqemu qemux86
+    ...
     user@host:~$ bitbake core-image-full-cmdline-x86
     user@host:~$ bitbake core-image-sato-sdk
-    user@host:~$ runqemu qemux86
 ```
 ### Minnowboard MAX Image
 
