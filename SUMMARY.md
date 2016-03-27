@@ -45,7 +45,7 @@
        * [Gobot](documentation/GoBot.md)
        * [Pixhawk](documentation/Pixhawk.md)
        * [Artoo](documentation/Artoo.md)
-       * Bower
+       * [Bower](documentation/Bower.md)
        * [Misc](documentation/Misc.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
