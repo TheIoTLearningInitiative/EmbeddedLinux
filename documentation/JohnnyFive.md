@@ -59,7 +59,9 @@ Requirements:
 
 ```sh
     root@edison:~/trash# npm install johnny-five edison-io
-    -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-npm WARN engine edison-io@0.9.4: wanted: {"node":"latest"} (current: {"node":"0.10.38",")
+    -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-
+    ...
+    npm WARN engine edison-io@0.9.4: wanted: {"node":"latest"} (current: {"node":"0.10.38",")
     edison-io@0.9.4 ../node_modules/edison-io
     root@edison:~/trash# vi edi.js
 ```
