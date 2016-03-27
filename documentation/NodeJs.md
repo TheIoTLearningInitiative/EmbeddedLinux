@@ -39,7 +39,13 @@ pinDigital.write(1);
     remote: Total 22 (delta 0), reused 0 (delta 0), pack-reused 22
     Unpacking objects: 100% (22/22), done.
     Checking connectivity... done.
-    
+    root@edison:~# cd socket.io-demo/
+    root@edison:~/socket.io-demo# ls
+    LICENSE.md        icon.png          package.json
+    README.md         index.html        thermo_demo.xdk
+    app.js            js                thermo_demo.xdke
+    root@edison:~/socket.io-demo# node app.js 
+    MRAA Version: v0.8.0
 ```
 
 ```sh
