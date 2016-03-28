@@ -5,11 +5,15 @@ Nicely Package Make
 
 - [NPM JS Homepage](https://www.npmjs.com/)
 
+## Update Npm
+
 ```sh
 root@edison:~# npm install npm -g
 -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-s
 npm@3.8.3 /usr/lib/node_modules/npm
 ```
+
+## Install Npm Package
 
 ```sh
 root@edison:~# npm install mqtt -g
