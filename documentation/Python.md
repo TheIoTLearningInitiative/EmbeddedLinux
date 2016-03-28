@@ -9,8 +9,8 @@ Python
 - [Flask Homepage](http://flask.pocoo.org/)
 
 ```sh
-    root@edison:~# pip install Flask
     root@edison:~# apt-get install python-flask
+    root@edison:~# pip install Flask
     root@edison:~# nano myflask.py 
 ```
 
