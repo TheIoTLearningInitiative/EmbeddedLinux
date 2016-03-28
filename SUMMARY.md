@@ -23,7 +23,6 @@
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
 * [User Space](documentation/UserSpace.md)
-   * [Kernel Interfaces](documentation/KernelInterfaces.md)
    * [Services](documentation/Services.md)
    * [Recovery](documentation/Recovery.md)
    * [Package Management Systems](documentation/PackageManagementSystems.md)
