@@ -8,31 +8,6 @@ Networking
 
 ### Programs
 
-#### Butterfly
-
-> A sleek web based terminal emulator
-
-> Butterfly is a xterm compatible terminal that runs in your browser
-
-[Butterfly Github](https://github.com/paradoxxxzero/butterfly)
-
-```sh
-    root@edison:~# pip install butterfly pyserial npyscreen
-    root@edison:~# butterfly.server.py --unsecure --host=192.168.1.65 --port=8885
-    butterfly.conf installed in /etc/butterfly/butterfly.conf
-    [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.65:8885/
-```
-
-##### Systemd Automatic Run
-
-```sh
-    root@edison:~#  cd /etc/systemd/system
-    root@edison:~#  curl -O https://raw.githubusercontent.com/paradoxxxzero/butterfly/master/butterfly.service
-    root@edison:~#  curl -O https://raw.githubusercontent.com/paradoxxxzero/butterfly/master/butterfly.socket
-    root@edison:~#  systemctl enable butterfly.socket
-    root@edison:~#  systemctl start butterfly.socket
-```
-
 #### Others
 
 ```sh
