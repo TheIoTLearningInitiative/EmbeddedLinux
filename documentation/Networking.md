@@ -8,7 +8,7 @@ Networking
 
 ### Programs
 
-#### Others
+#### Misc
 
 ```sh
     root@edison:~# systemctl start connman
