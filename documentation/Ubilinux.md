@@ -7,7 +7,7 @@ Ubilinux™, Debian Based Distribution
 - [New ubilinux for Intel® Edison released](http://www.emutexlabs.com/blog/225-new-ubilinux-for-intel-edison-released)
 - [ubilinux (Debian) Kernel Update R2 BETA](https://communities.intel.com/thread/60224?start=0&tstart=0)
 - [Installing ROS on Galileo: The Debian way](http://wiki.ros.org/IntelGalileo/Debian)
-- [](http://www.ubiworx.com/ubiworx/help/documentation/gateway-install-guide/03-Edison.html)
+- [Setup new Intel Edison gateway](http://www.ubiworx.com/ubiworx/help/documentation/gateway-install-guide/03-Edison.html)
 
 ## Installation
 
