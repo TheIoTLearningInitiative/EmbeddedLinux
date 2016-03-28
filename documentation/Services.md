@@ -5,7 +5,7 @@ Services
 
 > systemctl command, the central management tool for controlling the init system
 
-#### Butterfly
+## Butterfly
 
 > A sleek web based terminal emulator
 
