@@ -20,7 +20,7 @@ Networking
     root@edison:~# pip install butterfly pyserial npyscreen
     root@edison:~# butterfly.server.py --unsecure --host=127.0.0.1 --port=8885
     butterfly.conf installed in /etc/butterfly/butterfly.conf
-    [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.71:8885/
+    [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://127.0.0.1:8885/
 ```
 
 ##### Systemd Automatic Run
