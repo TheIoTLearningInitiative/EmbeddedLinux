@@ -7,5 +7,10 @@ Drone Code
 - [Intel® Edison Takes Flight](https://github.com/jbrosenz/Edison-Takes-Flight)
 - [Intel® Edison as a Companion Computer](http://dev.ardupilot.com/wiki/edison-for-drones/)
 - [ELC 2015 - Intel Edison to Fuse Embedded Linux & Drone Flight Controllers - Mark Brown](https://www.youtube.com/watch?v=_6xZRikGiQQ)
-- [](http://python.dronekit.io/develop/installation.html)
+
+## DroneKit-Python
+
+> DroneKit-Python allows developers to create apps that run on an onboard companion computer and communicate with the ArduPilot flight controller using a low-latency link. 
+
+- [Python Drone Kit](http://python.dronekit.io/about/overview.html)
 
