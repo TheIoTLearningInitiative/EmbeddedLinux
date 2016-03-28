@@ -14,3 +14,8 @@ Drone Code
 
 - [Python Drone Kit](http://python.dronekit.io/about/overview.html)
 
+```sh
+root@edison:~# opkg install python-pip python-dev
+root@edison:~# pip install dronekit dronekit-sitl
+```
+
