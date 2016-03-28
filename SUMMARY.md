@@ -22,6 +22,7 @@
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
+* [Recovery](documentation/Recovery.md)
 * [User Space](documentation/UserSpace.md)
    * [Recovery](documentation/Recovery.md)
    * [Services](documentation/Services.md)
