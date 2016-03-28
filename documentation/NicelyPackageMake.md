@@ -23,4 +23,9 @@ mqtt@1.7.4 /usr/lib/node_modules/mqtt
 ��├��─��─ help-me@0.1.0 (pump@1.0.1)
 ��├��─��─ concat-stream@1.5.1 (typedarray@0.0.6, readable-stream@2.0.6)
 ��└��─��─ websocket-stream@3.1.0 (ws@1.0.1, through2@2.0.1, duplexify@3.4.3)
+root@edison:~# mqtt sub -t 'hello' -h 'test.mosquitto.org' -v &
+[2] 653
+root@edison:~# mqtt pub -t 'hello' -h 'test.mosquitto.org' -m 'from MQTT.js'
+hello coolbjhbjbjkbm m m 
+hello from MQTT.js
 ```
