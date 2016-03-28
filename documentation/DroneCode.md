@@ -17,5 +17,6 @@ Drone Code
 ```sh
 root@edison:~# opkg install python-pip python-dev
 root@edison:~# pip install dronekit dronekit-sitl
+root@edison:~# vi 
 ```
 
