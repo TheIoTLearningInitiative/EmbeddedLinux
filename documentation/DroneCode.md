@@ -7,4 +7,5 @@ Drone Code
 - [Intel® Edison Takes Flight](https://github.com/jbrosenz/Edison-Takes-Flight)
 - [Intel® Edison as a Companion Computer](http://dev.ardupilot.com/wiki/edison-for-drones/)
 - [ELC 2015 - Intel Edison to Fuse Embedded Linux & Drone Flight Controllers - Mark Brown](https://www.youtube.com/watch?v=_6xZRikGiQQ)
+- [](http://python.dronekit.io/develop/installation.html)
 
