@@ -17,6 +17,14 @@ Drone Code
 ```sh
 root@edison:~# opkg install python-pip python-dev
 root@edison:~# pip install dronekit dronekit-sitl
-root@edison:~# vi 
+root@edison:~# git clone http://github.com/dronekit/dronekit-python.git
+Cloning into 'dronekit-python'...
+remote: Counting objects: 5226, done.
+remote: Total 5226 (delta 0), reused 0 (delta 0), pack-reused 5226
+Receiving objects: 100% (5226/5226), 5.20 MiB | 1.07 MiB/s, done.
+Resolving deltas: 100% (3143/3143), done.
+Checking connectivity... done.
+root@edison:~# 
+
 ```
 
