@@ -6,6 +6,8 @@ Universal Serial Bus
 - [Intel Edison USB Host](http://pagealh.com/2015/08/09/getting-started-intel-edison-usb-host/)
 - [Linux Journal Greg Kroah-Hartman Writing a Simple USB Driver](http://www.linuxjournal.com/article/7353?page=0,0)
 - [Linux Journal Greg Kroah-Hartman How to Write a Linux USB Device Driver](http://www.linuxjournal.com/article/4786)
+- [Persistent Names](https://github.com/KurtE/Intel-Edison-and-Galileo)
+- [Persistent Names](http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/)
 
 > Yoctopuce
 > > Yoctopuce designs, manufactures and sells USB devices to let your computer sit in the real world, not in the cloud. Our USB modules are tiny, easy to install and easy to drive programmatically. [Homepage](http://www.yoctopuce.com/)
