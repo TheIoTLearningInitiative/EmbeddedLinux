@@ -6,6 +6,10 @@ Nicely Package Make
 - [NPM JS Homepage](https://www.npmjs.com/)
 
 ```sh
+
+```
+
+```sh
 root@edison:~# npm install mqtt -g
 -\|/-\|/-\|/-\|/-\|/-\|/-\|/-\-\|/-\|/-\|/-\|/-\|/-\|-\|/-\|/-\|/-\|/-\|/--\|/-\|/-\|/-\|/usr/bin/mqtt_pub -> /usr/lib/nos
 /usr/bin/mqtt_sub -> /usr/lib/node_modules/mqtt/bin/sub.js
