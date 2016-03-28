@@ -6,7 +6,9 @@ Nicely Package Make
 - [NPM JS Homepage](https://www.npmjs.com/)
 
 ```sh
-
+root@edison:~# npm install npm -g
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-s
+npm@3.8.3 /usr/lib/node_modules/npm
 ```
 
 ```sh
