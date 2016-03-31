@@ -9,7 +9,7 @@ Python Package Index
 - [Python Package Index Wikipedia](https://en.wikipedia.org/wiki/Python_Package_Index)
 
 ```sh
-    root@edison:~# opkg install python-pip
+    root@edison:~# opkg install python-pip python-dev
     root@edison:~# pip install setuptools
 ```
 
