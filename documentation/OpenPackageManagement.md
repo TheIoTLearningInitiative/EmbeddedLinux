@@ -7,7 +7,6 @@ Open Package Management
 - [AlexT's Galileo & Edison pages](http://alextgalileo.altervista.org/package-repo-configuration-instructions.html)
 - [How to enable the Yocto-provided package management capability](https://communities.intel.com/thread/48408)
 
-
 ## Package Installation via Remote Repositories
 
 Update Opkg Repositories
