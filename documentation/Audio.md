@@ -191,6 +191,20 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 #### Device Configuration
 
 ```sh
+ pcm.!default {
+         type asym
+         playback.pcm {
+                 type plug
+                 slave.pcm "hw:0,0"
+         }
+         capture.pcm {
+                 type plug
+                 slave.pcm "hw:1,0"
+         } 
+ }
+```
+
+```sh
     root@edison:~# vi ~/.asoundrc
     pcm.!default {
         type plug
