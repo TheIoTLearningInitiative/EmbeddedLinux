@@ -5,6 +5,7 @@ BlueTooth
 
 - [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
 - [Setting Up a New Intel Edison Set Up Bluetooth](http://rwx.io/blog/2015/02/18/seting-up-an-edison/)
+- [Turn your Intel Edison into an iBeacon](https://github.com/smoyerman/edison-ibeacon)
 
 ## Kernel Integration
 
