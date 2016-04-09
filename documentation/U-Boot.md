@@ -69,7 +69,7 @@ In Linux
     Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,k"
 ```
 
-## Bootup U-Boot Cancel
+## Bootup Cancel
 
 ```sh
     ******************************
