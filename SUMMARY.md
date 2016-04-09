@@ -23,7 +23,7 @@
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
    * [Recovery](documentation/Recovery.md)
-* [User Space](documentation/UserSpace.md)
+* User Space
    * [Package Management Systems](documentation/PackageManagementSystems.md)
        * [Open Package Management](documentation/OpenPackageManagement.md)
        * [Python Package Index](documentation/PythonPackageIndex.md)
