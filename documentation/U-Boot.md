@@ -21,7 +21,7 @@ In Linux
    $ sudo minicom -D /dev/ttyUSB0 115200
 ```
 
-## Bootup U-Boot
+## Bootup Kernel
 
 ```sh
     ******************************
