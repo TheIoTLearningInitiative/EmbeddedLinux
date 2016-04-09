@@ -49,5 +49,3 @@ It the Edison, connect both USB cables and wait for flashall.[sh/bat] script to 
 ```
 
 Finally, connect Intel® Edison to your Development Workstation using the registered COM / TTY device
-
-
