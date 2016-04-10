@@ -15,6 +15,6 @@ Pre-Work
 ```sh
     root@board:~# cd TheIoTLearningInitiative/
     root@board:~# make EmbeddedLinux
-    root@board:~# cp InternetOfThings101/main.py EmbeddedLinux
+    root@board:~# cp InternetOfThings101/main.py EmbeddedLinux/
 ```
     
