@@ -15,5 +15,6 @@ Pre-Work
 ```sh
     root@board:~# cd TheIoTLearningInitiative/
     root@board:~# make EmbeddedLinux
+    root@board:~# cp 
 ```
     
