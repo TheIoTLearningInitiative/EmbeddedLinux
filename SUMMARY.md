@@ -1,7 +1,7 @@
 # Summary
 
 * [Cover](README.md)
-* Pre-Work
+* [Pre-Work](documentation/PreWork.md)
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
