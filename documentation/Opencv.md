@@ -121,6 +121,6 @@ Look at <>
     
     root@edison:~/opencv# mv Barack_Obama_family_portrait_2011.jpg in.jpeg
     root@edison:~/opencv# time python facerecognition.py
-    ...
+    ???
 ```
 
