@@ -12,7 +12,7 @@ Johnny Five
 
 ## galileo-io
 
-> Intel Galileo, Intel Edison IO Plugin for Johnny-Five JavaScript Robotics
+> Intel Galileo IO Plugin for Johnny-Five JavaScript Robotics
 
 - [NPM JS Galileo-Io](https://www.npmjs.com/package/galileo-io)
 
@@ -52,6 +52,8 @@ board.on("ready", function() {
 ```
 
 ## edison-io
+
+> Intel Edison IO Plugin for Johnny-Five JavaScript Robotics
 
 Requirements:
 
