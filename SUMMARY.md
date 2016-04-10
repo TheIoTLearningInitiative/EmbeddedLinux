@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* Pre-Work
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
@@ -73,5 +74,4 @@
    * [Voice](documentation/Voice.md)
    * [Radio](documentation/Radio.md)
 * [SandBox](Sandbox.md)
-* Pre-Work
 
