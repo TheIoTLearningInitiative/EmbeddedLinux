@@ -1,5 +1,5 @@
 OpenSST
 ==
 
-https://openstt.org/
+- [](https://openstt.org/)
 
