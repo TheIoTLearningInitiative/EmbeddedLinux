@@ -46,6 +46,7 @@
        * [Artoo](documentation/Artoo.md)
        * [Bower](documentation/Bower.md)
        * [Misc](documentation/Misc.md)
+       * OpenSST
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
