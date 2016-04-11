@@ -45,7 +45,7 @@
        * [Pixhawk](documentation/Pixhawk.md)
        * [Artoo](documentation/Artoo.md)
        * [Bower](documentation/Bower.md)
-       * OpenSST
+       * [OpenSST](documentation/OpenSst.md)
        * [Misc](documentation/Misc.md)
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
