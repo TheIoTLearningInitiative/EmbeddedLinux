@@ -14,8 +14,8 @@
 Check your kernel version
 
 ```sh
-    root@edison:~# uname -r
-    3.10.17-poky-edison+
+    root@edison:~# uname -a
+    Linux edison 3.10.17-poky-edison+ #2 SMP PREEMPT Mon Mar 14 15:26:16 PDT 2016 i686 GNU/Linux
 ```
 
 Configure your WiFi
