@@ -50,7 +50,8 @@ Initialization
     [  OK  ] Started PulseAudio Sound System.
     [[0m] Reached target Multi-User System.
     
-    Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
+    Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
     
     edison login: 
+    
 ```
