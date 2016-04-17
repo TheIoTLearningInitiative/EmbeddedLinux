@@ -5,8 +5,9 @@ Filesystem
 
 ### Yocto v3.0, Fresh Installation
 
+```sh
 
-
+```
 
 ### Yocto v2.1, Fresh Installation
 
