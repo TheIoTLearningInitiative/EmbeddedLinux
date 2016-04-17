@@ -3,6 +3,11 @@ Filesystem
 
 ## File System Disk Space Usage
 
+### Yocto v3.0, Fresh Installation
+
+
+
+
 ### Yocto v2.1, Fresh Installation
 
 ```sh
