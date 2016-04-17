@@ -3,7 +3,7 @@ Filesystem
 
 ## File System Disk Space Usage
 
-### Yocto v3.0, Fresh Installation
+### Release v3.0 Yocto, Fresh Installation
 
 ```sh
 root@edison:~# df -h
@@ -21,7 +21,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 /dev/mmcblk0p5  1003K   19K  913K   3% /factory
 ```
 
-### Yocto v2.1, Fresh Installation
+### Release v2.1 Yocto, Fresh Installation
 
 ```sh
     root@edison:~# df -h
