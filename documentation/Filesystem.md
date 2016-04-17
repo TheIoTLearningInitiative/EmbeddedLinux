@@ -6,7 +6,19 @@ Filesystem
 ### Yocto v3.0, Fresh Installation
 
 ```sh
-
+root@edison:~# df -h
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        1.4G  958M  365M  73% /
+devtmpfs         480M     0  480M   0% /dev
+tmpfs            481M     0  481M   0% /dev/shm
+tmpfs            481M  592K  480M   1% /run
+tmpfs            481M     0  481M   0% /sys/fs/cgroup
+tmpfs            481M   42M  439M   9% /tmp
+tmpfs            481M  6.1M  475M   2% /var/volatile
+tmpfs             97M     0   97M   0% /run/user/0
+/dev/loop0       767M  4.0K  767M   1% /media/storage
+/dev/mmcblk0p10  1.3G  2.1M  1.3G   1% /home
+/dev/mmcblk0p5  1003K   19K  913K   3% /factory
 ```
 
 ### Yocto v2.1, Fresh Installation
