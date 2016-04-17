@@ -2,6 +2,9 @@ Python
 ==
 
 
+- [](https://impythonist.wordpress.com/2015/10/11/five-trivial-things-every-python-programmer-should-work-with/)
+
+
 ## Flask
 
 > Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
