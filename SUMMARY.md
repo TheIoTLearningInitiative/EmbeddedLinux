@@ -74,6 +74,6 @@
    * [Cloud9](documentation/Cloud9.md)
    * [Voice](documentation/Voice.md)
    * [Radio](documentation/Radio.md)
-   * Artificial Intelligence
+   * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
 * [SandBox](Sandbox.md)
 
