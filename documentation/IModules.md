@@ -1,7 +1,8 @@
 Modules
 ==
+## Yocto 3.1 Default Loaded Kernel Modules
 
-## Default Loaded Kernel Modules
+## Yocto 2.1 Default Loaded Kernel Modules
 
 ```sh
     root@edison:~# lsmod
