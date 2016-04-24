@@ -47,7 +47,7 @@
        * [Bower](documentation/Bower.md)
        * [OpenSST](documentation/OpenSst.md)
        * [Misc](documentation/Misc.md)
-       * Zetta
+       * [Zetta](Zetta.md)
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
