@@ -96,3 +96,9 @@ Python Package Index
     Successfully installed psutil
     Cleaning up...
 ```
+
+## Python Library Github Installation
+
+```sh
+    root@edison:~# pip install https://github.com/mitsuhiko/flask/tarball/master
+```
