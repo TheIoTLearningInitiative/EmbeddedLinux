@@ -1,6 +1,10 @@
 Building
 ==
 
+- [Yocto Project Linux Kernel Development Manual](http://www.yoctoproject.org/docs/latest/kernel-dev/kernel-dev.html)
+- [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
+- [How to compile Intel Edison Linux Kernel](http://www.iduino.cc/index.php/2015/10/20/how-to-compile-intel-edison-linux-kernel/)
+
 ## Building via Make
 
     user@host:~$ pwd
@@ -33,11 +37,3 @@ Building
     user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/arch/x86/configs/i386_edison_defconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
-
-## Links
-
-- [Yocto Project Linux Kernel Development Manual](http://www.yoctoproject.org/docs/latest/kernel-dev/kernel-dev.html)
-- [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
-- [How to compile Intel Edison Linux Kernel](http://www.iduino.cc/index.php/2015/10/20/how-to-compile-intel-edison-linux-kernel/)
-
-
