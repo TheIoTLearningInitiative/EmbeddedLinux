@@ -118,12 +118,14 @@ Prompt: Hello Module Driver
 
 ## Hello World Kernel Module Native Compilation
 
-Might not be the best place to be ... please review!
+Under the host...
 
 ```sh
     user@host:~$ wget https://communities.intel.com/servlet/JiveServlet/downloadBody/23882-102-1-28238/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
     user@host:~$ unzip linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
 ```
+
+Under Intel Edison
 
 ```sh
     root@edison:~# scp user@host:/home/user/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb .
