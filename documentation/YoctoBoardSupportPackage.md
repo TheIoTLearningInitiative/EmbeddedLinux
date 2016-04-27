@@ -4,7 +4,7 @@
 
 > In embedded systems, a board support package (BSP) is an implementation of specific support code (software) for a given (device motherboard) board that conforms to a given operating system. It is commonly built with a bootloader that contains the minimal device support to load the operating system and device drivers for all the devices on the board. [Wikipedia](https://en.wikipedia.org/wiki/Board_support_package)
 
-## Intel Edison® Board Firmware Software Release
+## Intel® Edison Board Firmware Software Release
 
 The Intel® Edison Board Support Package offers these features:
 
@@ -16,7 +16,7 @@ The Intel® Edison Board Support Package offers these features:
 
 
 - [Search Downloads Intel® Edison](https://downloadcenter.intel.com/search?keyword=edison)
-- [Intel Edison® Software and Documentation](https://communities.intel.com/community/makers/edison/documentation)
+- [Intel® Edison Software and Documentation](https://communities.intel.com/community/makers/edison/documentation)
 - [Intel® Edison Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 - [Intel® Edison Software Release 2.1](https://downloadcenter.intel.com/download/24910/Intel-Edison-Software-Release-2-1)
 - [Intel® Edison Software Release 3.0](https://downloadmirror.intel.com/25871/eng/iot-devkit-prof-dev-image-edison-20160315.zip)
