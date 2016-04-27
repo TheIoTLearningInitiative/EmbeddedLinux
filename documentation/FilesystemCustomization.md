@@ -3,6 +3,9 @@ Filesystem
 
 ## File System Disk Space Customization
 
+Under the host
+
+```sh
     user@host:~$ nano edison-src/device-software/meta-edison-distro/recipes-bsp/u-boot/files/edison.env
     user@host:~$ nano edison-src/device-software/meta-edison/recipes-bsp/u-boot/files/edison.env
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-bsp/u-boot/files/edison.env
@@ -14,4 +17,4 @@ Filesystem
     user@host:~$ /build/toFlash/flashall.sh --recovery
     user@host:~$ /build/toFlash/flashall.sh
     user@host:~# screen /dev/ttyUSBX 115200
-    root@edison:~# df -h
+```
