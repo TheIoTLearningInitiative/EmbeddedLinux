@@ -57,7 +57,7 @@ board.on("ready", function() {
 
 Requirements:
 
-- Grove Button D4
+- Grove Button @ D4
 
 ```sh
     root@edison:~/trash# npm install johnny-five edison-io
@@ -111,7 +111,7 @@ Push Grove Button and see Board Led
 
 Requirements:
 
-- Grove LCD RGB Backlight " I2C
+- Grove LCD RGB Backlight @ I2C
 
 ```js
 var five = require("johnny-five");
