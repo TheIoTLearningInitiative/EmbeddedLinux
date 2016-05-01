@@ -111,7 +111,7 @@ Push Grove Button and see Board Led
 
 Requirements:
 
-- Grove LCD D4
+- Grove LCD RGB Backlight " I2C
 
 ```js
 var five = require("johnny-five");
