@@ -5,6 +5,19 @@ Filesystem
 
 ## File System Type
 
+root@edison:~# df -T
+Filesystem      Type     1K-blocks    Used Available Use% Mounted on
+/dev/root       ext4       1444528 1125392    228656  84% /
+devtmpfs        devtmpfs    491264       0    491264   0% /dev
+tmpfs           tmpfs       491548       0    491548   0% /dev/shm
+tmpfs           tmpfs       491548     588    490960   1% /run
+tmpfs           tmpfs       491548       0    491548   0% /sys/fs/cgroup
+tmpfs           tmpfs       491548    3108    488440   1% /tmp
+/dev/mmcblk0p10 ext4       1337936   17368   1304184   2% /home
+tmpfs           tmpfs       491548    6164    485384   2% /var/volatile
+/dev/mmcblk0p5  ext4          1003      19       913   3% /factory
+tmpfs           tmpfs        98312       0     98312   0% /run/user/0
+/dev/loop0      vfat        784872       4    784868   1% /media/storage
 
 ## File System Disk Space Usage
 
