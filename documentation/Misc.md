@@ -8,22 +8,22 @@ Misc
 - [Squid Proxy on Debian Linux](http://linuxaria.com/pills/how-to-setup-a-squid-proxy-on-your-debian-linux)
 
 ```sh
-    apt-get install squid3 squid3-common
+    root@ubilinux:~# apt-get install squid3 squid3-common
 ```
 
 ## DHCP, Ubilinux
 
 ```sh
-    apt-get install dhcpd
+    root@ubilinux:~# apt-get install dhcpd
 ```
 
 ## Apache, Ubilinux
 
 
 ```sh
-    apt-get install apache2
-    apache2 -k restart # Wrong
-    /etc/init.d/apache2 restart # Ok
+    root@ubilinux:~# apt-get install apache2
+    root@ubilinux:~# apache2 -k restart # Wrong
+    root@ubilinux:~# /etc/init.d/apache2 restart # Ok
 ```
 
 ## WifiDog
@@ -52,7 +52,7 @@ Misc
 ## FreeRadius
 
 ```sh
-    apt-get install freeradius
+    root@ubilinux:~#apt-get install freeradius
 ```
 
 - [FreeRadius Homepage](http://freeradius.org/)
