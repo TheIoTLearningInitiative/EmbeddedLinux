@@ -1,9 +1,7 @@
 Bower
 ==
 
-> Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you.
-
-- [Bower Homepage](http://bower.io/)
+> Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you. [Bower Homepage](http://bower.io/)
 
 ```sh
     root@edison:~# npm install -g bower
