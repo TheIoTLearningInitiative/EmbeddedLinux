@@ -21,54 +21,6 @@ In Linux
    $ sudo minicom -D /dev/ttyUSB0 115200
 ```
 
-## Bootup Kernel
-
-```sh
-    ******************************
-    PSH KERNEL VERSION: b0182b2b
-                    WR: 20104000
-    ******************************
-    
-    SCU IPC: 0x800000d0  0xfffce92c
-    
-    PSH miaHOB version: TNG.B0.VVBD.0000000c
-    
-    microkernel built 11:24:08 Feb  5 2015
-    
-    ******* PSH loader *******CM page cache size = 192 KB 
-    Cache Constrais
-    Arming IPC driver ..
-    Adding page store pool ..
-    PagestoreAddr(IMR Start Address) = 0x04899000
-    pagIMR Size)          = 0dy to receive application *** 
-    
-    
-    U-Boot 2014.04 (Dec 19 2015 - 23:30:32)
-
-           Watchdog enabled
-    DRAM:  980.6 MiB
-    MMC:   tangier_sdhci: 0
-    In:    serial
-    Out:   serial
-    Err:   serial
-    Hit any key to stop autoboot:  0 
-    Target:blank
-    Partitioning already done...
-    Flashing already done...
-    GADGET DRIVER: usb_dnl_dfu
-    reading vmlinuz
-    5385504 bytes read in 133 ms (38.6 MiB/s)
-    Valid Boot Flag
-    Setup Size = 0x00003c00
-    Magic signature found
-    Using boot protocol version 2.0c
-    Linux kernel version 3.10.17-yocto-standard (abraham@aarcemor-desk) #1 SMP PREEMPT Sat Dec 19 23:23:25 CST 2015
-    Building boot_params at 0x00090000
-    Loading bzImage at address 00100000 (5370144 bytes)
-    Magic signature found
-    Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,k"
-```
-
 ## Bootup Cancel
 
 ```sh
@@ -103,7 +55,7 @@ In Linux
     boot > 
 ```
 
-## help
+### help
 
 ```sh
     boot > help
@@ -118,7 +70,7 @@ In Linux
     boot > 
 ```
 
-## printenv
+### printenv
 
 ```sh
 boot > printenv
@@ -190,5 +142,52 @@ uuid_update=faec2ecf-8544-e241-b19d-757e796da607
 
 Environment size: 4962/65531 bytes
 boot > 
+```
 
+## Bootup Kernel
+
+```sh
+    ******************************
+    PSH KERNEL VERSION: b0182b2b
+                    WR: 20104000
+    ******************************
+    
+    SCU IPC: 0x800000d0  0xfffce92c
+    
+    PSH miaHOB version: TNG.B0.VVBD.0000000c
+    
+    microkernel built 11:24:08 Feb  5 2015
+    
+    ******* PSH loader *******CM page cache size = 192 KB 
+    Cache Constrais
+    Arming IPC driver ..
+    Adding page store pool ..
+    PagestoreAddr(IMR Start Address) = 0x04899000
+    pagIMR Size)          = 0dy to receive application *** 
+    
+    
+    U-Boot 2014.04 (Dec 19 2015 - 23:30:32)
+
+           Watchdog enabled
+    DRAM:  980.6 MiB
+    MMC:   tangier_sdhci: 0
+    In:    serial
+    Out:   serial
+    Err:   serial
+    Hit any key to stop autoboot:  0 
+    Target:blank
+    Partitioning already done...
+    Flashing already done...
+    GADGET DRIVER: usb_dnl_dfu
+    reading vmlinuz
+    5385504 bytes read in 133 ms (38.6 MiB/s)
+    Valid Boot Flag
+    Setup Size = 0x00003c00
+    Magic signature found
+    Using boot protocol version 2.0c
+    Linux kernel version 3.10.17-yocto-standard (abraham@aarcemor-desk) #1 SMP PREEMPT Sat Dec 19 23:23:25 CST 2015
+    Building boot_params at 0x00090000
+    Loading bzImage at address 00100000 (5370144 bytes)
+    Magic signature found
+    Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,k"
 ```
