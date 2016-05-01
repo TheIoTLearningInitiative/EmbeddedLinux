@@ -52,7 +52,7 @@ Misc
 ## FreeRadius
 
 ```sh
-    root@ubilinux:~#apt-get install freeradius
+    root@ubilinux:~# apt-get install freeradius
 ```
 
 - [FreeRadius Homepage](http://freeradius.org/)
