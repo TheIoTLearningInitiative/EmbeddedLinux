@@ -73,10 +73,10 @@ Debug
 ```sh
     root@edison:~# cd /sys/kernel/debug/tracing
     root@edison:/sys/kernel/debug/tracing# cat available_tracers 
-blk function_graph wakeup_rt wakeup preemptirqsoff preemptoff irqsoff function nop
+    blk function_graph wakeup_rt wakeup preemptirqsoff preemptoff irqsoff function nop
     root@edison:/sys/kernel/debug/tracing# echo function > current_tracer
     root@edison:/sys/kernel/debug/tracing# cat current_tracer
-function
+    function
 ```
 
 ## Applications / Libraries
