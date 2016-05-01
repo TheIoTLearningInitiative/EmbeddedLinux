@@ -73,3 +73,10 @@ Check IP address assigned
     wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 ```
+
+Shutdown USB0 interface
+
+```sh
+    root@edison:~# ifconfig usb0 down
+    root@edison:~# 
+```
