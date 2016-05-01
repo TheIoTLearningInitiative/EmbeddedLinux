@@ -109,6 +109,10 @@ Push Grove Button and see Board Led
 
 ## LCD I2C
 
+Requirements:
+
+- Grove LCD D4
+
 ```js
 var five = require("johnny-five");
 var Edison = require("edison-io");
