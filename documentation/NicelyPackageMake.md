@@ -38,6 +38,9 @@ mqtt@1.7.4 /usr/lib/node_modules/mqtt
 ```sh
 root@edison:~# mqtt sub -t 'hello' -h 'test.mosquitto.org' -v &
 [2] 653
+```
+
+```sh
 root@edison:~# mqtt pub -t 'hello' -h 'test.mosquitto.org' -m 'from MQTT.js'
 hello coolbjhbjbjkbm m m 
 hello from MQTT.js
