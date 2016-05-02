@@ -143,6 +143,7 @@ Under Intel Edison
     root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/tsrelease.h
     #define UTS_RELEASE "3.10.17-poky-edison+"
     <Save Changes>
+    root@edison:~# cd /lib/modules/3.10.17-poky-edison+
     root@edison:/lib/modules/3.10.17-poky-edison+# ls
     extra                modules.builtin.bin  modules.softdep
     kernel               modules.dep          modules.symbols
