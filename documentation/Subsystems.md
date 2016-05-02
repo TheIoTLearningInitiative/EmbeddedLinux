@@ -17,6 +17,9 @@ Subsystems
 
 > sysfs is a virtual file system provided by the Linux kernel that exports information about various kernel subsystems, hardware devices, and associated device drivers, from the kernel's device model to user space, through virtual files. [Wikipedia](https://en.wikipedia.org/wiki/Sysfs)
 
+- [Driver porting: Device model overview](http://lwn.net/Articles/31185/)
+- [Driver porting: An example /sys hierarchy](http://lwn.net/Articles/31511/)
+
 ```sh
     root@edison:~# mount
     /dev/mmcblk0p8 on / type ext4 (rw,nodev,noatime,discard,noauto_da_alloc,data=ordered)
