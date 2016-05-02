@@ -19,6 +19,7 @@ Subsystems
 
 - [Driver porting: Device model overview](http://lwn.net/Articles/31185/)
 - [Driver porting: An example /sys hierarchy](http://lwn.net/Articles/31511/)
+- [Driver porting: Devices and attributes](http://lwn.net/Articles/31220/)
 
 ```sh
     root@edison:~# mount
