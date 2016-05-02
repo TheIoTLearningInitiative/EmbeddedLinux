@@ -54,6 +54,7 @@ Links
     500000
 ```sh
 
+### Suspend to Ram, Yocto 3.0
 
 ```sh
 root@edison:~# echo mem > /sys/power/state 
