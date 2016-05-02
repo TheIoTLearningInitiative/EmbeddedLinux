@@ -54,7 +54,15 @@ Links
     500000
 ```sh
 
-### Suspend to Ram
+
+```sh
+root@edison:~# echo mem > /sys/power/state 
+[   64.899755] intel_scu_watchdog_evo: watchdog_stop
+root@edison:~# echo mem > /sys/power/state 
+[   72.953877] intel_scu_watchdog_evo: watchdog_stop
+```
+
+### Suspend to Ram, Yocto 2.1
 
 ```sh
     root@edison:~# echo "mem" > /sys/power/state
