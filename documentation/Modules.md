@@ -225,8 +225,7 @@ clean:
     root@edison:~/kernelmodule# rmmod helloworld.ko
     root@edison:~/kernelmodule# dmesg
     ...
-    [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
-    [26227.828425] Module? Hello!
+    [   21.122640] snd_intel_sst: runtime_suspend called                                               [96175.271153] Module? Hello! 
     [96185.098677] Module? Bye!
 ```
 
