@@ -130,7 +130,7 @@ jsupm_grovespeaker        jsupm_mma7660
 root@edison:~# 
 ```
 
-## edison-cli
+## NodeJS Edison-Cli
 
 ```sh
 xe1gyq@jessie:~$ sudo npm install -g edison-cli
