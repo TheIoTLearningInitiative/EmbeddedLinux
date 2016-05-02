@@ -208,6 +208,9 @@ clean:
       CC      /home/root/kernelmodule/helloworld.mod.o
       LD [M]  /home/root/kernelmodule/helloworld.ko
     make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+```
+
+```sh
     root@edison:~/kernelmodule# dmesg
     ...
     [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
@@ -216,6 +219,15 @@ clean:
     ...
     [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
     [26227.828425] Module? Hello!
+```
+
+```sh
+    root@edison:~/kernelmodule# rmmod helloworld.ko
+    root@edison:~/kernelmodule# dmesg
+    ...
+    [   20.395746] ip (334) used greatest stack depth: 5208 bytes left
+    [26227.828425] Module? Hello!
+    [96185.098677] Module? Bye!
 ```
 
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
