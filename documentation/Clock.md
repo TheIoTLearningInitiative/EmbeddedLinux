@@ -70,6 +70,15 @@ root@edison:~#
 ```
 
 ```sh
+root@edison:~# opkg install ntpdate
+Installing ntpdate (4.2.6p5-r6.0) on root.
+Downloading http://repo.opkg.net/edison/repo/core2-32/ntpdate_4.2.6p5-r6.0_core2-32.ipk.
+Configuring ntpdate.
+adding crontab
+ln -s '/lib/systemd/system/ntpdate.service' '/etc/systemd/system/multi-user.target.wants/ntpdate.servi'
+```
+
+```sh
     root@edison:~# ntpdate -s time.nist.gov
     root@edison:~# date
     Mon Mar 21 20:14:51 UTC 2016
