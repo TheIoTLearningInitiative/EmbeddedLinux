@@ -52,6 +52,24 @@ Clock
 #### Network Time Protocol Client
 
 ```sh
+root@edison:~# opkg install ntp
+Installing ntp (4.2.6p5-r6.0) on root.
+Downloading http://repo.opkg.net/edison/repo/core2-32/ntp_4.2.6p5-r6.0_core2-32.ipk.
+ntp: unsatisfied recommendation for iana-etc
+Installing ntp-tickadj (4.2.6p5-r6.0) on root.
+Downloading http://repo.opkg.net/edison/repo/core2-32/ntp-tickadj_4.2.6p5-r6.0_core2-32.ipk.
+Installing libbsd0 (0.7.0-r0) on root.
+Downloading http://repo.opkg.net/edison/repo/core2-32/libbsd0_0.7.0-r0_core2-32.ipk.
+Running useradd commands...
+NOTE: Performing useradd with [ --system --home-dir /var/lib/ntp                        --no-create-hoy
+Configuring libbsd0.
+Configuring ntp-tickadj.
+Configuring ntp.
+ln -s '/lib/systemd/system/ntpd.service' '/etc/systemd/system/multi-user.target.wants/ntpd.service'
+root@edison:~# 
+```
+
+```sh
     root@edison:~# ntpdate -s time.nist.gov
     root@edison:~# date
     Mon Mar 21 20:14:51 UTC 2016
