@@ -129,3 +129,37 @@ jsupm_grovescam           jsupm_mma7455             npm
 jsupm_grovespeaker        jsupm_mma7660
 root@edison:~# 
 ```
+
+## edison-cli
+
+```sh
+xe1gyq@jessie:~$ sudo npm install -g edison-cli
+npm WARN deprecated graceful-fs@3.0.8: graceful-fs v3.0.0 and before will fail on node releases >= v6.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+ 
+> ws@0.4.32 install /usr/local/lib/node_modules/edison-cli/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory '/usr/local/lib/node_modules/edison-cli/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory '/usr/local/lib/node_modules/edison-cli/node_modules/ws/build'
+/usr/local/bin/edison-cli -> /usr/local/lib/node_modules/edison-cli/bin/edison-cli
+edison-cli@2.0.0 /usr/local/lib/node_modules/edison-cli
+├── commander@2.9.0 (graceful-readlink@1.0.1)
+├── temporary@0.0.8 (package@1.0.1)
+├── mdns-js@0.1.5 (debug@0.8.1)
+├── fstream@1.0.8 (inherits@2.0.1, graceful-fs@4.1.3, mkdirp@0.5.1, rimraf@2.5.2)
+├── tar-edison@0.1.16 (inherits@1.0.2, block-stream@0.0.8, fstream@0.1.31)
+└── ws@0.4.32 (tinycolor@0.0.1, options@0.0.6, commander@2.1.0, nan@1.0.0)
+xe1gyq@jessie:~$ edison-cli list
+Edison Devices Found: 2
+1 - 192.168.1.70
+2 - 192.168.1.70
+xe1gyq@jessie:~$ 
+```
