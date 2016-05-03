@@ -52,7 +52,6 @@ parm:           info_string:string
 parm:           op_mode:int
 parm:           dhd_msg_level:int
 parm:           dhd_arp_enable:uint
-
 ```
 
 ```sh
