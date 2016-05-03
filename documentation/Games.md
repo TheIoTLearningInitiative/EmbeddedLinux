@@ -1,6 +1,8 @@
 Games
 ==
 
+- [Wiimote](http://www.brianhensley.net/2012/08/wii-controller-raspberry-pi-python.html)
+
 ```sh
 abraham@aarcemor-desk:~$ sudo rfkill block bluetooth
 abraham@aarcemor-desk:~$ dmesg | tail -5
