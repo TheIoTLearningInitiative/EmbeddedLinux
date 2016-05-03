@@ -48,3 +48,5 @@ abraham@aarcemor-desk:~$ dmesg | tail -5
 [341153.317738] Bluetooth: hci0: Intel Bluetooth firmware patch completed and activated
 abraham@aarcemor-desk:~$ 
 ```
+
+- [Pair BT](http://www.heatxsink.com/entry/how-to-pair-a-bluetooth-device-from-command-line-on-linux)
