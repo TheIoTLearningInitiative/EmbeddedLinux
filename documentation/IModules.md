@@ -32,6 +32,10 @@ bcm4334x              587105  0
 # Search for the name of the default loaded kernel modules
 
 ```sh
+    root@edison:~# modinfo iwlwifi
+```
+
+```sh
     root@edison:~# nano searchm.sh
 ```
 
