@@ -32,7 +32,27 @@ bcm4334x              587105  0
 # Search for the name of the default loaded kernel modules
 
 ```sh
-    root@edison:~# modinfo iwlwifi
+root@edison:~# modinfo iwlwifi
+filename:       /lib/modules/3.10.17-poky-edison+/extra/bcm4334x.ko
+license:        GPL v2
+alias:          sdio:c*v02D0dA94D*
+depends:
+vermagic:       3.10.17-poky-edison+ SMP preempt mod_unload ATOM
+parm:           dhd_doflow:uint
+parm:           dhd_dpcpoll:uint
+parm:           clockoverride:SDIO card clock override (int)
+parm:           sd_msglevel:uint
+parm:           sd_power:uint
+parm:           sd_clock:uint
+parm:           sd_divisor:uint
+parm:           sd_sdmode:uint
+parm:           sd_hiok:uint
+parm:           sd_f2_blocksize:int
+parm:           info_string:string
+parm:           op_mode:int
+parm:           dhd_msg_level:int
+parm:           dhd_arp_enable:uint
+
 ```
 
 ```sh
