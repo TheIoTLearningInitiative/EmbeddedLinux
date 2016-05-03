@@ -77,6 +77,6 @@
    * [Voice](documentation/Voice.md)
    * [Radio](documentation/Radio.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
-   * Games
+   * [Games](documentation/Games.md)
 * [SandBox](Sandbox.md)
 
