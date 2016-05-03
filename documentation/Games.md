@@ -37,4 +37,11 @@ hci0:	Type: BR/EDR  Bus: USB
 	Manufacturer: Intel Corp. (2)
 
 abraham@aarcemor-desk:~$ sudo rfkill list
+abraham@aarcemor-desk:~$ dmesg | tail -5
+[341153.123617] usb 3-11: New USB device found, idVendor=8087, idProduct=07dc
+[341153.123624] usb 3-11: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[341153.137572] Bluetooth: hci0: read Intel version: 370710018002030d00
+[341153.137624] Bluetooth: hci0: Intel Bluetooth firmware file: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+[341153.317738] Bluetooth: hci0: Intel Bluetooth firmware patch completed and activated
+abraham@aarcemor-desk:~$ 
 ```
