@@ -260,7 +260,10 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Files ready to flash in /home/abraham/Projects/RealTime/v25/edison-src/out/current/build/toFlash/
     Run the flashall script there to start flashing.
     *************
-    user@host:~$ ls
+```
+
+```sh
+     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
