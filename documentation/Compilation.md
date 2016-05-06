@@ -67,7 +67,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ```sh
     user@host:~$ make setup
-    user@host:~$ make setup
+
     Setup buildenv for SDK host linux64
     ./meta-intel-edison/setup.sh  --dl_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/downloads --sstate_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/sstate-cache --build_dir=/home/abraham/Projects/RealTime/v25/edison-src/out/linux64 --build_name=custom_build_aarcemor@20151220153244 --sdk_host=linux64
     We are building in external mode
@@ -140,6 +140,9 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     source poky/oe-init-build-env
     bitbake edison-image
     *************
+```
+
+```sh
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
