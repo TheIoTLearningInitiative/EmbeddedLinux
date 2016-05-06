@@ -263,7 +263,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 ```
 
 ```sh
-     user@host:~$ ls
+    user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
