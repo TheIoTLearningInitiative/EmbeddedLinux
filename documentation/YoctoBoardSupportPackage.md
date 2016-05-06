@@ -6,14 +6,12 @@
 
 ## Intel® Edison Board Firmware Software Release
 
-The Intel® Edison Board Support Package offers these features:
-
-- Kernel image based on Linux kernel 3.10.17
-- U-boot second stage bootloader
-- Bluetooth and Wi-Fi connectivity
-- Intel cloud connectivity middleware
-- Many base Linux packages provided by the Yocto project
-
+> The Intel® Edison Board Support Package offers these features:
+> - Kernel image based on Linux kernel 3.10.17
+> - U-boot second stage bootloader
+> - Bluetooth and Wi-Fi connectivity
+> - Intel cloud connectivity middleware
+> - Many base Linux packages provided by the Yocto project
 
 - [Search Downloads Intel® Edison](https://downloadcenter.intel.com/search?keyword=edison)
 - [Intel® Edison Software and Documentation](https://communities.intel.com/community/makers/edison/documentation)
