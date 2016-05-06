@@ -48,10 +48,14 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
     edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
     edison-src/meta-intel-edison/meta-intel-edison-bsp/README.sources
-    
+```
+
+```sh
     user@host:~$ ls
     Makefile  meta-intel-edison
-    
+```
+
+```sh
     user@host:~$ ls meta-intel-edison/
     COPYING.MIT  meta-intel-arduino     meta-intel-edison-distro  setup.sh
     MAINTAINERS  meta-intel-edison-bsp  README                    utils
