@@ -24,8 +24,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ```sh
     user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
-```
-```sh
+
     --2016-02-28 14:58:27-- http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
     Resolving downloadmirror.intel.com (downloadmirror.intel.com)... 23.216.208.166
     Connecting to downloadmirror.intel.com (downloadmirror.intel.com)|23.216.208.166|:80... connected.
