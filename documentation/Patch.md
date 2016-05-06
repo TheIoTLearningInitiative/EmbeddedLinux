@@ -283,6 +283,8 @@ Related
 
 ### APIC
 
+> In computing, Intel's Advanced Programmable Interrupt Controller (APIC) is a family of interrupt controllers. As its name suggests, the APIC is more advanced than Intel's 8259 Programmable Interrupt Controller (PIC), particularly enabling the construction of multiprocessor systems. It is one of several architectural designs intended to solve interrupt routing efficiency issues in multiprocessor computer systems. [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Programmable_Interrupt_Controller)
+
 ```sh
     arch/x86/kernel/apic/apic.c
     arch/x86/kernel/apic/io_apic.c
