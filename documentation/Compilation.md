@@ -311,6 +311,7 @@ Make Building Workflow
 
 ```sh
     user@host:~$ make flash
+
     abraham@aarcemor-desk:~/Projects/RealTime/v25/edison-src$ make flash
     ./out/current/build/toFlash/flashall.sh
     Using U-Boot target: edison-blankcdc
