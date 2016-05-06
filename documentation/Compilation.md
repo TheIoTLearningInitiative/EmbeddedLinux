@@ -267,7 +267,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
-Make Building Workflow
+##### Make Building Workflow
 
 - meta-intel-edison/setup.sh
   - --dl_dir = bbcache/downloads
