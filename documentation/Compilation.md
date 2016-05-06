@@ -335,11 +335,20 @@ Make Building Workflow
     Rebooting
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
+```
+
+```sh
     user@host:~$ ls
     bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub
+```
+
+```sh
     user@host:~$ cd out/current
     user@host:~$ ls
     build  poky
+```
+
+```sh
     user@host:~$ source poky/oe-init-build-env
     ### Shell environment set up for builds. ###
     
