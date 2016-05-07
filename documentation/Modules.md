@@ -140,7 +140,7 @@ Under Intel Edison
     ./lib/modules/
     ./lib/modules/3.10.17-poky-edison/
     ./lib/modules/3.10.17-poky-edison/build
-    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/tsrelease.h
+    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
     #define UTS_RELEASE "3.10.17-poky-edison+"
     <Save Changes>
     root@edison:~# cd /lib/modules/3.10.17-poky-edison+
