@@ -123,3 +123,6 @@ tmpfs             97M     0   97M   0% /run/user/0
 ## File System Disk Space uSD
 
 ToDo
+
+
+## File System Disk Space Encryption
