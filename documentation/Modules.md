@@ -118,6 +118,8 @@ Prompt: Hello Module Driver
 
 ## Hello World Kernel Module Native Compilation
 
+### Kernel Headers
+
 Under the host...
 
 ```sh
