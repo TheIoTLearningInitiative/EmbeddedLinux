@@ -6,7 +6,7 @@ Filesystem
 ## File System Type
 
 ```sh
-root@edison:~# df -T
+root@edison:~# df -Th
 Filesystem      Type     1K-blocks    Used Available Use% Mounted on
 /dev/root       ext4       1444528 1125392    228656  84% /
 devtmpfs        devtmpfs    491264       0    491264   0% /dev
