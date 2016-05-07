@@ -177,6 +177,8 @@ Under Intel Edison
     root@edison:~# 
 ```
 
+## Kernel Module
+
 ```sh
     root@edison:~# mkdir kernelmodule
     root@edison:~# cd kernelmodule/
