@@ -137,6 +137,7 @@ Under Intel Edison
 ```sh
     root@edison:~# ls data.tar.gz 
     data.tar.gz
+```
 
 ```sh
     root@edison:~# tar -xvf data.tar.gz
@@ -166,7 +167,12 @@ Under Intel Edison
     modules.alias        modules.dep.bin      modules.symbols.bin
     modules.alias.bin    modules.devname
     modules.builtin      modules.order
+
+```sh
     root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
+```
+
+```sh
     root@edison:/lib/modules/3.10.17-poky-edison+# cd
     root@edison:~# 
 ```
