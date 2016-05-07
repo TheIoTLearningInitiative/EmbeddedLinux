@@ -9,4 +9,4 @@ Mem:          1504       1491         13          0         91        764
 Swap:         2047          6       2041
 ```
 
-- [](https://www.kernel.org/doc/Documentation/sysctl/vm.txt)
+- [Documentation for /proc/sys/vm/*](https://www.kernel.org/doc/Documentation/sysctl/vm.txt)
