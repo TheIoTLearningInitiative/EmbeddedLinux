@@ -80,3 +80,6 @@ Shutdown USB0 interface
     root@edison:~# ifconfig usb0 down
     root@edison:~# 
 ```
+
+## Dual Boot
+
