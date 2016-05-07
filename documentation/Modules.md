@@ -129,9 +129,16 @@ Under Intel Edison
 
 ```sh
     root@edison:~# scp user@host:/home/user/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb .
+```
+```sh
     root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
+```
+
+```sh
     root@edison:~# ls data.tar.gz 
     data.tar.gz
+
+```sh
     root@edison:~# tar -xvf data.tar.gz
     ...
     ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
@@ -140,6 +147,9 @@ Under Intel Edison
     ./lib/modules/
     ./lib/modules/3.10.17-poky-edison/
     ./lib/modules/3.10.17-poky-edison/build
+```
+
+```sh
     root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
     #define UTS_RELEASE "3.10.17-poky-edison+"
     <Save Changes>
