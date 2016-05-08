@@ -5,6 +5,8 @@ Services
 
 > systemd is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. [Homepage](https://freedesktop.org/wiki/Software/systemd/)
 
+> systemd is an init system used by some Linux distributions to bootstrap the user space and manage all processes subsequently, instead of the UNIX System V or Berkeley Software Distribution (BSD) init systems. The name systemd adheres to the Unix convention of naming daemons by appending the letter d. [Wikipedia](https://en.wikipedia.org/wiki/Systemd)
+
 > Systemd is an init system and system manager that is widely becoming the new standard for Linux machines. While there are considerable opinions about whether systemd is an improvement over the traditional SysV init systems it is replacing, the majority of distributions plan to adopt it or have already done so
 
 > systemctl command, the central management tool for controlling the init system
