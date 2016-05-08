@@ -180,7 +180,7 @@ Under Intel Edison
     root@edison:~# 
 ```
 
-### Kernel Module
+### Kernel Module Compilation
 
 ```sh
     root@edison:~# mkdir kernelmodule
