@@ -171,7 +171,28 @@ root@edison:~# systemctl suspend
 [ 2284.558639] PM: Some devices failed to suspend
 A dependency job for suspend.target failed. See 'journalctl -xn' for details.
 root@edison:~# 
+```
+
 ```sh
+root@edison:~# dmesg
+[ 2284.038549] Restarting tasks ... done.
+[ 2284.088450] snd_intel_sst: runtime_idle called
+[ 2284.088478] snd_intel_sst: runtime_suspend called
+[ 2284.096683] PM: Syncing filesystems ... done.
+[ 2284.100314] PM: Preparing system for freeze sleep
+[ 2284.106998] ------------[ cut here ]------------
+[ 2284.107045] WARNING: at /iotdk/noel/newpull/devkit-build-tools/workdir/poky/$
+[ 2284.107060] Modules linked in: usb_f_acm u_serial g_multi libcomposite bcm_b$
+[ 2284.107123] CPU: 1 PID: 406 Comm: kworker/u4:2 Tainted: G           O 3.10.1$
+[ 2284.107137] Hardware name: Intel Corporation Merrifield/BODEGA BAY, BIOS 542$
+[ 2284.107160] Workqueue: kmmcd mmc_rescan
+[ 2284.107176]  c1b472c8 00000000 f6f8fd00 c18dc6da f6f8fd28 c12408ae c1ae494a $
+[ 2284.107226]  000004e0 c15fa18e c15fa18e f6c49020 f5c20000 f6f8fd88 f6f8fd38 $
+[ 2284.107273]  00000009 00000000 f6f8fd94 c15fa18e f6f8fd7c 00000000 00000036 $
+[ 2284.107321] Call Trace:
+[ 2284.107353]  [<c18dc6da>] dump_stack+0x16/0x18
+[ 2284.107384]  [<c12408ae>] warn_slowpath_common+0x5e/0x80
+[ 2284.107409]  [<c15fa18e>] ? __dwc3_gadget_kick_transfer+0x3de/0x430
 
 ```sh
     root@edison:~# systemctl poweroff
