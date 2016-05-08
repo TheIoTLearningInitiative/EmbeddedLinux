@@ -1,6 +1,12 @@
 Games
 ==
 
+## Doom
+
+- [EdiDoom Intel Edison](http://2ld.de/edidoom/)
+
+## Temp
+
 - [Wiimote](http://www.brianhensley.net/2012/08/wii-controller-raspberry-pi-python.html)
 - [PS3](http://www.cnx-software.com/2013/05/15/how-to-play-games-in-android-mini-pcs-stbs-with-a-ps3-bluetooth-controller/)
 
