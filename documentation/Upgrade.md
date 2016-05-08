@@ -43,5 +43,4 @@ Please report bugs to dfu-util@lists.gnumonks.org
 dfu-util: Invalid DFU suffix signature
 dfu-util: A valid DFU suffix will be required in a future dfu-util release!!!
 dfu-util: No DFU capable USB device available
-
 ```
