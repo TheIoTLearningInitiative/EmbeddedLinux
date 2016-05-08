@@ -6,10 +6,23 @@ Modules
 ## Project: Hello World Kernel Module Automatic Startup
 
 ```sh
-    root@edison:~# cd kernelmodule
-    root@edison:~/kernelmodule# make clean
-    root@edison:~/kernelmodule# ls
-    Makefile  helloworld.c
+root@edison:~# cd kernelmodule
+root@edison:~/kernelmodule# make clean
+root@edison:~/kernelmodule# ls
+Makefile  helloworld.c
+```
+
+```sh
+root@edison:~/kernelmodule# make
+make -C /lib/modules/3.10.17-poky-edison+/build M=/home/root/kernelmodule modules
+make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+  CC [M]  /home/root/kernelmodule/helloworld.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/root/kernelmodule/helloworld.mod.o
+  LD [M]  /home/root/kernelmodule/helloworld.ko
+make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+root@edison:~/kernelmodule# 
 ```
 
 
