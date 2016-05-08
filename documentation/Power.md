@@ -169,6 +169,8 @@ root@edison:~# echo mem > /sys/power/state
 
 ### SystemCtl, Yocto BSP Edison 3.0
 
+From [ArchLinux SystemD](https://wiki.archlinux.org/index.php/systemd)
+
 ```sh
 Shut down and reboot the system:
 root@edison:~# systemctl reboot
