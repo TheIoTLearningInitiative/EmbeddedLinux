@@ -81,4 +81,5 @@
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
 * [SandBox](Sandbox.md)
+* Challenge
 
