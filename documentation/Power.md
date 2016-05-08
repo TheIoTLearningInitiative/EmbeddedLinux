@@ -170,6 +170,18 @@ root@edison:~# echo mem > /sys/power/state
 ### SystemCtl, Yocto BSP Edison 3.0
 
 ```sh
+root@edison:~# systemctl reboot
+Shut down and power-off the system:
+root@edison:~# systemctl poweroff
+Suspend the system:
+root@edison:~# systemctl suspend
+Put the system into hibernation:
+root@edison:~# systemctl hibernate
+Put the system into hybrid-sleep state (or suspend-to-both):
+root@edison:~# systemctl hybrid-sleep
+```
+
+```sh
 root@edison:~# systemctl suspend
 [ 2283.848450] intel_scu_watchdog_evo: watchdog_stop
 [ 2283.907087] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
