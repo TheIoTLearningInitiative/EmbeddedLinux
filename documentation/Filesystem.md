@@ -124,7 +124,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 
 ToDo
 
-- [](https://communities.intel.com/thread/61048?tstart=0)
+- [How to boot Edison from an SD card (Linux)](https://communities.intel.com/thread/61048?tstart=0)
 
 ## File System Disk Space Encryption
 
