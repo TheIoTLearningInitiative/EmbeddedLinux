@@ -202,5 +202,7 @@ boot >
 root@edison:~# fw_printenv
 ...
 ...
-
+uuid_update=faec2ecf-8544-e241-b19d-757e796da607
+first_install_retry=0
+bootargs_target=multi-user
 ```
