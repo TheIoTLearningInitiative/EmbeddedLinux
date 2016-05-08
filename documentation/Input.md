@@ -1,4 +1,4 @@
 Input
 ==
 
-- [Bluetooth controller input](http://2ld.de/edidoom/)
+- [Bluetooth Controller Input](http://2ld.de/edidoom/)
