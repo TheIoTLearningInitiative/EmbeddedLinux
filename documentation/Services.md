@@ -44,8 +44,20 @@ Hint: Some lines were ellipsized, use -l to show in full.
 ```
 
 ```sh
+root@edison:~# systemctl status sketch_reset
+● sketch_reset.service - Daemon to reset sketches
+   Loaded: loaded (/lib/systemd/system/sketch_reset.service; enabled)
+   Active: active (running) since Sun 2016-05-08 04:15:11 UTC; 55min ago
+ Main PID: 211 (sketch_reset)
+   CGroup: /system.slice/sketch_reset.service
+           └─211 /opt/edison/sketch_reset -i 207 -o 215 -s /opt/edison/sketch...
+
+May 08 04:15:11 edison systemd[1]: Started Daemon to reset sketches.
+```
+
+```sh
 root@edison:~# systemctl status rsmb
-  rsmb.service
+● rsmb.service
    Loaded: not-found (Reason: No such file or directory)
    Active: inactive (dead)
 ```
