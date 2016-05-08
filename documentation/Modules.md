@@ -5,7 +5,7 @@ Modules
 
 > In computing, a loadable kernel module (or LKM) is an object file that contains code to extend the running kernel, or so-called base kernel, of an operating system. LKMs are typically used to add support for new hardware (as device drivers) and/or filesystems, or for adding system calls. When the functionality provided by a LKM is no longer required, it can be unloaded in order to free memory and other resources. [Wikipedia](https://en.wikipedia.org/wiki/Loadable_kernel_module)
 
-## Hello World Kernel Module Compilation
+## Hello World Kernel Module Cross Compilation
 
     user@host:~$ pwd
     /home/xe1gyq/.../edison-src
