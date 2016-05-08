@@ -74,6 +74,7 @@
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
    * [Input](documentation/Input.md)
+   * Graphics
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
