@@ -190,4 +190,14 @@ boot >
     Loading bzImage at address 00100000 (5370144 bytes)
     Magic signature found
     Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,k"
+    ...
+    ...
+    Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
+    
+    edison login: root
+    root@edison:~# 
+```
+
+```sh
+root@edison:~# 
 ```
