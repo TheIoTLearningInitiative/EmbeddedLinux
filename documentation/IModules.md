@@ -34,6 +34,9 @@ root@edison:~/kernelmodule# ls /usr/lib/modules-load.d/
 root@edison:~/kernelmodule# 
 ```
 
+```sh
+```
+
 
 ## Release v3.0 Yocto Default Loaded Kernel Modules
 
