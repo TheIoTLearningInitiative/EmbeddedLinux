@@ -8,7 +8,8 @@ Modules
 ```sh
     root@edison:~# cd kernelmodule
     root@edison:~/kernelmodule# make clean
-    
+    root@edison:~/kernelmodule# ls
+    Makefile  helloworld.c
 ```
 
 
