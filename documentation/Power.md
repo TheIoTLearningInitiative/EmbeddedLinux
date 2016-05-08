@@ -63,6 +63,8 @@ root@edison:~# echo mem > /sys/power/state
 [   72.953877] intel_scu_watchdog_evo: watchdog_stop
 ```
 
+Failure under some specific condition
+
 ```sh
 root@edison:~# echo mem > /sys/power/state 
 [ 2644.850650] intel_scu_watchdog_evo: watchdog_stop
