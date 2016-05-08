@@ -33,6 +33,9 @@ root@edison:~# systemctl status rsmb
   rsmb.service
    Loaded: not-found (Reason: No such file or directory)
    Active: inactive (dead)
+```
+
+```sh
 root@edison:~# systemctl status mdns
 ● mdns.service - Zero-configuration networking
    Loaded: loaded (/lib/systemd/system/mdns.service; enabled)
@@ -52,7 +55,22 @@ May 08 05:00:08 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
 May 08 05:00:08 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
 May 08 05:00:09 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
 Hint: Some lines were ellipsized, use -l to show in full.
+```
+
+```sh
 root@edison:~# systemctl status edison_config
+● edison_config.service - The Edison status and configuration service
+   Loaded: loaded (/lib/systemd/system/edison_config.service; enabled)
+   Active: active (running) since Sun 2016-05-08 04:15:15 UTC; 54min ago
+ Main PID: 289 (su)
+   CGroup: /system.slice/edison_config.service
+           ‣ 289 /bin/su root -c node /usr/lib/edison_config_tools/edison-con...
+
+May 08 04:15:15 edison systemd[1]: Started The Edison status and configurat...e.
+May 08 04:15:15 edison su[289]: Successful su for root by root
+May 08 04:15:15 edison su[289]: + ??? root:root
+May 08 04:15:15 edison su[289]: pam_unix(su:session): session opened for us...0)
+Hint: Some lines were ellipsized, use -l to show in full.
 ```
 systemctl disable and systemctl stop on edison_config, xdk-daemon, rsmb, and mdns
 
