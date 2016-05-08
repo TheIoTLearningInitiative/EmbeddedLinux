@@ -40,5 +40,3 @@ root@edison:~# journalctl --disk-usage
 No journal files were found.
 Journals take up 0B on disk.
 ```
-
-
