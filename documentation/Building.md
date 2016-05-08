@@ -7,7 +7,40 @@ Building
 
 ## Building via Make Detailed
 
+#### Make: Kernel Compilation
 
+```sh
+    user@host:~$ ls
+    bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub
+```
+
+```sh
+    user@host:~$ cd out/current
+    user@host:~$ ls
+    build  poky
+```
+
+```sh
+    user@host:~$ source poky/oe-init-build-env
+    ### Shell environment set up for builds. ###
+    
+    You can now run 'bitbake <target>'
+    
+    Common targets are:
+        core-image-minimal
+        core-image-sato
+        meta-toolchain
+        adt-installer
+        meta-ide-support
+    
+    You can also run generated qemu images with a command like 'runqemu qemux86'
+```
+
+```sh
+    user@host:~$ bitbake virtual/kernel -c menuconfig
+    user@host:~$ bitbake virtual/kernel -c configure -f -v
+    user@host:~$ bitbake edison-image
+```
 
 ## Building via Make
 
