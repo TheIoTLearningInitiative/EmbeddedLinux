@@ -7,8 +7,6 @@ Building
 
 ## Building via Make Detailed
 
-#### Make: Kernel Compilation
-
 ```sh
     user@host:~$ ls
     bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub
@@ -44,6 +42,7 @@ Building
 
 ## Building via Make
 
+```sh
     user@host:~$ pwd
     /home/xe1gyq/.../edison-src
     user@host:~$ cd out/current
