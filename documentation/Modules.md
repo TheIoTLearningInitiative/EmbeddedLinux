@@ -119,7 +119,7 @@ Prompt: Hello Module Driver
     user@host:~$ make image
     user@host:~$ make flash
 
-## Hello World Kernel Module Native Compilation
+## Project: Hello World Kernel Module Native Compilation
 
 ### Kernel Headers Setup
 
