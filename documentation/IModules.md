@@ -8,6 +8,7 @@ Modules
 ```sh
     root@edison:~# cd kernelmodule
     root@edison:~/kernelmodule# make clean
+    
 ```
 
 
