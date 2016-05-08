@@ -69,7 +69,7 @@
    * [Modems](documentation/Modems.md)
    * [Networking](documentation/Networking.md)
    * [Power](documentation/Power.md)
-   * Thermal
+   * [Thermal](documentation/Thermal.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
