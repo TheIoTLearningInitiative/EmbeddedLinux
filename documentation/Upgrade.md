@@ -32,5 +32,16 @@ Found DFU: [8087:0a99] ver=9999, devnum=14, cfg=1, intf=0, alt=0, name="ifwi00",
 ```
 
 ```sh
-xe1gyq@jessie:~$ dfu-util -d 8087:0a99 -a rootfs -D ~/projects/edison/edison-image-centos.ext4
+xe1gyq@jessie:~/Downloads/latestedison$ dfu-util -d 8087:0a99 -a rootfs -D edison-image-edison.ext4 
+dfu-util 0.8
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2014 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to dfu-util@lists.gnumonks.org
+
+dfu-util: Invalid DFU suffix signature
+dfu-util: A valid DFU suffix will be required in a future dfu-util release!!!
+dfu-util: No DFU capable USB device available
+
 ```
