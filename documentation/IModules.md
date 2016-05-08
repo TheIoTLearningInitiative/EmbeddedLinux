@@ -25,6 +25,10 @@ make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison
 root@edison:~/kernelmodule# 
 ```
 
+```sh
+
+```
+
 
 ## Release v3.0 Yocto Default Loaded Kernel Modules
 
