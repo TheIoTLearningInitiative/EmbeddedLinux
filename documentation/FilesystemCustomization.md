@@ -1,7 +1,7 @@
 Filesystem
 ==
 
-- [](http://alextgalileo.altervista.org/blog/changing-partition-setup-edison/)
+- [Changing partition setup on Edison](http://alextgalileo.altervista.org/blog/changing-partition-setup-edison/)
 
 ## File System Disk Space Customization
 
