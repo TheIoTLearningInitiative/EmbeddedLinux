@@ -56,6 +56,7 @@
        * [Zetta](documentation/Zetta.md)
        * [Misc](documentation/Misc.md)
 * [Subsystems](documentation/Subsystems.md)
+   * Memory
    * [Pin Muxing](documentation/PinMuxing.md)
    * [General Purpose Input Output](documentation/GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
@@ -72,7 +73,6 @@
    * [Networking](documentation/Networking.md)
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
-   * Memory
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
