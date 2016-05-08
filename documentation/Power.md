@@ -54,7 +54,7 @@ Links
     500000
 ```sh
 
-### Suspend to Ram, Yocto 3.0
+### Suspend to Ram, Yocto BSP Edison 3.0
 
 ```sh
 root@edison:~# echo mem > /sys/power/state 
@@ -63,7 +63,7 @@ root@edison:~# echo mem > /sys/power/state
 [   72.953877] intel_scu_watchdog_evo: watchdog_stop
 ```
 
-### Suspend to Ram, Yocto 2.1
+### Suspend to Ram, Yocto BSP Edison 2.1
 
 ```sh
     root@edison:~# echo "mem" > /sys/power/state
