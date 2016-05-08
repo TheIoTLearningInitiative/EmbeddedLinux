@@ -118,7 +118,7 @@ Prompt: Hello Module Driver
 
 ## Hello World Kernel Module Native Compilation
 
-### Kernel Headers
+### Kernel Headers Setup
 
 Under the host...
 
