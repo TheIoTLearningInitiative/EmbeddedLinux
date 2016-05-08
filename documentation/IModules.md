@@ -26,7 +26,7 @@ root@edison:~/kernelmodule#
 ```
 
 ```sh
-
+root@edison:~/kernelmodule# cp helloworld.ko /lib/modules/3.10.17-poky-edison+/kernel/drivers/
 ```
 
 
