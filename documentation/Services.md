@@ -17,7 +17,13 @@ Services
 
 > systemctl command, the central management tool for controlling the init system
 
-## Service, Start Up Script Execution
+
+## Services, Disable Services
+
+systemctl disable and systemctl stop on edison_config, xdk-daemon, rsmb, and mdns
+
+
+## Services, Start Up Script Execution
 
 ```sh
     root@edison:~# cd /home/root/
@@ -59,7 +65,7 @@ Services
 - [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
 - [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
 
-## Web Server
+## Services, Web Server
 
 Location of the web server content
 
@@ -81,7 +87,7 @@ To stop actual webserver
     root@edison:~# systemctl status edison_config
 ```
 
-## Butterfly
+## Services, Butterfly
 
 > A sleek web based terminal emulator
 
