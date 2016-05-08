@@ -170,6 +170,7 @@ root@edison:~# echo mem > /sys/power/state
 ### SystemCtl, Yocto BSP Edison 3.0
 
 ```sh
+Shut down and reboot the system:
 root@edison:~# systemctl reboot
 Shut down and power-off the system:
 root@edison:~# systemctl poweroff
