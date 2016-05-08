@@ -99,7 +99,20 @@ May 08 04:15:15 edison su[289]: + ??? root:root
 May 08 04:15:15 edison su[289]: pam_unix(su:session): session opened for us...0)
 Hint: Some lines were ellipsized, use -l to show in full.
 ```
-systemctl disable and systemctl stop on edison_config, xdk-daemon, rsmb, and mdns
+
+```sh
+root@edison:~# systemctl status systemd-resolved
+● systemd-resolved.service - Network Name Resolution
+   Loaded: loaded (/lib/systemd/system/systemd-resolved.service; enabled)
+   Active: active (running) since Sun 2016-05-08 04:15:14 UTC; 56min ago
+     Docs: man:systemd-resolved.service(8)
+ Main PID: 253 (systemd-resolve)
+   Status: "Processing requests..."
+   CGroup: /system.slice/systemd-resolved.service
+           └─253 /lib/systemd/systemd-resolved
+
+May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
+```
 
 
 ## Services, Start Up Script Execution
