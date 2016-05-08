@@ -55,6 +55,8 @@ In Linux
     boot > 
 ```
 
+## U-Boot Commands
+
 ### help
 
 ```sh
@@ -197,6 +199,8 @@ boot >
     edison login: root
     root@edison:~# 
 ```
+
+## U-Boot Commands from Linux
 
 ```sh
 root@edison:~# fw_printenv
