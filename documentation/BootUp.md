@@ -84,3 +84,5 @@ Shutdown USB0 interface
 ## Dual Boot
 
 ToDo
+
+fw_printenv
