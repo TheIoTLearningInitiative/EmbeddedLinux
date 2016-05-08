@@ -55,7 +55,7 @@ In Linux
     boot > 
 ```
 
-## U-Boot Commands from Linux
+## U-Boot Commands from U-Boot
 
 ### help
 
@@ -203,8 +203,13 @@ boot >
 ## U-Boot Commands from Linux
 
 ```sh
+root@edison:~# fw_
+fw_printenv  fw_setenv    
+root@edison:~#    
+```
+
+```sh
 root@edison:~# fw_printenv
-...
 ...
 uuid_update=faec2ecf-8544-e241-b19d-757e796da607
 first_install_retry=0
