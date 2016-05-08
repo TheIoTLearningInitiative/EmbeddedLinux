@@ -155,6 +155,24 @@ root@edison:~# echo mem > /sys/power/state
 
 ## Userspace Applications
 
+### SystemCtl
+
+```sh
+root@edison:~# systemctl suspend
+[ 2283.848450] intel_scu_watchdog_evo: watchdog_stop
+[ 2283.907087] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
+[ 2283.907105] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
+[ 2283.907120] PM: Device 0000:00:01.3 failed to suspend async: error -16
+[ 2283.928403] PM: Some devices failed to suspend
+[ 2284.491363] intel_scu_watchdog_evo: watchdog_stop
+[ 2284.537447] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
+[ 2284.537464] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
+[ 2284.537479] PM: Device 0000:00:01.3 failed to suspend async: error -16
+[ 2284.558639] PM: Some devices failed to suspend
+A dependency job for suspend.target failed. See 'journalctl -xn' for details.
+root@edison:~# 
+```sh
+
 ```sh
     root@edison:~# systemctl poweroff
     root@edison:~# cat /sys/module/pcie_aspm/parameters/policy
