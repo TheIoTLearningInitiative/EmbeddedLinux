@@ -155,7 +155,7 @@ root@edison:~# echo mem > /sys/power/state
 
 ## Userspace Applications
 
-### SystemCtl
+### SystemCtl, Yocto 2.1
 
 ```sh
 root@edison:~# systemctl suspend
