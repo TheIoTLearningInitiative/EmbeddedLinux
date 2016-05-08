@@ -175,6 +175,8 @@ root@edison:~#
 
 ```sh
 root@edison:~# dmesg
+...
+
 [ 2284.038549] Restarting tasks ... done.
 [ 2284.088450] snd_intel_sst: runtime_idle called
 [ 2284.088478] snd_intel_sst: runtime_suspend called
