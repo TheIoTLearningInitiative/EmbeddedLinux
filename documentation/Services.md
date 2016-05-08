@@ -7,6 +7,8 @@ Services
 
 > systemctl command, the central management tool for controlling the init system
 
+- [systemd System and Service Manager](https://wiki.archlinux.org/index.php/systemd)
+
 ## Service, Start Up Script Execution
 
 ```sh
