@@ -5,6 +5,8 @@ Building
 - [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
 - [How to compile Intel Edison Linux Kernel](http://www.iduino.cc/index.php/2015/10/20/how-to-compile-intel-edison-linux-kernel/)
 
+## Building via Make Detailed
+
 ## Building via Make
 
     user@host:~$ pwd
