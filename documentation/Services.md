@@ -18,6 +18,11 @@ Services
 > systemctl command, the central management tool for controlling the init system
 
 
+
+```sh
+root@edison:~# systemctl list-unit-files --type=service
+```
+
 ## Services, Disable/Enable
 
 ```sh
