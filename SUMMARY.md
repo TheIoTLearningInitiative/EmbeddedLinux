@@ -80,6 +80,6 @@
    * [Radio](documentation/Radio.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
-* Challenge
+* [Challenge](Challenge.md)
 * [SandBox](Sandbox.md)
 
