@@ -73,6 +73,7 @@
    * [Networking](documentation/Networking.md)
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
+   * Input
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
