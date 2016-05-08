@@ -55,7 +55,7 @@ In Linux
     boot > 
 ```
 
-## U-Boot Commands
+## U-Boot Commands from Linux
 
 ### help
 
