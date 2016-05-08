@@ -199,5 +199,8 @@ boot >
 ```
 
 ```sh
-root@edison:~# 
+root@edison:~# fw_printenv
+...
+...
+
 ```
