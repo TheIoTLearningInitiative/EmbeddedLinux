@@ -20,7 +20,7 @@
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
-   * [Flashing](documentation/InitializationFlashing.md)
+   * [Upgrade](documentation/InitializationFlashing.md)
    * [Boot Up](documentation/BootUp.md)
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
