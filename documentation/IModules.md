@@ -29,6 +29,11 @@ root@edison:~/kernelmodule#
 root@edison:~/kernelmodule# cp helloworld.ko /lib/modules/3.10.17-poky-edison+/kernel/drivers/
 ```
 
+```sh
+root@edison:~/kernelmodule# ls /usr/lib/modules-load.d/
+root@edison:~/kernelmodule# 
+```
+
 
 ## Release v3.0 Yocto Default Loaded Kernel Modules
 
