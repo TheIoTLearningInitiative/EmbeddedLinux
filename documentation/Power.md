@@ -194,6 +194,27 @@ root@edison:~# dmesg
 [ 2284.107353]  [<c18dc6da>] dump_stack+0x16/0x18
 [ 2284.107384]  [<c12408ae>] warn_slowpath_common+0x5e/0x80
 [ 2284.107409]  [<c15fa18e>] ? __dwc3_gadget_kick_transfer+0x3de/0x430
+...
+[ 2284.108500]  [<c1263560>] ? kthread+0xa0/0xb0
+[ 2284.108523]  [<c18e5465>] ? sub_preempt_count+0x95/0xf0
+[ 2284.108551]  [<c18e73f7>] ? ret_from_kernel_thread+0x1b/0x28
+[ 2284.108574]  [<c12634c0>] ? kthread_create_on_node+0xc0/0xc0
+[ 2284.108592] ---[ end trace 33110b433ad381ba ]---
+[ 2284.299642] Freezing user space processes ... (elapsed 0.01 seconds) done.
+[ 2284.317476] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) do$
+[ 2284.337404] PM: Entering freeze sleep
+[ 2284.337423] Suspending console(s) (use no_console_suspend to debug)
+[ 2284.467318] snd_intel_sst: runtime_resume called
+[ 2284.490418] snd_intel_sst: runtime_suspend called
+[ 2284.491080] bcmsdh_sdmmc_suspend Enter
+[ 2284.491087] bcmsdh_sdmmc_suspend Enter
+[ 2284.491363] intel_scu_watchdog_evo: watchdog_stop
+[ 2284.491761] bcove_thrm bcove_thrm: suspend called.
+[ 2284.537411] bcmsdh_sdmmc_resume Enter
+[ 2284.537447] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
+[ 2284.537464] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
+[ 2284.537479] PM: Device 0000:00:01.3 failed to suspend async: error -16
+```
 
 ```sh
     root@edison:~# systemctl poweroff
