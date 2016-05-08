@@ -5,6 +5,10 @@ Modules
 
 ## Project: Hello World Kernel Module Automatic Startup
 
+```sh
+    root@edison:~# cd kernelmodule
+    root@edison:~/kernelmodule# nano helloworld.c
+```
 
 
 ## Release v3.0 Yocto Default Loaded Kernel Modules
