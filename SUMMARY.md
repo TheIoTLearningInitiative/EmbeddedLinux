@@ -16,6 +16,7 @@
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
+   * CentOS
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
