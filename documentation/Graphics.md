@@ -1,6 +1,6 @@
 Graphics
 ==
 
-- [Edidoom Intel Edison](http://2ld.de/edidoom/)
-- [Edidoom Display driver code and test program](https://github.com/llatta/edison-graphics)
+- [Edidoom Intel Edison Homepage](http://2ld.de/edidoom/)
+- [Edidoom Intel Edison Display driver code and test program](https://github.com/llatta/edison-graphics)
 
