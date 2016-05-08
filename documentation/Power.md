@@ -214,6 +214,16 @@ root@edison:~# dmesg
 [ 2284.537447] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
 [ 2284.537464] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
 [ 2284.537479] PM: Device 0000:00:01.3 failed to suspend async: error -16
+[ 2284.558639] PM: Some devices failed to suspend
+[ 2284.558944] bcove_thrm bcove_thrm: resume called.
+[ 2284.559690] snd_intel_sst: runtime_resume called
+[ 2284.670305] PM: resume of devices complete after 111.609 msecs
+[ 2284.672284] PM: Finishing wakeup.
+[ 2284.702653] snd_intel_sst: runtime_idle called
+[ 2284.702678] snd_intel_sst: runtime_suspend called
+[ 2284.672297] Restarting tasks ... done.
+[ 2288.575692] CFG80211-ERROR) wl_cfg80211_connect : Connectting withf8:01:13:a$
+
 ```
 
 ```sh
