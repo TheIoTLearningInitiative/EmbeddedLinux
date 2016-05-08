@@ -13,6 +13,7 @@ Services
 
 ## Systemctl
 
+> systemctl — Control the systemd system and service manager. systemctl may be used to introspect and control the state of the "systemd" system and service manager. [Homepage](https://www.freedesktop.org/software/systemd/man/systemctl.html)
 
 > systemctl command, the central management tool for controlling the init system
 
