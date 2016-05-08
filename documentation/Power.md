@@ -63,6 +63,16 @@ root@edison:~# echo mem > /sys/power/state
 [   72.953877] intel_scu_watchdog_evo: watchdog_stop
 ```
 
+```sh
+root@edison:~# echo mem > /sys/power/state 
+[ 2644.850650] intel_scu_watchdog_evo: watchdog_stop
+[ 2644.904499] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
+[ 2644.904516] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
+[ 2644.904532] PM: Device 0000:00:01.3 failed to suspend async: error -16
+[ 2644.925786] PM: Some devices failed to suspend
+-sh: echo: write error: Device or resource busy
+```
+
 ### Suspend to Ram, Yocto BSP Edison 2.1
 
 ```sh
