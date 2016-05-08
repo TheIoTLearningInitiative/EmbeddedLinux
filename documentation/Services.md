@@ -29,6 +29,21 @@ ln -s '/lib/systemd/system/xdk-daemon.service' '/etc/systemd/system/multi-user.t
 ```
 
 ```sh
+root@edison:~# systemctl status clloader     
+● clloader.service - Daemon to handle arduino sketches
+   Loaded: loaded (/lib/systemd/system/clloader.service; enabled)
+   Active: active (running) since Sun 2016-05-08 04:15:11 UTC; 54min ago
+ Main PID: 209 (launcher.sh)
+   CGroup: /system.slice/clloader.service
+           ├─209 /bin/sh /opt/edison/launcher.sh
+           └─210 /opt/edison/clloader --escape --binary --zmodem --disable-ti...
+
+May 08 04:15:11 edison systemd[1]: Started Daemon to handle arduino sketches.
+May 08 04:15:11 edison launcher.sh[209]: Opened /dev/ttyGS0 as inputOpened /...s
+Hint: Some lines were ellipsized, use -l to show in full.
+```
+
+```sh
 root@edison:~# systemctl status rsmb
   rsmb.service
    Loaded: not-found (Reason: No such file or directory)
