@@ -28,6 +28,32 @@ root@edison:~# systemctl enable xdk-daemon
 ln -s '/lib/systemd/system/xdk-daemon.service' '/etc/systemd/system/multi-user.target.wants/xdk-daemon.service'
 ```
 
+```sh
+root@edison:~# systemctl status rsmb
+  rsmb.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: inactive (dead)
+root@edison:~# systemctl status mdns
+● mdns.service - Zero-configuration networking
+   Loaded: loaded (/lib/systemd/system/mdns.service; enabled)
+   Active: active (running) since Sun 2016-05-08 04:15:14 UTC; 53min ago
+ Main PID: 265 (mdnsd)
+   CGroup: /system.slice/mdns.service
+           └─265 /usr/sbin/mdnsd
+
+May 08 04:54:08 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 04:54:08 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 04:54:12 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 101...3
+May 08 05:00:00 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 05:00:00 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 05:00:01 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 05:00:01 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 05:00:08 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 05:00:08 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+May 08 05:00:09 edison mDNSResponder[265]: mDNSPlatformSendUDP got error 99 ...3
+Hint: Some lines were ellipsized, use -l to show in full.
+root@edison:~# systemctl status edison_config
+```
 systemctl disable and systemctl stop on edison_config, xdk-daemon, rsmb, and mdns
 
 
