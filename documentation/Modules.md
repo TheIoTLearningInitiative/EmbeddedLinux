@@ -258,10 +258,3 @@ clean:
 
 - [Compiling drivers for Poky 3.10.17-poky-edison+ directly on EDISON (in 10 steps :))](https://communities.intel.com/thread/62873?start=0&tstart=0)
 - [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
-
-## Others
-
-    user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
-    user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
-    user@host:~$ find -name 
-    user@host:~$ cp /build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0/linux-edison-standardbuild/.config build/tmp/work/edison-poky-linux/linuxyocto/3.10.17+gitAUTOINC+6ad20f049a_c03195ed6er0/defconfig
