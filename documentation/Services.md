@@ -20,6 +20,13 @@ Services
 
 ## Services, Disable Services
 
+```sh
+root@edison:~# systemctl stop xdk-daemon
+root@edison:~# systemctl disable xdk-daemon
+rm '/etc/systemd/system/multi-user.target.wants/xdk-daemon.service'
+
+```
+
 systemctl disable and systemctl stop on edison_config, xdk-daemon, rsmb, and mdns
 
 
