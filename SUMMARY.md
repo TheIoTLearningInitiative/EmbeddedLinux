@@ -27,6 +27,7 @@
    * [Memory](documentation/Memory.md)
    * [Backup](documentation/Backup.md)
 * User Space
+   * [Services](documentation/Services.md)
    * [Package Management Systems](documentation/PackageManagementSystems.md)
        * [Open Package Management](documentation/OpenPackageManagement.md)
        * [Python Package Index](documentation/PythonPackageIndex.md)
@@ -51,7 +52,6 @@
        * [OpenSST](documentation/OpenSst.md)
        * [Zetta](documentation/Zetta.md)
        * [Misc](documentation/Misc.md)
-   * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
