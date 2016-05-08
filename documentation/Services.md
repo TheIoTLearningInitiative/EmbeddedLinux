@@ -18,7 +18,7 @@ Services
 > systemctl command, the central management tool for controlling the init system
 
 
-## Services, Disable Services
+## Services, Disable/Enable Services
 
 ```sh
 root@edison:~# systemctl stop xdk-daemon
