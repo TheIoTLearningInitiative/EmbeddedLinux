@@ -20,6 +20,7 @@
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
+   * [Flashing](documentation/InitializationFlashing.md)
    * [Boot Up](documentation/BootUp.md)
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
@@ -27,7 +28,6 @@
    * [Recovery](documentation/Recovery.md)
    * [Memory](documentation/Memory.md)
    * [Backup](documentation/Backup.md)
-   * [Flashing](documentation/InitializationFlashing.md)
 * User Space
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
