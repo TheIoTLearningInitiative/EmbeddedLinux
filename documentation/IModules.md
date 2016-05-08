@@ -39,7 +39,6 @@ root@edison:~/kernelmodule# echo helloworld > /usr/lib/modules-load.d/helloworld
 root@edison:~/kernelmodule# depmod -a
 ```
 
-
 ## Release v3.0 Yocto Default Loaded Kernel Modules
 
 ```sh
