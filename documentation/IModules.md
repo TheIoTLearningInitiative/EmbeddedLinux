@@ -7,7 +7,7 @@ Modules
 
 ```sh
     root@edison:~# cd kernelmodule
-    root@edison:~/kernelmodule# nano helloworld.c
+    root@edison:~/kernelmodule# ls
 ```
 
 
