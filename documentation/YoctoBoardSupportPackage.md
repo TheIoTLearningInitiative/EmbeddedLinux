@@ -29,4 +29,3 @@ website. Users who don’t want to modify the default images don’t need to rea
 - [Board Support Package (BSP) User Guide for Intel® Edison Development Platform](https://communities.intel.com/docs/DOC-23159)
 
 ![Intel® Edison R2 Software Support](documentation/ScreenshotIntelEdisonBSPComponents.png) 
-<center><img src=""></center>
