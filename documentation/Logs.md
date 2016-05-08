@@ -4,7 +4,6 @@ Logs
 ## JournalCtl
 
 
-
 Show logging space
 
 ```sh
