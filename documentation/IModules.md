@@ -36,6 +36,7 @@ root@edison:~/kernelmodule#
 
 ```sh
 root@edison:~/kernelmodule# echo helloworld > /usr/lib/modules-load.d/helloworld
+root@edison:~/kernelmodule# depmod -a
 ```
 
 
