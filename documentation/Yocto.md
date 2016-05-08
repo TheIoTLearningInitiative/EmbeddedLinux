@@ -15,7 +15,9 @@ Yocto
 - [Yocto Git Server](http://git.yoctoproject.org/)
 - [Elizabeth Flanagan The Yocto Project](http://www.aosabook.org/en/yocto.html)
 
+
 <center><img src="http://www.yoctoproject.org/docs/2.0/yocto-project-qs/figures/yocto-environment.png"></center>
+
 
 ## Building Yocto
 
