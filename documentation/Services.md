@@ -114,7 +114,6 @@ root@edison:~# systemctl status systemd-resolved
 May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
 ```
 
-
 ## Services, Start Up Script Execution
 
 ```sh
