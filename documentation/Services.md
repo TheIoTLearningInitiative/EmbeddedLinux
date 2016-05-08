@@ -9,9 +9,12 @@ Services
 
 > Systemd is an init system and system manager that is widely becoming the new standard for Linux machines. While there are considerable opinions about whether systemd is an improvement over the traditional SysV init systems it is replacing, the majority of distributions plan to adopt it or have already done so. [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
-> systemctl command, the central management tool for controlling the init system
-
 - [ArchLinux systemd System and Service Manager](https://wiki.archlinux.org/index.php/systemd)
+
+## Systemctl
+
+
+> systemctl command, the central management tool for controlling the init system
 
 ## Service, Start Up Script Execution
 
