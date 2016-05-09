@@ -1,5 +1,4 @@
-Misc
-==
+# Misc
 
 ## Squid Proxy, Ubilinux
 
