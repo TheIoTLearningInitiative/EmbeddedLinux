@@ -1,6 +1,6 @@
 # Initialization
 
-- [Linux Initialization by 0xAX](https://0xax.gitbooks.io/linux-insides/content/)
+- [Gitbook Linux Initialization by 0xAX](https://0xax.gitbooks.io/linux-insides/content/)
 
 ## Bootup Linux Kernel
 
