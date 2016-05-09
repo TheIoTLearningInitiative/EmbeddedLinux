@@ -1,5 +1,4 @@
-Ubilinux™, Debian Based Distribution
-==
+# Ubilinux™, Debian Based Distribution
 
 > ubilinux™ is an embedded Linux distribution from Emutex and is based on Debian "Wheezy". It is targeted at embedded devices that have limited memory and storage capabilities.
 
