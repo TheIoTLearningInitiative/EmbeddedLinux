@@ -1,5 +1,4 @@
-Display Message
-==
+# Display Message
 
 ## Bootup Kernel Display Message
 
