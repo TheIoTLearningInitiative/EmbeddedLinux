@@ -10,6 +10,7 @@
 
 ## Embedded Linux
 
+> Thanks to their versatility, operating systems based on the Linux kernel can be also found in mobile devices that are actually touchscreen-based embedded devices, such as smartphones and tablets, together with personal digital assistants (PDAs) and portable media players that also include a touchscreen. [Wikipedia](https://en.wikipedia.org/wiki/Linux_on_embedded_systems)
 
 > Linux now spans the spectrum of computing applications, including IBM's tiny Linux wrist watch, hand-held devices (PDAs and cell phones), Internet appliances, thin clients, firewalls, industrial robotics, telephony infrastructure equipment, and even cluster-based supercomputers. [IBM developerWorks Embedded Linux applications: An overview](http://www.ibm.com/developerworks/library/l-embl/)
 
