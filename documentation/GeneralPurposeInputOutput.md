@@ -99,7 +99,9 @@ Before:
 
 let's say 48 lets type the following:
 
+```sh
     root@edison:/# echo 48 > /sys/class/gpio/export
+```
 
 by this mechanism, a new directory is created in **/sys/class/gpio**, which should be **gpio48**:
 After:
