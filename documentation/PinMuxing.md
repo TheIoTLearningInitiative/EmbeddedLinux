@@ -1,5 +1,4 @@
 # Pin Muxing
-==
 
 > When working with the ports on the Linux-level, Pin Muxing are performed by MRAA library. In the case of the microcontroller it is necessary to take care with scripts...
 
