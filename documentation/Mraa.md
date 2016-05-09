@@ -59,7 +59,7 @@
 
 Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison)
  
-## Upgrade
+## Upgrade, Opkg
 
 ```sh
     root@edison:~# opkg install libmraa0
