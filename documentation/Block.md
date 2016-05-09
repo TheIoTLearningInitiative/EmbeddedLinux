@@ -167,10 +167,3 @@ Block
     none on /root/temptmpfs type tmpfs (rw,relatime,size=16777216k)
     root@edison:~# umount /root/temptmpfs
 ```
-
-### Virtual Filesystem
-
-> 
-
-http://www.tldp.org/LDP/khg/HyperNews/get/fs/vfstour.html
-
