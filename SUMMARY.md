@@ -52,7 +52,6 @@
        * [Pixhawk](documentation/Pixhawk.md)
        * [Artoo](documentation/Artoo.md)
        * [Bower](documentation/Bower.md)
-       * [OpenSST](documentation/OpenSst.md)
        * [Zetta](documentation/Zetta.md)
        * [Misc](documentation/Misc.md)
 * [Subsystems](documentation/Subsystems.md)
