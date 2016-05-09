@@ -1,5 +1,5 @@
-Building Blocks
-==
+# Building Blocks
+
 
 > In OpenEmbedded, a layer is just a collection of recipes and/or configuration that can be used on top of OE-Core. Typically each layer is organised around a specific theme, e.g. adding recipes for building web browser software.
 
