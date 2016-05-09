@@ -126,6 +126,9 @@ May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
 
 ## Services, Start Up Script Execution
 
+- [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
+- [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
+
 ```sh
     root@edison:~# cd /home/root/
     root@edison:~# nano hello-world.sh
@@ -162,9 +165,6 @@ May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
     root@edison:~# systemctl start hello-world
     root@edison:~# systemctl status hello-world.service -l
 ```
-
-- [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
-- [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
 
 ## Services, Web Server
 
