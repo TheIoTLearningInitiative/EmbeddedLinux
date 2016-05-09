@@ -1,5 +1,4 @@
-Peripheral Component Interconnect
-==
+# Peripheral Component Interconnect
 
 > Conventional PCI, often shortened to PCI, is a local computer bus for attaching hardware devices in a computer. PCI is the initialism for Peripheral Component Interconnect[2] and is part of the PCI Local Bus standard. The PCI bus supports the functions found on a processor bus but in a standardized format that is independent of any particular processor's native bus. Devices connected to the PCI bus appear to a bus master to be connected directly to its own bus and are assigned addresses in the processor's address space. It is a parallel bus, synchronous to a single bus clock. Wikipedia
 
