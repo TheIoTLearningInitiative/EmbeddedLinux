@@ -20,7 +20,7 @@ UPD Updates
 - ZWave—USB Controllers
 - ISM (Industrial, Scientific & Medical) Frequency Shift Keying (FSK) at 434 and 915 MHz
 
-## Manual Installation
+## Manual Installation, Latest Github
 
 ### Ubilinux
 
@@ -45,7 +45,7 @@ UPD Updates
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
-Testing
+## Testing
 
 Check if RMAA and UPM Libraries are installed and upgrade them
 
