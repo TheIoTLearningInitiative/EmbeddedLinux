@@ -53,7 +53,7 @@
        * [Artoo](documentation/Artoo.md)
        * [Bower](documentation/Bower.md)
        * [Zetta](documentation/Zetta.md)
-       * [Misc](documentation/Misc.md)
+       * [Miscellaneous](documentation/Misc.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [Memory](documentation/SubsystemsMemory.md)
