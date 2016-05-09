@@ -45,7 +45,7 @@ UPD Updates
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
-## Testing
+## Testing, Opkg
 
 Check if RMAA and UPM Libraries are installed and upgrade them
 
@@ -74,7 +74,7 @@ Check if RMAA and UPM Libraries are installed and upgrade them
     root@edison:~# 
 ```
 
-## Upgrade
+## Upgrade, Opkg
 
 ```sh
     root@edison:~# opkg install upm
