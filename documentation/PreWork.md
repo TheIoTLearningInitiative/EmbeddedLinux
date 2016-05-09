@@ -1,5 +1,4 @@
-Pre-Work
-==
+# Pre-Work
 
 ```sh
     root@edison:~# git clone https://github.com/UserName/TheIoTLearningInitiative.git
