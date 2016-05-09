@@ -66,7 +66,7 @@
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
    * [Block](documentation/Block.md)
-   * Virtual File System
+   * [Virtual File System](documentation/VirtualFileSystem.md)
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
    * [Peripheral Component Interconnect](documentation/PeripheralComponentInterconnect.md)
