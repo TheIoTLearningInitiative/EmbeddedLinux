@@ -11,8 +11,7 @@
 ## Embedded Linux
 
 
-> 
-http://www.ibm.com/developerworks/library/l-embl/
+> Linux now spans the spectrum of computing applications, including IBM's tiny Linux wrist watch, hand-held devices (PDAs and cell phones), Internet appliances, thin clients, firewalls, industrial robotics, telephony infrastructure equipment, and even cluster-based supercomputers. [IBM developerWorks](http://www.ibm.com/developerworks/library/l-embl/)
 
 ## Linux Kernel Size
 
