@@ -1,5 +1,4 @@
-Headers
-==
+# Headers
 
 > The linux kernel's exported header files describe the API for user space programs attempting to use kernel services.  These kernel header files are used by the system's C library (such as glibc or uClibc) to define available system calls, as well as constants and structures to be used with these system calls.
 
