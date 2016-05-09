@@ -1,5 +1,4 @@
-Cylon JS
-==
+# Cylon JS
 
 > JavaScript framework for robotics, physical computing, and the Internet of Things (IoT)
 
