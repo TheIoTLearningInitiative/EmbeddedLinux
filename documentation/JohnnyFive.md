@@ -1,5 +1,4 @@
-Johnny Five
-==
+# Johnny Five
 
 > The JavaScript "Tessel 2" Programming Framework
 
