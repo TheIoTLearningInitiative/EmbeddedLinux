@@ -14,4 +14,4 @@
 
 ## Intel Edison Default Version from Kernel Source Code
 
-ToDo Add path to Makefile
+ToDo Open Makefile
