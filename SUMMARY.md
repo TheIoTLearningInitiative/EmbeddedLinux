@@ -66,6 +66,7 @@
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
    * [Block](documentation/Block.md)
+   * Virtual File System
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
    * [Peripheral Component Interconnect](documentation/PeripheralComponentInterconnect.md)
@@ -75,7 +76,6 @@
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
    * [Graphics](documentation/Graphics.md)
-   * Virtual File System
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
