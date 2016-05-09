@@ -1,5 +1,4 @@
-Logs
-==
+# Logs
 
 ## JournalCtl
 
