@@ -1,5 +1,4 @@
-Memory
-==
+# Memory
 
 ```sh
 root@edison:~# free -m
