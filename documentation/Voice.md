@@ -10,4 +10,4 @@
 > The OpenSTT project is aimed at creating an open source speech-to-text model that can be used by individuals and company to allow for high accuracy, low-latency conversion of speech into text. OpenSST
 
 - [Mycroft Adapt](https://adapt.mycroft.ai/)
-Mycroft Mimic
+- [Mycroft Mimic](https://mimic.mycroft.ai/)
