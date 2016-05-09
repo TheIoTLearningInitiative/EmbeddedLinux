@@ -1,5 +1,4 @@
-Python Package Index
-==
+# Python Package Index
 
 > The Python Package Index or PyPI is the official third-party software repository for the Python programming language. Python developers intend it to be a comprehensive catalog of all open source Python packages. Wikipedia
 
