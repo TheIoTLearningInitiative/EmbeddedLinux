@@ -1,5 +1,4 @@
-Serial
-==
+# Serial
 
 > In telecommunication and computer science, serial communication is the process of sending data one bit at a time, sequentially, over a communication channel or computer bus. This is in contrast to parallel communication, where several bits are sent as a whole, on a link with several parallel channels. [Wikipedia](https://en.wikipedia.org/wiki/Serial_communication)
 
