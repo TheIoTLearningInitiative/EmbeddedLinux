@@ -4,6 +4,6 @@
 
 > The Linux kernel implements the concept of Virtual File System (VFS, originally Virtual Filesystem Switch), so that it is (to a large degree) possible to separate actual "low-level" filesystem code from the rest of the kernel. [The Linux Virtual File System](https://www.win.tue.nl/~aeb/linux/lk/lk-8.html)
 
-http://www.tldp.org/LDP/khg/HyperNews/get/fs/vfstour.html
+- [A tour of the Linux VFS](http://www.tldp.org/LDP/khg/HyperNews/get/fs/vfstour.html)
 
 
