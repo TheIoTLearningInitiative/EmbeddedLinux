@@ -188,7 +188,7 @@ To stop actual webserver
     root@edison:~# systemctl status edison_config
 ```
 
-## Services, Butterfly
+## Services, Butterfly, Web Based Terminal Emulator
 
 > A sleek web based terminal emulator
 
