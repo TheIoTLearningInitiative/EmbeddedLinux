@@ -55,6 +55,7 @@
        * [Zetta](documentation/Zetta.md)
        * [Miscellaneous](documentation/Misc.md)
 * [Subsystems](documentation/Subsystems.md)
+   * X File Systems
    * [Pin Muxing](documentation/PinMuxing.md)
    * [Memory](documentation/SubsystemsMemory.md)
    * [Input](documentation/Input.md)
@@ -74,7 +75,6 @@
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
    * [Graphics](documentation/Graphics.md)
-   * X File Systems
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
