@@ -1,5 +1,4 @@
-UPM
-==
+# UPM
 
 > Sensor/Actuator repository for libmraa
 
