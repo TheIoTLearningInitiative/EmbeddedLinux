@@ -1,5 +1,4 @@
-Universal Serial Bus
-==
+# Universal Serial Bus
 
 > USB, short for Universal Serial Bus, is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.[4] It is currently developed by the USB Implementers Forum. [Wikipedia](https://en.wikipedia.org/wiki/USB)
 
