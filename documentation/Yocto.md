@@ -7,6 +7,7 @@
 - [Yocto Project Homepage](https://www.yoctoproject.org/)
 - [Yocto Project Quick Start Guide](http://www.yoctoproject.org/docs/2.0/yocto-project-qs/yocto-project-qs.html)
 - [Yocto Developer Manual](http://www.yoctoproject.org/docs/1.6.1/dev-manual/dev-manual.html)
+- [Yocto Project Reference Manual](http://www.yoctoproject.org/docs/latest/ref-manual/ref-manual.html)
 - [Yocto Kernel Developer Manual](http://www.yoctoproject.org/docs/1.6.1/kernel-dev/kernel-dev.html)
 - [Yocto Project and Embedded OS Webinar](http://www.intel.com/content/www/us/en/education/university/galileo-university-curricula/yocto-project-and-embedded-os-webinar-replay.html#)
 - [Yocto Manage a Private Opkg Repository](http://www.jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html)
