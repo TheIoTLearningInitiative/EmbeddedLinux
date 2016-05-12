@@ -9,7 +9,7 @@ Challenge
 - Acquire the skill to develop multi-threaded embedded software in target environment, including good quality and coding style for embedded programming, and testing and debugging approaches to verify embedded software operations.
 - Develop feasible task scheduling and carry out system performance and task schedulability analyses.
 
-> The target development environment used in the course was Intel's Galileo board. The board, with its rich architectural features, was used to investigate embedded software characteristics and IO operations, and to experience system design and development practices.
+> The target development environment used in the course was Intel's Galileo board. The board, with it rich architectural features, was used to investigate embedded software characteristics and IO operations, and to experience system design and development practices.
 
 - [Summer Short Course on Embedded Systems Programming](http://rts.lab.asu.edu/web_ESP_Summer2014/ESP_Main_page.htm)
 
