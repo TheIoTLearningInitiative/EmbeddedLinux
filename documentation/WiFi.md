@@ -190,6 +190,10 @@ WiFi to connect at power up:
     systemctl start wpa_supplicant
 ```
 
+### Passwords
+
+- [](https://gist.github.com/sxing/1334eabdf86cd494ab86)
+
 ### Mode Access Point @ Ubilinux
 
 - [Ubilinux Access Point Hostapd](http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd)
