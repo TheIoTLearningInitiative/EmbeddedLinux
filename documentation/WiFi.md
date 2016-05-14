@@ -192,7 +192,7 @@ WiFi to connect at power up:
 
 ### Passwords
 
-- [](https://gist.github.com/sxing/1334eabdf86cd494ab86)
+- [https://communities.intel.com/thread/59888?start=0&tstart=0](https://gist.github.com/sxing/1334eabdf86cd494ab86)
 
 ### Mode Access Point @ Ubilinux
 
