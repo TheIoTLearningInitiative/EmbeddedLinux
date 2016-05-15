@@ -16,4 +16,4 @@ Bots are third-party applications that run inside Telegram. Users can interact w
 
 ## Bot Code Examples
 
-https://core.telegram.org/bots/samples
+> Many members of our community are building bots and publishing the source code. We collect these examples here. Ping us on BotSupport if you've built a bot and would like to share its code with others [Bot Code Examples](https://core.telegram.org/bots/samples)
