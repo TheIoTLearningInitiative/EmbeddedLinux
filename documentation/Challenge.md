@@ -1,5 +1,4 @@
-Challenge
-==
+# Challenge
 
 ## Summer Short Course on Embedded Systems Programming
 
