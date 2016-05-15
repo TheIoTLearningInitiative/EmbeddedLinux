@@ -17,3 +17,29 @@ Bots are third-party applications that run inside Telegram. Users can interact w
 ## Bot Code Examples
 
 > Many members of our community are building bots and publishing the source code. We collect these examples here. Ping us on BotSupport if you've built a bot and would like to share its code with others [Bot Code Examples](https://core.telegram.org/bots/samples)
+
+## BotFather
+
+```sh
+BotFather:
+They call me the Botfather, I can help you create and set up Telegram bots. Please read this manual before we begin:
+https://core.telegram.org/bots
+
+You can control me by sending these commands:
+
+/newbot - create a new bot
+/token - generate authorization token
+/revoke - revoke bot access token
+/setname - change a bot's name
+/setdescription - change bot description
+/setabouttext - change bot about info
+/setuserpic - change bot profile photo
+/setinline - change inline settings
+/setinlinegeo - toggle inline location requests
+/setinlinefeedback - change inline feedback settings
+/setcommands - change bot commands list
+/setjoingroups - can your bot be added to groups?
+/setprivacy - what messages does your bot see in groups?
+/deletebot - delete a bot
+/cancel - cancel the current operation
+```
