@@ -1,5 +1,4 @@
-Artificial Intelligence
-==
+## Artificial Intelligence
 
 ## Mycroft
 
