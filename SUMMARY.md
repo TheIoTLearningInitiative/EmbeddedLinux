@@ -84,7 +84,7 @@
    * [NodeJS](documentation/NodeJs.md)
    * [Cloud9](documentation/Cloud9.md)
    * [Voice](documentation/Voice.md)
-   * [Radio](documentation/Radio.md)
+   * [Radio Frequency](documentation/Radio.md)
    * [Bots](documentation/Bots.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
