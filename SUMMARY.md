@@ -85,9 +85,9 @@
    * [Cloud9](documentation/Cloud9.md)
    * [Voice](documentation/Voice.md)
    * [Radio](documentation/Radio.md)
+   * Bots
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
-   * Bots
 * [Challenge](documentation/Challenge.md)
 * [SandBox](Sandbox.md)
 
