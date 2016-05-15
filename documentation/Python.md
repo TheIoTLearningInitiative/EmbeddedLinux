@@ -1,6 +1,6 @@
 # Python
 
-> Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.[23][24] Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java.[25][26] The language provides constructs intended to enable clear programs on both a small and large scale. [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
+> Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale. [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 - [Five trivial things every python programmer should work with](https://impythonist.wordpress.com/2015/10/11/five-trivial-things-every-python-programmer-should-work-with/)
 
