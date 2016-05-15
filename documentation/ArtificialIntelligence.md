@@ -4,6 +4,8 @@
 
 > Natural Language for Developers. [Homepage](https://wit.ai/)
 
+> Today, thanks to companies like Wit.ai, even kids at hackathons are showing off weekend projects that are voice-controlled. Venturebeat
+
 - Bots
 - Mobile apps
 - Home automation
