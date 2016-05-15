@@ -1,6 +1,6 @@
 # C Language
 
-> C (/ˈsiː/, as in the letter c) is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. [Wikipedia](https://en.wikipedia.org/wiki/C_(programming_language))
+> C (/ˈsiː/, as in the letter c) is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations [Wikipedia](https://en.wikipedia.org/wiki/C_(programming_language))
 
 - [Exploring Intel Edison in C](http://www.i-programmer.info/programming/hardware/8682-exploring-edison-in-c.html)
 
