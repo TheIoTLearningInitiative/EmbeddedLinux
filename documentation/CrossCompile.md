@@ -1,5 +1,4 @@
-Cross Compile
-==
+# Cross Compile
 
 > A cross compiler is a compiler capable of creating executable code for a platform other than the one on which the compiler is running. [Wikipedia](https://en.wikipedia.org/wiki/Cross_compiler)
 
