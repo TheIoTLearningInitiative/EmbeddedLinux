@@ -1,5 +1,4 @@
-Python
-==
+# Python
 
 - [Five trivial things every python programmer should work with](https://impythonist.wordpress.com/2015/10/11/five-trivial-things-every-python-programmer-should-work-with/)
 
