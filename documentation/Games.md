@@ -1,5 +1,4 @@
-Games
-==
+# Games
 
 ## Doom
 
