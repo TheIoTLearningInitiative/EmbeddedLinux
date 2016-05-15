@@ -13,3 +13,7 @@ Bots are third-party applications that run inside Telegram. Users can interact w
 3. How do I create a bot?
 4. How are bots different from humans?
 5. Bot perks
+
+## Bot Code Examples
+
+https://core.telegram.org/bots/samples
