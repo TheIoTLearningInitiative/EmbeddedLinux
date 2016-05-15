@@ -2,9 +2,14 @@
 
 ## Mycroft
 
-> A.I. for everyone. Connecting the Internet of things has never been easier. Mycroft has a lot of native skills and abilities baked in and, since it is open source, it allows outside developers to add more features over time.
+> A.I. for everyone. Connecting the Internet of things has never been easier. Mycroft has a lot of native skills and abilities baked in and, since it is open source, it allows outside developers to add more features over time. [Mycroft](https://mycroft.ai/)
 
-- [Mycroft](https://mycroft.ai/)
+- Always Learning
+- Always Changing
+- Always Listening
+- For the Office: Increase Productivity!
+- For the Maker: Encourage Creativity!
+- For the Home: Integrated Artificial Intelligence!
 
 ## Others
 
