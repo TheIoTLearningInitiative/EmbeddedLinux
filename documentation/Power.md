@@ -1,5 +1,4 @@
-Power
-==
+# Power
 
 > D0, Device power state, equivalent to “fully on”. D1 and D2 are intermediate states; D3 is “Off”
 
