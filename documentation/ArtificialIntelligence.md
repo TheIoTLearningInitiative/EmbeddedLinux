@@ -1,4 +1,14 @@
-## Artificial Intelligence
+# Artificial Intelligence
+
+## Wit.Ai
+
+> Natural Language for Developers. [Homepage](https://wit.ai/)
+
+- Bots
+- Mobile apps
+- Home automation
+- Wearable devices
+- Robots
 
 ## Mycroft
 
