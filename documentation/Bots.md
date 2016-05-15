@@ -6,4 +6,4 @@
 
 ## Bots: An introduction for developers
 
-https://core.telegram.org/bots
+ [](https://core.telegram.org/bots)
