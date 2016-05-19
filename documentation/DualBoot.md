@@ -66,15 +66,17 @@ root@edison:~# dmesg |tail -n 10
 Here, the SD card device is “/dev/mmcblk1” and the partition we’ve created is "/dev/mmcblk1p1".
 To boot using the external device, you need to modify the U-Boot environment variable named "mmc-bootargs" with kernel boot arguments. In the simplest case you can just change the "root=..." part, but here’s a more elaborated approach, which will help you to switch between booting from eMMC and the SD card more easily.
 In the Edison Linux console set the U-Boot environment variables like the below:
-# the below is a single line
 
 ```sh
+# the below is a single line
+
 root@edison:~# fw_printenv |grep mmc-bootargs=
 mmc-bootargs=setenv bootargs root=PARTUUID=${uuid_rootfs} rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}
-# the below is a single command line
 ```
 
 ```sh
+# the below is a single command line
+
 root@edison:~# fw_setenv mmc-bootargs 'setenv bootargs root=${myrootfs} rootdelay=3 rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}'
 ```
 
