@@ -28,6 +28,7 @@
    * [Recovery](documentation/Recovery.md)
    * [Memory](documentation/Memory.md)
    * [Backup](documentation/Backup.md)
+   * Dual Boot
 * User Space
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
