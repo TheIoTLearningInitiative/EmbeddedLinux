@@ -45,9 +45,12 @@ user@linux:~/Downloads/unpacked-image$ sync
 ```
 
 3. Your SD card is now ready to boot. Find out the SD card device name
+
+
 On a running Edison board, plug your formatted SD card and get the device name:
 
-•	root@edison:~# dmesg |tail -n 10
+```sh
+root@edison:~# dmesg |tail -n 10
 [    6.387683] g_multi gadget: high-speed config #2: Multifunction with CDC ECM
 [    6.522733] EXT4-fs (mmcblk0p5): mounted filesystem without journal. Opts: discard,barrier=1,data=ordered,noauto_da_ac
 [    7.375959] systemd-fstab-generator[174]: Checking was requested for "rootfs", but it is not a device.
@@ -58,20 +61,26 @@ On a running Edison board, plug your formatted SD card and get the device name:
 [  767.953999] mmcblk1: mmc1:0007 SD16G 14.4 GiB 
 [  767.956822]  mmcblk1: p1
 [  768.275336] EXT4-fs (mmcblk1p1): mounted filesystem with ordered data mode. Opts: (null)
- 
+```
+
 Here, the SD card device is “/dev/mmcblk1” and the partition we’ve created is "/dev/mmcblk1p1".
 To boot using the external device, you need to modify the U-Boot environment variable named "mmc-bootargs" with kernel boot arguments. In the simplest case you can just change the "root=..." part, but here’s a more elaborated approach, which will help you to switch between booting from eMMC and the SD card more easily.
 In the Edison Linux console set the U-Boot environment variables like the below:
 # the below is a single line
 
-•	root@edison:~# fw_printenv |grep mmc-bootargs=
+```sh
+root@edison:~# fw_printenv |grep mmc-bootargs=
 mmc-bootargs=setenv bootargs root=PARTUUID=${uuid_rootfs} rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}
 # the below is a single command line
+```
 
-•	root@edison:~# fw_setenv mmc-bootargs 'setenv bootargs root=${myrootfs} rootdelay=3 rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}'
- 
-•	root@edison:~# fw_setenv myrootfs_sdcard '/dev/mmcblk1p1'
- 
+```sh
+root@edison:~# fw_setenv mmc-bootargs 'setenv bootargs root=${myrootfs} rootdelay=3 rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}'
+```
+
+```sh
+root@edison:~# fw_setenv myrootfs_sdcard '/dev/mmcblk1p1'
+```
  
 # get the UUID for the eMMC rootfs partition
 •	root@edison:~# fw_printenv uuid_rootfs
