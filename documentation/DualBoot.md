@@ -11,9 +11,11 @@
 This tutorial describes a way to boot an Edison board with the Root Filesystem on an external storage (SD card). The kernel and bootloader remain on the local eMMC. For now, we are not able to boot a kernel from an external storage.
 
 First, you need to have a SD card formatted with ext4 file system to store your root file system (do not use FAT/FAT32 for that). You can use gparted.
- Download and unpack the Edison OS image from the Software Downloads section of the community. 
 
-•	user@linux:~/Downloads/unpacked-image$ ls
+Download and unpack the Edison OS image from the Software Downloads section of the community. 
+
+```sh
+user@linux:~/Downloads/unpacked-image$ ls
 dnx_fwr_saltbay_pr2.bin     edison_ifwi-dbg-02-dfu.bin  edison-image-edison.ext4    package-list.txt
 dnx_osr_saltbay_pr2.bin     edison_ifwi-dbg-03.bin      edison-image-edison.hddimg  pft-config-edison.xml
 edison_dnx_fwr.bin          edison_ifwi-dbg-03-dfu.bin  filter-dfu-out.js           pft-config-mcg_sku.xml
@@ -23,11 +25,16 @@ edison_ifwi-dbg-00-dfu.bin  edison_ifwi-dbg-05.bin      flash.log               
 edison_ifwi-dbg-01.bin      edison_ifwi-dbg-05-dfu.bin  ifwi_saltbay_pr2.bin
 edison_ifwi-dbg-01-dfu.bin  edison_ifwi-dbg-06.bin      ifwi_saltbay_pr2-dfu.bin
 edison_ifwi-dbg-02.bin      edison_ifwi-dbg-06-dfu.bin  ota_update.scr
- 
-•	user@linux:~/Downloads/unpacked-image$ mkdir Rootfs
- 
-•	user@linux:~/Downloads/unpacked-image$ sudo mount ./edison-image-edison.ext4 Rootfs
+```
+
+```sh
+user@linux:~/Downloads/unpacked-image$ mkdir Rootfs
+```
+
+```sh
+user@linux:~/Downloads/unpacked-image$ sudo mount ./edison-image-edison.ext4 Rootfs
 [sudo] password for user:
+ ```
  
 •	user@linux:~/Downloads/unpacked-image$ sudo cp -a Rootfs/* /media/8f88dd49-95ac-4d0c-8c3a-abd445f87fa1/ (or whatever folder name your pc gave to your SD card)
 
