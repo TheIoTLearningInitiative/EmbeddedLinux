@@ -4,7 +4,9 @@
 
 - [How to boot Edison from an SD card (Linux)](https://communities.intel.com/thread/61048?tstart=0)
 
-### How to boot Edison from an SD card (Linux) by Carlos Rodriguez
+### How to boot Edison from an SD card (Linux)
+
+> by Carlos Rodriguez
 
 This tutorial describes a way to boot an Edison board with the Root Filesystem on an external storage (SD card). The kernel and bootloader remain on the local eMMC. For now, we are not able to boot a kernel from an external storage.
 
