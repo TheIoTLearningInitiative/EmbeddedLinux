@@ -83,24 +83,39 @@ root@edison:~# fw_setenv mmc-bootargs 'setenv bootargs root=${myrootfs} rootdela
 ```sh
 root@edison:~# fw_setenv myrootfs_sdcard '/dev/mmcblk1p1'
 ```
- 
+
+```sh
 # get the UUID for the eMMC rootfs partition
 •	root@edison:~# fw_printenv uuid_rootfs
+```
+
+```sh
 # use the UUID obtained above
 •	root@edison:~# fw_setenv myrootfs_emmc 'PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4'
+```
+
+```sh
 # this will set the default, use the value we’ve used for myrootfs_emmc
 # if you want to boot from eMMC by default
 •	root@edison:~# fw_setenv myrootfs '/dev/mmcblk1p1'
- 
+```
+
+```sh
 •	root@edison:~# fw_setenv do_boot_emmc 'setenv myrootfs ${myrootfs_emmc}; run do_boot'
- 
+```
+
+```sh
 •	root@edison:~# fw_setenv do_boot_sdcard 'setenv myrootfs ${myrootfs_sdcard}; run do_boot'
+```
+
 Reboot Edison
+
 After boot, verify that you are using rootfs stored on your external device:
 The root file system is now 14.1 GB (this will depend on your SD card size).
 The SD card will still be automounted to /media/sdcard by Edison’s automount daemon. Since it is the rootfs anyway, this m006F	untpoint becomes useless, so disable the systemd service:
 Now, you have plenty of room to work on Edison and no unnecessary mounts:
 
+```sh
 •	root@edison:/etc/systemd# df -h
 Filesystem                Size      Used Available Use% Mounted on
 /dev/root                14.1G    343.5M     13.1G   3% /
@@ -114,8 +129,7 @@ tmpfs                   480.5M      4.0K    480.5M   0% /tmp
 tmpfs                   480.5M         0    480.5M   0% /var/volatile
 /dev/mmcblk0p5         1003.0K     19.0K    913.0K   2% /factory
 /dev/mmcblk0p7            5.5M      5.1M    464.0K  92% /boot
-
-
+```
 
 Source:
 https://communities.intel.com/thread/61048?tstart=0
