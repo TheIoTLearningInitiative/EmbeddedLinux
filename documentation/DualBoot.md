@@ -36,10 +36,15 @@ user@linux:~/Downloads/unpacked-image$ sudo mount ./edison-image-edison.ext4 Roo
 [sudo] password for user:
  ```
  
-•	user@linux:~/Downloads/unpacked-image$ sudo cp -a Rootfs/* /media/8f88dd49-95ac-4d0c-8c3a-abd445f87fa1/ (or whatever folder name your pc gave to your SD card)
+```sh
+user@linux:~/Downloads/unpacked-image$ sudo cp -a Rootfs/* /media/8f88dd49-95ac-4d0c-8c3a-abd445f87fa1/ (or whatever folder name your pc gave to your SD card)
+```
 
-•	user@linux:~/Downloads/unpacked-image$ sync
-     3. Your SD card is now ready to boot. Find out the SD card device name
+```sh
+user@linux:~/Downloads/unpacked-image$ sync
+```
+
+3. Your SD card is now ready to boot. Find out the SD card device name
 On a running Edison board, plug your formatted SD card and get the device name:
 
 •	root@edison:~# dmesg |tail -n 10
