@@ -22,13 +22,13 @@
 * [Initialization](documentation/Initialization.md)
    * [Upgrade](documentation/Upgrade.md)
    * [Boot Up](documentation/BootUp.md)
+   * Dual Boot
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
    * [Recovery](documentation/Recovery.md)
    * [Memory](documentation/Memory.md)
    * [Backup](documentation/Backup.md)
-   * Dual Boot
 * User Space
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
