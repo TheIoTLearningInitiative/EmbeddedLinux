@@ -22,7 +22,7 @@
 * [Initialization](documentation/Initialization.md)
    * [Upgrade](documentation/Upgrade.md)
    * [Boot Up](documentation/BootUp.md)
-   * Dual Boot
+   * [Dual Boot](documentation/DualBoot.md)
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
