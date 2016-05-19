@@ -17,6 +17,7 @@
        * [Flashing](documentation/FlashingYocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
    * [CentOS](documentation/CentOs.md)
+   * Kali
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
