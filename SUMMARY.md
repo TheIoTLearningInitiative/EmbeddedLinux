@@ -18,7 +18,7 @@
    * [Ubilinux](documentation/Ubilinux.md)
    * [CentOS](documentation/CentOs.md)
    * [Kali](documentation/Kali.md)
-   * [Brillo](documentation/GoogleBrillo.md)
+   * [Google Brillo](documentation/GoogleBrillo.md)
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
