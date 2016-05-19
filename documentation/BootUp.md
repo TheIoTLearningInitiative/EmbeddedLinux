@@ -80,9 +80,3 @@ Shutdown USB0 interface
     root@edison:~# ifconfig usb0 down
     root@edison:~# 
 ```
-
-## Dual Boot
-
-ToDo
-
-- [How to boot Edison from an SD card (Linux)](https://communities.intel.com/thread/61048?tstart=0)
