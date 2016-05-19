@@ -76,7 +76,9 @@ mmc-bootargs=setenv bootargs root=PARTUUID=${uuid_rootfs} rootfstype=ext4 ${boot
 
 ```sh
 # the below is a single command line
+```
 
+```sh
 root@edison:~# fw_setenv mmc-bootargs 'setenv bootargs root=${myrootfs} rootdelay=3 rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}'
 ```
 
@@ -97,15 +99,15 @@ root@edison:~# fw_setenv myrootfs_sdcard '/dev/mmcblk1p1'
 ```sh
 # this will set the default, use the value we’ve used for myrootfs_emmc
 # if you want to boot from eMMC by default
-•	root@edison:~# fw_setenv myrootfs '/dev/mmcblk1p1'
+root@edison:~# fw_setenv myrootfs '/dev/mmcblk1p1'
 ```
 
 ```sh
-•	root@edison:~# fw_setenv do_boot_emmc 'setenv myrootfs ${myrootfs_emmc}; run do_boot'
+root@edison:~# fw_setenv do_boot_emmc 'setenv myrootfs ${myrootfs_emmc}; run do_boot'
 ```
 
 ```sh
-•	root@edison:~# fw_setenv do_boot_sdcard 'setenv myrootfs ${myrootfs_sdcard}; run do_boot'
+root@edison:~# fw_setenv do_boot_sdcard 'setenv myrootfs ${myrootfs_sdcard}; run do_boot'
 ```
 
 Reboot Edison
@@ -116,7 +118,7 @@ The SD card will still be automounted to /media/sdcard by Edison’s automount d
 Now, you have plenty of room to work on Edison and no unnecessary mounts:
 
 ```sh
-•	root@edison:/etc/systemd# df -h
+root@edison:/etc/systemd# df -h
 Filesystem                Size      Used Available Use% Mounted on
 /dev/root                14.1G    343.5M     13.1G   3% /
 devtmpfs                480.2M         0    480.2M   0% /dev
