@@ -8,6 +8,7 @@
        * [Yocto](documentation/Yocto.md)
        * [Compilation](documentation/Compilation.md)
            * Make
+           * Bitbake
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
