@@ -7,6 +7,7 @@
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
        * [Yocto](documentation/Yocto.md)
        * [Compilation](documentation/Compilation.md)
+           * Make
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
