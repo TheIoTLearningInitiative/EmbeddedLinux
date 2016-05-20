@@ -29,4 +29,4 @@ root@edison:~#
 
 ## Drones on IA
 
-- [](http://dronesonia.bz.intel.com/doc/index.html)
+- [Drones on IA](http://dronesonia.bz.intel.com/doc/index.html)
