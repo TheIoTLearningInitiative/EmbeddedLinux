@@ -27,3 +27,6 @@ root@edison:~#
 
 ```
 
+## Drones on IA
+
+http://dronesonia.bz.intel.com/doc/index.html
