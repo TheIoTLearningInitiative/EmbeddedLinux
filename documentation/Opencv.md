@@ -14,7 +14,8 @@
 
 ```sh
     root@edison:~# opkg update
-    root@edison:~# opkg install opencv opencv-samples opencv-apps
+    root@edison:~# opkg install opencv opencv-dev opencv-apps
+    root@edison:~# opkg install opencv-samples opencv-samples-dev  
     root@edison:~# opkg install libopencv-imgproc-dev
     root@edison:~# opkg install python-numpy python-opencv
 ```
