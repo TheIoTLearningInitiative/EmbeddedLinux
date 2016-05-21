@@ -13,6 +13,7 @@ This tutorial describes a way to boot an Edison board with the Root Filesystem o
 First, you need to have a SD card formatted with ext4 file system to store your root file system (do not use FAT/FAT32 for that). You can use gparted.
 
 ```sh
+root@edison:~# dmesg
 [420794.481542] mmc1: new high speed SDHC card at address 1234                  
 [420794.482480] mmcblk1: mmc1:1234 SA16G 14.4 GiB                               
 [420794.484152]  mmcblk1: p1  
