@@ -55,8 +55,14 @@ Last sector, +sectors or +size{K,M,G,T,P} (2048-30367743, default 30367743):
                                                                                 
 Created a new partition 1 of type 'Linux' and of size 14.5 GiB.                 
                                                                                 
-Command (m for help): 
-
+Command (m for help): w                                                         
+The partition table has been altered.                                           
+Calling ioctl() to re-read partition table.                                     
+Re-reading the partition table failed.: Device or resource busy                 
+                                                                                
+The kernel still uses the old table. The new table will be used at the next reb.
+                                                                                
+root@edison:~# 
 ```
 
 
