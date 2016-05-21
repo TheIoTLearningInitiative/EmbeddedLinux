@@ -13,7 +13,37 @@ root@edison:~# dmesg
 root@edison:~# dd if=/dev/mmcblk0 of=/dev/mmcblk1
 ```
 
+```sh
+root@edison:~# fdisk /dev/mmcblk0                                               
+GPT PMBR size mismatch (7634944 != 7634943) will be corrected by w(rite).       
+                                                                                
+Welcome to fdisk (util-linux 2.24.2).                                           
+Changes will remain in memory only, until you decide to write them.             
+Be careful before using the write command.                                      
+                                                                                
+                                                                                
+Command (m for help): p                                                         
+Disk /dev/mmcblk0: 3.7 GiB, 3909091328 bytes, 7634944 sectors                   
+Units: sectors of 1 * 512 = 512 bytes                                           
+Sector size (logical/physical): 512 bytes / 512 bytes                           
+I/O size (minimum/optimal): 512 bytes / 512 bytes                               
+Disklabel type: gpt                                                             
+Disk identifier: 21200400-0804-0146-9DCC-A8C51255994F                           
+                                                                                
+Device                 Start          End   Size Type                           
+/dev/mmcblk0p1          2048         6143     2M Microsoft basic data           
+/dev/mmcblk0p2          6144         8191     1M Microsoft basic data           
+/dev/mmcblk0p3          8192        12287     2M Microsoft basic data           
+/dev/mmcblk0p4         12288        14335     1M Microsoft basic data           
+/dev/mmcblk0p5         14336        16383     1M Microsoft basic data           
+/dev/mmcblk0p6         16384        65535    24M Microsoft basic data           
+/dev/mmcblk0p7         65536       131071    32M Microsoft basic data           
+/dev/mmcblk0p8        131072      3276799   1.5G Microsoft basic data           
+/dev/mmcblk0p9       3276800      4849663   768M Microsoft basic data           
+/dev/mmcblk0p10      4849664      7634910   1.3G Microsoft basic data  
 ```
+
+```sh
 root@edison:~# fdisk /dev/mmcblk1 
 GPT PMBR size mismatch (7634944 != 30367743) will be corrected by w(rite).
 The backup GPT table is corrupt, but the primary appears OK, so that will be us.
