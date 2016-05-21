@@ -76,7 +76,7 @@ CANCELFORWARD 1 DELETE 1 REPLY
 
 ```sh
 root@edison:~# cd
-root@edison:~# git clone https://github.com/python-telegram-bot/python-telebot.git
+root@edison:~# git clone https://github.com/python-telegram-bot/python-telegram-bot.git
 Cloning into 'python-telegram-bot'...
 remote: Counting objects: 5289, done.
 remote: Total 5289 (delta 0), reused 0 (delta 0), pack-reused 5289
