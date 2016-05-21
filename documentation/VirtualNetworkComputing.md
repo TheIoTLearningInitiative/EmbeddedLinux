@@ -11,17 +11,17 @@
     root@edison:~# vnc4passwd 
     Password:
     Verify:
-    chip@chip:~$ vnc4server -geometry 800x600 -depth 24
+    root@edison:~# vnc4server -geometry 800x600 -depth 24
     xauth:  file /home/chip/.Xauthority does not exist
     xauth: (stdin):1:  bad display name "chip:1" in "add" command
     
-    New 'chip:1 (chip)' desktop is chip:1
+    New 'edison:1 (edison)' desktop is edison:1
     
-    Creating default startup script /home/chip/.vnc/xstartup
-    Starting applications specified in /home/chip/.vnc/xstartup
-    Log file is /home/chip/.vnc/chip:1.log
+    Creating default startup script /home/root/.vnc/xstartup
+    Starting applications specified in /home/root/.vnc/xstartup
+    Log file is /home/root/.vnc/edison:1.log
 
-### VNC Server @ CHIP Default Desktop
+### VNC Server @ Edison Default Desktop
 
     chip@chip:~$ vnc4server -kill :1
     Killing Xvnc4 process ID 18807
