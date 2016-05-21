@@ -164,6 +164,7 @@ WantedBy=multi-user.target
     root@edison:~# systemctl --system enable hello-world
     root@edison:~# systemctl start hello-world
     root@edison:~# systemctl status hello-world.service -l
+    root@edison:~# systemctl status hello-world
 ```
 
 ## Services, Web Server
