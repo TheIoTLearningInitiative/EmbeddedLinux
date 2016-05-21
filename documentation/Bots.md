@@ -81,7 +81,7 @@ Resolving deltas: 100% (3876/3876), done.
 Checking connectivity... done.
 root@edison:~# cd python-telegram-bot
 root@edison:~/python-telegram-bot# python setup.py install
-root@edison:~/python-telegram-bot# cd
+root@edison:~# cd
 ```
 ```
 
