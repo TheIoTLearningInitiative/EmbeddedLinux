@@ -95,6 +95,8 @@ Writing superblocks and filesystem accounting information: done
 root@edison:~# 
 ```
 
+#### Image Writing
+
 Download and unpack the Edison OS image from the Software Downloads section of the community. 
 
 ```sh
