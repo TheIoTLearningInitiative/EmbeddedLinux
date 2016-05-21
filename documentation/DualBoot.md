@@ -12,7 +12,7 @@ This tutorial describes a way to boot an Edison board with the Root Filesystem o
 
 #### SD Card Format
 
-First, you need to have a SD card formatted with ext4 file system to store your root file system (do not use FAT/FAT32 for that). You can use gparted or Intel Edison as follows:
+1. You need to have a SD card formatted with ext4 file system to store your root file system (do not use FAT/FAT32 for that). You can use gparted or Intel Edison as follows:
 
 ```sh
 root@edison:~# dmesg
@@ -97,7 +97,7 @@ root@edison:~#
 
 #### Edison Ext 4 Image Writing
 
-Download and unpack the Edison OS image from the Software Downloads section of the community. 
+2. Download and unpack the Edison OS image from the Software Downloads section of the community. 
 
 ```sh
 user@linux:~/Downloads/unpacked-image$ ls
