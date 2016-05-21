@@ -20,6 +20,7 @@ root@edison:~# dmesg
 ```
 
 ```sh
+root@edison:~# umount /dev/mmcblk1p1
 root@edison:~# fdisk /dev/mmcblk1   
 
 Welcome to fdisk (util-linux 2.24.2).
