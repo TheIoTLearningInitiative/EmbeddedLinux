@@ -68,7 +68,7 @@ Requirements
 - Grove Button on D4
 
 ```sh
-itot@edison:~# git clone https://github.com/m2aglabs/rotary_encoder_demo.g 
+itot@edison:~# git clone https://github.com/m2aglabs/rotary_encoder_demo.git
 Cloning into 'rotary_encoder_demo'...
 remote: Counting objects: 25, done.
 remote: Total 25 (delta 0), reused 0 (delta 0), pack-reused 25
