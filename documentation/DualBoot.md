@@ -66,6 +66,31 @@ The kernel still uses the old table. The new table will be used at the next reb.
 root@edison:~# 
 ```
 
+```sh
+root@edison:~# mkfs.ext4 /dev/mmcblk1p1                                         
+mke2fs 1.42.9 (28-Dec-2013)                                                     
+Discarding device blocks: done                                                  
+Filesystem label=                                                               
+OS type: Linux                                                                  
+Block size=4096 (log=2)                                                         
+Fragment size=4096 (log=2)                                                      
+Stride=0 blocks, Stripe width=0 blocks                                          
+950272 inodes, 3794944 blocks                                                   
+189747 blocks (5.00%) reserved for the super user                               
+First data block=0                                                              
+Maximum filesystem blocks=3888119808                                            
+116 block groups                                                                
+32768 blocks per group, 32768 fragments per group                               
+8192 inodes per group                                                           
+Superblock backups stored on blocks:                                            
+        32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208  
+                                                                                
+Allocating group tables: done                                                   
+Writing inode tables: done                                                      
+Creating journal (32768 blocks): done                                           
+Writing superblocks and filesystem accounting information:
+
+```
 
 Download and unpack the Edison OS image from the Software Downloads section of the community. 
 
