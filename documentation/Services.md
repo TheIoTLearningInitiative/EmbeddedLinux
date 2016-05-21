@@ -10,6 +10,11 @@
 
 - [ArchLinux systemd System and Service Manager](https://wiki.archlinux.org/index.php/systemd)
 
+```sh
+root@edison:~# ls /lib/systemd/system
+```
+
+
 ## Systemctl
 
 > systemctl — Control the systemd system and service manager. systemctl may be used to introspect and control the state of the "systemd" system and service manager. [Homepage](https://www.freedesktop.org/software/systemd/man/systemctl.html)
