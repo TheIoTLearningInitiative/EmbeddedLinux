@@ -12,6 +12,22 @@
 
 ```sh
 root@edison:~# ls /lib/systemd/system
+...
+...
+poweroff.target                         timers.target
+poweroff.target.wants                   timers.target.wants
+printer.target                          tmp.mount
+pulseaudio.service                      udhcpd-for-hostapd.service
+pwr-button-handler.service              umount.target
+quotaon.service                         user.slice
+rc-local.service                        user@.service
+reboot.target                           watchdog-sample.service
+reboot.target.wants                     wpa_supplicant.service
+redis.service                           wpa_supplicant_p2p_event.service
+remote-fs-pre.target                    wpa_supplicant_wlan0_event.service
+remote-fs.target                        wyliodrin-hypervisor.service
+rescue.service                          wyliodrin-server.service
+rescue.target                           xdk-daemon.service
 ```
 
 
