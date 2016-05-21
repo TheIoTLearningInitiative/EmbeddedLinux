@@ -88,8 +88,9 @@ Superblock backups stored on blocks:
 Allocating group tables: done                                                   
 Writing inode tables: done                                                      
 Creating journal (32768 blocks): done                                           
-Writing superblocks and filesystem accounting information:
-
+Writing superblocks and filesystem accounting information: done                 
+                                                                                
+root@edison:~# 
 ```
 
 Download and unpack the Edison OS image from the Software Downloads section of the community. 
