@@ -31,8 +31,8 @@
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
    * [Memory](documentation/Memory.md)
-   * [Recovery](documentation/Recovery.md)
    * [Backup](documentation/Backup.md)
+   * [Recovery](documentation/Recovery.md)
 * User Space
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
