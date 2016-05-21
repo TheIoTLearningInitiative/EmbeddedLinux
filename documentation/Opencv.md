@@ -40,6 +40,7 @@ root@edison:~# opkg install opencv-samples-dev opencv-dev
 ## Hello OpenCV, Face Recognition
 
 ```sh
+    root@edison:~# cd /home/root/
     root@edison:~# mkdir opencv
     root@edison:~# cd opencv/
     root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
