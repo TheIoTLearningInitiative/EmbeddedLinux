@@ -83,6 +83,9 @@ root@edison:~# cd python-telegram-bot
 root@edison:~/python-telegram-bot# python setup.py install
 root@edison:~# cd
 ```
+
+```sh
+root@edison:~# vi mybot.py
 ```
 
 ```python
