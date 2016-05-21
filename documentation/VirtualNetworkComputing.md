@@ -23,6 +23,7 @@
 
 ### VNC Server @ Edison Default Desktop
 
+```sh
     root@edison:~# vnc4server -kill :1
     Killing Xvnc4 process ID 18807
     root@edison:~# nano ~/.vnc/xstartup                         
@@ -38,6 +39,7 @@
     
     Starting applications specified in /home/root/.vnc/xstartup
     Log file is /home/edison/.vnc/edison:1.log
+```
 
 ### VNC Viewer @ Host
     
