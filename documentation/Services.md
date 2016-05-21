@@ -145,18 +145,18 @@ May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
 ```
 
 ```sh
-    [Unit]
-    Description=Hello World
-    After=sys-subsystem-net-devices-%i.device
+[Unit]
+Description=Hello World
+After=sys-subsystem-net-devices-%i.device
 
-    [Service]
-    ExecStart=/bin/bash /home/root/hello-world.sh
-    Restart=always
-    RestartSec=10 
+[Service]
+ExecStart=/bin/bash /home/root/hello-world.sh
+Restart=always
+RestartSec=10 
 
-    [Install]
-    Alias=HelloWorld
-    WantedBy=multi-user.target
+[Install]
+Alias=HelloWorld
+WantedBy=multi-user.target
 ```
 
 ```sh
