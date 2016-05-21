@@ -278,7 +278,6 @@ sys/bus/clocksource
 /sys/module/xhci_hcd
 /sys/module/snd_seq_midi
 /sys/module/nf_conntrack_ipv4
-
 ```
 
 ```sh
