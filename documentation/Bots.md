@@ -150,3 +150,7 @@ if __name__ == '__main__':
     updater.idle()
     del temperatura
 ```
+
+```sh
+root@edison:~# python main.py
+```
