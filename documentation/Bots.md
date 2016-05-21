@@ -70,6 +70,18 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 CANCELFORWARD 1 DELETE 1 REPLY
 ```
 
+```sh
+root@edison:~/Flisol2016# cd
+root@edison:~# git clone https://github.com/python-telegram-bot/python-telebot.git
+Cloning into 'python-telegram-bot'...
+remote: Counting objects: 5289, done.
+remote: Total 5289 (delta 0), reused 0 (delta 0), pack-reused 5289
+Receiving objects: 100% (5289/5289), 1.52 MiB | 772.00 KiB/s, done.
+Resolving deltas: 100% (3876/3876), done.
+Checking connectivity... done.
+root@edison:~#
+```
+
 ```python
 #!/usr/bin/python
 
