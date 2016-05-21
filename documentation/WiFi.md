@@ -65,7 +65,7 @@
             Hard blocked: no
 ```
 
-### Usage Models
+### Usage Models, Yocto
 
 #### Default Configuration
 
