@@ -65,6 +65,38 @@
             Hard blocked: no
 ```
 
+### Usage Models, Ubilinux
+
+```sh
+    edison@ubilinux:~$ su
+    Password: edison
+    root@ubilinux:/home/edison# cd 
+    root@ubilinux:~# nano /etc/network/interfaces
+    # interfaces(5) file used by ifup(8) and ifdown(8)
+    auto lo
+    iface lo inet loopback
+
+    #auto usb0
+    #iface usb0 inet static
+    #    address 192.168.2.15
+    #    netmask 255.255.255.0
+    
+    auto wlan0
+    iface wlan0 inet dhcp
+        # For WPA
+        wpa-ssid INFINITUMxxxx
+        wpa-psk yyyy
+        # For WEP
+        #wireless-essid itesm
+        #wireless-mode Managed
+        #wireless-key s:""
+    
+    root@ubilinux:~# ifup wlan0
+    root@ubilinux:~# reboot
+
+    <reboot your board, sign in and become root>
+```
+
 ### Usage Models, Yocto
 
 #### Default Configuration
