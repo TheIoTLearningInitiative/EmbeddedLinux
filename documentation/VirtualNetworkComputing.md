@@ -33,12 +33,12 @@
     exec /etc/X11/xinit/xinitrc 
     ...
     root@edison:~# vnc4server -geometry 800x600 -depth 24
-    xauth: (stdin):1:  bad display name "chip:1" in "add" command
+    xauth: (stdin):1:  bad display name "edison:1" in "add" command
     
     New 'edison:1 (edison)' desktop is edison:1
     
     Starting applications specified in /home/root/.vnc/xstartup
-    Log file is /home/edison/.vnc/edison:1.log
+    Log file is /home/root/.vnc/edison:1.log
 ```
 
 ### VNC Viewer @ Host
