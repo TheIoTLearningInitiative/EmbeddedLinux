@@ -9,7 +9,7 @@
     root@edison:~# 
 ```
 
-## Bootup Initial Configuration
+## Bootup Initial Configuration, Wifi
 
 Check your kernel version
 
