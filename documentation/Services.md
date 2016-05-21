@@ -167,6 +167,18 @@ WantedBy=multi-user.target
     root@edison:~# systemctl status hello-world
 ```
 
+Reboot your Intel Edison
+
+```sh
+    root@edison:~# reboot
+```
+
+Once booted, verify again hello-world service status
+
+```sh
+    root@edison:~# systemctl status hello-world
+```
+
 ## Services, Web Server
 
 Location of the web server content
