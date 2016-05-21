@@ -23,21 +23,21 @@
 
 ### VNC Server @ Edison Default Desktop
 
-    chip@chip:~$ vnc4server -kill :1
+    root@edison:~# vnc4server -kill :1
     Killing Xvnc4 process ID 18807
-    chip@chip:~$ nano ~/.vnc/xstartup                         
+    root@edison:~# nano ~/.vnc/xstartup                         
     #!/bin/sh
     # Uncomment the following two lines for normal desktop:
     unset SESSION_MANAGER 
     exec /etc/X11/xinit/xinitrc 
     ...
-    chip@chip:~$ vnc4server -geometry 800x600 -depth 24
+    root@edison:~# vnc4server -geometry 800x600 -depth 24
     xauth: (stdin):1:  bad display name "chip:1" in "add" command
     
-    New 'chip:1 (chip)' desktop is chip:1
+    New 'edison:1 (edison)' desktop is edison:1
     
-    Starting applications specified in /home/chip/.vnc/xstartup
-    Log file is /home/chip/.vnc/chip:1.log
+    Starting applications specified in /home/root/.vnc/xstartup
+    Log file is /home/edison/.vnc/edison:1.log
 
 ### VNC Viewer @ Host
     
