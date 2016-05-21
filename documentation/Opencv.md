@@ -21,7 +21,9 @@
 
 Cannot install in some devices
 
+```sh
 root@edison:~# opkg install opencv-samples-dev opencv-dev 
+```
 
 ### Apt-Get Installation
 
