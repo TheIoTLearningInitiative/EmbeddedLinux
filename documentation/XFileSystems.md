@@ -37,6 +37,40 @@ root@edison:~#
 
 - [How Devfs and Dev Filesystem differ](http://stackoverflow.com/questions/16431554/how-devfs-and-dev-file-system-differ)
 
+```
+root@edison:~# ls /dev/
+...
+char             loop7               ram10      tty14  tty42    ttyPTI0
+console          mcelog              ram11      tty15  tty43    ttyPTI1
+cpu              mem                 ram12      tty16  tty44    ttymcu0
+cpu_dma_latency  mid_ipc             ram13      tty17  tty45    ttymcu1
+disk             mmcblk0             ram14      tty18  tty46    ttymcu2
+fd               mmcblk0boot0        ram15      tty19  tty47    uhid
+full             mmcblk0boot1        ram2       tty2   tty48    uinput
+fuse             mmcblk0p1           ram3       tty20  tty49    urandom
+i2c-1            mmcblk0p10          ram4       tty21  tty5     usbmon0
+i2c-2            mmcblk0p2           ram5       tty22  tty50    vcs
+i2c-3            mmcblk0p3           ram6       tty23  tty51    vcs1
+i2c-4            mmcblk0p4           ram7       tty24  tty52    vcs2
+i2c-5            mmcblk0p5           ram8       tty25  tty53    vcs3
+i2c-6            mmcblk0p6           ram9       tty26  tty54    vcs4
+i2c-7            mmcblk0p7           random     tty27  tty55    vcs5
+iio:device0      mmcblk0p8           rfkill     tty28  tty56    vcs6
+iio:device1      mmcblk0p9           rtc        tty29  tty57    vcsa
+initctl          mmcblk0rpmb         rtc0       tty3   tty58    vcsa1
+input            mmcblk1             shm        tty30  tty59    vcsa2           
+intel_sst_ctrl   mqueue              snd        tty31  tty6     vcsa3           
+kmem             net                 spidev5.1  tty32  tty60    vcsa4           
+kmsg             network_latency     stderr     tty33  tty61    vcsa5           
+log              network_throughput  stdin      tty34  tty62    vcsa6           
+loop-control     null                stdout     tty35  tty63    vga_arbiter     
+loop0            nvram               tty        tty36  tty7     watchdog        
+loop1            port                tty0       tty37  tty8     zero            
+loop2            pti                 tty1       tty38  tty9                     
+loop3            ptmx                tty10      tty39  ttyGS0                   
+loop4            pts                 tty11      tty4   ttyMFD0           
+```
+
 ## Sysfs
 
 > sysfs is a virtual file system provided by the Linux kernel that exports information about various kernel subsystems, hardware devices, and associated device drivers, from the kernel's device model to user space, through virtual files. [Wikipedia](https://en.wikipedia.org/wiki/Sysfs)
