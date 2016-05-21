@@ -44,6 +44,8 @@ You can control me by sending these commands:
 /cancel - cancel the current operation
 ```
 
+## Bot Creation
+
 ```sh
 Abraham:
 /newbot
@@ -69,6 +71,8 @@ Use this token to access the HTTP API:
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 CANCELFORWARD 1 DELETE 1 REPLY
 ```
+
+## Python Telegram Bot Library Installation
 
 ```sh
 root@edison:~# cd
