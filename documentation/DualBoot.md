@@ -10,6 +10,8 @@
 
 This tutorial describes a way to boot an Edison board with the Root Filesystem on an external storage (SD card). The kernel and bootloader remain on the local eMMC. For now, we are not able to boot a kernel from an external storage.
 
+#### SD Card Format
+
 First, you need to have a SD card formatted with ext4 file system to store your root file system (do not use FAT/FAT32 for that). You can use gparted or Intel Edison as follows:
 
 ```sh
