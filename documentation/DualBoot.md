@@ -19,6 +19,47 @@ root@edison:~# dmesg
 [420794.484152]  mmcblk1: p1
 ```
 
+```sh
+root@edison:~# fdisk /dev/mmcblk1   
+
+Welcome to fdisk (util-linux 2.24.2).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): p
+Disk /dev/mmcblk1: 14.5 GiB, 15548284928 bytes, 30367744 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x00000000
+
+Device         Boot Start       End   Blocks  Id System
+/dev/mmcblk1p1       8192  30367743 15179776   c W95 FAT32 (LBA)
+
+Command (m for help): d
+
+Selected partition 1
+Partition 1 has been deleted.
+
+Command (m for help): n                                                         
+                                                                                
+Partition type:                                                                 
+   p   primary (0 primary, 0 extended, 4 free)                                  
+   e   extended                                                                 
+Select (default p): p                                                           
+Partition number (1-4, default 1): 1                                            
+First sector (2048-30367743, default 2048):                                     
+Last sector, +sectors or +size{K,M,G,T,P} (2048-30367743, default 30367743):    
+                                                                                
+Created a new partition 1 of type 'Linux' and of size 14.5 GiB.                 
+                                                                                
+Command (m for help): 
+
+```
+
+
 Download and unpack the Edison OS image from the Software Downloads section of the community. 
 
 ```sh
