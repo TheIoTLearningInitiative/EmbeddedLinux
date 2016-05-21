@@ -8,7 +8,7 @@ T & A Mobile Phones
 
 ## Applications / Libraries
 
-### Setup
+### Setup @ Ubilinux
 
 #### Apt-Get
 
