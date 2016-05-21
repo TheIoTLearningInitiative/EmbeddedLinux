@@ -173,12 +173,12 @@ root@edison:~# fw_setenv myrootfs_sdcard '/dev/mmcblk1p1'
 
 ```sh
 # get the UUID for the eMMC rootfs partition
-•	root@edison:~# fw_printenv uuid_rootfs
+root@edison:~# fw_printenv uuid_rootfs
 ```
 
 ```sh
 # use the UUID obtained above
-•	root@edison:~# fw_setenv myrootfs_emmc 'PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4'
+root@edison:~# fw_setenv myrootfs_emmc 'PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4'
 ```
 
 ```sh
