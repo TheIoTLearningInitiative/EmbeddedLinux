@@ -30,9 +30,9 @@
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
-   * [Recovery](documentation/Recovery.md)
    * [Memory](documentation/Memory.md)
    * [Backup](documentation/Backup.md)
+* [Recovery](documentation/Recovery.md)
 * User Space
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
