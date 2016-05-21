@@ -198,9 +198,7 @@ root@edison:~# fw_setenv do_boot_sdcard 'setenv myrootfs ${myrootfs_sdcard}; run
 Reboot Edison
 
 After boot, verify that you are using rootfs stored on your external device:
-The root file system is now 14.1 GB (this will depend on your SD card size).
-The SD card will still be automounted to /media/sdcard by Edison’s automount daemon. Since it is the rootfs anyway, this m006F	untpoint becomes useless, so disable the systemd service:
-Now, you have plenty of room to work on Edison and no unnecessary mounts:
+The root file system is now 14.1 GB (this will depend on your SD card size). The SD card will still be automounted to /media/sdcard by Edison’s automount daemon. Since it is the rootfs anyway, this m006F	untpoint becomes useless, so disable the systemd service: Now, you have plenty of room to work on Edison and no unnecessary mounts:
 
 ```sh
 root@edison:/etc/systemd# df -h
