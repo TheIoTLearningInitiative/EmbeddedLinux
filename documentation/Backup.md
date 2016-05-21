@@ -2,7 +2,6 @@
 
 Use dd to backup Intel Edison MMC
 
-
 ```sh
 root@edison:~# dmesg
 [420794.481542] mmc1: new high speed SDHC card at address 1234
