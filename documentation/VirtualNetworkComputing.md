@@ -29,7 +29,7 @@
     # Uncomment the following two lines for normal desktop:
     unset SESSION_MANAGER 
     #exec /etc/X11/xinit/xinitrc 
-    startxfce4
+    startxfce4 &
     ...
     root@edison:~# vnc4server -geometry 800x600 -depth 24
     xauth: (stdin):1:  bad display name "edison:1" in "add" command
