@@ -13,7 +13,7 @@
 ```sh
 root@edison:~# ls /lib/systemd/system
 ...
-...
+...nano /etc/systemd/journald.conf
 poweroff.target                         timers.target
 poweroff.target.wants                   timers.target.wants
 printer.target                          tmp.mount
