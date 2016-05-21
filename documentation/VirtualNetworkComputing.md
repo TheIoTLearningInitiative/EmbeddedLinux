@@ -2,7 +2,7 @@
 
 > In computing, Virtual Network Computing (VNC) is a graphical desktop sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. It transmits the keyboard and mouse events from one computer to another, relaying the graphical screen updates back in the other direction, over a network. Wikipedia
 
-### VNC Server @ CHIP X Desktop @ Ubilinux
+### VNC Server @ Edison X Desktop @ Ubilinux
 
     root@edison:~# apt-get install xfce4
     root@edison:~# apt-get install vnc4server
