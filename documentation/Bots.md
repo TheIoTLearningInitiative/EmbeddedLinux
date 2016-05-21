@@ -90,6 +90,8 @@ root@edison:~/python-telegram-bot# python setup.py install
 root@edison:~# cd
 ```
 
+## Bot Example
+
 ```sh
 root@edison:~# vi mybot.py
 ```
