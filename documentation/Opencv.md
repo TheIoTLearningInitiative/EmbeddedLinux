@@ -15,10 +15,13 @@
 ```sh
     root@edison:~# opkg update
     root@edison:~# opkg install opencv opencv-samples opencv-apps
-    root@edison:~# opkg install opencv-dev opencv-samples-dev
     root@edison:~# opkg install libopencv-imgproc-dev
     root@edison:~# opkg install python-numpy python-opencv
 ```
+
+Cannot install in some devices
+
+root@edison:~# opkg install opencv-samples-dev opencv-dev 
 
 ### Apt-Get Installation
 
