@@ -34,4 +34,5 @@
 
 - Go to [Google APIs](https://console.developers.google.com/projectselector/apis/credentials)
   - Select or create a project: The IoT Learning Initiative
+  - Continue
   - 
