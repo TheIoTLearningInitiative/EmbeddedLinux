@@ -3,11 +3,6 @@
 - [Alexa AWS Raspberry Pi](https://github.com/amzn/alexa-avs-raspberry-pi)
 - [How to get Edison to speak](https://software.intel.com/en-us/blogs/2016/02/18/how-to-get-edison-to-espeak-with-a-scottish-accent)
 
-
-## gRPC
-
-> A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. [Homepage](http://www.grpc.io/)
-
 ## VoiceRss
 
 > The Voice RSS Text-to-Speech (TTS) API allows conversion of textual content to speech easier than ever. Just connect to our Text-to-Speech (TTS) API with a few lines of code and get verbal representation of a textual content. For converting text to speech you don’t need special hardware to care about intensive use of CPU and memory during conversion operations. [Homepage](http://www.voicerss.org/)
@@ -21,12 +16,17 @@
 - [Mycroft Adapt](https://adapt.mycroft.ai/)
 - [Mycroft Mimic](https://mimic.mycroft.ai/)
 
- ## Google Cloud Speech API Alpha
+## Google Cloud Speech API Alpha
  
- > Speech to text conversion powered by machine learning [Homepage](https://cloud.google.com/speech/)
+> Speech to text conversion powered by machine learning [Homepage](https://cloud.google.com/speech/)
  
- - Android Speech API
- - Web Speech aPI
- - Cloud Speech API
-   - REST API
-   - gRPC API
+- Android Speech API
+- Web Speech aPI
+- Cloud Speech API
+  - REST API
+  - gRPC API
+
+
+### gRPC
+
+> A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. [Homepage](http://www.grpc.io/)
