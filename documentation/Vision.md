@@ -10,5 +10,7 @@
 - [Github Sample code for Google Cloud Vision](https://github.com/GoogleCloudPlatform/cloud-vision/)
 
 
-### Samples
+### Sample
 
+- Go to [Cloud Vision API](https://cloud.google.com/vision/)
+  - Try it for Free 
