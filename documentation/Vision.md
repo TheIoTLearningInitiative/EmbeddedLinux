@@ -67,7 +67,7 @@ root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirem
 Downloading/unpacking google-api-python-client==1.5.0 (from -r requirements.txt (line 1))
 Downloading/unpacking Pillow==3.1.1 (from -r requirements.txt (line 2))
 ...
-Installing collected packages: google-api-python-client Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsn
+Installing collected packages: google-api-python-client Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsa
 ...
 root@edison:~/vision/cloud-vision/python/face_detection# pip install six
 ```
