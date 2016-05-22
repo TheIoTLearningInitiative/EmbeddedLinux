@@ -25,6 +25,8 @@
 
 ###  Mycroft Core 0.6 Alpha
 
+> We are pleased to announce that Mycroft Core 0.6 Alpha is available for download today. Mycroft Core is a lightweight, portable piece of software written in Python. You can run it on anything from a Raspberry Pi to a gaming rig. Mycroft Core includes Adapt, Mimic, OpenSTT, and multiple open APIs to create an experience that allows users to interact with their technology using the most natural form of human communication – speech. 
+
 [Mycroft Core, the Mycroft Artificial Intelligence Platform Github](https://github.com/MycroftAI/mycroft-core)
 
 ## Others
