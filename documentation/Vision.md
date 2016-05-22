@@ -71,6 +71,7 @@ Installing collected packages: google-api-python-client Pillow, httplib2, oauth2
 ...
 ```
 
+### Errors
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# pip install six
