@@ -12,7 +12,7 @@
 - Wearable devices
 - Robots
 
-## Mycroft
+## Mycroft AI
 
 > A.I. for everyone. Connecting the Internet of things has never been easier. Mycroft has a lot of native skills and abilities baked in and, since it is open source, it allows outside developers to add more features over time. [Mycroft](https://mycroft.ai/)
 
@@ -22,6 +22,10 @@
 - For the Office: Increase Productivity!
 - For the Maker: Encourage Creativity!
 - For the Home: Integrated Artificial Intelligence!
+
+###  Mycroft Core 0.6 Alpha
+
+[Github](https://github.com/MycroftAI/mycroft-core)
 
 ## Others
 
