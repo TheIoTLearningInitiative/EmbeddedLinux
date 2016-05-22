@@ -59,5 +59,9 @@ root@edison:~/vision/cloud-vision/python/face_detection#
 ```
 
 ```sh
+root@edison:~/vision/cloud-vision/python/face_detection# opkg install libjpeg-dev
+```
+
+```sh
 root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirements.txt
 ```
