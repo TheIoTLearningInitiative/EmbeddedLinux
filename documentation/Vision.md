@@ -59,5 +59,5 @@ root@edison:~/vision/cloud-vision/python/face_detection#
 ```
 
 ```sh
-root@edison:~/vision/cloud-vision/python/face_detection# pip install -f requirements.txt
+root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirements.txt
 ```
