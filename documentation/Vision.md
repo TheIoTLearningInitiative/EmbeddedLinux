@@ -25,5 +25,10 @@
 - New Project
   - Project Name: The IoT Learning Initiative
 
+> You've set up a Cloud Vision API project in the Google Cloud Platform Console.
+
 - Search
   - Vision -> Enable
+
+> You've set up your environment for using Application Default Credentials.
+
