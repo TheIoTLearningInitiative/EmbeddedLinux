@@ -82,6 +82,24 @@ root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATI
 root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
 ```
 
+```sh
+root@edison:~/vision/cloud-vision/python/face_detection# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
+    --2016-03-20 00:24:03--  https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
+    Resolving upload.wikimedia.org... 208.80.153.240, 2620:0:860:ed1a::2:b
+    Connecting to upload.wikimedia.org|208.80.153.240|:443... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 1972894 (1.9M) [image/jpeg]
+    Saving to: 'Barack_Obama_family_portrait_2011.jpg'
+    
+    100%[======================================>] 1,972,894    264KB/s   in 16s
+    
+    2016-03-20 00:24:20 (122 KB/s) - 'Barack_Obama_family_portrait_2011.jpg' saved [1972894/1972894]
+    
+root@edison:~/vision/cloud-vision/python/face_detection# mv Barack_Obama_family_portrait_2011.jpg face-input.jpeg
+root@edison:~/vision/cloud-vision/python/face_detection# time python faces.py face-input.jpeg
+    ???
+```
+
 ### Errors
 
 ```sh
