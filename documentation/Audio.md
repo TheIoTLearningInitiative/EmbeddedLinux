@@ -222,6 +222,28 @@ root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav                    
 root@edison:~# 
 ```
 
+#### Speaker-Test
+
+```sh
+    root@edison:~# speaker-test 
+    speaker-test 1.0.28
+    Playback device is default
+    Stream parameters are 48000Hz, S16_LE, 1 channels
+    Using 16 octaves of pink noise
+```
+
+#### Mpg123
+
+```sh
+    root@edison:~# mpg123 
+```
+
+#### Espeak
+
+```sh
+    root@edison:~# espeak
+```
+
 #### Other Configuration
 
 ```sh
@@ -252,24 +274,3 @@ pcm.!default {
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
 ```
 
-#### Speaker-Test
-
-```sh
-    root@edison:~# speaker-test 
-    speaker-test 1.0.28
-    Playback device is default
-    Stream parameters are 48000Hz, S16_LE, 1 channels
-    Using 16 octaves of pink noise
-```
-
-#### Mpg123
-
-```sh
-    root@edison:~# mpg123 
-```
-
-#### Espeak
-
-```sh
-    root@edison:~# espeak
-```
