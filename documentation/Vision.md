@@ -49,5 +49,12 @@ remote: Total 1237 (delta 0), reused 0 (delta 0), pack-reused 1237
 Receiving objects: 100% (1237/1237), 3.92 MiB | 322.00 KiB/s, done.
 Resolving deltas: 100% (451/451), done.
 Checking connectivity... done.
-root@edison:~/vision# 
+root@edison:~/vision# ls cloud-vision
+root@edison:~/vision# ls cloud-vision/
+CONTRIBUTING.md  android                 data  java    php
+LICENSE          chrome-extension        go    js      python 
+README.md        client-secret.json.enc  ios   nodejs  travis.sh
+root@edison:~/vision# cd cloud-vision/python/face_detection/
+root@edison:~/vision/cloud-vision/python/face_detection# 
+
 ```
