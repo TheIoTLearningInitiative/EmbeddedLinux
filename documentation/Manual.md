@@ -50,7 +50,7 @@
     creating build
     creating build/lib
     copying pywapi.py -> build/lib
-    root@edison:~/pywapi-0.3.8# python setup.py install
+    root@edison:~/pywapi-0.3.8# python setup.py install --user
     running install
     running build
     running build_py
