@@ -230,6 +230,9 @@ root@edison:~#
     Playback device is default
     Stream parameters are 48000Hz, S16_LE, 1 channels
     Using 16 octaves of pink noise
+    ...
+    ...
+    root@edison:~# 
 ```
 
 #### Mpg123
