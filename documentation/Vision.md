@@ -80,5 +80,5 @@ Resolving deltas: 100% (10115/10115), done.
 Checking connectivity... done.
 Checking out files: 100% (1495/1495), done.
 root@edison:~# cd google-api-python-client/
-root@edison:~/google-api-python-client# python setup.py install
+root@edison:~/google-api-python-client# python setup.py install --user
 ```
