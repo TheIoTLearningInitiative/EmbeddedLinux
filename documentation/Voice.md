@@ -12,7 +12,9 @@
 - [Mycroft Adapt](https://adapt.mycroft.ai/)
 - [Mycroft Mimic](https://mimic.mycroft.ai/)
 
- ## Google
+ ## Google Cloud Speech API Alpha
+ 
+ > Speech to text conversion powered by machine learning[Homepage](https://cloud.google.com/speech/)
  
  - Android Speech API
  - Web Speech aPI
