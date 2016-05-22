@@ -17,3 +17,5 @@
  - Android Speech API
  - Web Speech aPI
  - Cloud Speech API
+   - REST API
+   - gRPC API
