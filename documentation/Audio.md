@@ -219,6 +219,8 @@ ctl.!default {
 
 ```sh
 root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav                                        Playing WAVE '/usr/share/sounds/alsa/Front_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Mo
+root@edison:~# aplay /usr/share/sounds/alsa/Rear_Center.wav 
+Playing WAVE '/usr/share/sounds/alsa/Rear_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Moo
 root@edison:~# 
 ```
 
