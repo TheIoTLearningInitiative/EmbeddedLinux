@@ -97,7 +97,13 @@ root@edison:~/vision/cloud-vision/python/face_detection# wget https://upload.wik
     
 root@edison:~/vision/cloud-vision/python/face_detection# mv Barack_Obama_family_portrait_2011.jpg face-input.jpeg
 root@edison:~/vision/cloud-vision/python/face_detection# time python faces.py face-input.jpeg
-    ???
+Found 4 faces
+Writing to file out.jpg
+
+real    0m56.898s
+user    0m11.820s
+sys     0m0.490s
+root@edison:~/vision/cloud-vision/python/face_detection# 
 ```
 
 ### Errors
