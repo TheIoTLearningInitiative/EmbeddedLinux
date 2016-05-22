@@ -11,3 +11,9 @@
 
 - [Mycroft Adapt](https://adapt.mycroft.ai/)
 - [Mycroft Mimic](https://mimic.mycroft.ai/)
+
+ ## Google
+ 
+ - Android Speech API
+ - Web Speech aPI
+ - Cloud Speech API
