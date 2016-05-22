@@ -38,6 +38,7 @@
   - Select or create a project: The IoT Learning Initiative
   - Continue
 
+### Laboratory
 
 ```sh
 root@edison:~# mkdir vision
@@ -76,6 +77,8 @@ xe1gyq@192.168.1.72's password:
 cred.json                                     100% 2355     2.3KB/s   00:00                       
 root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 ```
+
+###
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
