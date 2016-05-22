@@ -56,5 +56,6 @@ LICENSE          chrome-extension        go    js      python
 README.md        client-secret.json.enc  ios   nodejs  travis.sh
 root@edison:~/vision# cd cloud-vision/python/face_detection/
 root@edison:~/vision/cloud-vision/python/face_detection# 
-
 ```
+
+root@edison:~/vision/cloud-vision/python/face_detection# pip install -f requirements.txt
