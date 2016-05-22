@@ -89,7 +89,7 @@
    * [Python](documentation/Python.md)
    * [NodeJS](documentation/NodeJs.md)
    * [Cloud9](documentation/Cloud9.md)
-   * [Voice](documentation/Voice.md)
+   * [Speech](documentation/Voice.md)
    * [Radio Frequency](documentation/Radio.md)
    * [Bots](documentation/Bots.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
