@@ -2,6 +2,6 @@
 
 ## Neural Networks
 
-## Google Cloud Vision
+## Google Cloud Vision API
 
-ç
+> Derive insight from images with our powerful Cloud Vision API [Homepage](https://cloud.google.com/vision/)
