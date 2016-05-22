@@ -71,6 +71,10 @@ Installing collected packages: google-api-python-client Pillow, httplib2, oauth2
 ...
 ```
 
+```
+root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
+```
+
 ### Errors
 
 ```sh
