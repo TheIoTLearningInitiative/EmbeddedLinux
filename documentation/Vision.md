@@ -67,6 +67,7 @@ root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirem
 ...
 Installing collected packages: google-api-python-client Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsn
 ...
+root@edison:~/vision/cloud-vision/python/face_detection# pip install six
 ```
 
 ```sh
