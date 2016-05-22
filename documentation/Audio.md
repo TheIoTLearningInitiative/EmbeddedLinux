@@ -199,11 +199,11 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
          type asym
          playback.pcm {
                  type plug
-                 slave.pcm "hw:0,0"
+                 slave.pcm "hw:2,0"
          }
          capture.pcm {
                  type plug
-                 slave.pcm "hw:1,0"
+                 slave.pcm "hw:2,0"
          } 
  }
 ```
