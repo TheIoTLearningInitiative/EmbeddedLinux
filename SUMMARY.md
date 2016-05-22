@@ -94,7 +94,7 @@
    * [Bots](documentation/Bots.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
-   * Vision
+   * [Vision](documentation/Vision.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
