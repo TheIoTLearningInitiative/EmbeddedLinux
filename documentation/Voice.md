@@ -6,7 +6,7 @@
 
 ## gRPC
 
-> [Homepage](http://www.grpc.io/)
+> A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. [Homepage](http://www.grpc.io/)
 
 ## OpenSST
 
