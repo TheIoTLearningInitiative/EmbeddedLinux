@@ -101,14 +101,15 @@ sys     0m0.490s
 root@edison:~/vision/cloud-vision/python/face_detection# 
 ```
 
+### Errors
+
+
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
 Found 1 face
 Writing to file out.jpg
 root@edison:~/vision/cloud-vision/python/face_detection# 
 ```
-
-### Errors
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# pip install six
