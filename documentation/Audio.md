@@ -96,6 +96,8 @@ USB Audio Dongle USB PnP Sound Device
 
 ### Programs
 
+#### Audio Files
+
 ```sh
     root@edison:~# ls /usr/share/sounds/alsa/
     Front_Center.wav  Noise.wav         Rear_Right.wav
@@ -213,12 +215,14 @@ ctl.!default {
 }
 ```
 
+#### Device Testing
+
 ```sh
-root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav                                           
-Playing WAVE '/usr/share/sounds/alsa/Front_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Mo
+root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav                                        Playing WAVE '/usr/share/sounds/alsa/Front_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Mo
 root@edison:~# 
 ```
 
+#### Other Configuration
 
 ```sh
 pcm.!default {
@@ -239,13 +243,11 @@ pcm.!default {
     pcm.!default sysdefault:Device
 ```
 
-#### Command Line Device Configuration
-
 ```
     root@edison:~# aplay -Ll
     root@edison:~# vi ~/.asoundrc
     root@edison:~# vi /etc/asound.conf
-    pcm.!default sysdefault:Headset
+    pcm.!default sysdefault:Device
     root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
 ```
