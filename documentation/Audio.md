@@ -213,7 +213,7 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
     pcm.!default {
         type plug
         slave {
-            pcm “hw:1,0”
+            pcm “hw:2,0”
         }
     }
     ctl.!default {
