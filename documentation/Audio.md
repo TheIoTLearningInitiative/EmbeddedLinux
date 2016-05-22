@@ -86,10 +86,6 @@ USB Audio Dongle USB PnP Sound Device
     Configuring alsa-utils.
     Configuring mpg123.
     ...
-    root@edison:~# ls /usr/share/sounds/alsa/
-    Front_Center.wav  Noise.wav         Rear_Right.wav
-    Front_Left.wav    Rear_Center.wav   Side_Left.wav
-    Front_Right.wav   Rear_Left.wav     Side_Right.wav
 ```
 
 #### Apt-Get
@@ -99,6 +95,13 @@ USB Audio Dongle USB PnP Sound Device
 ```
 
 ### Programs
+
+```sh
+    root@edison:~# ls /usr/share/sounds/alsa/
+    Front_Center.wav  Noise.wav         Rear_Right.wav
+    Front_Left.wav    Rear_Center.wav   Side_Left.wav
+    Front_Right.wav   Rear_Left.wav     Side_Right.wav
+```
 
 #### List Capture Hardware Devices
 
