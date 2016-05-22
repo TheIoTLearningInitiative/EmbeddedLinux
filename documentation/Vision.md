@@ -68,3 +68,17 @@ root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirem
 Installing collected packages: google-api-python-client Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsn
 ...
 ```
+
+```sh
+root@edison:~# git clone https://github.com/google/google-api-python-client.git
+Cloning into 'google-api-python-client'...
+remote: Counting objects: 13396, done.
+remote: Compressing objects: 100% (405/405), done.
+remote: Total 13396 (delta 196), reused 0 (delta 0), pack-reused 12991
+Receiving objects: 100% (13396/13396), 23.18 MiB | 2.05 MiB/s, done.
+Resolving deltas: 100% (10115/10115), done.
+Checking connectivity... done.
+Checking out files: 100% (1495/1495), done.
+root@edison:~# cd google-api-python-client/
+root@edison:~/google-api-python-client# python setup.py install
+```
