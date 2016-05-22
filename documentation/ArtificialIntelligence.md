@@ -25,7 +25,7 @@
 
 ###  Mycroft Core 0.6 Alpha
 
-[Github](https://github.com/MycroftAI/mycroft-core)
+[Mycroft Core, the Mycroft Artificial Intelligence Platform Github](https://github.com/MycroftAI/mycroft-core)
 
 ## Others
 
