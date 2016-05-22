@@ -37,4 +37,17 @@
 - Go to [Google APIs](https://console.developers.google.com/projectselector/apis/credentials)
   - Select or create a project: The IoT Learning Initiative
   - Continue
-  - 
+
+
+```sh
+root@edison:~# mkdir vision
+root@edison:~# cd vision
+ion.gitison:~/vision# git clone https://github.com/GoogleCloudPlatform/cloud-vision.git
+Cloning into 'cloud-vision'...
+remote: Counting objects: 1237, done.
+remote: Total 1237 (delta 0), reused 0 (delta 0), pack-reused 1237
+Receiving objects: 100% (1237/1237), 3.92 MiB | 322.00 KiB/s, done.
+Resolving deltas: 100% (451/451), done.
+Checking connectivity... done.
+root@edison:~/vision# 
+```
