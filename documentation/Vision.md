@@ -69,6 +69,10 @@ Downloading/unpacking Pillow==3.1.1 (from -r requirements.txt (line 2))
 ...
 Installing collected packages: google-api-python-client Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsa
 ...
+```
+
+
+```sh
 root@edison:~/vision/cloud-vision/python/face_detection# pip install six
 ```
 
