@@ -32,6 +32,8 @@
 
 > You've set up your environment for using Application Default Credentials.
 
+- [Authenticating to a Cloud API Service](https://cloud.google.com/vision/docs/auth-template/cloud-api-auth#set_up_an_api_key)
+
 - Go to [Google APIs](https://console.developers.google.com/projectselector/apis/credentials)
   - Select or create a project: The IoT Learning Initiative
   - Continue
