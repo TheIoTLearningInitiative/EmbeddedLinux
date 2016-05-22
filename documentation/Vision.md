@@ -72,6 +72,10 @@ Installing collected packages: google-api-python-client Pillow, httplib2, oauth2
 ```
 
 ```
+root@edison:~/vision/cloud-vision/python/face_detection# scp xe1gyq@192.168.1.72:/home/xe1gyq/cred.json .
+xe1gyq@192.168.1.72's password:
+cred.json                                     100% 2355     2.3KB/s   00:00                       
+root@edison:~/vision/cloud-vision/python/face_detection# 
 root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 ```
 
