@@ -8,6 +8,10 @@
 
 > A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. [Homepage](http://www.grpc.io/)
 
+## VoiceRss
+
+> The Voice RSS Text-to-Speech (TTS) API allows conversion of textual content to speech easier than ever. Just connect to our Text-to-Speech (TTS) API with a few lines of code and get verbal representation of a textual content. For converting text to speech you don’t need special hardware to care about intensive use of CPU and memory during conversion operations. [Homepage](http://www.voicerss.org/)
+
 ## OpenSST
 
 > An Open Source Speech To Text Project
