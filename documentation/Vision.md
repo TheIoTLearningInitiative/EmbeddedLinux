@@ -64,4 +64,7 @@ root@edison:~/vision/cloud-vision/python/face_detection# opkg install libjpeg-de
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirements.txt
+...
+Installing collected packages: Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsn
+...
 ```
