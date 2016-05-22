@@ -78,6 +78,10 @@ cred.json                                     100% 2355     2.3KB/s   00:00
 root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 ```
 
+```sh
+root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
+```
+
 ### Errors
 
 ```sh
