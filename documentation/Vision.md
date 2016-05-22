@@ -32,4 +32,6 @@
 
 > You've set up your environment for using Application Default Credentials.
 
-Go to [Google APIs](https://console.developers.google.com/projectselector/apis/credentials)
+- Go to [Google APIs](https://console.developers.google.com/projectselector/apis/credentials)
+  - Select or create a project: The IoT Learning Initiative
+  - 
