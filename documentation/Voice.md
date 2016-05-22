@@ -14,7 +14,7 @@
 
  ## Google Cloud Speech API Alpha
  
- > Speech to text conversion powered by machine learning[Homepage](https://cloud.google.com/speech/)
+ > Speech to text conversion powered by machine learning [Homepage](https://cloud.google.com/speech/)
  
  - Android Speech API
  - Web Speech aPI
