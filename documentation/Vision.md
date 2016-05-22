@@ -26,4 +26,4 @@
   - Project Name: The IoT Learning Initiative
 
 - Search
-  - Vision: 
+  - Vision -> Enable
