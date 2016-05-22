@@ -63,6 +63,8 @@
     root@edison:~# 
 ```
 
+### Alternate Installation
+
 ```sh
     root@edison:~/pywapi-0.3.8# python setup.py install --user
 ```
