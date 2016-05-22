@@ -50,7 +50,7 @@
     creating build
     creating build/lib
     copying pywapi.py -> build/lib
-    root@edison:~/pywapi-0.3.8# python setup.py install --user
+    root@edison:~/pywapi-0.3.8# python setup.py install
     running install
     running build
     running build_py
@@ -61,4 +61,8 @@
     Writing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
     root@edison:~/pywapi-0.3.8# cd
     root@edison:~# 
+```
+
+```sh
+    root@edison:~/pywapi-0.3.8# python setup.py install --user
 ```
