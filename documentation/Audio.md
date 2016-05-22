@@ -232,6 +232,7 @@ root@edison:~#
     Using 16 octaves of pink noise
     ...
     ...
+    ^C
     root@edison:~# 
 ```
 
