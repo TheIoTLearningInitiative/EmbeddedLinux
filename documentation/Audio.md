@@ -210,18 +210,6 @@ pcm.!default {
 
 ```sh
 root@edison:~# vi ~/.asoundrc
-pcm.!default {
-    type plug
-       slave {
-            pcm “hw:2,0”
-        }
-    }
-ctl.!default {
-    type plug
-        slave {
-            pcm “hw:2,0”
-        }
-    }
 ```
 
 ```sh
