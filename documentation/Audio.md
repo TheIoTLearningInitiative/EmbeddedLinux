@@ -226,7 +226,7 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 
 ```sh
     root@edison:~# vi /etc/asound.conf
-    pcm.!default sysdefault:Headset
+    pcm.!default sysdefault:Device
 ```
 
 #### Command Line Device Configuration
