@@ -80,6 +80,9 @@ root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATI
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
+Found 4 faces
+Writing to file out.jpg
+root@edison:~/vision/cloud-vision/python/face_detection# 
 ```
 
 ```sh
