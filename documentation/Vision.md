@@ -78,13 +78,6 @@ root@edison:~/vision/cloud-vision/python/face_detection# export GOOGLE_APPLICATI
 ```
 
 ```sh
-root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
-Found 1 face
-Writing to file out.jpg
-root@edison:~/vision/cloud-vision/python/face_detection# 
-```
-
-```sh
 root@edison:~/vision/cloud-vision/python/face_detection# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
     --2016-03-20 00:24:03--  https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
     Resolving upload.wikimedia.org... 208.80.153.240, 2620:0:860:ed1a::2:b
@@ -105,6 +98,13 @@ Writing to file out.jpg
 real    0m56.898s
 user    0m11.820s
 sys     0m0.490s
+root@edison:~/vision/cloud-vision/python/face_detection# 
+```
+
+```sh
+root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
+Found 1 face
+Writing to file out.jpg
 root@edison:~/vision/cloud-vision/python/face_detection# 
 ```
 
