@@ -64,6 +64,8 @@ root@edison:~/vision/cloud-vision/python/face_detection# opkg install libjpeg-de
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# pip install -r requirements.txt --target /home/root
+Downloading/unpacking google-api-python-client==1.5.0 (from -r requirements.txt (line 1))
+Downloading/unpacking Pillow==3.1.1 (from -r requirements.txt (line 2))
 ...
 Installing collected packages: google-api-python-client Pillow, httplib2, oauth2client, uritemplate, pyasn1, pyasn1-modules, rsn
 ...
