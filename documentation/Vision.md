@@ -13,7 +13,6 @@
 - [Tutorial](https://cloud.google.com/vision/docs/tutorials)
 - [Github Sample code for Google Cloud Vision](https://github.com/GoogleCloudPlatform/cloud-vision/)
 
-
 ### Google Cloud Platform Dashboard
 
 - Go to [Cloud Vision API](https://cloud.google.com/vision/)
