@@ -12,6 +12,10 @@
 - Wearable devices
 - Robots
 
+### Laboratory
+
+- Go to [wit.ai](https://wit.ai/)
+
 ```
 
 ```
