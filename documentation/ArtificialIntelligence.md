@@ -25,7 +25,13 @@
 ```
 root@edison:~# cd
 root@edison:~# git clone https://github.com/wit-ai/pywit.git
-
+Cloning into 'pywit'...
+remote: Counting objects: 230, done.
+remote: Total 230 (delta 0), reused 0 (delta 0), pack-reused 230
+Receiving objects: 100% (230/230), 45.47 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (109/109), done.
+Checking connectivity... done.
+root@edison:~# 
 ```
 
 ## Mycroft AI
