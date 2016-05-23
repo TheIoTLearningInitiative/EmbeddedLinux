@@ -215,6 +215,27 @@ ctl.!default {
 }
 ```
 
+```sh
+pcm.!default {
+        type asym
+        playback.pcm {
+                type plug
+                slave.pcm "hw:2,0"
+        }
+        capture.pcm {
+                type plug
+                slave.pcm "hw:3,0"
+        }
+}
+
+ctl.!default {
+    type plug
+        slave {
+           pcm "hw:2,0"
+       }
+}
+```
+
 #### Play Wav Sample File
 
 ```sh
