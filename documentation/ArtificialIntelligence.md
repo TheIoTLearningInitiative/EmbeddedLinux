@@ -31,7 +31,10 @@ remote: Total 230 (delta 0), reused 0 (delta 0), pack-reused 230
 Receiving objects: 100% (230/230), 45.47 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (109/109), done.
 Checking connectivity... done.
-root@edison:~# 
+root@edison:~# cd pywit/
+root@edison:~/pywit# ls
+CHANGES.md  LICENSE  README.md  examples  setup.py  wit
+root@edison:~/pywit# 
 ```
 
 ## Mycroft AI
