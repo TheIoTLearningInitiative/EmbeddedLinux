@@ -16,7 +16,10 @@
 
 - Go to [wit.ai](https://wit.ai/)
   - Sign up / Log in
-  - 
+  - Create a New App (+)
+    - Name: TheIoTLearningInitiative
+    - Description: The IoT Learning Initiative
+    - Language: Spanish
 
 ```
 
