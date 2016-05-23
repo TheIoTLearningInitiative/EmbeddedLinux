@@ -15,6 +15,8 @@
 ### Laboratory
 
 - Go to [wit.ai](https://wit.ai/)
+  - Sign up / Log in
+  - 
 
 ```
 
