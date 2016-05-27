@@ -4,6 +4,7 @@
 
 - [Intel Edison Audio Setup Guide](http://download.intel.com/support/edison/sb/edisonaudio_332434001.pdf)
 - [Edidoom Intel Edison Audio](https://github.com/llatta/edison-audio)
+- [Play Audio from your Intel® Edison via Bluetooth* using Advanced Audio Distribution Profile (A2DP)](https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile)
 
 ### Required Hardware
 
