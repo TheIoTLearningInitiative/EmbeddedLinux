@@ -95,7 +95,7 @@
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
    * [Vision](documentation/Vision.md)
-   * Messaging
+   * [Messaging](documentation/Messaging.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
