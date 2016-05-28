@@ -55,6 +55,10 @@ root@edison:~/pywit#
 - [Mycroft Core, the Mycroft Artificial Intelligence Platform Github](https://github.com/MycroftAI/mycroft-core)
 - [Mycroft Alpha v0.6 Software Demo](https://www.youtube.com/watch?v=-c8kfupIbO4&feature=youtu.be)
 
+## IVI.AI
+
+http://viv.ai/
+
 ## Others
 
 - [Virtual Assistants Startups](http://www.inc.com/magazine/201604/tess-townsend/virtual-assistant-startups.html)
