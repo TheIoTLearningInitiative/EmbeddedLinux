@@ -55,7 +55,7 @@ root@edison:~/pywit#
 - [Mycroft Core, the Mycroft Artificial Intelligence Platform Github](https://github.com/MycroftAI/mycroft-core)
 - [Mycroft Alpha v0.6 Software Demo](https://www.youtube.com/watch?v=-c8kfupIbO4&feature=youtu.be)
 
-## IVI.AI
+## Viv.Ai
 
 > Viv is an artificial intelligence platform that enables developers to distribute their products through an intelligent, conversational interface. It’s the simplest way for the world to interact with devices, services and things everywhere. Viv is taught by the world, knows more than it is taught, and learns every day. [Homepage](http://viv.ai/)
 
