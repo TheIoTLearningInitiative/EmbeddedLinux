@@ -50,6 +50,8 @@ Bluez Tools
     [    1.588202] Bluetooth: HIDP socket layer initialized
 ```
 
+### Bluetooth USB Dongle
+
 ```sh
 root@edison:~# dmesg
 ...
