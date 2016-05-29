@@ -17,3 +17,7 @@
 > One big problem area when using Linux in an embedded project is the size of the Linux kernel. This document describes how to configure the Linux kernel to use a small amount of memory and flash [Kernel Size Tuning Guide](http://elinux.org/Kernel_Size_Tuning_Guide)
 
 - [Linux Tiny PDF](http://elinux.org/images/7/72/Linux_tiny.pdf)
+
+## uClinux
+
+> The Embedded Linux/Microcontroller project is a port of Linux to systems without a Memory Management Unit (MMU) [Homepage](http://www.uclinux.org/)
