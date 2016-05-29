@@ -21,3 +21,5 @@
 ## uClinux
 
 > The Embedded Linux/Microcontroller project is a port of Linux to systems without a Memory Management Unit (MMU) [Homepage](http://www.uclinux.org/)
+
+> The original uClinux was a derivative of Linux 2.0 kernel intended for microcontrollers without Memory Management Units (MMUs). However, the Linux/Microcontroller Project has grown both in brand recognition and coverage of processor architectures. Today's uClinux as an operating system includes Linux kernel releases for 2.0 2.4 and 2.6 as well as a collection of user applications, libraries and tool chains.
