@@ -50,6 +50,16 @@ Bluez Tools
     [    1.588202] Bluetooth: HIDP socket layer initialized
 ```
 
+```sh
+root@edison:~# dmesg
+...
+[   85.022971] usb 1-1: new full-speed USB device number 2 using dwc3-host      
+[   85.085188] usb 1-1: New USB device found, idVendor=0a12, idProduct=0001     
+[   85.085218] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   85.085240] usb 1-1: Product: Bluetooth V2.0 Dongle                          
+[   85.085259] usb 1-1: Manufacturer: Bluetooth v2.0   
+```sh
+
 ### Kernel Modules
 
 ```sh
