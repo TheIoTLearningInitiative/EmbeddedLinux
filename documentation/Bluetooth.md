@@ -31,6 +31,8 @@ Bluez Tools
 
 ### Kernel Display Message
 
+#### Bluetooth Built-In Controller
+
 ```sh
     root@edison:~# dmesg | grep -i blue
     [    0.235619] Bluetooth: Core ver 2.16
@@ -50,7 +52,7 @@ Bluez Tools
     [    1.588202] Bluetooth: HIDP socket layer initialized
 ```
 
-### Bluetooth USB Dongle
+#### Bluetooth USB Dongle
 
 ```sh
 root@edison:~# dmesg
