@@ -217,6 +217,14 @@ ctl.!default {
 ```
 
 ```sh
+root@edison:~# arecord -f cd -d 20 test.wav
+Recording WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+^CAborted by signal Interrupt...
+root@edison:~# aplay test.wav
+Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+```
+
+```sh
 pcm.!default {
         type asym
         playback.pcm {
