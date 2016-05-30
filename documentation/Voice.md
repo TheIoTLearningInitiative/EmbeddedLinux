@@ -41,6 +41,12 @@
 
 > Text-to-Speech X-Platform [Homepage](http://pyttsx.readthedocs.io/en/latest/index.html)
 
+```sh
+opkg install libjack
+opkg install --nodeps jack-dev
+opkg install libportaudio-dev
+opkg install flac-dev
+```
 
 ```python
 import audioop
