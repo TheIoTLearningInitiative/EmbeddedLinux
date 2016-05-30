@@ -46,6 +46,7 @@
 
 > Control anything with your voice [Homepage](http://jasperproject.github.io/)
 
+- [Jasper Hackaday](http://hackaday.com/2014/04/09/create-your-own-j-a-r-v-i-s-using-jasper/)
 - [Jasper Github](https://github.com/jasperproject)
 
 ## Lab
