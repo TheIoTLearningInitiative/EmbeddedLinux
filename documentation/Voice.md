@@ -34,3 +34,7 @@
 ### gRPC
 
 > A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. [Homepage](http://www.grpc.io/)
+
+### Pyttsx
+
+> Text-to-speech x-platform [Homepage](http://pyttsx.readthedocs.io/en/latest/index.html)
