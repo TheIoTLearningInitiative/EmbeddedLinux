@@ -51,6 +51,29 @@
 
 ## Lab
 
+```python
+>>> import speech_recognition as sr
+>>> list = sr.Microphone.list_microphone_names()
+>>> for element in list:
+...     print element
+... 
+Loopback: Loopback PCM (hw:0,0)
+Loopback: Loopback PCM (hw:0,1)
+dummy-audio:  (hw:1,0)
+USB PnP Sound Device: USB Audio (hw:3,0)
+sysdefault
+front
+surround21
+surround40
+surround41
+surround50
+surround51
+surround71
+dmix
+default
+>>> 
+```
+
 ```sh
 opkg install libjack
 opkg install --nodeps jack-dev
