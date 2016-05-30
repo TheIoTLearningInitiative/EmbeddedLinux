@@ -20,6 +20,7 @@
     - Name: TheIoTLearningInitiative
     - Description: The IoT Learning Initiative
     - Language: Spanish
+    - Open Your data will be open to the community
     - + Create App
 
 ```
