@@ -66,6 +66,10 @@ root@edison:~/pywit#
 
 > Viv is an artificial intelligence platform that enables developers to distribute their products through an intelligent, conversational interface. It’s the simplest way for the world to interact with devices, services and things everywhere. Viv is taught by the world, knows more than it is taught, and learns every day. [Homepage](http://viv.ai/)
 
+## Api.Ai
+
+- [Homepage](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
+
 ## Others
 
 - [Virtual Assistants Startups](http://www.inc.com/magazine/201604/tess-townsend/virtual-assistant-startups.html)
