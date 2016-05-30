@@ -8,6 +8,10 @@
 
 > Today, thanks to companies like Wit.ai, even kids at hackathons are showing off weekend projects that are voice-controlled. Venturebeat
 
+- [Alex Lebrun, Wit Ai](https://www.youtube.com/watch?v=vATExKGuPTY)
+
+## Components
+
 - Bots
 - Mobile apps
 - Home automation
