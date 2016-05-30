@@ -2,6 +2,8 @@
 
 - [Alexa AWS Raspberry Pi](https://github.com/amzn/alexa-avs-raspberry-pi)
 - [How to get Edison to speak](https://software.intel.com/en-us/blogs/2016/02/18/how-to-get-edison-to-espeak-with-a-scottish-accent)
+- [](https://books.google.com.mx/books?id=MMXeCgAAQBAJ&pg=PT154&lpg=PT154&dq=sr.Microphone+speech+recognition&source=bl&ots=MSWuFftGhI&sig=rvJleYKb7yYYDNlTiKgDXGUORT4&hl=en&sa=X&ved=0ahUKEwiVoKKyxIDNAhUn4YMKHTnEBO0Q6AEIUjAI#v=onepage&q=sr.Microphone%20speech%20recognition&f=false)
+
 
 ## eSpeak
 
