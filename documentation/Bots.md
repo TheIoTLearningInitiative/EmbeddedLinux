@@ -157,4 +157,4 @@ root@edison:~# python mybot.py
 
 ## BeepBoop
 
-> [Homepage](https://beepboophq.com/)
+> Beep Boop is a ridiculously simple hosting platform for your Slack and Messenger bots [Homepage](https://beepboophq.com/)
