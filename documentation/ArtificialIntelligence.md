@@ -23,6 +23,12 @@
     - Open Your data will be open to the community
     - + Create App
 
+> Bot says...
+> > If your bot is ready to send a direct response (like "Hello!") to the user, click on Bot Says.
+
+> Bot executes...
+> > If your bot needs to perform an action or context ...
+
 ```
 root@edison:~# cd
 root@edison:~# git clone https://github.com/wit-ai/pywit.git
