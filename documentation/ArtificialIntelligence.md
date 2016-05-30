@@ -1,5 +1,7 @@
 # Artificial Intelligence
 
+- [Open Source Alternatives](https://www.quora.com/What-is-an-open-source-alternative-to-wit-ai)
+
 ## Wit.Ai
 
 > Natural Language for Developers. [Homepage](https://wit.ai/)
