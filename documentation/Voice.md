@@ -5,6 +5,7 @@
 - [Gewtting Started with Intel Edison](https://books.google.com.mx/books?id=MMXeCgAAQBAJ&pg=PT154&lpg=PT154&dq=sr.Microphone+speech+recognition&source=bl&ots=MSWuFftGhI&sig=rvJleYKb7yYYDNlTiKgDXGUORT4&hl=en&sa=X&ved=0ahUKEwiVoKKyxIDNAhUn4YMKHTnEBO0Q6AEIUjAI#v=onepage&q=sr.Microphone%20speech%20recognition&f=false)
 - [PyAudio](http://www.programcreek.com/python/example/52624/pyaudio.PyAudio)
 - [SR Lists](http://raspberrypi.stackexchange.com/questions/10384/speech-processing-on-the-raspberry-pi/10392)
+- [Digital signal processing through speech, hearing, and Python](http://www.slideshare.net/mchua/sigproc-selfstudy-17323823)
 
 ## eSpeak
 
