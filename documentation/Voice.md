@@ -37,4 +37,4 @@
 
 ### Pyttsx
 
-> Text-to-speech x-platform [Homepage](http://pyttsx.readthedocs.io/en/latest/index.html)
+> Text-to-Speech X-Platform [Homepage](http://pyttsx.readthedocs.io/en/latest/index.html)
