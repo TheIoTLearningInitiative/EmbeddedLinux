@@ -158,3 +158,5 @@ root@edison:~# python mybot.py
 ## BeepBoop
 
 > Beep Boop is a ridiculously simple hosting platform for your Slack and Messenger bots [Homepage](https://beepboophq.com/)
+
+- [Coding a Weather Slackbot for Beep Boop with Wit.ai](https://www.youtube.com/watch?v=fus357b19io)
