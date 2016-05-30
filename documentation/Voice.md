@@ -44,7 +44,7 @@
 
 ### Jasper
 
-> [Homepage](http://jasperproject.github.io/)
+> Control anything with your voice [Homepage](http://jasperproject.github.io/)
 
 
 ## Lab
