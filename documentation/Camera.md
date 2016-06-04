@@ -161,6 +161,6 @@ See Live Stream by connecting from a web browser to http://youripaddress:5000/
 - [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
 - [Rustem Iskuzhin Making your own live streaming camera](http://rustemiskuzhin.com/?p=1)
 
-### IP Cameras
+### OpenCV
 
 Tbd
