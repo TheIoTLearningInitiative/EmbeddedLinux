@@ -129,4 +129,3 @@ Look at <>
     root@edison:~/opencv# time python facerecognition.py
     ???
 ```
-
