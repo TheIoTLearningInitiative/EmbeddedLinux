@@ -82,6 +82,7 @@
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
    * [Graphics](documentation/Graphics.md)
+   * LIDAR
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
