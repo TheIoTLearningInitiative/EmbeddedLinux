@@ -21,7 +21,7 @@
    * [CentOS](documentation/CentOs.md)
    * [Kali](documentation/Kali.md)
    * [Google Brillo](documentation/GoogleBrillo.md)
-   * Ostro
+   * [Ostro](documentation/Ostro.md)
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
