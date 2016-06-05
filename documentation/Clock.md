@@ -78,8 +78,8 @@ ln -s '/lib/systemd/system/ntpdate.service' '/etc/systemd/system/multi-user.targ
 ```
 
 ```sh
-    root@edison:~# ntpdate -s time.nist.gov
-    root@edison:~# date
-    Mon Mar 21 20:14:51 UTC 2016
+root@edison:~# ntpdate -s time.nist.gov
+root@edison:~# date
+Mon Mar 21 20:14:51 UTC 2016
 ```
 
