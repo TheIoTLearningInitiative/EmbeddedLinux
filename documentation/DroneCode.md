@@ -18,7 +18,7 @@
 
 - [DroneKit Homepage](http://dronekit.io/)
 
-## DroneKit-Python
+### DroneKit-Python
 
 > DroneKit-Python allows developers to create apps that run on an onboard companion computer and communicate with the ArduPilot flight controller using a low-latency link. 
 
