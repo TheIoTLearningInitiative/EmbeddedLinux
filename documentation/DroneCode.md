@@ -1,6 +1,6 @@
 # Drone Code
 
-> Dronecode encompasses projects that control flight, enable mission planning, and otherwise make drone flight and advanced functionality possible.
+> Dronecode encompasses projects that control flight, enable mission planning, and otherwise make drone flight and advanced functionality possible. Dronecode development is done at the project level with coordinating and resource allocation performed by the TSC and the Board.
 
 > From improving agriculture to improving search and rescue, from tracking endangered species to tracking hurricanes, drones can change our world for good.  Join the community that is helping to shape the world of drones through a common, shared open source platform for Unmanned Aerial Vehicles (UAVs). Drone Code Homepage
 
