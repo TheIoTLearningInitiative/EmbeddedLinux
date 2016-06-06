@@ -6,4 +6,4 @@
 
 ## Trello
 
->  [Trello](https://trello.com/)
+> Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. [Trello](https://trello.com/)
