@@ -4,6 +4,7 @@
 - [Self Updating Edison Apps](http://rwx.io/blog/2015/08/18/self-updating-edison-app/)
 - [Smart Attendance System (Intel Edison Inside)](https://www.hackster.io/taifur/smart-attendance-system-intel-edison-inside-c423c5)
 - [Self Updating Edison Apps](http://rwx.io/blog/2015/08/18/self-updating-edison-app/)
+- [Embedded Linux Applications](http://www.ibm.com/developerworks/library/l-embl/)
 
 ## Heroku
 
