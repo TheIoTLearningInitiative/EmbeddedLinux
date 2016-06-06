@@ -10,6 +10,7 @@
 ## Ardupilot Project
 
 - [Github Ardupilot](https://github.com/lucasdemarchi/ardupilot)
+- [ROS/Gazebo Simulator with SITL](http://ardupilot.org/dev/docs/using-rosgazebo-simulator-with-sitl.html)
 
 ## DroneKit-Python
 
