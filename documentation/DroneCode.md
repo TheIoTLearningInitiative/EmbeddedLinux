@@ -7,6 +7,10 @@
 - [Intel® Edison as a Companion Computer](http://dev.ardupilot.com/wiki/edison-for-drones/)
 - [ELC 2015 - Intel Edison to Fuse Embedded Linux & Drone Flight Controllers - Mark Brown](https://www.youtube.com/watch?v=_6xZRikGiQQ)
 
+## Ardupilot Project
+
+- [Github Ardupilot](https://github.com/lucasdemarchi/ardupilot)
+
 ## DroneKit-Python
 
 > DroneKit-Python allows developers to create apps that run on an onboard companion computer and communicate with the ArduPilot flight controller using a low-latency link. 
