@@ -14,6 +14,10 @@
 - [Github Ardupilot](https://github.com/lucasdemarchi/ardupilot)
 - [ROS/Gazebo Simulator with SITL](http://ardupilot.org/dev/docs/using-rosgazebo-simulator-with-sitl.html)
 
+## DroneKit
+
+- [DroneKit Homepage](http://dronekit.io/)
+
 ## DroneKit-Python
 
 > DroneKit-Python allows developers to create apps that run on an onboard companion computer and communicate with the ArduPilot flight controller using a low-latency link. 
