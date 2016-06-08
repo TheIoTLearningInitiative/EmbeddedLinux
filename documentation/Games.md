@@ -4,6 +4,10 @@
 
 - [EdiDoom Intel Edison](http://2ld.de/edidoom/)
 
+## Pico-8
+
+[](http://www.lexaloffle.com/pico-8.php)
+
 ## Temp
 
 - [Wiimote](http://www.brianhensley.net/2012/08/wii-controller-raspberry-pi-python.html)
