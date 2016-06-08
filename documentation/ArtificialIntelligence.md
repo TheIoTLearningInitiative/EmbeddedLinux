@@ -61,7 +61,8 @@ root@edison:~/pywit#
 - For the Maker: Encourage Creativity!
 - For the Home: Integrated Artificial Intelligence!
 
-- [Mycroft: Open Source Artificial Intelligence](https://www.indiegogo.com/projects/mycroft-open-source-artificial-intelligence#/)
+- [Kickstarter Mycroft: An Open Source Artificial Intelligence For Everyone](https://www.kickstarter.com/projects/aiforeveryone/mycroft-an-open-source-artificial-intelligence-for)
+- [Indiegogo Mycroft: Open Source Artificial Intelligence](https://www.indiegogo.com/projects/mycroft-open-source-artificial-intelligence#/)
 - [Update #28 from Mycroft: An Open Source Artificial Intelligence For Everyone](https://www.kickstarter.com/projects/aiforeveryone/mycroft-an-open-source-artificial-intelligence-for/posts/1597302?ref=dash)
 - [Mycroft Community](https://community.mycroft.ai/)
 
