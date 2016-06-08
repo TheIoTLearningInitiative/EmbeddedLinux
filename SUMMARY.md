@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * [Pre-Work](documentation/PreWork.md)
+* About This Training
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
@@ -101,5 +102,4 @@
    * [Entertainment](documentation/Entertainment.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
-* About This Training
 
