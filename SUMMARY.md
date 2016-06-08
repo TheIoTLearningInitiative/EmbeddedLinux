@@ -4,7 +4,7 @@
 * [Pre-Work](documentation/PreWork.md)
 * About This Training
    * Objectives
-   * Prerequisites
+   * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
