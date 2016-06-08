@@ -45,3 +45,7 @@ root@edison:~#
 ## MavRos
 
 - [MavRos Github](https://github.com/mavlink/mavros)
+
+## CI40 Drone
+
+- [CI40 Drone](https://github.com/nukeop/Ci40Drone)
