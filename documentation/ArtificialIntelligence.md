@@ -77,6 +77,19 @@ root@edison:~/pywit#
 
 > Mycroft is the technology that ties natural language processing, text-to-speech, speech-to-text, and powerful APIs together to create a powerful experience allowing users to manipulate their smart devices and the Internet of Things through voice control.
 
+```sh
+xe1gyq@jessie:~$ git clone https://github.com/MycroftAI/mycroft-core.git
+Cloning into 'mycroft-core'...
+remote: Counting objects: 1623, done.
+remote: Compressing objects: 100% (155/155), done.
+remote: Total 1623 (delta 64), reused 0 (delta 0), pack-reused 1452
+Receiving objects: 100% (1623/1623), 9.45 MiB | 687.00 KiB/s, done.
+Resolving deltas: 100% (751/751), done.
+Checking connectivity... done.
+xe1gyq@jessie:~$ cd mycroft-core/
+xe1gyq@jessie:~/mycroft-core$ 
+```
+
 #### Mimic Text to Speech
 
 > Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
