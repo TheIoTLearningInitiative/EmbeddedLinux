@@ -81,6 +81,8 @@ root@edison:~/pywit#
 
 > Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
 
+#### 
+
 ###  Mycroft Core 0.6 Alpha
 
 > We are pleased to announce that Mycroft Core 0.6 Alpha is available for download today. Mycroft Core is a lightweight, portable piece of software written in Python. You can run it on anything from a Raspberry Pi to a gaming rig. Mycroft Core includes Adapt, Mimic, OpenSTT, and multiple open APIs to create an experience that allows users to interact with their technology using the most natural form of human communication – speech. 
