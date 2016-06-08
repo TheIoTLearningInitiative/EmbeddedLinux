@@ -6,7 +6,7 @@
 
 ## Pico-8
 
-[](http://www.lexaloffle.com/pico-8.php)
+- [](http://www.lexaloffle.com/pico-8.php)
 
 ## Temp
 
