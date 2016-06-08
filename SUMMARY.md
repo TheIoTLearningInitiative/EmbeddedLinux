@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Pre-Work](documentation/PreWork.md)
 * About This Training
-   * Objectives
+   * [Objectives](documentation/Objectives.md)
    * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
