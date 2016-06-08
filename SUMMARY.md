@@ -3,6 +3,7 @@
 * [Cover](README.md)
 * [Pre-Work](documentation/PreWork.md)
 * About This Training
+   * Prerequisites
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
