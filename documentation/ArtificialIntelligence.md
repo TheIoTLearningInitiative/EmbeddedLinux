@@ -67,6 +67,11 @@ root@edison:~/pywit#
 - [Mycroft Community](https://community.mycroft.ai/)
 
 
+### Components
+
+> Adapt Intent Parser
+> > The Adapt Intent Parser is an open source software library for converting natural language into machine readable data structures. Adapt is lightweight and streamlined and is designed to run on devices with limited computing resources. Adapt takes in natural language and outputs a data structure that includes the intent, a match probability, a tagged list of entities.
+
 ###  Mycroft Core 0.6 Alpha
 
 > We are pleased to announce that Mycroft Core 0.6 Alpha is available for download today. Mycroft Core is a lightweight, portable piece of software written in Python. You can run it on anything from a Raspberry Pi to a gaming rig. Mycroft Core includes Adapt, Mimic, OpenSTT, and multiple open APIs to create an experience that allows users to interact with their technology using the most natural form of human communication – speech. 
