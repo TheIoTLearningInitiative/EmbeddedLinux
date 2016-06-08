@@ -60,6 +60,8 @@ root@edison:~/pywit#
 - For the Office: Increase Productivity!
 - For the Maker: Encourage Creativity!
 - For the Home: Integrated Artificial Intelligence!
+- [Update #28 from Mycroft: An Open Source Artificial Intelligence For Everyone](https://www.kickstarter.com/projects/aiforeveryone/mycroft-an-open-source-artificial-intelligence-for/posts/1597302?ref=dash)
+
 
 ###  Mycroft Core 0.6 Alpha
 
