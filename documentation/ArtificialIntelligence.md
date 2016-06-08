@@ -65,6 +65,7 @@ root@edison:~/pywit#
 - [Indiegogo Mycroft: Open Source Artificial Intelligence](https://www.indiegogo.com/projects/mycroft-open-source-artificial-intelligence#/)
 - [Update #28 from Mycroft: An Open Source Artificial Intelligence For Everyone](https://www.kickstarter.com/projects/aiforeveryone/mycroft-an-open-source-artificial-intelligence-for/posts/1597302?ref=dash)
 - [Mycroft Community](https://community.mycroft.ai/)
+- [Gnome Shell GUI Extension for Mycroft Ai](https://github.com/AIIX)
 
 
 ### Components
