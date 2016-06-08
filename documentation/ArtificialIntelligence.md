@@ -81,7 +81,9 @@ root@edison:~/pywit#
 
 > Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
 
-#### 
+#### Open Speech to Text
+
+> OpenSTT is being led by members of the Mycroft A.I. team as they strive to create a powerful voice interface and artificial intelligence platform. Our goal is to make this technology available to as many people as possible. We do this by leading development of open source projects, OpenSTT is one of these initiatives.
 
 ###  Mycroft Core 0.6 Alpha
 
