@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* Summary
 * About This Training
    * [Objectives](documentation/Objectives.md)
    * [Prerequisites](documentation/Prerequisites.md)
@@ -103,5 +104,4 @@
    * [Entertainment](documentation/Entertainment.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
-* Summary
 
