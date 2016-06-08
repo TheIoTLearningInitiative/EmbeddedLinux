@@ -101,4 +101,5 @@
    * [Entertainment](documentation/Entertainment.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
+* About This Training
 
