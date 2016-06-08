@@ -69,12 +69,17 @@ root@edison:~/pywit#
 
 ### Components
 
-> Adapt Intent Parser
-> > The Adapt Intent Parser is an open source software library for converting natural language into machine readable data structures. Adapt is lightweight and streamlined and is designed to run on devices with limited computing resources. Adapt takes in natural language and outputs a data structure that includes the intent, a match probability, a tagged list of entities.
+#### Adapt Intent Parser
 
-> Mycroft Core
-> > Mycroft is the technology that ties natural language processing, text-to-speech, speech-to-text, and powerful APIs together to create a powerful experience allowing users to manipulate their smart devices and the Internet of Things through voice control.
+> The Adapt Intent Parser is an open source software library for converting natural language into machine readable data structures. Adapt is lightweight and streamlined and is designed to run on devices with limited computing resources. Adapt takes in natural language and outputs a data structure that includes the intent, a match probability, a tagged list of entities.
 
+#### Mycroft Core
+
+> Mycroft is the technology that ties natural language processing, text-to-speech, speech-to-text, and powerful APIs together to create a powerful experience allowing users to manipulate their smart devices and the Internet of Things through voice control.
+
+#### Mimic Text to Speech
+
+> Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
 
 ###  Mycroft Core 0.6 Alpha
 
