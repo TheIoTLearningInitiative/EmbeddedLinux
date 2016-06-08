@@ -1,7 +1,6 @@
 # Summary
 
 * [Cover](README.md)
-* [Pre-Work](documentation/PreWork.md)
 * About This Training
    * [Objectives](documentation/Objectives.md)
    * [Prerequisites](documentation/Prerequisites.md)
