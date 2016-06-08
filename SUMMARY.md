@@ -98,7 +98,7 @@
    * [Games](documentation/Games.md)
    * [Vision](documentation/Vision.md)
    * [Messaging](documentation/Messaging.md)
-   * Entertainment
+   * [Entertainment](documentation/Entertainment.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
