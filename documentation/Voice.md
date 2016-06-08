@@ -34,6 +34,7 @@
   - REST API
   - gRPC API
 
+- [Python Google Text to Speech](https://pypi.python.org/pypi/gTTS)
 
 ### gRPC
 
