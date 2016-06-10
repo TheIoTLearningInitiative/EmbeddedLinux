@@ -53,7 +53,6 @@
        * [OpenCv](documentation/Opencv.md)
        * [Temboo](documentation/Temboo.md)
    * Frameworks
-       * [Drone Code](documentation/DroneCode.md)
        * [Cylon JS](documentation/CylonJs.md)
        * [Johnny Five](documentation/JohnnyFive.md)
        * [ROS](documentation/Ros.md)
@@ -89,6 +88,7 @@
    * [LIDAR](documentation/Lidar.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
+   * [Drone Code](documentation/DroneCode.md)
    * [C Compiler](documentation/C.md)
    * [Cross Compile](documentation/CrossCompile.md)
    * [Python](documentation/Python.md)
