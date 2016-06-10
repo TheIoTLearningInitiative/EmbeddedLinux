@@ -38,7 +38,7 @@ root@edison:~#
 
 ```
 
-## Drones on IA
+## Drones on Intel Architecture
 
 - [Drones on IA](http://dronesonia.bz.intel.com/doc/index.html)
 - [Aero Platform](https://newsroom.intel.com/wp-content/uploads/sites/11/2016/04/Aero-platform.jpg)
