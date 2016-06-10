@@ -56,3 +56,7 @@ root@edison:~#
 ## CI40 Drone
 
 - [CI40 Drone](https://github.com/nukeop/Ci40Drone)
+
+## Links
+
+- [libiio](https://github.com/ostroproject/meta-ostro/issues/168)
