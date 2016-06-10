@@ -63,6 +63,10 @@ root@edison:~#
 - [libiio](https://github.com/analogdevicesinc/libiio)
 - [Compass calibration progress with geodesic sections in Ardupilot](http://guludo.me/posts/2016/05/27/compass-calibration-progress-with-geodesic-sections-in-ardupilot/)
 
+## Gazebo
+
+- [Gazebo SITL (gzsitl) Plugin](http://github.com/01org/gazebo-sitl)
+
 ## Equipment
 
 - [BMI160 IMU](https://www.bosch-sensortec.com/bst/products/all_products/bmi160)
