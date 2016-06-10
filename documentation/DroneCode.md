@@ -41,7 +41,7 @@ root@edison:~#
 ## Drones on IA
 
 - [Drones on IA](http://dronesonia.bz.intel.com/doc/index.html)
-- [](https://newsroom.intel.com/wp-content/uploads/sites/11/2016/04/Aero-platform.jpg)
+- [Aero Platform](https://newsroom.intel.com/wp-content/uploads/sites/11/2016/04/Aero-platform.jpg)
 
 ## MavRos
 
