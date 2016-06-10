@@ -64,3 +64,4 @@ root@edison:~#
 
 ## Equipment
 
+[BMI160 IMU](https://www.bosch-sensortec.com/bst/products/all_products/bmi160)
