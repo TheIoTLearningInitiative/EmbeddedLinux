@@ -43,6 +43,10 @@ root@edison:~#
 - [Drones on IA](http://dronesonia.bz.intel.com/doc/index.html)
 - [Aero Platform](https://newsroom.intel.com/wp-content/uploads/sites/11/2016/04/Aero-platform.jpg)
 
+### Intel® Aero Platform for UAV
+
+> Powered by the latest Intel® Atom™ quad core processor, this ready-to-fly, drone-specific development kit features out-of-the-box, plug-and-play modules with communications, storage, depth, and vision capabilities–including Intel® RealSense™ Technology. [Intel® Aero Platform for UAV](http://www.intel.com/content/www/us/en/technology-innovation/aerial-technology-overview.html)
+
 ## MavRos
 
 - [MavRos Github](https://github.com/mavlink/mavros)
