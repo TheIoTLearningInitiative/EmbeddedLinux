@@ -52,6 +52,7 @@
        * [Upm](documentation/Upm.md)
        * [OpenCv](documentation/Opencv.md)
        * [Temboo](documentation/Temboo.md)
+       * Libiio
    * Frameworks
        * [Cylon JS](documentation/CylonJs.md)
        * [Johnny Five](documentation/JohnnyFive.md)
