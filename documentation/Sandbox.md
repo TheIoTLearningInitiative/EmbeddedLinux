@@ -183,6 +183,7 @@ http://edplay.weebly.com/how-to/building-linux-for-intel-edison
 - https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 - https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 - https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
+- https://github.com/waf-project/waf
 
 ### Tbd
 
@@ -199,3 +200,4 @@ http://edplay.weebly.com/how-to/building-linux-for-intel-edison
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
+
