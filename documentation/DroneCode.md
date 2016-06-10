@@ -60,7 +60,8 @@ root@edison:~#
 ## Links
 
 - [libiio](https://github.com/ostroproject/meta-ostro/issues/168)
-- [](https://github.com/analogdevicesinc/libiio)
+- [libiio](https://github.com/analogdevicesinc/libiio)
+- [](http://guludo.me/posts/2016/05/27/compass-calibration-progress-with-geodesic-sections-in-ardupilot/)
 
 ## Equipment
 
