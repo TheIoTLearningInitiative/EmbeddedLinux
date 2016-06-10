@@ -66,4 +66,4 @@ root@edison:~#
 
 - [BMI160 IMU](https://www.bosch-sensortec.com/bst/products/all_products/bmi160)
 - [BMI160 Code Review](https://groups.google.com/a/chromium.org/forum/#!topic/chromium-os-reviews/LqAoc6g6CXs)
-- [BMI160 github](https://github.com/BoschSensortec/BMI160_driver)
+- [BMI160 Github](https://github.com/BoschSensortec/BMI160_driver)
