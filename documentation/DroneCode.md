@@ -42,6 +42,7 @@ root@edison:~#
 
 - [Drones on IA](http://dronesonia.bz.intel.com/doc/index.html)
 - [Aero Platform](https://newsroom.intel.com/wp-content/uploads/sites/11/2016/04/Aero-platform.jpg)
+- [The First UAV with Intel® RealSense™ Technology](http://www.intel.com/content/www/us/en/technology-innovation/videos/yuneec-typhoon-h-with-intel-realsense.html?wapkw=technology+innovation)
 
 ### Intel® Aero Platform for UAV
 
