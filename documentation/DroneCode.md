@@ -61,3 +61,6 @@ root@edison:~#
 
 - [libiio](https://github.com/ostroproject/meta-ostro/issues/168)
 - [](https://github.com/analogdevicesinc/libiio)
+
+## Equipment
+
