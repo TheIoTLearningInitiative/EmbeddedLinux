@@ -106,6 +106,12 @@ root@edison:~#
     root@edison:~# apt-get install alsa-utils mpg123 espeak
 ```
 
+### Free Sound Effects
+
+- [Soundbible.com](http://soundbible.com/)
+- [Soundjay.com](http://www.soundjay.com/)
+- [freeSFX](http://www.freesfx.co.uk/)
+
 ### Programs
 
 #### Audio Files
