@@ -114,6 +114,8 @@ root@edison:~#
 
 ### Programs
 
+- [Mad](http://www.underbit.com/products/mad/)
+
 #### Audio Files
 
 ```sh
