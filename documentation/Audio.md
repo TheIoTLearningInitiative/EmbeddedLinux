@@ -108,8 +108,8 @@ root@edison:~#
 
 ### Free Sound Effects
 
-- [Soundbible.com](http://soundbible.com/)
-- [Soundjay.com](http://www.soundjay.com/)
+- [Soundbible](http://soundbible.com/)
+- [Soundjay](http://www.soundjay.com/)
 - [freeSFX](http://www.freesfx.co.uk/)
 
 ### Programs
