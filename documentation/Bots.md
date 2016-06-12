@@ -2,6 +2,10 @@
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
+
+![Telegram](https://telegram.org/img/t_logo.png)
+
+
 ## Bot Revolution
 
 > Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things [Bot Revolution](https://telegram.org/blog/bot-revolution)
