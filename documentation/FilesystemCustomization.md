@@ -1,6 +1,7 @@
 # Filesystem
 
 - [Changing partition setup on Edison](http://alextgalileo.altervista.org/blog/changing-partition-setup-edison/)
+- [Increasing the Root Partition Size](https://communities.intel.com/docs/DOC-23449)
 
 ## File System Disk Space Customization
 
