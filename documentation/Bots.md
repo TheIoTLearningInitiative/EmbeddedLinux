@@ -172,7 +172,7 @@ if __name__ == '__main__':
 root@edison:~# python mybot.py
 ```
 
-## BeepBoop
+# BeepBoop
 
 > Beep Boop is a ridiculously simple hosting platform for your Slack and Messenger bots [Homepage](https://beepboophq.com/)
 
