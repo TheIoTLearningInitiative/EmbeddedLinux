@@ -77,10 +77,10 @@ default
 ```
 
 ```sh
-opkg install libjack
-opkg install --nodeps jack-dev
-opkg install libportaudio-dev
-opkg install flac-dev
+root@edison:~# opkg install libjack                                             
+root@edison:~# opkg install --nodeps jack-dev                                   
+root@edison:~# opkg install libportaudio-dev
+root@edison:~# opkg install flac-dev
 ```
 
 ```sh
