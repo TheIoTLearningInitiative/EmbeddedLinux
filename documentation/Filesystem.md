@@ -5,6 +5,23 @@
 ## File System Type
 
 ```sh
+root@edison:~# df -h                                                            
+Filesystem       Size  Used Avail Use% Mounted on                               
+/dev/root        1.4G 1017M  312M  77% /                                        
+devtmpfs         480M     0  480M   0% /dev                                     
+tmpfs            481M     0  481M   0% /dev/shm                                 
+tmpfs            481M  588K  480M   1% /run                                     
+tmpfs            481M     0  481M   0% /sys/fs/cgroup                           
+tmpfs            481M  4.0K  481M   1% /tmp                                     
+/dev/mmcblk0p10  1.3G  2.1M  1.3G   1% /home                                    
+tmpfs            481M  6.1M  474M   2% /var/volatile                            
+/dev/mmcblk0p5  1003K   19K  913K   3% /factory                                 
+tmpfs             97M     0   97M   0% /run/user/0                              
+/dev/loop0       767M  4.0K  767M   1% /media/storage      
+root@edison:~# 
+```
+
+```sh
 root@edison:~# df -h
 Filesystem      Type     1K-blocks    Used Available Use% Mounted on
 /dev/root       ext4       1444528 1125392    228656  84% /
