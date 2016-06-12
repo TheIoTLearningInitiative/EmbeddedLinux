@@ -80,9 +80,10 @@ CANCELFORWARD 1 DELETE 1 REPLY
 ## Python Telegram Bot Library Installation
 
 
-> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/)
+> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/) [Github](https://github.com/python-telegram-bot)
 
-- [Python Telegram Bot](https://github.com/python-telegram-bot)
+![Python Telegram Bot](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo/png/ptb-logo_240.png)
+
 
 ```sh
 root@edison:~# pip install requests --upgrade
