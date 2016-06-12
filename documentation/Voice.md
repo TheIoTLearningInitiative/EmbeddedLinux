@@ -53,6 +53,11 @@
 
 ## Lab
 
+```sh
+root@edison:~# pip install SpeechRecognition
+Downloading/unpacking SpeechRecognition
+```
+
 ```python
 >>> import speech_recognition as sr
 >>> list = sr.Microphone.list_microphone_names()
