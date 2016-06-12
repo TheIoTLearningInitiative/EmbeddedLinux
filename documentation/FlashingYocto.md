@@ -13,6 +13,49 @@
 - [Intel® Edison Board Software Release 3.0 Release Notes](https://software.intel.com/en-us/blogs/2016/03/30/intel-iot-developer-kit-30-release-notes)
 
 ```sh
+xe1gyq@jessie:~/Downloads/edison/20160606$ unzip iot-devkit-prof-dev-image-edison-20160606.zip 
+Archive:  iot-devkit-prof-dev-image-edison-20160606.zip
+  inflating: edison_dnx_fwr.bin      
+  inflating: edison_dnx_osr.bin      
+  inflating: edison_ifwi-dbg-00.bin  
+  inflating: edison_ifwi-dbg-00-dfu.bin  
+  inflating: edison_ifwi-dbg-01.bin  
+  inflating: edison_ifwi-dbg-01-dfu.bin  
+  inflating: edison_ifwi-dbg-02.bin  
+  inflating: edison_ifwi-dbg-02-dfu.bin  
+  inflating: edison_ifwi-dbg-03.bin  
+  inflating: edison_ifwi-dbg-03-dfu.bin  
+  inflating: edison_ifwi-dbg-04.bin  
+  inflating: edison_ifwi-dbg-04-dfu.bin  
+  inflating: edison_ifwi-dbg-05.bin  
+  inflating: edison_ifwi-dbg-05-dfu.bin  
+  inflating: edison_ifwi-dbg-06.bin  
+  inflating: edison_ifwi-dbg-06-dfu.bin  
+  inflating: edison-image-edison.ext4  
+  inflating: edison-image-edison.hddimg  
+  inflating: filter-dfu-out.js       
+  inflating: flashall.bat            
+  inflating: flashall.sh             
+  inflating: FlashEdison.json        
+   creating: helper/
+  inflating: helper/helper.html      
+   creating: helper/images/
+  inflating: helper/images/Edison-arduino-blink-led.png  
+  inflating: helper/images/Edison-arduino.png  
+  inflating: helper/images/Edison-breakout-board.png  
+  inflating: ota_update.scr          
+  inflating: package-list.txt        
+  inflating: u-boot-edison.bin       
+  inflating: u-boot-edison.img       
+   creating: u-boot-envs/
+  inflating: u-boot-envs/edison-prod.bin  
+  inflating: u-boot-envs/edison-blankrndis.bin  
+  inflating: u-boot-envs/edison-blankcdc.bin  
+  inflating: u-boot-envs/edison-ifwi.bin  
+xe1gyq@jessie:~/Downloads/edison/20160606$ 
+```
+
+```sh
 xe1gyq@jessie:~/Downloads/latestedison$ unzip iot-devkit-prof-dev-image-edison-20160315.zip 
 Archive:  iot-devkit-prof-dev-image-edison-20160315.zip
   inflating: edison_dnx_fwr.bin      
