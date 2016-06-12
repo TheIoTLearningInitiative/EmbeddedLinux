@@ -23,7 +23,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 root@edison:~# 
 ```
 
-### Yocto 3.5
+### Yocto 3.0
 
 ```sh
 root@edison:~# df -h
