@@ -2,8 +2,6 @@
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
-> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/)
-
 ## Bot Revolution
 
 > Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things [Bot Revolution](https://telegram.org/blog/bot-revolution)
@@ -81,6 +79,8 @@ CANCELFORWARD 1 DELETE 1 REPLY
 
 ## Python Telegram Bot Library Installation
 
+
+> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/)
 
 ```sh
 root@edison:~# pip install requests --upgrade
