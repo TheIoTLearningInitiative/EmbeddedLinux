@@ -23,35 +23,38 @@ In Linux
 ## Bootup Cancel
 
 ```sh
-    ******************************
-    PSH KERNEL VERSION: b0182b2b
-                    WR: 20104000
-    ******************************
-    
-    SCU IPC: 0x800000d0  0xfffce92c
-    
-    PSH miaHOB version: TNG.B0.VVBD.0000000c
-    
-    microkernel built 11:24:08 Feb  5 2015
-    
-    ******* PSH loader *******CM page cache size = 192 KB 
-    Cache Constrais
-    Arming IPC driver ..
-    Adding page store pool ..
-    PagestoreAddr(IMR Start Address) = 0x04899000
-    pagIMR Size)          = 0dy to receive application *** 
-    
-    
-    U-Boot 2014.04 (Dec 19 2015 - 23:30:32)
-
-           Watchdog enabled
-    DRAM:  980.6 MiB
-    MMC:   tangier_sdhci: 0
-    In:    serial
-    Out:   serial
-    Err:   serial
-    Hit any key to stop autoboot:  1
-    boot > 
+******************************                                                  
+PSH KERNEL VERSION: b0182b2b                                                    
+                WR: 20104000                                                    
+******************************                                                  
+                                                                                
+SCU IPC: 0x800000d0  0xfffce92c                                                 
+                                                                                
+PSH miaHOB version: TNG.B0.VVBD.0000000c                                        
+                                                                                
+microkernel built 11:24:08 Feb  5 2015                                          
+                                                                                
+******* PSH loader *******                                                      
+PCM page cache size = 192 KB                                                    
+Cache Constraint = 0 Pages                                                      
+Arming IPC driver ..                                                            
+Adding page store pool ..                                                       
+PagestoreAddr(IMR Start Address) = 0x04899000                                   
+pageStoreSize(IMR Size)          = 0x00080000                                   
+                                                                                
+*** Ready to receive application ***                                            
+                                                                                
+                                                                                
+U-Boot 2014.04 (Jun 06 2016 - 14:40:07)                                         
+                                                                                
+       Watchdog enabled                                                         
+DRAM:  980.6 MiB                                                                
+MMC:   tangier_sdhci: 0                                                         
+In:    serial                                                                   
+Out:   serial                                                                   
+Err:   serial                                                                   
+Hit any key to stop autoboot:  1
+boot > 
 ```
 
 ## U-Boot Commands from U-Boot
