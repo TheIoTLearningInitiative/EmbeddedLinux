@@ -79,9 +79,9 @@ CANCELFORWARD 1 DELETE 1 REPLY
 
 
 ```sh
-root@edison:~/giekis# pip install requests --upgrade
-root@edison:~/giekis# pip install future --upgrade
-root@edison:~/giekis# pip install python-telegram-bot --upgrade
+root@edison:~# pip install requests --upgrade
+root@edison:~# pip install future --upgrade
+root@edison:~# pip install python-telegram-bot --upgrade
 ```
 
 ```sh
