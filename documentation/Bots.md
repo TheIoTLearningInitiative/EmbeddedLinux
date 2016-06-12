@@ -77,6 +77,13 @@ CANCELFORWARD 1 DELETE 1 REPLY
 
 ## Python Telegram Bot Library Installation
 
+
+```sh
+root@edison:~/giekis# pip install requests --upgrade
+root@edison:~/giekis# pip install future --upgrade
+root@edison:~/giekis# pip install python-telegram-bot --upgrade
+```
+
 ```sh
 root@edison:~# cd
 root@edison:~# git clone https://github.com/python-telegram-bot/python-telegram-bot.git
