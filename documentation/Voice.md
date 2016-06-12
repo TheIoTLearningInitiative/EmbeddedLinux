@@ -56,6 +56,8 @@
 ```sh
 root@edison:~# pip install SpeechRecognition
 Downloading/unpacking SpeechRecognition
+...
+root@edison:~# 
 ```
 
 ```python
