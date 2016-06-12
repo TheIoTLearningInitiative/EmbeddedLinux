@@ -1,4 +1,5 @@
 # Reboot
+
 ```sh
 root@edison:~# reboot
          Unmounting /home...
