@@ -142,6 +142,12 @@ Output
 
 ## Intel Edison Linux Kernel all modules
 
+### Release v3.5 Yocto 
+
+
+
+### Release v3.0 Yocto 
+
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
     /lib/modules/3.10.17-yocto-standard
