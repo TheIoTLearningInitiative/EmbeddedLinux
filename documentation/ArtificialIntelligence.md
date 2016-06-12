@@ -128,6 +128,10 @@ Finished processing dependencies for virtualenv
 xe1gyq@jessie:~/mycroft-core$ 
 ```
 
+```sh
+xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
+```
+
 #### Mimic Text to Speech
 
 > Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
