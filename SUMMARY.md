@@ -38,6 +38,7 @@
    * [Backup](documentation/Backup.md)
    * [Recovery](documentation/Recovery.md)
    * [Reboot](documentation/Reboot.md)
+   * Processes
 * User Space
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
