@@ -1,3 +1,5 @@
+
+
 # Filesystem
 
 > In computing, a file system (or filesystem) is used to control how data is stored and retrieved. Without a file system, information placed in a storage area would be one large body of data with no way to tell where one piece of information stops and the next begins. By separating the data into pieces and giving each piece a name, the information is easily isolated and identified. Taking its name from the way paper-based information systems are named, each group of data is called a "file". The structure and logic rules used to manage the groups of information and their names is called a "file system". [Wikipedia](https://en.wikipedia.org/wiki/File_system)
@@ -77,7 +79,22 @@ tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,size=98312k,mode=700)
 
 ### Release v3.5 Yocto, Fresh Installation
 
-
+```sh
+root@edison:~# df -h                                                            
+Filesystem       Size  Used Avail Use% Mounted on                               
+/dev/root        1.4G 1017M  312M  77% /                                        
+devtmpfs         480M     0  480M   0% /dev                                     
+tmpfs            481M     0  481M   0% /dev/shm                                 
+tmpfs            481M  588K  480M   1% /run                                     
+tmpfs            481M     0  481M   0% /sys/fs/cgroup                           
+tmpfs            481M  4.0K  481M   1% /tmp                                     
+/dev/mmcblk0p10  1.3G  2.1M  1.3G   1% /home                                    
+tmpfs            481M  6.1M  474M   2% /var/volatile                            
+/dev/mmcblk0p5  1003K   19K  913K   3% /factory                                 
+tmpfs             97M     0   97M   0% /run/user/0                              
+/dev/loop0       767M  4.0K  767M   1% /media/storage      
+root@edison:~# 
+```
 
 ### Release v3.0 Yocto, Fresh Installation
 
