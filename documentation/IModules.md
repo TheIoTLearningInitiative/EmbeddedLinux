@@ -144,7 +144,65 @@ Output
 
 ### Release v3.5 Yocto 
 
-
+```sh
+root@edison:~# find /lib/modules/* -name '*'                                    
+/lib/modules/3.10.98-poky-edison+                                               
+/lib/modules/3.10.98-poky-edison+/modules.dep                                   
+/lib/modules/3.10.98-poky-edison+/modules.alias                                 
+/lib/modules/3.10.98-poky-edison+/modules.symbols                               
+/lib/modules/3.10.98-poky-edison+/modules.dep.bin                               
+/lib/modules/3.10.98-poky-edison+/modules.builtin.bin                           
+/lib/modules/3.10.98-poky-edison+/modules.builtin                               
+/lib/modules/3.10.98-poky-edison+/modules.softdep                               
+/lib/modules/3.10.98-poky-edison+/modules.devname                               
+/lib/modules/3.10.98-poky-edison+/modules.symbols.bin                           
+/lib/modules/3.10.98-poky-edison+/kernel                                        
+/lib/modules/3.10.98-poky-edison+/kernel/net                                    
+/lib/modules/3.10.98-poky-edison+/kernel/net/mac80211                           
+/lib/modules/3.10.98-poky-edison+/kernel/net/mac80211/mac80211.ko               
+/lib/modules/3.10.98-poky-edison+/kernel/arch                                   
+/lib/modules/3.10.98-poky-edison+/kernel/arch/x86                               
+/lib/modules/3.10.98-poky-edison+/kernel/arch/x86/kernel                        
+/lib/modules/3.10.98-poky-edison+/kernel/arch/x86/kernel/test_nx.ko             
+/lib/modules/3.10.98-poky-edison+/kernel/drivers                                
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/net                            
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/net/usb                        
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/net/usb/rtl8150.ko             
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/net/usb/r8152.ko               
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb                            
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/gadget                     
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/gadget/u_serial.ko         
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/gadget/libcomposite.ko     
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/gadget/g_multi.ko          
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/gadget/usb_f_acm.ko        
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/serial                     
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/serial/cp210x.ko           
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/usb/serial/ftdi_sio.ko         
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/staging                        
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/staging/iio                    
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/staging/iio/trigger            
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/staging/iio/trigger/iio-trig-so
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/misc                           
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/misc/bcm-lpm                   
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/misc/bcm-lpm/bcm_bt_lpm.ko     
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media                          
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/v4l2-core                
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/v4l2-core/videobuf2-coreo
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/v4l2-core/videobuf2-vmalo
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/v4l2-core/videobuf2-memoo
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb                      
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb/uvc                  
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb/uvc/uvcvideo.ko      
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb/gspca                
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb/gspca/gspca_ov534_9.o
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb/gspca/gspca_ov534.ko 
+/lib/modules/3.10.98-poky-edison+/kernel/drivers/media/usb/gspca/gspca_main.ko  
+/lib/modules/3.10.98-poky-edison+/extra                                         
+/lib/modules/3.10.98-poky-edison+/extra/bcm4334x.ko                             
+/lib/modules/3.10.98-poky-edison+/modules.alias.bin                             
+/lib/modules/3.10.98-poky-edison+/modules.order                                 
+root@edison:~# 
+```
 
 ### Release v3.0 Yocto 
 
