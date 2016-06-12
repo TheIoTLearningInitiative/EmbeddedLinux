@@ -91,6 +91,43 @@ xe1gyq@jessie:~$ cd mycroft-core/
 xe1gyq@jessie:~/mycroft-core$ 
 ```
 
+```sh
+xe1gyq@jessie:~/mycroft-core$ ./build_host_setup.sh
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+autoconf is already the newest version.
+bison is already the newest version.
+curl is already the newest version.
+git is already the newest version.
+libglib2.0-dev is already the newest version.
+libffi-dev is already the newest version.
+libtool is already the newest version.
+mpg123 is already the newest version.
+libssl-dev is already the newest version.
+portaudio19-dev is already the newest version.
+python-gobject-dev is already the newest version.
+python is already the newest version.
+python-dev is already the newest version.
+python-setuptools is already the newest version.
+python-virtualenv is already the newest version.
+s3cmd is already the newest version.
+swig is already the newest version.
+virtualenvwrapper is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 168 not upgraded.
+Searching for virtualenv
+Reading https://pypi.python.org/simple/virtualenv/
+Best match: virtualenv 15.0.2
+Processing virtualenv-15.0.2-py2.7.egg
+virtualenv 15.0.2 is already the active version in easy-install.pth
+Installing virtualenv script to /usr/local/bin
+
+Using /usr/local/lib/python2.7/dist-packages/virtualenv-15.0.2-py2.7.egg
+Processing dependencies for virtualenv
+Finished processing dependencies for virtualenv
+xe1gyq@jessie:~/mycroft-core$ 
+```
+
 #### Mimic Text to Speech
 
 > Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
