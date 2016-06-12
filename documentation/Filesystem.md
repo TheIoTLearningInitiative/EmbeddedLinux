@@ -4,6 +4,8 @@
 
 ## File System Type
 
+### Yocto 3.5
+
 ```sh
 root@edison:~# df -h                                                            
 Filesystem       Size  Used Avail Use% Mounted on                               
@@ -20,6 +22,8 @@ tmpfs             97M     0   97M   0% /run/user/0
 /dev/loop0       767M  4.0K  767M   1% /media/storage      
 root@edison:~# 
 ```
+
+### Yocto 3.5
 
 ```sh
 root@edison:~# df -h
