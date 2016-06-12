@@ -75,6 +75,10 @@ tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,size=98312k,mode=700)
 
 ## File System Disk Space Usage
 
+### Release v3.5 Yocto, Fresh Installation
+
+
+
 ### Release v3.0 Yocto, Fresh Installation
 
 ```sh
