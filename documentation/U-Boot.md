@@ -151,55 +151,206 @@ boot >
 ## Bootup Kernel
 
 ```sh
-    ******************************
-    PSH KERNEL VERSION: b0182b2b
-                    WR: 20104000
-    ******************************
-    
-    SCU IPC: 0x800000d0  0xfffce92c
-    
-    PSH miaHOB version: TNG.B0.VVBD.0000000c
-    
-    microkernel built 11:24:08 Feb  5 2015
-    
-    ******* PSH loader *******CM page cache size = 192 KB 
-    Cache Constrais
-    Arming IPC driver ..
-    Adding page store pool ..
-    PagestoreAddr(IMR Start Address) = 0x04899000
-    pagIMR Size)          = 0dy to receive application *** 
-    
-    
-    U-Boot 2014.04 (Dec 19 2015 - 23:30:32)
-
-           Watchdog enabled
-    DRAM:  980.6 MiB
-    MMC:   tangier_sdhci: 0
-    In:    serial
-    Out:   serial
-    Err:   serial
-    Hit any key to stop autoboot:  0 
-    Target:blank
-    Partitioning already done...
-    Flashing already done...
-    GADGET DRIVER: usb_dnl_dfu
-    reading vmlinuz
-    5385504 bytes read in 133 ms (38.6 MiB/s)
-    Valid Boot Flag
-    Setup Size = 0x00003c00
-    Magic signature found
-    Using boot protocol version 2.0c
-    Linux kernel version 3.10.17-yocto-standard (abraham@aarcemor-desk) #1 SMP PREEMPT Sat Dec 19 23:23:25 CST 2015
-    Building boot_params at 0x00090000
-    Loading bzImage at address 00100000 (5370144 bytes)
-    Magic signature found
-    Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,k"
-    ...
-    ...
-    Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
-    
-    edison login: root
-    root@edison:~# 
+U-Boot 2014.04 (Jun 06 2016 - 14:40:07)                                         
+                                                                                
+       Watchdog enabled                                                         
+DRAM:  980.6 MiB                                                                
+MMC:   tangier_sdhci: 0                                                         
+In:    serial                                                                   
+Out:   serial                                                                   
+Err:   serial                                                                   
+Hit any key to stop autoboot:  0                                                
+Target:blank                                                                    
+Partitioning already done...                                                    
+Flashing already done...                                                        
+GADGET DRIVER: usb_dnl_dfu                                                      
+reading vmlinuz                                                                 
+5461344 bytes read in 134 ms (38.9 MiB/s)                                       
+Valid Boot Flag                                                                 
+Setup Size = 0x00003c00                                                         
+Magic signature found                                                           
+Using boot protocol version 2.0c                                                
+Linux kernel version 3.10.98-poky-edison+ (neck@flax) #1 SMP PREEMPT Mon Jun 6 6
+Building boot_params at 0x00090000                                              
+Loading bzImage at address 00100000 (5445984 bytes)                             
+Magic signature found                                                           
+Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335"
+                                                                                
+Starting kernel ...                                                             
+                                                                                
+[    1.603619] snd_soc_sst_platform: Enter:sst_soc_probe                        
+[    2.087155] pmic_ccsm pmic_ccsm: Error reading battery profile from battid fk
+[    2.096126] pmic_ccsm pmic_ccsm: Battery Over heat exception                 
+[    2.096208] pmic_ccsm pmic_ccsm: Battery0 temperature inside boundary        
+                                                                                
+Welcome to Linux!                                                               
+                                                                                
+[    2.771628] systemd[1]: [/lib/systemd/system/wyliodrin-server.service:3] Fait
+         Expecting device dev-ttyMFD2.device.../wyliodrin-hypervisor.service:3]t
+[  OK  ] Reached target Remote File Systems.                                    
+         Expecting device dev-disk-by\x2dpartlabel-factory.device...            
+         Expecting device sys-subsystem-net-devices-usb0.device...              
+[  OK  ] Reached target Paths.                                                  
+[  OK  ] Reached target Swap.                                                   
+[  OK  ] Set up automount boot.automount.                                       
+[  OK  ] Created slice Root Slice.                                              
+[  OK  ] Created slice User and Session Slice.                                  
+[  OK  ] Listening on Delayed Shutdown Socket.                                  
+[  OK  ] Listening on /dev/initctl Compatibility Named Pipe.                    
+[  OK  ] Listening on udev Control Socket.                                      
+[  OK  ] Listening on udev Kernel Socket.                                       
+[  OK  ] Listening on Journal Socket.                                           
+[  OK  ] Created slice System Slice.                                            
+         Mounting Temporary Directory...                                        
+[  OK  ] Created slice system-serial\x2dgetty.slice.                            
+[  OK  ] Created slice system-getty.slice.                                      
+         Starting Create list of required static device nodes...rrent kernel... 
+         Starting udev Coldplug all Devices...                                  
+         Starting Load Kernel Modules...                                        
+         Mounting Debug File System...                                          
+         Mounting POSIX Message Queue File System...                            
+         Starting Apply Kernel Variables...                                     
+         Starting Journal Service...                                            
+[  OK  ] Started Journal Service.                                               
+[  OK  ] Reached target Slices.                                                 
+         Starting Remount Root and Kernel File Systems...                       
+[  OK  ] Set up automount home.automount.                                       
+[  OK  ] Mounted POSIX Message Queue File System.                               
+[  OK  ] Mounted Debug File System.                                             
+[  OK  ] Mounted Temporary Directory.                                           
+[  OK  ] Started Create list of required static device nodes ...current kernel. 
+[  OK  ] Started Apply Kernel Variables.                                        
+[  OK  ] Started Remount Root and Kernel File Systems.                          
+[  OK  ] Started udev Coldplug all Devices.                                     
+[  OK  ] Started Load Kernel Modules.                                           
+         Mounting Configuration File System...                                  
+         Mounting FUSE Control File System...                                   
+         Starting Load/Save Random Seed...                                      
+         Starting Create Static Device Nodes in /dev...                         
+[  OK  ] Mounted FUSE Control File System.                                      
+[  OK  ] Mounted Configuration File System.                                     
+[  OK  ] Started Load/Save Random Seed.                                         
+[  OK  ] Started Create Static Device Nodes in /dev.                            
+         Starting udev Kernel Device Manager...                                 
+[  OK  ] Reached target Local File Systems (Pre).                               
+         Mounting /var/volatile...                                              
+[  OK  ] Started udev Kernel Device Manager.                                    
+[  OK  ] Mounted /var/volatile.                                                 
+[  OK  ] Reached target Local File Systems.                                     
+         Starting Trigger Flushing of Journal to Persistent Storage...          
+         Starting Create Volatile Files and Directories...                      
+[  OK  ] Started Create Volatile Files and Directories.                         
+[  OK  ] Started Trigger Flushing of Journal to Persistent Storage.             
+         Starting Network Time Synchronization...                               
+         Starting Update UTMP about System Boot/Shutdown...                     
+[  OK  ] Found device /dev/ttyMFD2.                                             
+[  OK  ] Started Network Time Synchronization.                                  
+[  OK  ] Found device /dev/disk/by-partlabel/factory.                           
+[  OK  ] Started Update UTMP about System Boot/Shutdown.                        
+[  OK  ] Created slice system-systemd\x2drfkill.slice.                          
+         Starting Load/Save RF Kill Switch Status of rfkill0...                 
+         Starting Load/Save RF Kill Switch Status of rfkill1...                 
+         Mounting Mount for factory...                                          
+[  OK  ] Started Load/Save RF Kill Switch Status of rfkill0.                    
+[  OK  ] Started Load/Save RF Kill Switch Status of rfkill1.                    
+[  OK  ] Mounted Mount for factory.                                             
+[  OK  ] Reached target Sound Card.                                             
+[  OK  ] Reached target System Initialization.                                  
+[  OK  ] Listening on RPCbind Server Activation Socket.                         
+[  OK  ] Listening on D-Bus System Message Bus Socket.                          
+[  OK  ] Reached target Timers.                                                 
+         Starting Restore Sound Card State...                                   
+         Starting Console System Startup Logging...                             
+[  OK  ] Started Console System Startup Logging.                                
+[  OK  ] Found device /sys/subsystem/net/devices/usb0.                          
+[  OK  ] Created slice system-systemd\x2dfsck.slice.                            
+         Starting File System Check on /dev/disk/by-partlabel/home...           
+         Starting Load/Save RF Kill Switch Status of rfkill2...                 
+[  OK  ] Listening on sshd.socket.                                              
+[  OK  ] Started Load/Save RF Kill Switch Status of rfkill2.                    
+[    7.892042] systemd-fsck[182]: /dev/mmcblk0p10: clean, 15/87120 files, 14184s
+[  OK  ] Reached target Sockets.                                                
+[  OK  ] Reached target Basic System.                                           
+         Starting Edison PWR button handler...                                  
+[  OK  ] Started Edison PWR button handler.                                     
+         Starting Edison sketch check service...                                
+[  OK  ] Started Edison sketch check service.                                   
+         Starting Daemon to load edison mcu app binary...                       
+[  OK  ] Started Daemon to load edison mcu app binary.                          
+         Starting Telephony service...                                          
+Application available at (physical) address 0x04819000                          
+        VRL mapped to 0xff217000                                                
+        App size = 11508 bytes                                                  
+                                                                                
+        App Authentication feature is disabled!                                 
+        Resetting IPC                                                           
+                                                                                
+*** Ready to receive application ***                                            
+         Starting OpenSSH Key Generation...                                     
+         Starting Start or stop WiFI AP Mode in Edison...                       
+[  OK  ] Started Start or stop WiFI AP Mode in Edison.                          
+         Starting Wyliodrin hypervisor...                                       
+         Starting Bluetooth rf kill event daemon...                             
+[  OK  ] Started Bluetooth rf kill event daemon.                                
+         Starting Daemon to handle arduino sketches...                          
+[  OK  ] Started Daemon to handle arduino sketches.                             
+         Starting Daemon to reset sketches...                                   
+[  OK  ] Started Daemon to reset sketches.                                      
+         Starting Wyliodrin server...                                           
+         Starting Login Service...                                              
+         Starting D-Bus System Message Bus...                                   
+[  OK  ] Started D-Bus System Message Bus.                                      
+[  OK  ] Started Telephony service.                                             
+         Starting Network Service...                                            
+         Starting Watchdog sample daemon...                                     
+[  OK  ] Started Watchdog sample daemon.                                        
+         Starting Crashlog service...                                           
+[  OK  ] Started Crashlog service.                                              
+         Starting Cleanjournal service...                                       
+[  OK  ] Started Cleanjournal service.                                          
+         Starting Permit User Sessions...                                       
+[  OK  ] Started Network Service.                                               
+[  OK  ] Started File System Check on /dev/disk/by-partlabel/home.              
+[  OK  ] Started OpenSSH Key Generation.                                        
+[  OK  ] Started Permit User Sessions.                                          
+[  OK  ] Started Login Service.                                                 
+         Starting Bluetooth service...                                          
+         Starting Serial Getty on ttyMFD2...                                    
+[  OK  ] Started Serial Getty on ttyMFD2.                                       
+         Starting Getty on tty1...                                              
+[  OK  ] Started Getty on tty1.                                                 
+[  OK  ] Reached target Login Prompts.                                          
+         Mounting /home...                                                      
+[  OK  ] Reached target Network.                                                
+         Starting Mosquitto - lightweight server implementati...SN protocols... 
+         Starting Zero-configuration networking...                              
+         Starting Network Name Resolution...                                    
+[  OK  ] Mounted /home.                                                         
+[  OK  ] Started Mosquitto - lightweight server implementatio...T-SN protocols. 
+[  OK  ] Started Network Name Resolution.                                       
+[  OK  ] Started Zero-configuration networking.                                 
+[  OK  ] Started Bluetooth service.                                             
+[  OK  ] Started Restore Sound Card State.                                      
+         Starting PulseAudio Sound System...                                    
+         Starting Hostname Service...                                           
+         Starting The Edison status and configuration service...                
+[  OK  ] Started The Edison status and configuration service.                   
+         Starting Intel_XDK_Daemon...                                           
+[  OK  ] Started Intel_XDK_Daemon.                                              
+[  OK  ] Started Hostname Service.                                              
+[  OK  ] Created slice user-0.slice.                                            
+         Starting User Manager for UID 0...                                     
+[  OK  ] Started User Manager for UID 0.                                        
+[  OK  ] Started Wyliodrin hypervisor.                                          
+[  OK  ] Started PulseAudio Sound System.                                       
+[  OK  ] Started Wyliodrin server.                                              
+[  OK  ] Reached target Multi-User System.                                      
+         Starting Redis Server...                                               
+[  OK  ] Started Redis Server.                                                  
+                                                                                
+Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2                      
+                                                                                
+edison login: 
 ```
 
 ## U-Boot Commands from Linux
