@@ -4,7 +4,7 @@
 
 ## File System Type
 
-### Yocto 3.5
+### Release v3.5 Yocto 
 
 ```sh
 root@edison:~# df -h                                                            
@@ -23,7 +23,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 root@edison:~# 
 ```
 
-### Yocto 3.0
+### Release v3.0 Yocto 
 
 ```sh
 root@edison:~# df -h
