@@ -101,3 +101,27 @@
 ```sh
     root@edison:~# pip install https://github.com/mitsuhiko/flask/tarball/master
 ```
+
+## Python Easy_Install
+
+```sh
+root@edison:~# easy_install requests
+Searching for requests
+Reading https://pypi.python.org/simple/requests/
+Best match: requests 2.10.0
+Downloading https://pypi.python.org/packages/49/6f/183063f01aae1e025cf0130772b55848750a2f3a89bfa11b385b
+35d7329d/requests-2.10.0.tar.gz#md5=a36f7a64600f1bfec4d55ae021d232ae
+Processing requests-2.10.0.tar.gz
+Writing /tmp/easy_install-E4KeMV/requests-2.10.0/setup.cfg
+Running requests-2.10.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-E4KeMV/requests-2.10.0/egg-d
+ist-tmp-qSTGq5
+warning: no files found matching 'test_requests.py'
+creating /usr/lib/python2.7/site-packages/requests-2.10.0-py2.7.egg
+Extracting requests-2.10.0-py2.7.egg to /usr/lib/python2.7/site-packages
+Adding requests 2.10.0 to easy-install.pth file
+
+Installed /usr/lib/python2.7/site-packages/requests-2.10.0-py2.7.egg
+Processing dependencies for requests
+Finished processing dependencies for requests
+root@edison:~# 
+```
