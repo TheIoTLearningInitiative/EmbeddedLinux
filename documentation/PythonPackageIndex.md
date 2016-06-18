@@ -6,6 +6,7 @@
 
 - [Python Package Index Homepage](https://pypi.python.org/pypi)
 - [Python Package Index Wikipedia](https://en.wikipedia.org/wiki/Python_Package_Index)
+- [Python Packaging User Guide](https://packaging.python.org/en/latest/current/)
 
 ```sh
     root@edison:~# opkg install python-pip python-dev
