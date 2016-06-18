@@ -14,7 +14,7 @@
 - [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
 - [Intel® Edison Network Access](https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board)
 - [Edison Wi-Fi Configuration](http://rwx.io/blog/2015/08/16/edison-wifi-config/)
-- [](https://github.com/pvaret/rtl8192cu-fixes)
+- [Realtek 8192 chipset driver, ported to kernel 3.11.](https://github.com/pvaret/rtl8192cu-fixes)
 
 ## Kernel Integration
 
