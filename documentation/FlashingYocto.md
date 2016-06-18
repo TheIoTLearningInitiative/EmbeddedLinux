@@ -1,6 +1,7 @@
 # Flashing
 
 - [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+- [Flashing the firmware on a system with Windows* (manual process)](https://software.intel.com/en-us/flashing-firmware-on-your-intel-edison-board-windows)
 
 ## Board Support Package Update in a Nutshell
 
