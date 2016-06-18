@@ -156,6 +156,10 @@ xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
 
 - [Homepage](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
 
+## HeyAthena
+
+[HeyAthena](https://pypi.python.org/pypi/HeyAthena)
+
 ## Others
 
 - [Virtual Assistants Startups](http://www.inc.com/magazine/201604/tess-townsend/virtual-assistant-startups.html)
