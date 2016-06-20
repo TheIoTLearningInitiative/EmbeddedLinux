@@ -22,4 +22,4 @@
 # Equipment
 
 - [USB External Sound Card Audio Adapter](https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC)
-- [USB Camera UVC Compatible]()
+- [USB Camera UVC Compatible](Logitech HD Webcam C525, Portable HD 720p Video Calling with Autofocus)
