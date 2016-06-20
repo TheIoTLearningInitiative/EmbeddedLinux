@@ -21,5 +21,5 @@
     
 # Equipment
 
-- [](https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC)
+- [USB External Sound Card Audio Adapter](https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC)
 
