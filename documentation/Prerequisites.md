@@ -18,7 +18,7 @@
     root@edison:~# mkdir EmbeddedLinux
     root@edison:~# cp InternetOfThings101/main.py EmbeddedLinux/
 ```
-    
+
 # Equipment
 
 - [USB External Sound Card Audio Adapter](https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC)
