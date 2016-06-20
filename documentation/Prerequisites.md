@@ -19,4 +19,6 @@
     root@edison:~# cp InternetOfThings101/main.py EmbeddedLinux/
 ```
     
+# Equipment
 
+https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC
