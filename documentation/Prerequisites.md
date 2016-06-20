@@ -22,4 +22,4 @@
 # Equipment
 
 - [USB External Sound Card Audio Adapter](https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC)
-
+- [USB Camera UVC Compatible]()
