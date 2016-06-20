@@ -156,6 +156,10 @@ xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
 
 - [Homepage](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
 
+```sh
+root@edison:~# pip install apiai
+```
+
 ## HeyAthena
 
 [HeyAthena](https://pypi.python.org/pypi/HeyAthena)
