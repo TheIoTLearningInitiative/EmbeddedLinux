@@ -23,4 +23,3 @@
 
 - https://www.amazon.com/External-Sound-Audio-Adapter-Channel/dp/B00CKKFCJC
 
-- [Intel Daal](https://software.intel.com/en-us/intel-daal)
