@@ -366,7 +366,7 @@ connect 40:78:6A:26:4A:C2
 ```
 
 ```sh
-root@edison:~/bluez/test# git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
+root@edison:~# git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
 root@edison:~# cd bluez/
 root@edison:~/bluez# ls
 AUTHORS      Makefile.obexd    android              doc       peripheral
