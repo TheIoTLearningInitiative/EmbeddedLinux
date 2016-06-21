@@ -401,6 +401,18 @@ root@edison:~/bluez/test# ./test-profile -u 101 -n edisonSpp -s -P 3 -C 22 seria
 
 ```sh
 root@edison:~# rfkill unblock bluetooth
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:04:1A:8C edison [default]
+[bluetooth]# power on
+[bluetooth]# agent on
+[bluetooth]# scan on
+[bluetooth]# pair <id android device>
+[bluetooth]# trust <id android device>
+[bluetooth]# connect <id you paired with>
+```
+
+```sh
+root@edison:~# rfkill unblock bluetooth
 root@edison:~# hciconfig hci0 up
 root@edison:~# bluetoothctl
 [NEW] Controller 98:4F:EE:04:1A:8C MyEdison [default]
