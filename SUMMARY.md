@@ -74,7 +74,7 @@
    * [General Purpose Input Output](documentation/GeneralPurposeInputOutput.md)
    * [Serial](documentation/Serial.md)
    * [Bluetooth](documentation/Bluetooth.md)
-       * Hackathon
+       * [Hackathon](documentation/HackathonBluetooth.md)
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
