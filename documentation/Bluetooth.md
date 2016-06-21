@@ -409,6 +409,7 @@ root@edison:~# bluetoothctl
 [bluetooth]# pair <id android device>
 [bluetooth]# trust <id android device>
 [bluetooth]# connect <id you paired with>
+[bluetooth]# exit
 ```
 
 ```sh
