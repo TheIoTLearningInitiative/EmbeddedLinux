@@ -444,7 +444,7 @@ root@edison:~#
 Connect from Android device from BlueTerm application
 
 ```sh
-root@edison:~# rfcomm listen hci0 &
+root@edison:~# cat /dev/rfcomm0
 ```
 
 
