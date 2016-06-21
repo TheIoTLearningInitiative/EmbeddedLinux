@@ -431,6 +431,7 @@ root@edison:~#
 Connect from Android device
 
 
+
 #### BlueTooth Headsets
 
 ```sh
