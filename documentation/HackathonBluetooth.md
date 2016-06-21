@@ -1,5 +1,7 @@
 # Hackathon
 
+Install Android BlueTerm Application 
+
 ```sh
 root@edison:~# rfkill unblock bluetooth
 root@edison:~# bluetoothctl
