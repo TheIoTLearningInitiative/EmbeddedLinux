@@ -397,6 +397,51 @@ root@edison:~/bluez/test# ./test-profile -u 101 -n edisonSpp -s -P 3 -C 22 seria
 
 - https://communities.intel.com/message/269607#269607
 
+#### SPP Rfcomm
+
+```sh
+edison login: root
+root@edison:~# clear
+root@edison:~# ls
+DhIs           SPP-loopback.py  apiai-telegram-bot        bluez
+GiekHackathon  SPP-pipe-out.py  bluetooth_pair            c.js
+GiekIs         ai1.py           bluetooth_pairing.tar.gz  node_modules
+root@edison:~# hciconfig hci0 up
+Can't get device info: No such device
+root@edison:~# rfkill unblock bluetooth
+root@edison:~# hciconfig hci0 up
+root@edison:~# bluetoothctl which will take us to the controller we are working
+[NEW] Controller 98:4F:EE:04:1A:8C MyEdison [default]
+[NEW] Device 98:4F:EE:06:1B:99 edison
+[NEW] Device 2C:D0:5A:80:7A:44 AARCEMOR-MOBL3
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[bluetooth]# with. You will enter the
+Invalid command
+[bluetooth]# discoverable on and
+Invalid argument on and
+[bluetooth]# discoverable on and pairable on
+Invalid argument on and pairable on
+[bluetooth]# discoverable on
+Changing discoverable on succeeded
+[CHG] Controller 98:4F:EE:04:1A:8C Discoverable: yes
+[bluetooth]# pairable on
+Changing pairable on succeeded
+[bluetooth]# agent on
+Agent registered
+[bluetooth]# default-agent
+Default agent request successful
+[bluetooth]# quit
+Agent unregistered
+[DEL] Controller 98:4F:EE:04:1A:8C MyEdison [default]
+root@edison:~# rfcomm listen hci0 &
+[1] 377
+root@edison:~# Waiting for connection on channel 1
+Connection from 40:78:6A:26:4A:C2 to /dev/rfcomm0
+Press CTRL-C for hangup
+
+root@edison:~# rfcomm listen hci0 &
+[2] 382
+```
 
 #### BlueTooth Headsets
 
