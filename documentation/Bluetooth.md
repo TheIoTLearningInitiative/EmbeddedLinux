@@ -252,7 +252,35 @@ root@edison:~# wget https://downloadmirror.intel.com/24909/eng/SPP-loopback.py
 ```
 
 ```sh
+root@edison:~# python SPP-loopback.py &
+[3] 462
+```
 
+```sh
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:04:1A:8C MyEdison [default]
+[NEW] Device 98:4F:EE:06:1B:99 edison
+[bluetooth]# show
+Controller 98:4F:EE:04:1A:8C
+        Name: edison
+        Alias: MyEdison
+        Class: 0x6c0110
+        Powered: yes
+        Discoverable: no
+        Pairable: yes
+        UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+        UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+        UUID: SIM Access                (0000112d-0000-1000-8000-00805f9b34fb)
+        UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+        UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+        UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+        UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+        UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+        UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+        UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+        Modalias: usb:v1D6Bp0246d0525
+        Discovering: no
+[bluetooth]#
 ```
 
 #### BlueTooth Headsets
