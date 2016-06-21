@@ -343,7 +343,11 @@ Attempting to pair with 40:78:6A:26:4A:C2
 [CHG] Device 40:78:6A:26:4A:C2 Paired: yes
 Pairing successful
 [CHG] Device 40:78:6A:26:4A:C2 Connected: no
+[bluetooth]# trust 40:78:6A:26:4A:C2
+[CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
+Changing 40:78:6A:26:4A:C2 trust succeeded
 [bluetooth]#
+
 
 ```
 
