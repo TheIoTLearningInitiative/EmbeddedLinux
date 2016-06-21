@@ -211,6 +211,9 @@ Install "Locate Beacon" Android App
 
 ```sh
 root@edison:~# vi /etc/dbus-1/system.d/bluetooth.conf
+```
+
+```sh
 
 ```
 
