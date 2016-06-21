@@ -247,6 +247,10 @@ Controller 98:4F:EE:04:1A:8C
 [bluetooth]#
 ```
 
+```sh
+root@edison:~# wget https://downloadmirror.intel.com/24909/eng/SPP-loopback.py
+```
+
 #### BlueTooth Headsets
 
 ```sh
