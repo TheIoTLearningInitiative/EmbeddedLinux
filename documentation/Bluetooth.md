@@ -357,6 +357,9 @@ Changing 40:78:6A:26:4A:C2 trust succeeded
 ```sh
 systemctl enable bluetooth
 rfkill unblock bluetooth
+bluetoothctl
+agent KeyboardDisplay
+default-agent
 pair 40:78:6A:26:4A:C2
 trust 40:78:6A:26:4A:C2
 connect 40:78:6A:26:4A:C2
