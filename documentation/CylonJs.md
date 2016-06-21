@@ -70,6 +70,8 @@ Follow up instructions [here](https://www.npmjs.com/package/cylon-intel-iot#blue
 
 ## Grove Indoor Starter Kit
 
+- [Using Cylon.js With The Intel Edison and IoT Starter Kit](https://github.com/hybridgroup/Using-Cylon.js-With-The-Intel-Edison-and-IoT-Starter-Kit)
+
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-api-http cylon-gpio cylon-i2c
 ```
