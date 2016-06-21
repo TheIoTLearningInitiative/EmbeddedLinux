@@ -214,7 +214,11 @@ root@edison:~# vi /etc/dbus-1/system.d/bluetooth.conf
 ```
 
 ```sh
-
+  <policy context="default">
+    ...
+    <allow send_interface="org.bluez.Profile1"/>
+    ...
+  </policy>
 ```
 
 #### BlueTooth Headsets
