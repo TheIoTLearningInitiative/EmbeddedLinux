@@ -427,10 +427,11 @@ root@edison:~# rfcomm listen hci0 &
 root@edison:~# Waiting for connection on channel 1
 Connection from 40:78:6A:26:4A:C2 to /dev/rfcomm0
 Press CTRL-C for hangup
-
-root@edison:~# rfcomm listen hci0 &
-[2] 382
+root@edison:~# 
 ```
+
+Connect from Android device
+
 
 #### BlueTooth Headsets
 
