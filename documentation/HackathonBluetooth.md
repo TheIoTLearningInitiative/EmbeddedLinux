@@ -23,8 +23,8 @@ root@edison:~# bluetoothctl
 [NEW] Device 40:78:6A:26:4A:C2 XT1008
 [bluetooth]# discoverable on
 Changing discoverable on succeeded
-[bluetooth]# discoverable on
-Changing discoverable on succeeded
+[bluetooth]# pairable on
+Changing pairable on succeeded
 [CHG] Device 40:78:6A:26:4A:C2 Connected: yes
 [CHG] Device 40:78:6A:26:4A:C2 Connected: no
 [bluetooth]# agent on
