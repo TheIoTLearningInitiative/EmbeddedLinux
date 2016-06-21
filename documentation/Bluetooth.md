@@ -471,4 +471,5 @@ I know this need a lil' bit further explanation. just dropped here so i won't fo
 
 ## Audio
 
-https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile?language=fr
+- https://github.com/w4ilun/edison-guides/wiki/Bluetooth-Audio-On-Intel-Edison
+- https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile?language=fr
