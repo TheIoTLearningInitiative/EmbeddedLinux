@@ -392,7 +392,7 @@ list-folders             simple-player       test-profile
 map-client               test-adapter        test-proximity
 monitor-bluetooth        test-alert          test-sap-server
 opp-client               test-cyclingspeed   test-thermometer
-root@edison:~/bluez/test# ./test-profile –u 1101 -n edisonSpp -s -P 3 -C 22 serial22
+root@edison:~/bluez/test# ./test-profile -u 101 -n edisonSpp -s -P 3 -C 22 serial22
 ```
 
 #### BlueTooth Headsets
