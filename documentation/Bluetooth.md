@@ -108,7 +108,7 @@ root@edison:~# dmesg
 #### Pip
 
 ```sh
-    root@edison:~# pip install pybluez
+    root@edison:~# pip install pyserial pybluez
 ```
 
 #### Apt-Get
