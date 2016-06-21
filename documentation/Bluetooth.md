@@ -447,7 +447,7 @@ Connect from Android device from BlueTerm application
 root@edison:~# cat /dev/rfcomm0
 ```
 
-Write data from android device from BlueTerm application
+Write data from Android device from BlueTerm application
 
 #### BlueTooth Headsets
 
