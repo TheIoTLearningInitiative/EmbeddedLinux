@@ -63,7 +63,7 @@ while count == None:
     try:
         count = int(raw_input( "Please enter the number of times to blink the LED" ))
     except:
-        pass    # Ignore any errors that may occur and try again
+        pass
 
 while True:
     bluetoothSerial.write( str("hola") )
