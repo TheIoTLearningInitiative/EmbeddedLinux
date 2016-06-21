@@ -209,6 +209,11 @@ Install "Locate Beacon" Android App
 ```
 #### SPP
 
+```
+root@edison:~# systemctl enable bluetooth
+root@edison:~# rfkill unblock bluetooth
+```
+
 ```sh
 root@edison:~# vi /etc/dbus-1/system.d/bluetooth.conf
 ```
@@ -350,9 +355,11 @@ Changing 40:78:6A:26:4A:C2 trust succeeded
 ```
 
 ```sh
-pair
-trust
-connect
+systemctl enable bluetooth
+rfkill unblock bluetooth
+pair 40:78:6A:26:4A:C2
+trust 40:78:6A:26:4A:C2
+connect 40:78:6A:26:4A:C2
 ```
 
 ```sh
