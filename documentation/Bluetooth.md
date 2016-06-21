@@ -252,7 +252,7 @@ root@edison:~# wget https://downloadmirror.intel.com/24909/eng/SPP-loopback.py
 ```
 
 ```sh
-root@edison:~# python SPP-loopback.py &
+root@edison:~# python SPP-loopback.py -C 22 &
 [3] 462
 ```
 
