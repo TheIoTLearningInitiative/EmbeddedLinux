@@ -347,11 +347,12 @@ Pairing successful
 [CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
 Changing 40:78:6A:26:4A:C2 trust succeeded
 [bluetooth]#
-
-
 ```
 
 ```sh
+pair
+trust
+connect
 ```
 
 ```sh
