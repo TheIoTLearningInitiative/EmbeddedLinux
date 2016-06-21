@@ -207,6 +207,12 @@ Install "Locate Beacon" Android App
     root@edison:~# hcitool scan
     root@edison:~# rfcomm bind 0 40:78:6A:26:4A:C2
 ```
+#### SPP
+
+```sh
+root@edison:~# vi /etc/dbus-1/system.d/bluetooth.conf
+
+```
 
 #### BlueTooth Headsets
 
