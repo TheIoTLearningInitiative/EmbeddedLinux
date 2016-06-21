@@ -469,3 +469,6 @@ Once paired, open the Bluetooth SPP Manager app, hit search, and when the Intel 
 
 I know this need a lil' bit further explanation. just dropped here so i won't forget. Also what is going to be added is  how to programmatically do the device discovering, pairing  and SPP using c and python
 
+## Audio
+
+https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile?language=fr
