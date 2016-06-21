@@ -395,6 +395,9 @@ opp-client               test-cyclingspeed   test-thermometer
 root@edison:~/bluez/test# ./test-profile -u 101 -n edisonSpp -s -P 3 -C 22 serial22
 ```
 
+- https://communities.intel.com/message/269607#269607
+
+
 #### BlueTooth Headsets
 
 ```sh
