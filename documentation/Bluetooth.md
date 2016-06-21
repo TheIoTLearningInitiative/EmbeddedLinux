@@ -413,8 +413,6 @@ Changing discoverable on succeeded
 Changing discoverable on succeeded
 [CHG] Device 40:78:6A:26:4A:C2 Connected: yes
 [CHG] Device 40:78:6A:26:4A:C2 Connected: no
-[bluetooth]#
-
 [bluetooth]# agent on
 Agent registered
 [bluetooth]# default-agent
