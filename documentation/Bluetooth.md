@@ -284,6 +284,67 @@ Controller 98:4F:EE:04:1A:8C
 ```
 
 ```sh
+[bluetooth]# exit
+[DEL] Controller 98:4F:EE:04:1A:8C MyEdison [default]
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:04:1A:8C MyEdison [default]
+[NEW] Device 5B:78:E1:26:DF:12 5B-78-E1-26-DF-12
+[NEW] Device E4:56:CA:13:F1:5F Kontakt
+[NEW] Device 46:1F:08:C5:D9:DD 46-1F-08-C5-D9-DD
+[NEW] Device BC:85:56:1D:DD:BA PCJESU
+[NEW] Device 20:C3:8F:88:49:99 RECAM53SJX07788
+[NEW] Device 94:65:9C:1B:FC:AA DESKTOP-NFCK84P
+[NEW] Device 54:27:1E:18:86:32 Bluetooth USB Host Controller
+[NEW] Device C0:D9:62:06:AA:F6 Bluetooth USB Host Controller
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[NEW] Device 20:C9:D0:7E:C1:D8 MacBook Pro de Carlos
+[NEW] Device 4A:C6:4B:F5:E9:FD 4A-C6-4B-F5-E9-FD
+[NEW] Device 20:16:04:18:56:94 HC-05
+[NEW] Device 5C:AC:4C:E4:B4:A0 Dell Wireless 365 Bluetooth Module
+[NEW] Device 34:E6:AD:01:5A:F8 IVAN
+[NEW] Device A4:5E:60:BC:87:C2 Lluvia
+[NEW] Device 80:E6:50:06:2F:7B MacBook Pro de Darius
+[NEW] Device E4:F8:9C:19:69:40 RESG
+[NEW] Device 28:C2:DD:21:D5:28 OSCAROMAÑA
+[NEW] Device 9C:B7:0D:4C:EA:DC ELKIN-PC
+[NEW] Device 12:27:07:00:09:24 ILIUM S420
+[NEW] Device A4:5E:60:EA:3D:0E Dan Amador
+[NEW] Device 34:36:3B:60:81:E9 Jonatan
+[NEW] Device 52:57:A0:D5:5F:CC 52-57-A0-D5-5F-CC
+[NEW] Device 43:F0:FB:66:86:E3 43-F0-FB-66-86-E3
+[NEW] Device EA:A2:C0:D8:0A:0E Kontakt
+[NEW] Device F1:C1:83:A4:17:0C Evolutel
+[NEW] Device 4F:5E:E1:48:16:5F 4F-5E-E1-48-16-5F
+[NEW] Device 62:40:14:83:78:AE 62-40-14-83-78-AE
+[NEW] Device 62:D9:82:60:9E:83 62-D9-82-60-9E-83
+[NEW] Device 4B:51:23:FE:59:00 4B-51-23-FE-59-00
+[NEW] Device 6C:AD:AD:DE:F0:47 6C-AD-AD-DE-F0-47
+[NEW] Device 69:A4:03:B7:6C:06 69-A4-03-B7-6C-06
+[NEW] Device 5F:56:C1:11:DA:22 5F-56-C1-11-DA-22
+[NEW] Device 98:4F:EE:06:1B:99 edison
+[NEW] Device 2C:D0:5A:80:7A:44 AARCEMOR-MOBL3
+[CHG] Controller 98:4F:EE:04:1A:8C Discoverable: no
+[bluetooth]# pair 40:78:6A:26:4A:C2
+Attempting to pair with 40:78:6A:26:4A:C2
+[CHG] Device 40:78:6A:26:4A:C2 Connected: yes
+[CHG] Device 40:78:6A:26:4A:C2 Modalias: bluetooth:v001Dp1200d1436
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001105-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 0000110a-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 0000110c-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001112-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001116-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 0000111f-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 0000112f-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001132-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001200-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001800-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs: 00001801-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 Paired: yes
+Pairing successful
+[CHG] Device 40:78:6A:26:4A:C2 Connected: no
+[bluetooth]#
+
 ```
 
 ```sh
