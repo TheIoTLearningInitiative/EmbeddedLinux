@@ -363,6 +363,9 @@ connect 40:78:6A:26:4A:C2
 ```
 
 ```sh
+git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
+
+
 ```
 
 #### BlueTooth Headsets
