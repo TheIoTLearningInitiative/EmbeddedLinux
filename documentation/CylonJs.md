@@ -64,9 +64,15 @@ Cylon.robot({
     ^Croot@edison:~# 
 ```
 
-### Bluetooth Programming on the Intel Edison featuring Sphero
+## Bluetooth Programming on the Intel Edison featuring Sphero
 
 Follow up instructions [here](https://www.npmjs.com/package/cylon-intel-iot#bluetooth-programming-on-the-intel-edison-featuring-sphero)
+
+## Grove Indoor Starter Kit
+
+```sh
+cylon-api-http
+```
 
 ## Cylon OpenCV
 
