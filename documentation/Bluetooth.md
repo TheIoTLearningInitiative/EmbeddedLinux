@@ -441,7 +441,7 @@ Press CTRL-C for hangup
 root@edison:~# 
 ```
 
-Connect from Android device
+Connect from Android device from BlueTerm application
 
 
 
