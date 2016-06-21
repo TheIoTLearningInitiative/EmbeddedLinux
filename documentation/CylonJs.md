@@ -71,7 +71,7 @@ Follow up instructions [here](https://www.npmjs.com/package/cylon-intel-iot#blue
 ## Grove Indoor Starter Kit
 
 ```sh
-cylon-api-http
+root@edison:~# npm install cylon cylon-intel-iot cylon-api-http
 ```
 
 ## Cylon OpenCV
