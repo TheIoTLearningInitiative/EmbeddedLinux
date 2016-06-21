@@ -366,9 +366,33 @@ connect 40:78:6A:26:4A:C2
 ```
 
 ```sh
-git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
-
-
+root@edison:~/bluez/test# git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
+root@edison:~# cd bluez/
+root@edison:~/bluez# ls
+AUTHORS      Makefile.obexd    android              doc       peripheral
+COPYING      Makefile.plugins  attrib               emulator  plugins
+COPYING.LIB  Makefile.tools    bootstrap            gdbus     profiles
+ChangeLog    NEWS              bootstrap-configure  gobex     src
+HACKING      README            btio                 lib       test
+INSTALL      TODO              client               monitor   tools
+Makefile.am  acinclude.m4      configure.ac         obexd     unit
+root@edison:~/bluez# cd test/
+root@edison:~/bluez/test# dir
+bluezutils.py            pbap-client         test-device
+dbusdef.py               sap_client.py       test-discovery
+example-advertisement    service-did.xml     test-gatt-profile
+example-gatt-client      service-ftp.xml     test-health
+example-gatt-server      service-opp.xml     test-health-sink
+exchange-business-cards  service-record.dtd  test-heartrate
+ftp-client               service-spp.xml     test-hfp
+get-managed-objects      simple-agent        test-manager
+get-obex-capabilities    simple-endpoint     test-nap
+list-devices             simple-obex-agent   test-network
+list-folders             simple-player       test-profile
+map-client               test-adapter        test-proximity
+monitor-bluetooth        test-alert          test-sap-server
+opp-client               test-cyclingspeed   test-thermometer
+root@edison:~/bluez/test# 
 ```
 
 #### BlueTooth Headsets
