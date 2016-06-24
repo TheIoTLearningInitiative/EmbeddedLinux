@@ -106,6 +106,7 @@
    * [Vision](documentation/Vision.md)
    * [Messaging](documentation/Messaging.md)
    * [Entertainment](documentation/Entertainment.md)
+   * Home Assistants
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
