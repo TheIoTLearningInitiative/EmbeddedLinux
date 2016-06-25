@@ -14,7 +14,21 @@ Collecting homeassistant
   Using cached homeassistant-0.22.1-py2.py3-none-any.whl                        
 Collecting pyyaml<4,>=3.11 (from homeassistant)                                 
   Using cached PyYAML-3.11.zip                                                  
-
+Collecting eventlet==0.19.0 (from homeassistant)                                
+  Using cached eventlet-0.19.0-py2.py3-none-any.whl                             
+Collecting pytz>=2016.4 (from homeassistant)                                    
+  Using cached pytz-2016.4-py2.py3-none-any.whl                                 
+Collecting voluptuous==0.8.9 (from homeassistant)                               
+  Using cached voluptuous-0.8.9.tar.gz                                          
+Collecting requests<3,>=2 (from homeassistant)                                  
+  Downloading requests-2.10.0-py2.py3-none-any.whl (506kB)                      
+    100% |################################| 512kB 106kB/s                       
+Requirement already satisfied (use --upgrade to upgrade): pip>=7.0.0 in ./minic)
+Collecting jinja2>=2.8 (from homeassistant)                                     
+  Using cached Jinja2-2.8-py2.py3-none-any.whl                                  
+Collecting greenlet>=0.3 (from eventlet==0.19.0->homeassistant)                 
+  Using cached greenlet-0.4.10.zip                                              
+                                                
 
 ```
 
