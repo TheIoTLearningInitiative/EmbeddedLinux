@@ -86,7 +86,87 @@ root@edison:~/tar-1.29# make install
 root@edison:~# conda --version                                                  
 conda 4.0.5                                                                     
 root@edison:~# conda update conda                                               
-...
+Fetching package metadata: ....                                                 
+.Solving package specifications: .........                                      
+                                                                                
+Package plan for installation in environment /home/root/miniconda3:             
+                                                                                
+The following packages will be downloaded:                                      
+                                                                                
+    package                    |            build                               
+    ---------------------------|-----------------                               
+    conda-env-2.5.1            |           py35_0          27 KB                
+    ruamel_yaml-0.11.7         |           py35_0         379 KB                
+    conda-4.1.3                |           py35_0         201 KB                
+    ------------------------------------------------------------                
+                                           Total:         607 KB                
+                                                                                
+The following NEW packages will be INSTALLED:                                   
+                                                                                
+    ruamel_yaml: 0.11.7-py35_0                                                  
+                                                                                
+The following packages will be UPDATED:                                         
+                                                                                
+    conda:       4.0.5-py35_0 --> 4.1.3-py35_0                                  
+    conda-env:   2.4.5-py35_0 --> 2.5.1-py35_0                                  
+                                                                                
+Proceed ([y]/n)? y                                                              
+                                                                                
+Fetching packages ...                                                           
+conda-env-2.5. 100% |################################| Time: 0:00:00 292.28 kB/s
+ruamel_yaml-0. 100% |################################| Time: 0:00:01 253.50 kB/s
+conda-4.1.3-py 100% |################################| Time: 0:00:01 126.19 kB/s
+Extracting packages ...                                                         
+[      COMPLETE      ]|###################################################| 100%
+Unlinking packages ...                                                          
+[      COMPLETE      ]|###################################################| 100%
+Linking packages ...                                                            
+[      COMPLETE      ]|###################################################| 100%
+root@edison:~# conda create --name homeassistant python=3                       
+Fetching package metadata .......                                               
+Solving package specifications: ..........                                      
+                                                                                
+Package plan for installation in environment /home/root/miniconda3/envs/homeass:
+                                                                                
+The following packages will be downloaded:                                      
+                                                                                
+    package                    |            build                               
+    ---------------------------|-----------------                               
+    openssl-1.0.2h             |                1         2.6 MB                
+    sqlite-3.13.0              |                0         1.1 MB                
+    zlib-1.2.8                 |                3          85 KB                
+    setuptools-23.0.0          |           py35_0         460 KB                
+    pip-8.1.2                  |           py35_0         1.6 MB                
+    ------------------------------------------------------------                
+                                           Total:         5.7 MB                
+                                                                                
+The following NEW packages will be INSTALLED:                                   
+                                                                                
+    openssl:    1.0.2h-1                                                        
+    pip:        8.1.2-py35_0                                                    
+    python:     3.5.1-0                                                         
+    readline:   6.2-2                                                           
+    setuptools: 23.0.0-py35_0                                                   
+    sqlite:     3.13.0-0                                                        
+    tk:         8.5.18-0                                                        
+    wheel:      0.29.0-py35_0                                                   
+    xz:         5.0.5-1                                                         
+    zlib:       1.2.8-3                                                         
+                                                                                
+Proceed ([y]/n)? y                                                              
+                                                                                
+Fetching packages ...                                                           
+openssl-1.0.2h 100% |################################| Time: 0:00:09 270.67 kB/s
+sqlite-3.13.0- 100% |################################| Time: 0:00:02 471.37 kB/s
+zlib-1.2.8-3.t 100% |################################| Time: 0:00:00 170.60 kB/s
+setuptools-23. 100% |################################| Time: 0:00:02 175.27 kB/s
+pip-8.1.2-py35 100% |################################| Time: 0:00:12 129.98 kB/s
+Extracting packages ...                                                         
+[      COMPLETE      ]|###################################################| 100%
+Linking packages ...                                                            
+[      COMPLETE      ]|###################################################| 100%
+No psutil available.                                                            
+
 root@edison:~# conda search --full-name python
 python                       1.0.1                         0  defaults
 ...
