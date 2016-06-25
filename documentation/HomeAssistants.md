@@ -28,8 +28,21 @@ Collecting jinja2>=2.8 (from homeassistant)
   Using cached Jinja2-2.8-py2.py3-none-any.whl                                  
 Collecting greenlet>=0.3 (from eventlet==0.19.0->homeassistant)                 
   Using cached greenlet-0.4.10.zip                                              
-                                                
-
+Requirement already satisfied (use --upgrade to upgrade): setuptools>=0.6b1 in )
+Collecting MarkupSafe (from jinja2>=2.8->homeassistant)                         
+  Using cached MarkupSafe-0.23.tar.gz                                           
+Building wheels for collected packages: pyyaml, voluptuous, greenlet, MarkupSafe
+  Running setup.py bdist_wheel for pyyaml ... done                              
+  Stored in directory: /home/root/.cache/pip/wheels/4a/bf/14/d79994d19a59d4f73e6
+  Running setup.py bdist_wheel for voluptuous ... done                          
+  Stored in directory: /home/root/.cache/pip/wheels/7b/11/c5/b483b7bf53ce439854c
+  Running setup.py bdist_wheel for greenlet ... done                            
+  Stored in directory: /home/root/.cache/pip/wheels/e0/f2/33/6e4a562e7497e939311
+  Running setup.py bdist_wheel for MarkupSafe ... done                          
+  Stored in directory: /home/root/.cache/pip/wheels/a3/fa/dc/0198eed9ad95489b8a8
+Successfully built pyyaml voluptuous greenlet MarkupSafe                        
+Installing collected packages: pyyaml, greenlet, eventlet, pytz, voluptuous, ret
+Successfully installed MarkupSafe-0.23 eventlet-0.19.0 greenlet-0.4.10 homeassi9
 ```
 
 ```sh
