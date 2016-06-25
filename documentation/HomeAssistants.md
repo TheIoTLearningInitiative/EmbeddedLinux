@@ -3,6 +3,12 @@
 ## Home Assistant Io
 
 ```sh
+root@edison:~# source activate homeassistant                                    
+prepending /home/root/miniconda3/envs/homeassistant/bin to PATH                 
+(homeassistant) root@edison:~# 
+```
+
+```sh
 root@edison:~# pip install homeassistant                                        
 Collecting homeassistant                                                        
 /usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl.
