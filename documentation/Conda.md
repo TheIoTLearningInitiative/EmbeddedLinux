@@ -53,6 +53,9 @@
     
     Share your notebooks and packages on Anaconda Cloud!
     Sign up for free: https://anaconda.org
+```
+
+```sh
     root@edison:~# export PATH=/home/root/miniconda3/bin:$PATH
     root@edison:~# conda --version
     conda 3.19.0
