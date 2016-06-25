@@ -26,7 +26,19 @@
 
 
 ```sh
-
+root@edison:~# wget http://ftp.gnu.org/gnu/tar/tar-latest.tar.gz                
+--2016-06-25 12:58:20--  http://ftp.gnu.org/gnu/tar/tar-latest.tar.gz           
+Resolving ftp.gnu.org... 208.118.235.20, 2001:4830:134:3::b                     
+Connecting to ftp.gnu.org|208.118.235.20|:80... connected.                      
+HTTP request sent, awaiting response... 200 OK                                  
+Length: 3962257 (3.8M) [application/x-gzip]                                     
+Saving to: 'tar-latest.tar.gz'                                                  
+                                                                                
+100%[======================================>] 3,962,257    260KB/s   in 13s     
+                                                                                
+2016-06-25 12:58:33 (308 KB/s) - 'tar-latest.tar.gz' saved [3962257/3962257]    
+                                                                                
+root@edison:~# 
 ```
 
 ```sh
