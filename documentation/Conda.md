@@ -39,6 +39,14 @@ Saving to: 'tar-latest.tar.gz'
 2016-06-25 12:58:33 (308 KB/s) - 'tar-latest.tar.gz' saved [3962257/3962257]    
                                                                                 
 root@edison:~# tar xvf tar-latest.tar.gz
+root@edison:~# cd tar-1.29/
+root@edison:~/tar-1.29# ls               
+ABOUT-NLS  ChangeLog.1  Makefile.in  TODO          config.h.in   gnu  rmt
+AUTHORS    INSTALL      NEWS         acinclude.m4  configure     lib  scripts
+COPYING    Make.rules   README       aclocal.m4    configure.ac  m4   src
+ChangeLog  Makefile.am  THANKS       build-aux     doc           po   tests
+root@edison:~/tar-1.29# 
+
 ```
 
 ```sh
