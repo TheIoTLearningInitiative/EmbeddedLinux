@@ -41,6 +41,11 @@ root@edison:~#
 
 ```sh
 root@edison:~# hass
+Home Assistant requires at least Python 3.4
+```
+
+```sh
+root@edison:~# hass
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
         Hello, and welcome to Home Assistant!
