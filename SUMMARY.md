@@ -97,6 +97,7 @@
    * [Python](documentation/Python.md)
    * [NodeJS](documentation/NodeJs.md)
    * [Cloud9](documentation/Cloud9.md)
+   * Data
    * [Drone Code](documentation/DroneCode.md)
    * [Speech](documentation/Voice.md)
    * [Radio Frequency](documentation/Radio.md)
@@ -107,7 +108,6 @@
    * [Messaging](documentation/Messaging.md)
    * [Entertainment](documentation/Entertainment.md)
    * [Home Assistants](documentation/HomeAssistants.md)
-   * Data
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
