@@ -24,6 +24,11 @@
 - [Miniconda Python on Intel Edison](https://scivision.co/miniconda-python-on-intel-edison/)
 - [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
 
+
+```sh
+
+```
+
 ```sh
     root@edison:~# wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh
     --2016-03-21 06:23:29--  https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh
