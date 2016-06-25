@@ -9,7 +9,7 @@ prepending /home/root/miniconda3/envs/homeassistant/bin to PATH
 ```
 
 ```sh
-root@edison:~# pip install homeassistant                                        
+(homeassistant) root@edison:~# pip install homeassistant
 Collecting homeassistant                                                        
 /usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl.
   SNIMissingWarning                                                             
