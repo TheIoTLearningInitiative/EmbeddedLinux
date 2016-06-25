@@ -40,6 +40,7 @@ root@edison:~#
 ```
 
 ```sh
+root@edison:~# hass
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
         Hello, and welcome to Home Assistant!
