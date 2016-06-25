@@ -11,38 +11,11 @@ prepending /home/root/miniconda3/envs/homeassistant/bin to PATH
 ```sh
 (homeassistant) root@edison:~# pip install homeassistant
 Collecting homeassistant                                                        
-/usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl.
-  SNIMissingWarning                                                             
-/usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl.
-  InsecurePlatformWarning                                                       
-  Downloading homeassistant-0.22.1-py2.py3-none-any.whl (5.6MB)                 
-    100% |################################| 5.6MB 18kB/s                        
-Requirement already satisfied (use --upgrade to upgrade): requests<3,>=2 in /us)
-Requirement already satisfied (use --upgrade to upgrade): pyyaml<4,>=3.11 in /u)
-Requirement already satisfied (use --upgrade to upgrade): pip>=7.0.0 in /usr/li)
-Collecting pytz>=2016.4 (from homeassistant)                                    
-  Downloading pytz-2016.4-py2.py3-none-any.whl (480kB)                          
-    100% |################################| 481kB 88kB/s                        
-Collecting voluptuous==0.8.9 (from homeassistant)                               
-  Downloading voluptuous-0.8.9.tar.gz                                           
-Collecting eventlet==0.19.0 (from homeassistant)                                
-  Downloading eventlet-0.19.0-py2.py3-none-any.whl (138kB)                      
-    100% |################################| 143kB 272kB/s                       
-Collecting jinja2>=2.8 (from homeassistant)                                     
-  Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB)                           
-    100% |################################| 266kB 121kB/s                       
-Requirement already satisfied (use --upgrade to upgrade): setuptools>=0.6b1 in )
-Collecting greenlet>=0.3 (from eventlet==0.19.0->homeassistant)                 
-  Downloading greenlet-0.4.10.zip (82kB)                                        
-    100% |################################| 92kB 287kB/s                        
-Collecting MarkupSafe (from jinja2>=2.8->homeassistant)                         
-  Downloading MarkupSafe-0.23.tar.gz                                            
-Installing collected packages: pytz, voluptuous, greenlet, eventlet, MarkupSafet
-  Running setup.py install for voluptuous ... done                              
-  Running setup.py install for greenlet ... done                                
-  Running setup.py install for MarkupSafe ... done                              
-Successfully installed MarkupSafe-0.23 eventlet-0.19.0 greenlet-0.4.10 homeassi9
-root@edison:~# 
+  Using cached homeassistant-0.22.1-py2.py3-none-any.whl                        
+Collecting pyyaml<4,>=3.11 (from homeassistant)                                 
+  Using cached PyYAML-3.11.zip                                                  
+
+
 ```
 
 ```sh
