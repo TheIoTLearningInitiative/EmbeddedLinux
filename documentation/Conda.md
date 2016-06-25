@@ -92,6 +92,7 @@ python                       1.0.1                         0  defaults
 ...
                           *  3.5.1                         0  defaults
 root@edison:~# conda create --name snakes python=3
+...
 #
 # To activate this environment, use:
 # $ source activate snakes
