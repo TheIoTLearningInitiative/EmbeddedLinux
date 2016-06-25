@@ -83,27 +83,27 @@ root@edison:~/tar-1.29# make install
 
 ```sh
     root@edison:~# export PATH=/home/root/miniconda3/bin:$PATH
-    root@edison:~# conda --version
-    conda 3.19.0
-    root@edison:~# conda update conda
-    ...
-    root@edison:~# conda search --full-name python
-    python                       1.0.1                         0  defaults
-    ...
-                              *  3.5.1                         0  defaults
-    root@edison:~# conda create --name snakes python=3
-    #
-    # To activate this environment, use:
-    # $ source activate snakes
-    #
-    # To deactivate this environment, use:
-    # $ source deactivate
-    #
-    root@edison:~# conda info --envs
-    # conda environments:
-    #
-    snakes                   /home/root/miniconda3/envs/snakes
-    root                  *  /home/root/miniconda3
-    
-    root@edison:~# 
+root@edison:~# conda --version                                                  
+conda 4.0.5                                                                     
+root@edison:~# conda update conda                                               
+...
+root@edison:~# conda search --full-name python
+python                       1.0.1                         0  defaults
+...
+                          *  3.5.1                         0  defaults
+root@edison:~# conda create --name snakes python=3
+#
+# To activate this environment, use:
+# $ source activate snakes
+#
+# To deactivate this environment, use:
+# $ source deactivate
+#
+root@edison:~# conda info --envs
+# conda environments:
+#
+snakes                   /home/root/miniconda3/envs/snakes
+root                  *  /home/root/miniconda3
+
+root@edison:~# 
 ```
