@@ -48,7 +48,6 @@ ChangeLog  Makefile.am  THANKS       build-aux     doc           po   tests
 root@edison:~/tar-1.29$ sh configure
 root@edison:~/tar-1.29$ make
 root@edison:~/tar-1.29# make install
-
 ```
 
 ```sh
