@@ -38,7 +38,7 @@ Saving to: 'tar-latest.tar.gz'
                                                                                 
 2016-06-25 12:58:33 (308 KB/s) - 'tar-latest.tar.gz' saved [3962257/3962257]    
                                                                                 
-root@edison:~# 
+root@edison:~# tar xvf tar-latest.tar.gz
 ```
 
 ```sh
