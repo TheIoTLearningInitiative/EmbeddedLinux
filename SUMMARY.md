@@ -109,6 +109,7 @@
    * [Entertainment](documentation/Entertainment.md)
    * [Home Assistants](documentation/HomeAssistants.md)
    * [Dashboards](documentation/Dashboards.md)
+   * Computer Vision
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
