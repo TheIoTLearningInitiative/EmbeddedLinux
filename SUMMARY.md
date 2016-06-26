@@ -108,7 +108,7 @@
    * [Messaging](documentation/Messaging.md)
    * [Entertainment](documentation/Entertainment.md)
    * [Home Assistants](documentation/HomeAssistants.md)
-   * Dashboards
+   * [Dashboards](documentation/Dashboards.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
