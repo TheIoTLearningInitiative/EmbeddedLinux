@@ -1,3 +1,3 @@
 # Facial Recognition
 
-- [](https://github.com/ms-iot/Facial-Recognition-Door)
+- [Facial Recognition Door](https://github.com/ms-iot/Facial-Recognition-Door)
