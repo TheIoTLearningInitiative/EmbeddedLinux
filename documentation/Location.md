@@ -1,3 +1,3 @@
 # Location
 
-Location Aware Sensing System (LASS)
+- [Location Aware Sensing System (LASS)](https://github.com/taipeihackerspace/LASS)
