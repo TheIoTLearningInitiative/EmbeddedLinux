@@ -112,7 +112,7 @@
    * [Computer Vision](documentation/ComputerVision.md)
    * [IRC](documentation/Irc.md)
    * [Location](documentation/Location.md)
-   * Facial Recognition
+   * [Facial Recognition](documentation/FacialRecognition.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
