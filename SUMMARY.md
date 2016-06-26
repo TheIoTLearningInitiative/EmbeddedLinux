@@ -110,7 +110,7 @@
    * [Home Assistants](documentation/HomeAssistants.md)
    * [Dashboards](documentation/Dashboards.md)
    * [Computer Vision](documentation/ComputerVision.md)
-   * IRC
+   * [IRC](documentation/Irc.md)
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
