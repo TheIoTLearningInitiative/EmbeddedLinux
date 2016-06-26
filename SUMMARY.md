@@ -111,6 +111,7 @@
    * [Dashboards](documentation/Dashboards.md)
    * [Computer Vision](documentation/ComputerVision.md)
    * [IRC](documentation/Irc.md)
+   * Location
 * [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
