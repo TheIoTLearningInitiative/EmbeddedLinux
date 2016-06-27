@@ -89,10 +89,10 @@ if __name__ == "__main__":
 ## Low Resolution Picture
 
 ```sh
-    root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/output/in.jpeg
-    --2016-03-20 00:49:32--  https://raw.githubusercontent.com/xe1gyq/core/master/output/in.jpeg
-    Resolving raw.githubusercontent.com... 23.235.40.133
-    Connecting to raw.githubusercontent.com|23.235.40.133|:443... connected.
+    root@edison:~/opencv# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
+    --2016-03-20 00:49:32--  https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
+    Resolving dab1nmslvvntp.cloudfront.net... 23.235.40.133
+    Connecting to dab1nmslvvntp.cloudfront.net|23.235.40.133|:443... connected.
     HTTP request sent, awaiting response... 200 OK
     Length: 13400 (13K) [image/jpeg]
     Saving to: 'in.jpeg'
