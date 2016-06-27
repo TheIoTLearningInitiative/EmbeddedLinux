@@ -95,11 +95,12 @@ if __name__ == "__main__":
     Connecting to dab1nmslvvntp.cloudfront.net|23.235.40.133|:443... connected.
     HTTP request sent, awaiting response... 200 OK
     Length: 13400 (13K) [image/jpeg]
-    Saving to: 'in.jpeg'
+    Saving to: '1442313353nasa-small.jpg.jpeg'
     
     100%[======================================>] 13,400      --.-K/s   in 0s      
     
-    2016-03-20 00:49:33 (27.5 MB/s) - 'in.jpeg' saved [13400/13400]
+    2016-03-20 00:49:33 (27.5 MB/s) - '1442313353nasa-small.jpg.jpeg' saved [13400/13400]
+    root@edison:~/opencv# mv in.jpeg                       
     root@edison:~/opencv# time python facerecognition.py                       
     Found 17 faces!
     
