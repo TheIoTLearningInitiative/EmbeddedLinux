@@ -102,7 +102,7 @@ if __name__ == "__main__":
     2016-03-20 00:49:33 (27.5 MB/s) - '1442313353nasa-small.jpg.jpeg' saved [13400/13400]
     root@edison:~/opencv# mv 1442313353nasa-small.jpg in.jpeg
     root@edison:~/opencv# time python facerecognition.py                       
-    Found 17 faces!
+    Found X faces!
     
     real    0m2.249s
     user    0m2.010s
