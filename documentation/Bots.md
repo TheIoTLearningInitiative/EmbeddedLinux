@@ -121,7 +121,7 @@ root@edison:~# cd
 # Bot Example
 
 ```sh
-root@edison:~# vi mybot.py
+root@edison:~# vi telegrambot.py
 ```
 
 ```python
@@ -180,8 +180,10 @@ if __name__ == '__main__':
 ```
 
 ```sh
-root@edison:~# python mybot.py
+root@edison:~# python telegrambot.py
 ```
+
+- Interact with your Bot using the Web Telegram Org Application
 
 # BeepBoop
 
