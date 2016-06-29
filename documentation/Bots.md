@@ -31,6 +31,9 @@ Bots are third-party applications that run inside Telegram. Users can interact w
 
 ## BotFather
 
+- Go to [Web Telegram Org](https://web.telegram.org/#/im) and sign up
+- Search for BotFather and add it, click on it
+
 ```sh
 BotFather:
 They call me the Botfather, I can help you create and set up Telegram bots. Please read this manual before we begin:
