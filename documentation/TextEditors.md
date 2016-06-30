@@ -1,2 +1,6 @@
 # Text Editors
 
+# Nano
+
+# Vi
+
