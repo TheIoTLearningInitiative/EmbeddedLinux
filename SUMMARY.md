@@ -40,7 +40,7 @@
    * [Reboot](documentation/Reboot.md)
    * [Processes](documentation/Processes.md)
 * User Space
-   * Text Editors
+   * [Text Editors](documentation/TextEditors.md)
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
    * [Package Management Systems](documentation/PackageManagementSystems.md)
