@@ -40,6 +40,7 @@
    * [Reboot](documentation/Reboot.md)
    * [Processes](documentation/Processes.md)
 * User Space
+   * Text Editors
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
    * [Package Management Systems](documentation/PackageManagementSystems.md)
@@ -66,7 +67,6 @@
        * [Zetta](documentation/Zetta.md)
        * [Miscellaneous](documentation/Misc.md)
    * [Virtual Network Computing](documentation/VirtualNetworkComputing.md)
-   * Text Editors
 * [Subsystems](documentation/Subsystems.md)
    * [X File Systems](documentation/XFileSystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
