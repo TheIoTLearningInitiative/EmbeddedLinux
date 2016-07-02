@@ -66,16 +66,6 @@ root@edison:~# opkg list-installed | grep mraa
 mraa - 1.0.0-r0
 mraa-dev - 1.0.0-r0
 mraa-doc - 1.0.0-r0
-root@edison:~# opkg install mraa
-Upgrading mraa from 0.9.5-r0 to 1.0.0 on root.
-Downloading http://iotdk.intel.com/repos/3.0/intelgalactic/opkg/i586//mraa_1.0.0_i586.ipk.
-Removing package mraa-dev from root...
-Removing package mraa-doc from root...
-Removing obsolete file /usr/lib/libmraa.so.0.9.5.
-Removing obsolete file /usr/bin/mraa-gpio.
-Removing obsolete file /usr/lib/libmraa.so.0.
-Configuring mraa.
-root@edison:~#
 ```
 
 ## Hello Mraa
