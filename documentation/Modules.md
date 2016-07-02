@@ -155,12 +155,6 @@ Under Intel Edison
     ./lib/modules/3.10.17-poky-edison/build
 ```
 
-```sh
-    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
-    #define UTS_RELEASE "3.10.17-poky-edison+"
-    <Save Changes>
-```
-
 ## Version 3.10.98-poky-edison+
 
 ```sh
@@ -168,7 +162,20 @@ root@edison:~# cd /lib/modules/3.10.98-poky-edison+/
 root@edison:/lib/modules/3.10.98-poky-edison+# 
 ```
 
+```sh
+    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
+    #define UTS_RELEASE "3.10.17-poky-edison+"
+    <Save Changes>
+```
+
+
 ## Version 3.10.17-poky-edison+
+
+```sh
+    root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
+    #define UTS_RELEASE "3.10.17-poky-edison+"
+    <Save Changes>
+```
 
 ```sh
     root@edison:~# cd /lib/modules/3.10.17-poky-edison+
