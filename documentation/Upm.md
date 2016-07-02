@@ -46,7 +46,7 @@
 
 ## Testing, Opkg
 
-Check if UPM Library is installed and upgrade them
+Check if UPM Library is installed
 
 ```sh
 root@edison:~# opkg list-installed | grep upm
