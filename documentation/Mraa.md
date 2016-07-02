@@ -71,7 +71,9 @@ mraa-doc - 1.0.0-r0
 ## Upgrade, Opkg
 
 ```sh
-
+root@edison:~# opkg install mraa                                                
+Package mraa (1.0.0-r0) installed in root is up to date.                        
+root@edison:~# 
 ```
 
 
