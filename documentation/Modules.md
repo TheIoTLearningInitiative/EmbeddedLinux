@@ -184,7 +184,7 @@ linux-headers-3.10.17-poky-edison  linux-headers-3.10.98-poky-edison
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
+    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
 ```
 
 ```sh
