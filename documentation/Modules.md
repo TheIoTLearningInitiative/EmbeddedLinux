@@ -155,6 +155,12 @@ Under Intel Edison
     ./lib/modules/3.10.17-poky-edison/build
 ```
 
+```sh
+root@edison:~# uname -a
+Linux edison 3.10.98-poky-edison+ #1 SMP PREEMPT Mon Jun 6 14:32:08 PDT 2016 i6x
+root@edison:~# 
+```
+
 ## Version 3.10.98-poky-edison+
 
 ```sh
