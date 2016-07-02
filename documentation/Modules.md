@@ -175,7 +175,7 @@ linux-headers-3.10.17-poky-edison  linux-headers-3.10.98-poky-edison
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.17-poky-edison+# ls
+    root@edison:/lib/modules/3.10.98-poky-edison+# ls
     extra                modules.builtin.bin  modules.softdep
     kernel               modules.dep          modules.symbols
     modules.alias        modules.dep.bin      modules.symbols.bin
@@ -184,11 +184,11 @@ linux-headers-3.10.17-poky-edison  linux-headers-3.10.98-poky-edison
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
+    root@edison:/lib/modules/3.10.98-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.17-poky-edison+# cd
+    root@edison:/lib/modules/3.10.98-poky-edison+# cd
     root@edison:~# 
 ```
 
