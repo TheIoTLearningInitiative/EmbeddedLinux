@@ -162,6 +162,11 @@ Under Intel Edison
 ```
 
 ```sh
+root@edison:~# cd /lib/modules/3.10.98-poky-edison+/                            
+root@edison:/lib/modules/3.10.98-poky-edison+# 
+```
+
+```sh
     root@edison:~# cd /lib/modules/3.10.17-poky-edison+
 ```
 
