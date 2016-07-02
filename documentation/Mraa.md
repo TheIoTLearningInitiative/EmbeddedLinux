@@ -63,9 +63,9 @@ Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/
 
 ```sh
 root@edison:~# opkg list-installed | grep mraa
-libmraa-dev - 0.7.2-r0
-libmraa-doc - 0.7.2-r0
-libmraa0 - 0.7.2-r0
+mraa - 1.0.0-r0
+mraa-dev - 1.0.0-r0
+mraa-doc - 1.0.0-r0
 root@edison:~# opkg install mraa
 Upgrading mraa from 0.9.5-r0 to 1.0.0 on root.
 Downloading http://iotdk.intel.com/repos/3.0/intelgalactic/opkg/i586//mraa_1.0.0_i586.ipk.
