@@ -49,24 +49,11 @@
 Check if RMAA and UPM Libraries are installed and upgrade them
 
 ```sh
-    root@edison:~# opkg list-installed | grep upm
-    upm - 0.3.1-r0
-    upm-dev - 0.3.1-r0
-    root@edison:~# opkg install libmraa0
-    Upgrading libmraa0 from 0.7.2-r0 to 0.7.3 on root.
-    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/libmraa0_0.7.3_i586.ipk.
-    Removing package libmraa-dev from root...
-    Removing package libmraa-doc from root...
-    Removing obsolete file /usr/lib/libmraa.so.0.7.2.
-    Configuring libmraa0.
-    root@edison:~# opkg install upm
-    Upgrading upm from 0.3.1-r0 to 0.3.2 on root.
-    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/upm_0.3.2_i586.ipk.
-    Removing package upm-dev from root...
-    Removing obsolete file /usr/lib/libupm-wt5001.so.0.3.1.
-    ...
-    Configuring upm.
-    root@edison:~# 
+root@edison:~# opkg list-installed | grep upm
+upm - 0.7.0-r0
+upm-dev - 0.7.0-r0
+root@edison:~# opkg install upm
+Package upm (0.7.0-r0) installed in root is up to date.
 ```
 
 ## Upgrade, Opkg
