@@ -158,18 +158,31 @@ Under Intel Edison
 ## Version 3.10.98-poky-edison+
 
 ```sh
-root@edison:~# cd /lib/modules/3.10.98-poky-edison+/                            
-root@edison:/lib/modules/3.10.98-poky-edison+# 
-```
-
-```sh
     root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
-    #define UTS_RELEASE "3.10.98-poky-edison+"
+    #define UTS_RELEASE "3.10.17-poky-edison+"
     <Save Changes>
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
+    root@edison:~# cd /lib/modules/3.10.17-poky-edison+
+```
+
+```sh
+    root@edison:/lib/modules/3.10.17-poky-edison+# ls
+    extra                modules.builtin.bin  modules.softdep
+    kernel               modules.dep          modules.symbols
+    modules.alias        modules.dep.bin      modules.symbols.bin
+    modules.alias.bin    modules.devname
+    modules.builtin      modules.order
+```
+
+```sh
+    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
+```
+
+```sh
+    root@edison:/lib/modules/3.10.17-poky-edison+# cd
+    root@edison:~# 
 ```
 
 ## Version 3.10.17-poky-edison+
