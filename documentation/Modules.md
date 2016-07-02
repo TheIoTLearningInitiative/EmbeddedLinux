@@ -168,6 +168,9 @@ root@edison:/lib/modules/3.10.98-poky-edison+#
     <Save Changes>
 ```
 
+```sh
+    root@edison:/lib/modules/3.10.17-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
+```
 
 ## Version 3.10.17-poky-edison+
 
