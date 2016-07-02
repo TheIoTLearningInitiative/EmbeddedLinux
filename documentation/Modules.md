@@ -160,6 +160,8 @@ Under Intel Edison
 ```sh
 root@edison:~# cd ~/usr/src/
 root@edison:~# ln -s linux-headers-3.10.17-poky-edison linux-headers-3.10.98-poky-edison
+root@edison:~/usr/src# ls ~/usr/src/                                            
+linux-headers-3.10.17-poky-edison  linux-headers-3.10.98-poky-edison
 ```
 
 ```sh
