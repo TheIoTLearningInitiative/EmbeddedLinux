@@ -49,10 +49,6 @@
 Check if RMAA and UPM Libraries are installed and upgrade them
 
 ```sh
-    root@edison:~# opkg list-installed | grep mraa
-    libmraa-dev - 0.7.2-r0
-    libmraa-doc - 0.7.2-r0
-    libmraa0 - 0.7.2-r0
     root@edison:~# opkg list-installed | grep upm
     upm - 0.3.1-r0
     upm-dev - 0.3.1-r0
