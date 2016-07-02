@@ -158,6 +158,11 @@ Under Intel Edison
 ## Version 3.10.98-poky-edison+
 
 ```sh
+root@edison:~# cd ~/usr/src/
+root@edison:~#  ln -s linux-headers-3.10.17-poky-edison linux-headers-3
+```
+
+```sh
     root@edison:~# nano ~/usr/src/linux-headers-3.10.17-poky-edison/include/generated/utsrelease.h
     #define UTS_RELEASE "3.10.17-poky-edison+"
     <Save Changes>
