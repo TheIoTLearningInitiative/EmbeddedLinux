@@ -19,11 +19,11 @@
 - ZWave—USB Controllers
 - ISM (Industrial, Scientific & Medical) Frequency Shift Keying (FSK) at 434 and 915 MHz
 
-## Manual Installation, Latest Github
+# Manual Installation, Latest Github
 
-### Ubilinux
+## Ubilinux
 
-#### Cmake
+### Cmake
 
     root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
     root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
@@ -32,7 +32,7 @@
     root@ubilinux:~$ make
     root@ubilinux:~# make install
 
-#### Upm
+### Upm
 
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@ubilinux:~$ cd upm
@@ -44,7 +44,7 @@
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
-## Testing, Opkg
+## Upgrade, Opkg
 
 Check if UPM Library is installed
 
@@ -53,8 +53,6 @@ root@edison:~# opkg list-installed | grep upm
 upm - 0.7.0-r0
 upm-dev - 0.7.0-r0
 ```
-
-## Upgrade, Opkg
 
 ```sh
 root@edison:~# opkg install upm                                                 
