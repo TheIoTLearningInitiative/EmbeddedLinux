@@ -44,7 +44,7 @@
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
-## Upgrade, Opkg
+# Upgrade, Opkg
 
 Check if UPM Library is installed
 
