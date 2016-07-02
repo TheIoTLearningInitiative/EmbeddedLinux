@@ -46,7 +46,7 @@
 
 ## Testing, Opkg
 
-Check if RMAA and UPM Libraries are installed and upgrade them
+Check if UPM Library is installed and upgrade them
 
 ```sh
 root@edison:~# opkg list-installed | grep upm
