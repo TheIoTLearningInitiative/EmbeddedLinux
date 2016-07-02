@@ -52,8 +52,6 @@ Check if RMAA and UPM Libraries are installed and upgrade them
 root@edison:~# opkg list-installed | grep upm
 upm - 0.7.0-r0
 upm-dev - 0.7.0-r0
-root@edison:~# opkg install upm
-Package upm (0.7.0-r0) installed in root is up to date.
 ```
 
 ## Upgrade, Opkg
