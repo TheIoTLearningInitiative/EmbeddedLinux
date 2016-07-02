@@ -57,12 +57,7 @@ upm-dev - 0.7.0-r0
 ## Upgrade, Opkg
 
 ```sh
-    root@edison:~# opkg install upm
-    Upgrading upm from 0.3.1-r0 to 0.3.2 on root.
-    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/upm_0.3.2_i586.ipk.
-    Removing package upm-dev from root...
-    Removing obsolete file /usr/lib/libupm-wt5001.so.0.3.1.
-    ...
-    Configuring upm.
-    root@edison:~# 
+root@edison:~# opkg install upm                                                 
+Package upm (0.7.0-r0) installed in root is up to date.                         
+root@edison:~# 
 ```
