@@ -39,7 +39,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__ 
 
-> Write a Linux Kernel module that gets registered under /sys/kernel/sensor using Native Compilation, Simulated Sensor Kernel Module will generate a random number
+> Write a Linux Kernel module under that gets registered under /sys/kernel/sensor using Native Compilation, Simulated Sensor Kernel Module will generate a random number
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time 
 
