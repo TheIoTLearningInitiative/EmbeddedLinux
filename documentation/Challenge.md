@@ -82,6 +82,8 @@ __Instruction__
 
 > Implement 1 CHOREOS under EmbeddedLinux/main.py
 
+# Subsystems, Bluetooth, Hackathon
+
 # Telegram Bot
 
 
