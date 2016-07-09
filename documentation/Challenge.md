@@ -30,10 +30,8 @@ __Instruction__
 # Temboo
 
 
-
 # Telegram Bot
 
 
-
-# Wit.Ai
+# Api.Ai
 
