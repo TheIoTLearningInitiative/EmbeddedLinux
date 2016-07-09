@@ -5,3 +5,12 @@
 # IoT Apps
 
 > Build IoT Applications with Temboo
+
+- Building Management
+- Energy
+- Environment
+- Farming
+- Logistics
+- Manufacturing
+- Smart Cities
+- Water Management
