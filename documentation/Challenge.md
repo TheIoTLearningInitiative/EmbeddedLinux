@@ -38,9 +38,8 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__
 
-> 
+> Implement code to replace existing functionality/logic under  using a sensor and a actuator from the  Seeed Studio Grove Kit
 
-Implement code to replace existing functionality/logic by using a sensor and a actuator from the  Seeed Studio Grove Kit
 # Temboo
 
 
