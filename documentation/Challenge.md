@@ -12,6 +12,8 @@ With this step by step challenge you will have a parallel learning experience of
 8. Libraries, Temboo
 9. Subsystems Bluetooth Hackathon
 10. Subsystems LED
+11. Application Development, Bots, Telegram Bot
+12. Application Development, Artificial Intelligence, Wit.Ai
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
@@ -99,7 +101,7 @@ __Instruction__
 
 >  Enable under your Yocto Board Support Package Compilation the macros LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the Grove Indoor Environment Kit attached to one of the GPIOs
 
-# Telegram Bot
+# Application Development, Bots, Telegram Bot
 
 Section [Application Development Bots](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Bots.html)
 
@@ -107,7 +109,7 @@ __Instruction__
 
 >  Create a new Bot and implement under your script EmbeddedLinux/main.py 2 commands, to report data from functionDataSensor and to execute the action under functionDataActuator from any Telegram client
 
-# Wit.Ai
+# Application Development, Artificial Intelligence, Wit.Ai
 
 Section [Application Development Artificial Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
 
