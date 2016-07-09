@@ -76,7 +76,7 @@ Section [User Space Virtual Network Computing](https://theiotlearninginitiative.
 
 __Instruction__
 
-> Enable Virtual Network Computing from Ubilinux
+> Enable Virtual Network Computing from Ubilinux under uSD
 
 # User Space, Services
 
