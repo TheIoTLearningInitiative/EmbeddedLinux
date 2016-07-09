@@ -1,6 +1,6 @@
 # Challenge
 
-With this step by step challenge you will have a parallel learning experience of Embedded Systems and continue with the implementation of functionality on top of the project you have built during the workshop.
+With this step by step challenge you will have a parallel learning experience of Embedded Systems Programming and continue with the implementation of functionality on top of the project you have built during the workshop.
 
 1. Online Training, Summer Short Course on Embedded Systems Programming
 2. Build Systems, Yocto Board Support Package, Compilation, Make
