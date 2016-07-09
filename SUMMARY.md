@@ -13,6 +13,7 @@
            * [Make](documentation/CompilationMake.md)
            * [Bitbake](documentation/CompilationBitbake.md)
            * [Script](documentation/CompilationScript.md)
+       * SDK
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
@@ -21,7 +22,6 @@
        * [Modules](documentation/Modules.md)
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
-       * SDK
    * [Ubilinux](documentation/Ubilinux.md)
    * [CentOS](documentation/CentOs.md)
    * [Kali](documentation/Kali.md)
