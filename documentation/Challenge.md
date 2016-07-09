@@ -22,7 +22,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__ 
 
-> Write a Linux Kernel module that gets registered under /sys/kernel/sensor, module will generate a random number
+> Write a Linux Kernel module that gets registered under /sys/kernel/sensor, simulated sensor module will generate a random number
  
 1. Make driver
 2. Make driver automatically startup
