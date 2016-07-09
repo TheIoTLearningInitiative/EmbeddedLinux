@@ -2,10 +2,11 @@
 
 With this step by step challenge you will have a parallel learning experience of Embedded Systems and continue with the implementation of functionality on top of the project you have built during the workshop.
 
-1. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
-2. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
-3. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
-4. Initialization, Dual Boot
+1. Build Systems, Yocto Board Support Package, Compilation
+2. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
+3. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
+4. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
+5. Initialization, Dual Boot
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
