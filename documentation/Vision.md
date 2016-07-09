@@ -2,9 +2,9 @@
 
 - [GRIP Computer Vision Engine](https://github.com/smerkousdavid/GRIP/blob/master/README.md)
 
-## Neural Networks
+# Neural Networks
 
-## Google Cloud Vision API
+# Google Cloud Vision API
 
 > Derive insight from images with our powerful Cloud Vision API. Image analysis with pretrained models. [Homepage](https://cloud.google.com/vision/)
 
@@ -15,7 +15,7 @@
 - [Tutorial](https://cloud.google.com/vision/docs/tutorials)
 - [Github Sample code for Google Cloud Vision](https://github.com/GoogleCloudPlatform/cloud-vision/)
 
-### Google Cloud Platform Dashboard
+## Google Cloud Platform Dashboard
 
 - Go to [Cloud Vision API](https://cloud.google.com/vision/)
   - Try it for Free
@@ -39,7 +39,7 @@
   - Select or create a project: The IoT Learning Initiative
   - Continue
 
-### Laboratory
+## Laboratory
 
 ```sh
 root@edison:~# mkdir vision
@@ -103,7 +103,7 @@ sys     0m0.490s
 root@edison:~/vision/cloud-vision/python/face_detection# 
 ```
 
-### Errors
+## Errors
 
 ```sh
 root@edison:~/vision/cloud-vision/python/face_detection# python faces.py face-input.jpeg
