@@ -20,6 +20,10 @@ __Instruction__ Complete all "Summer Short Course on Embedded Systems Programmin
 
 Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
+__Instruction__ 
+
+> Make a Linux Kernel module 
+ 
 1. Make driver
 2. Make driver automatically startup
 
