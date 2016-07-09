@@ -12,7 +12,7 @@
        * [Compilation](documentation/Compilation.md)
            * [Make](documentation/CompilationMake.md)
            * [Bitbake](documentation/CompilationBitbake.md)
-           * Script
+           * [Script](documentation/CompilationScript.md)
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
