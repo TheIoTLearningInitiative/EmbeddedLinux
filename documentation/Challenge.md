@@ -113,4 +113,4 @@ Section [Application Development Artificial Intelligence Wit.Ai](https://theiotl
 
 __Instruction__
 
->  
+>  Implement under your script EmbeddedLinux/main.py 2 commands, to report data from functionDataSensor and to execute the action under functionDataActuator
