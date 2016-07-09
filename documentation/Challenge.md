@@ -101,7 +101,7 @@ __Instruction__
 
 # Telegram Bot
 
-Section [Application Development Artificial Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
+Section [Application Development Bots](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
 
 __Instruction__
 
