@@ -50,7 +50,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__
 
-> 
+> Using a uSD card 
 
 # Temboo
 
