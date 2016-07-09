@@ -30,7 +30,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__
 
-> Make your Simulated Sensor Module automatically start at boot up
+> Make your Simulated Sensor Module load automatically at boot time
 
 # Temboo
 
