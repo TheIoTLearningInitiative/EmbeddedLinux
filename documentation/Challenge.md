@@ -3,6 +3,7 @@
 With this step by step challenge you will have a parallel learning experience of Embedded Systems and continue with the implementation of functionality on top of the project you have built during the workshop.
 
 - Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
+- Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, Load Automatically At Boot Time
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
