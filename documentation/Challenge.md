@@ -25,11 +25,11 @@ __Instruction__ Complete all "Summer Short Course on Embedded Systems Programmin
 
 # Build Systems, Yocto Board Support Package, Compilation, Make
 
-Section [Build Systems Yocto Board Support Package Compilation Make](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/CompilationMake.html)
+Section [Build Systems Yocto Board Support Package Compilation](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Compilation.html)
 
 __Instruction__ 
 
-> Follow the instructions to make setup, make image and make flash your own Intel Edison Board Support Package, do not forget to setup your host development
+> Under your Host Development, install the required dependencies, Follow the instructions to make setup, make image and make flash your own Intel Edison Board Support Package, do not forget to setup your host development
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 
