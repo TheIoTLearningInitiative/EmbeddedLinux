@@ -79,7 +79,7 @@ Section [Libraries Temboo](https://theiotlearninginitiative.gitbooks.io/embedded
 
 __Instruction__
 
-> Configure SystemD to run on startup your script EmbeddedLinux/main.py
+> Implement 
 
 # Telegram Bot
 
