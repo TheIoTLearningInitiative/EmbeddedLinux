@@ -76,7 +76,7 @@ Section [User Space Virtual Network Computing](https://theiotlearninginitiative.
 
 __Instruction__
 
-> Enable Virtual Network Computing from Ubilinux under uSD
+> Enable Virtual Network Computing server from Ubilinux under uSD, access Intel Edison from your Development Host using Virtual Network Computing client
 
 # User Space, Services
 
