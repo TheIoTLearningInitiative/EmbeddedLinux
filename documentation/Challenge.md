@@ -16,7 +16,7 @@ With this step by step challenge you will have a parallel learning experience of
 
 __Instruction__ Complete all "Summer Short Course on Embedded Systems Programming"
 
-# Kernel Driver
+# Linux Kernel Driver
 
 1. Make driver
 2. Make driver automatically startup
