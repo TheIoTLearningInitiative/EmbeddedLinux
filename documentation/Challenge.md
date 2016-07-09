@@ -11,6 +11,7 @@ With this step by step challenge you will have a parallel learning experience of
 7. User Space, Services
 8. Libraries, Temboo
 9. Subsystems Bluetooth Hackathon
+10. Subsystems LED
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
