@@ -76,7 +76,7 @@ Section [User Space Virtual Network Computing](https://theiotlearninginitiative.
 
 __Instruction__
 
-> Allow Intel Edison to boot Ubilinux from uSD, Yocto shall be maintained under main flash partition
+> Enable Virtual Network Computing from Ubilinux
 
 # User Space, Services
 
