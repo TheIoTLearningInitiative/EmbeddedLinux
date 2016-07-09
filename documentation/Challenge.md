@@ -79,7 +79,7 @@ Section [Libraries Temboo](https://theiotlearninginitiative.gitbooks.io/embedded
 
 __Instruction__
 
-> Implement 
+> Implement 2 different CHOREOS
 
 # Telegram Bot
 
