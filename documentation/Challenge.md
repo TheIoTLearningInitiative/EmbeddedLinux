@@ -70,7 +70,7 @@ Section [User Space Services](https://theiotlearninginitiative.gitbooks.io/embed
 
 __Instruction__
 
-> Configure SystemD to run on startup your script EmbeddedLinux/main.py 
+> Configure SystemD to run on startup your script EmbeddedLinux/main.py
 
 # Temboo
 
