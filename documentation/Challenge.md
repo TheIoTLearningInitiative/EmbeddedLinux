@@ -18,6 +18,8 @@ __Instruction__ Complete all "Summer Short Course on Embedded Systems Programmin
 
 # Linux Kernel, Simulated Sensor Module
 
+https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html
+
 1. Make driver
 2. Make driver automatically startup
 
