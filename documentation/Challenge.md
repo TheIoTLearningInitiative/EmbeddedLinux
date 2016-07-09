@@ -72,7 +72,7 @@ __Instruction__
 
 # User Space, Virtual Network Computing
 
-Section [Initialization Dual Boot](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/DualBoot.html)
+Section [User Space, Virtual Network Computing]()
 
 __Instruction__
 
