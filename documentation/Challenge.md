@@ -16,16 +16,21 @@ With this step by step challenge you will have a parallel learning experience of
 
 __Instruction__ Complete all "Summer Short Course on Embedded Systems Programming"
 
-# Linux Kernel, Simulated Sensor Module
+# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module
 
 Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
 __Instruction__ 
 
 > Write a Linux Kernel module that gets registered under /sys/kernel/sensor, simulated sensor module will generate a random number
- 
-1. Make driver
-2. Make driver automatically startup
+
+# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module
+
+Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
+
+__Instruction__ 
+
+> Write a Linux Kernel module that gets registered under /sys/kernel/sensor, simulated sensor module will generate a random number
 
 # Temboo
 
