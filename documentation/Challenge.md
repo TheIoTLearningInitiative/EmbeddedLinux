@@ -75,7 +75,7 @@ __Instruction__
 
 # Libraries, Temboo
 
-Section [Libraries, Temboo](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Temboo.html)
+Section [Libraries Temboo](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Temboo.html)
 
 __Instruction__
 
