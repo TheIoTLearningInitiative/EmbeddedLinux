@@ -14,6 +14,8 @@ With this step by step challenge you will have a parallel learning experience of
 
 - [Summer Short Course on Embedded Systems Programming](http://rts.lab.asu.edu/web_ESP_Summer2014/ESP_Main_page.htm)
 
+__Instruction__ Complete all "Summer Short Course on Embedded Systems Programming"
+
 ## Kernel Driver
 
 1. Make driver
