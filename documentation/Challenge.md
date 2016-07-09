@@ -25,7 +25,11 @@ __Instruction__ Complete all "Summer Short Course on Embedded Systems Programmin
 
 # Build Systems, Yocto Board Support Package, Compilation, Make
 
+Section [Build Systems Yocto Board Support Package Compilation](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
+__Instruction__ 
+
+> Write a Linux Kernel module that gets registered under /sys/kernel/sensor, Simulated Sensor Kernel Module will generate a random number
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 
