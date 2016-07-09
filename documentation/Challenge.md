@@ -79,7 +79,7 @@ Section [Libraries Temboo](https://theiotlearninginitiative.gitbooks.io/embedded
 
 __Instruction__
 
-> Implement 2 different CHOREOS under EmbeddedLinux/main.py
+> Implement 1 CHOREOS under EmbeddedLinux/main.py
 
 # Telegram Bot
 
