@@ -105,7 +105,7 @@ Section [Application Development Bots](https://theiotlearninginitiative.gitbooks
 
 __Instruction__
 
->  Create a new Bot and implement under your script EmbeddedLinux/main.py 2 commands, to report data from functionDataSensor and to execute an action under functionDataActuator
+>  Create a new Bot and implement under your script EmbeddedLinux/main.py 2 commands, to report data from functionDataSensor and to execute the action under functionDataActuator
 
 # Wit.Ai
 
