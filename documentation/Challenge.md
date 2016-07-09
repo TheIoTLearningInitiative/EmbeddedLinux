@@ -70,6 +70,14 @@ __Instruction__
 
 > Allow Intel Edison to boot Ubilinux from uSD, Yocto shall be maintained under main flash partition
 
+# User Space, Virtual Network Computing
+
+Section [Initialization Dual Boot](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/DualBoot.html)
+
+__Instruction__
+
+> Allow Intel Edison to boot Ubilinux from uSD, Yocto shall be maintained under main flash partition
+
 # User Space, Services
 
 Section [User Space Services](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Services.html)
