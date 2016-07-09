@@ -84,6 +84,12 @@ __Instruction__
 
 # Subsystems, Bluetooth, Hackathon
 
+Section [Libraries Temboo](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Temboo.html)
+
+__Instruction__
+
+> Implement 1 CHOREOS under EmbeddedLinux/main.py
+
 # Telegram Bot
 
 
