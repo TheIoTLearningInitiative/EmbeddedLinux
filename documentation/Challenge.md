@@ -24,7 +24,7 @@ __Instruction__
 
 > Write a Linux Kernel module that gets registered under /sys/kernel/sensor, simulated sensor module will generate a random number
 
-# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, 
+# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, Load Automatically At Boot Time 
 
 Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
