@@ -101,16 +101,16 @@ __Instruction__
 
 # Telegram Bot
 
-Section [Application Development Artifical Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
+Section [Application Development Artificial Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
 
 __Instruction__
 
->  Enable under your Yocto Board Support Package Compilation the macros LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the Grove Indoor Environment Kit attached to one of the GPIOs
+>  
 
 # Wit.Ai
 
-Section [Application Development Artifical Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
+Section [Application Development Artificial Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
 
 __Instruction__
 
->  Enable under your Yocto Board Support Package Compilation the macros LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the Grove Indoor Environment Kit attached to one of the GPIOs
+>  
