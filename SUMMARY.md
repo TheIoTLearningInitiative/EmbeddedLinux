@@ -93,7 +93,7 @@
    * [Power](documentation/Power.md)
    * [Thermal](documentation/Thermal.md)
    * [Graphics](documentation/Graphics.md)
-   * LED
+   * [LED](documentation/Led.md)
    * [LIDAR](documentation/Lidar.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
