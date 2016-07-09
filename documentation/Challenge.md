@@ -22,7 +22,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__ 
 
-> Write a Linux Kernel module 
+> Write a Linux Kernel module to generate a random 
  
 1. Make driver
 2. Make driver automatically startup
