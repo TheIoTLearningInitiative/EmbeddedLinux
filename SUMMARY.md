@@ -13,7 +13,7 @@
            * [Make](documentation/CompilationMake.md)
            * [Bitbake](documentation/CompilationBitbake.md)
            * [Script](documentation/CompilationScript.md)
-       * SDK
+       * [SDK](documentation/Sdk.md)
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
