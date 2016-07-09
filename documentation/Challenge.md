@@ -101,6 +101,16 @@ __Instruction__
 
 # Telegram Bot
 
+Section [Subsystems LED](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Led.html)
+
+__Instruction__
+
+>  Enable under your Yocto Board Support Package Compilation the macros LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the Grove Indoor Environment Kit attached to one of the GPIOs
 
 # Wit.Ai
 
+Section [Subsystems LED](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Led.html)
+
+__Instruction__
+
+>  Enable under your Yocto Board Support Package Compilation the macros LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the Grove Indoor Environment Kit attached to one of the GPIOs
