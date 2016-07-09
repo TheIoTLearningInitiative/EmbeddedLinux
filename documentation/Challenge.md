@@ -10,6 +10,7 @@ With this step by step challenge you will have a parallel learning experience of
 6. Initialization, Dual Boot
 7. User Space, Services
 8. Libraries, Temboo
+9. Subsystems Bluetoothj Hackathon
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
