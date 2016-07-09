@@ -1,8 +1,6 @@
 # Make
 
-### Building via Make
-
-#### Make Setup
+## Make Setup
 
 ```sh
     user@host:~$ make setup
@@ -86,7 +84,7 @@
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
-#### Make Image
+## Make Image
 
 ```sh
     user@host:~$ make image
@@ -206,7 +204,7 @@
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 ```
 
-##### Make Building Workflow
+### Make Building Workflow
 
 - meta-intel-edison/setup.sh
   - --dl_dir = bbcache/downloads
@@ -246,7 +244,7 @@
     meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
 ```
 
-#### Make Flash
+## Make Flash
 
 ```sh
     user@host:~$ make flash
