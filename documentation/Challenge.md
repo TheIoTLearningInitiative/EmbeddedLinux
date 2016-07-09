@@ -97,7 +97,7 @@ Section [Subsystems LED](https://theiotlearninginitiative.gitbooks.io/embedded-l
 
 __Instruction__
 
->  Enable LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the attached to one of the GPIOs from the board
+>  Enable LEDS_TRIGGERS and LEDS_TRIGGER_HEARTBEAT so you can control a Led from the  to one of the GPIOs from the board
 
 # Telegram Bot
 
