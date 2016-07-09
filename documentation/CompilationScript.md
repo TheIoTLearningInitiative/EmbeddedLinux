@@ -1,7 +1,5 @@
 # Script
 
-## Building via Script
-
 ```sh
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
