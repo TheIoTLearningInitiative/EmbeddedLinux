@@ -38,7 +38,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__
 
-> Make your Simulated Sensor Module load automatically at boot time
+> 
 
 Implement code to replace existing functionality/logic by using a sensor and a actuator from the  Seeed Studio Grove Kit
 # Temboo
