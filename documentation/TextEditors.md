@@ -17,7 +17,7 @@
     root@board:~# 
 ```
 
-## nano
+# nano
 
 > nano is a text editor for Unix-like computing systems or operating environments using a command line interface. It emulates the Pico text editor, part of the Pine email client, and also provides additional functionality. In contrast to Pico, nano is licensed under the GNU General Public License (GPL). Released as free software by Chris Allegretta in 1999, today nano is part of the GNU Project. [Wikipedia GNU Nano](https://en.wikipedia.org/wiki/GNU_nano)
 
