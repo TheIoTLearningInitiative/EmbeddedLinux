@@ -46,11 +46,11 @@ __Instruction__
 
 # Initialization, Dual Boot
 
-Section [Initialization Dual Boot](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/DualBoot.html
+Section [Initialization Dual Boot](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/DualBoot.html)
 
 __Instruction__
 
-> Using a uSD card 
+> Allow Intel Edison to 
 
 # Temboo
 
