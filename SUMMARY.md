@@ -14,7 +14,7 @@
            * [Bitbake](documentation/CompilationBitbake.md)
            * [Script](documentation/CompilationScript.md)
        * [SDK](documentation/Sdk.md)
-       * Extra Packages
+       * [Extra Packages](documentation/ExtraPackages.md)
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
