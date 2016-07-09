@@ -9,6 +9,7 @@ With this step by step challenge you will have a parallel learning experience of
 5. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
 6. Initialization, Dual Boot
 7. User Space, Services
+8. Libraries, Temboo
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
@@ -72,7 +73,7 @@ __Instruction__
 
 > Configure SystemD to run on startup your script EmbeddedLinux/main.py
 
-# Temboo
+# Libraries, Temboo
 
 
 # Telegram Bot
