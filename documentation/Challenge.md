@@ -1,6 +1,6 @@
 # Challenge
 
-With this step by step challenge you will have a parallel learning experience of Embedded Systems Programming and maximize the capacity of your development board by writing functionality both in user space and kernel space from the topics that you have learn during the workshop.
+With this step by step challenge you will have a parallel learning experience of Embedded Systems Programming and maximize the capacity of your development board by writing functionality both in user space and kernel space from the topics you have learned during the workshop.
 
 1. Online Training, Summer Short Course on Embedded Systems Programming
 2. Build Systems, Yocto Board Support Package, Compilation, Make
