@@ -32,7 +32,7 @@ __Instruction__
 
 > Make your Simulated Sensor Module load automatically at boot time
 
-# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, Load Automatically At Boot Time  
+# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, Load Automatically At Boot Time 
 
 Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
