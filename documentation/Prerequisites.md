@@ -17,6 +17,7 @@
     root@edison:~# cd TheIoTLearningInitiative/
     root@edison:~# mkdir EmbeddedLinux
     root@edison:~# cp InternetOfThings101/main.py EmbeddedLinux
+    root@edison:~# cd
 ```
 
 # Equipment
