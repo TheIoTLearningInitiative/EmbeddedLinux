@@ -9,11 +9,12 @@ With this step by step challenge you will have a parallel learning experience of
 5. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
 6. Initialization, Dual Boot
 7. User Space, Services
-8. Libraries, Temboo
-9. Subsystems Bluetooth Hackathon
-10. Subsystems LED
-11. Application Development, Bots, Telegram Bot
-12. Application Development, Artificial Intelligence, Wit.Ai
+8. User Space, Services
+9. Libraries, Temboo
+10. Subsystems Bluetooth Hackathon
+11. Subsystems LED
+12. Application Development, Bots, Telegram Bot
+13. Application Development, Artificial Intelligence, Wit.Ai
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
