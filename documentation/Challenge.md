@@ -48,6 +48,7 @@ __Instruction__
 
 Section [Initialization Dual Boot](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/DualBoot.html)
 
+
 __Instruction__
 
 > Allow Intel Edison to boot Ubilinux from uSD, Yocto will be maintained under main flash partition
