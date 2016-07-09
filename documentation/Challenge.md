@@ -70,7 +70,7 @@ Section [User Space Services](https://theiotlearninginitiative.gitbooks.io/embed
 
 __Instruction__
 
-> Allow Intel Edison to boot Ubilinux from uSD, Yocto will be maintained under main flash partition
+> Configure SystemD to run on startup your script EmbeddedLinux/main.py 
 
 # Temboo
 
