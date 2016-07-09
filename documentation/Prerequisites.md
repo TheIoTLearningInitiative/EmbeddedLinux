@@ -16,6 +16,7 @@
 ```sh
     root@edison:~# cd TheIoTLearningInitiative/
     root@edison:~# mkdir EmbeddedLinux
+    root@edison:~# mkdir EmbeddedLinux    
 ```
 
 # Equipment
