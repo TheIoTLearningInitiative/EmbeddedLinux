@@ -101,7 +101,7 @@ __Instruction__
 
 # Telegram Bot
 
-Section [Subsystems LED](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Led.html)
+Section [Application Development Artifical Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
 
 __Instruction__
 
@@ -109,7 +109,7 @@ __Instruction__
 
 # Wit.Ai
 
-Section [Subsystems LED](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Led.html)
+Section [Application Development Artifical Intelligence Wit.Ai](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/ArtificialIntelligence.html)
 
 __Instruction__
 
