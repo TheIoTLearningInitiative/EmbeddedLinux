@@ -29,7 +29,7 @@ Section [Build Systems Yocto Board Support Package Compilation Make](https://the
 
 __Instruction__ 
 
-> Make setup, make image and make flash your own Board Support Package @ Intel Edison
+> Make setup, make image and make flash your own Intel Edison Board Support Package
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 
