@@ -46,7 +46,7 @@ __Instruction__
 
 # Initialization, Dual Boot
 
-Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
+Section [Initialization Dual Boot](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/DualBoot.html
 
 __Instruction__
 
