@@ -8,7 +8,7 @@
 
 # Thing Speak
 
-> Billions and Billions. The open data platform for the Internet of Things []()
+> Billions and Billions. The open data platform for the Internet of Things [ThingSpeak](https://thingspeak.com/)
 # SpaceAPI
 
 >   [Homepage](http://spaceapi.net/)
