@@ -113,7 +113,6 @@
    * [Entertainment](documentation/Entertainment.md)
    * [Home Assistants](documentation/HomeAssistants.md)
    * [Dashboards](documentation/Dashboards.md)
-   * [Computer Vision](documentation/ComputerVision.md)
    * [IRC](documentation/Irc.md)
    * [Location](documentation/Location.md)
    * [Facial Recognition](documentation/FacialRecognition.md)
