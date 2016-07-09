@@ -3,7 +3,8 @@
 With this step by step challenge you will have a parallel learning experience of Embedded Systems and continue with the implementation of functionality on top of the project you have built during the workshop.
 
 - Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
-- Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, Load Automatically At Boot Time
+- Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
+- Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
@@ -27,7 +28,7 @@ __Instruction__
 
 > Write a Linux Kernel module that gets registered under /sys/kernel/sensor, Simulated Sensor Kernel Module will generate a random number
 
-# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, Load Automatically At Boot Time 
+# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time 
 
 Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
@@ -35,7 +36,7 @@ __Instruction__
 
 > Make your Simulated Sensor Module load automatically at boot time
 
-# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Module, InternetOfThings101/main.py 
+# Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py 
 
 Section [Build Systems Yocto Board Support Package Modules](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Modules.html)
 
