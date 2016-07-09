@@ -12,4 +12,4 @@
 
 # SpaceAPI
 
->   [Homepage](http://spaceapi.net/)
+> The purpose of the Space API is to define a unified specification across the hackerspaces that can be used to expose information to web apps or any other application.  [Homepage](http://spaceapi.net/)
