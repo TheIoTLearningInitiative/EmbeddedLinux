@@ -8,6 +8,8 @@ With this step by step challenge you will have a parallel learning experience of
 4. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
 5. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
 6. Initialization, Dual Boot
+7. User Space, Services
+8. 
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
