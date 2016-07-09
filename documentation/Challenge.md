@@ -89,7 +89,7 @@ Section [Subsystems Bluetooth Hackathon](https://theiotlearninginitiative.gitboo
 
 __Instruction__
 
-> Implement a function to send the data from functionDataSensor through Bluetooth using a SPP protocol, Android BlueTerm Application
+> Implement a function to send the data from functionDataSensor through Bluetooth to an existing Android application (Android BlueTerm Application) using the SPP protocol
 
 # Subsystems, LED
 
