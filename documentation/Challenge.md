@@ -105,7 +105,7 @@ Section [Application Development Bots](https://theiotlearninginitiative.gitbooks
 
 __Instruction__
 
->  Implement under your script EmbeddedLinux/main.py
+>  Implement under your script EmbeddedLinux/main.py 2 commands, to read data from functionDataSensor and to execute an action under functionDataActuator
 
 # Wit.Ai
 
