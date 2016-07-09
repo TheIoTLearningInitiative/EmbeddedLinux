@@ -43,6 +43,7 @@
    * [Reboot](documentation/Reboot.md)
    * [Processes](documentation/Processes.md)
 * User Space
+   * [Virtual Network Computing](documentation/VirtualNetworkComputing.md)
    * [Text Editors](documentation/TextEditors.md)
    * [Services](documentation/Services.md)
    * [Logs](documentation/Logs.md)
@@ -69,7 +70,6 @@
        * [Bower](documentation/Bower.md)
        * [Zetta](documentation/Zetta.md)
        * [Miscellaneous](documentation/Misc.md)
-   * [Virtual Network Computing](documentation/VirtualNetworkComputing.md)
 * [Subsystems](documentation/Subsystems.md)
    * [X File Systems](documentation/XFileSystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
