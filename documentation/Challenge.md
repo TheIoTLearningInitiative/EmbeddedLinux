@@ -2,7 +2,7 @@
 
 With this step by step challenge you will have a parallel learning experience of Embedded Systems and continue with the implementation of functionality on top of the project you have built during the workshop.
 
-## Summer Short Course on Embedded Systems Programming
+# Online Training, Summer Short Course on Embedded Systems Programming
 
 > The course was taught in Zhejiang University, Summer 2014. It provided the opportunities for students to learn various fundamental issues as well as practical development skill in the area of embedded systems programming. The goals of the course were to let student
 - Understand the design issues of embedded software and gain an in-depth knowledge of development and execution environment on target processors.
