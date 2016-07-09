@@ -9,7 +9,7 @@
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
        * [Yocto](documentation/Yocto.md)
-       * [BSP Compilation](documentation/Compilation.md)
+       * [Board Support Package](documentation/Compilation.md)
            * [Make](documentation/CompilationMake.md)
            * [Bitbake](documentation/CompilationBitbake.md)
            * [Script](documentation/CompilationScript.md)
