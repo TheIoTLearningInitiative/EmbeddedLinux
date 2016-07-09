@@ -37,7 +37,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__ 
 
-> Write a Linux Kernel module that gets registered under /sys/kernel/sensor, Simulated Sensor Kernel Module will generate a random number
+> Write a Linux Kernel module that gets registered under /sys/kernel/sensor using Native Compilation, Simulated Sensor Kernel Module will generate a random number
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time 
 
@@ -45,7 +45,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__
 
-> Make your Simulated Sensor Module load automatically at boot time
+> Make your Simulated Sensor Module load automatically at boot time by incorporating your Linux Kernel module in 
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py 
 
