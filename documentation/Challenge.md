@@ -8,7 +8,7 @@ With this step by step challenge you will have a parallel learning experience of
 4. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
 5. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
 6. Initialization, Dual Boot
-7. User Space, Services
+7. User Space, Virtual Network Computing
 8. User Space, Services
 9. Libraries, Temboo
 10. Subsystems Bluetooth Hackathon
