@@ -16,7 +16,7 @@ With this step by step challenge you will have a parallel learning experience of
 
 __Instruction__ Complete all "Summer Short Course on Embedded Systems Programming"
 
-# Linux Kernel, Sensor Module
+# Linux Kernel, Simulated Sensor Module
 
 1. Make driver
 2. Make driver automatically startup
