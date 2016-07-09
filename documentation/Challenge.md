@@ -66,7 +66,7 @@ __Instruction__
 
 # User Space, Services
 
-Section [Userspace Services](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Services.html)
+Section [User Space Services](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Services.html)
 
 __Instruction__
 
