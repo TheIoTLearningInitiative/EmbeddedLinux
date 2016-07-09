@@ -45,7 +45,7 @@ Section [Build Systems Yocto Board Support Package Modules](https://theiotlearni
 
 __Instruction__
 
-> Make your Simulated Sensor Module load automatically at boot time by incorporating your Linux Kernel module into your Yocto Board Support Package, Compilation 
+> Make your Simulated Sensor Module load automatically at boot time by incorporating your Linux Kernel module into your Yocto Board Support Package Compilation 
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py 
 
