@@ -94,7 +94,7 @@
    * [Thermal](documentation/Thermal.md)
    * [Graphics](documentation/Graphics.md)
    * [LIDAR](documentation/Lidar.md)
-   * LED
+* LED
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
