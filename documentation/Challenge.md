@@ -29,7 +29,7 @@ Section [Build Systems Yocto Board Support Package Compilation](https://theiotle
 
 __Instruction__ 
 
-> Under your Host Development, install the required dependencies, Follow the instructions to make setup, make image and make flash your own Intel Edison Board Support Package, do not forget to setup your host development
+> Under your Linux Host Development, install the required dependencies, Follow the instructions to make setup, make image and make flash your own Intel Edison Board Support Package, do not forget to setup your host development
 
 # Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 
