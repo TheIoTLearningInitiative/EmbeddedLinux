@@ -33,5 +33,5 @@ __Instruction__
 # Telegram Bot
 
 
-# Api.Ai
+# Wit.Ai
 
