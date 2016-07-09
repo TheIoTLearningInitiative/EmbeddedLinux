@@ -4,7 +4,7 @@
 
 > A cloud-based code generation platform with 2000+ processes for APIs, databases, and more. [Temboo Homepage](https://temboo.com/)
 
-# IoT Apps
+## IoT Apps
 
 > Build IoT Applications with Temboo
 
