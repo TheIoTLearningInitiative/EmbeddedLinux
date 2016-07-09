@@ -105,7 +105,7 @@ Section [Application Development Bots](https://theiotlearninginitiative.gitbooks
 
 __Instruction__
 
->  
+>  Implement your script EmbeddedLinux/main.py
 
 # Wit.Ai
 
