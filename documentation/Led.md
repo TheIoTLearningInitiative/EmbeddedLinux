@@ -25,5 +25,4 @@ config LEDS_TRIGGER_HEARTBEAT
 	  The flash frequency is a hyperbolic function of the 1-minute
 	  load average.
 	  If unsure, say Y.
-
 ```
