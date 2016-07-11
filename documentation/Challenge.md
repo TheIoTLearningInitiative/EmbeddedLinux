@@ -126,3 +126,12 @@ Section [Application Development Artificial Intelligence Wit.Ai](https://theiotl
 __Instruction__
 
 >  Implement under your script EmbeddedLinux/main.py 2 commands, to report data from functionDataSensor and to execute the action under functionDataActuator from from the Wit.Ai bot
+
+# Software Version Control System Pushing Code 
+
+Section [Software Version Control System](https://theiotlearninginitiative.gitbooks.io/internetofthings101/content/documentation/ControlVersionSystem.html
+)
+
+__Instruction__ 
+
+> Confirm every code under your local "TheIoTLearningInitiative" git repository, "InternetOfThings101" directory is uploaded to your remote "TheIoTLearningInitiative" github repository
