@@ -28,6 +28,14 @@ None
 ```
 
 ```sh
+root@edison:~# cd TheIoTLearningInitiative/
+root@edison:~/TheIoTLearningInitiative# mkdir EmbeddedLinux
+root@edison:~/TheIoTLearningInitiative# cp InternetOfThings101/main.py EmbeddedLinux
+root@edison:~/TheIoTLearningInitiative# cd
+root@edison:~# 
+```
+
+```sh
     root@edison:~# cd TheIoTLearningInitiative/
     root@edison:~# mkdir EmbeddedLinux
     root@edison:~# cp InternetOfThings101/main.py EmbeddedLinux
