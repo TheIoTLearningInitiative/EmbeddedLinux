@@ -1,22 +1,8 @@
 # Prerequisites
 
-# Prerequisites
-
 # Accounts
 
-Sign up for the following online sites:
-
-- Github https://github.com/
-- Freeboard.io http://freeboard.io/
-- Adafruit.io https://io.adafruit.com/
-
-# Equipment
-
-- Laptop (Linux or Windows)
-- Linux Based Board Development (Intel Edison, Intel Galileo)
-- Micro USB Cable
-- Seeed Studio Grove Kit (Optional)
-- 
+None
 # Pre-Work
 
 ```sh
