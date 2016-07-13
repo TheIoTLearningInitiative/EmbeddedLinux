@@ -2,6 +2,7 @@
 
 - [Open Source Alternatives](https://www.quora.com/What-is-an-open-source-alternative-to-wit-ai)
 - [Tech’s Biggest Names Are Giving Millions to Crisis Text Line](http://www.wired.com/2016/06/techs-biggest-names-giving-millions-crisis-text-line?mbid=social_twitter)
+- [](http://www.theverge.com/2016/7/11/12144618/anki-cozmo-ai-robots-toys-hands-on-sdk-developers)
 
 ## Wit.Ai
 
