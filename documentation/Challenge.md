@@ -95,14 +95,6 @@ __Instruction__
 
 > Implement 1 CHOREOS under EmbeddedLinux/main.py
 
-# Subsystems, Bluetooth, Hackathon
-
-Section [Subsystems Bluetooth Hackathon](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/HackathonBluetooth.html)
-
-__Instruction__
-
-> Implement a function to send the data from functionDataSensor through Bluetooth to an existing Android application (Android BlueTerm Application) using the SPP protocol
-
 # Subsystems, LED
 
 Section [Subsystems LED](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Led.html)
