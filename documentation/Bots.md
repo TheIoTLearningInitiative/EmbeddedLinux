@@ -14,6 +14,7 @@
 
 - [Sample Slack bot built with Botkit](https://github.com/howdyai/botkit-middleware-witai/blob/master/example_bot.js)
 - [A customizable life embetterment robot](https://hubot.github.com/)
+- [Cisco brings some (real) friends to the chat-bot party](http://www.computerworld.stfi.re/article/3094288/cloud-computing/cisco-brings-some-real-friends-to-the-chat-bot-party.html)
 
 ## Bots: An introduction for developers
 
