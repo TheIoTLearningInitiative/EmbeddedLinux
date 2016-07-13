@@ -11,11 +11,10 @@ With this step by step challenge you will have a parallel learning experience of
 7. User Space, Virtual Network Computing
 8. User Space, Services
 9. Libraries, Temboo
-10. Subsystems Bluetooth Hackathon
-11. Subsystems LED
-12. Application Development, Bots, Telegram Bot
-13. Application Development, Artificial Intelligence, Wit.Ai
-14. Software Version Control System Pushing Code
+10. Subsystems LED
+11. Application Development, Bots, Telegram Bot
+12. Application Development, Artificial Intelligence, Wit.Ai
+13. Software Version Control System Pushing Code
 
 # Online Training, Summer Short Course on Embedded Systems Programming
 
