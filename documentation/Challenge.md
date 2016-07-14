@@ -111,3 +111,5 @@ Section [Software Version Control System](https://theiotlearninginitiative.gitbo
 __Instruction__ 
 
 > Confirm every code under your local "TheIoTLearningInitiative" git repository, "EmbeddedLinux" directory is uploaded to your remote "TheIoTLearningInitiative" github repository
+
+ToDo Diretory Structure
