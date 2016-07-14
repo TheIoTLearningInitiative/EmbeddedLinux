@@ -1,6 +1,6 @@
 # Challenge
 
-With this step by step challenge you will have a parallel learning experience of Embedded Systems Programming and maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
+With this step by step challenge you will maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
 01. Build Systems, Yocto Board Support Package, Compilation, Make
 02. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
