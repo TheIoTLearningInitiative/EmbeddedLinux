@@ -2,15 +2,15 @@
 
 With this step by step challenge you will have a parallel learning experience of Embedded Systems Programming and maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
-1. Build Systems, Yocto Board Support Package, Compilation, Make
-2. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
-3. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
-4. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
-5. Initialization, Dual Boot
-6. User Space, Virtual Network Computing
-7. User Space, Services
-8. Libraries, Temboo
-9. Subsystems LED
+01. Build Systems, Yocto Board Support Package, Compilation, Make
+02. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
+03. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
+04. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
+05. Initialization, Dual Boot
+06. User Space, Virtual Network Computing
+07. User Space, Services
+08. Libraries, Temboo
+09. Subsystems LED
 10. Application Development, Bots, Telegram Bot
 11. Application Development, Artificial Intelligence, Wit.Ai
 12. Software Version Control System Pushing Code
