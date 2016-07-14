@@ -86,6 +86,11 @@ Shutdown USB0 interface
 > ... I am asked for a 5 or 13 character network password, but my network's password is 10 characters long ... [Edison WiFi setup - password must be either 5 or 13 characters](https://communities.intel.com/thread/59888?start=0&tstart=0)
 
 ```sh
+root@edison:~# whereis configure_edison
+configure_edison: /usr/bin/configure_edison
+```
+
+```sh
 --- configure_edison.orig
 +++ configure_edison
 @@ -60,6 +60,15 @@
