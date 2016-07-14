@@ -118,7 +118,7 @@
    * [Location](documentation/Location.md)
    * [Facial Recognition](documentation/FacialRecognition.md)
 * Wrap-Up
-   * Online Training
+   * [Online Training](documentation/OnlineTraining.md)
    * [Challenge](documentation/Challenge.md)
    * Tbd
 * [SandBox](documentation/Sandbox.md)
