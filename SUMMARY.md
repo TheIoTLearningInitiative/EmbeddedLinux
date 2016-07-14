@@ -120,5 +120,6 @@
 * Wrap-Up
    * [Challenge](documentation/Challenge.md)
    * Tbd
+   * Online Training
 * [SandBox](documentation/Sandbox.md)
 
