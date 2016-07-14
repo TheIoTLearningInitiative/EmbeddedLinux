@@ -118,7 +118,7 @@
    * [Location](documentation/Location.md)
    * [Facial Recognition](documentation/FacialRecognition.md)
 * Wrap-Up
+   * [Challenge](documentation/Challenge.md)
    * Tbd
-* [Challenge](documentation/Challenge.md)
 * [SandBox](documentation/Sandbox.md)
 
