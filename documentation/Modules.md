@@ -126,7 +126,7 @@ Prompt: Hello Module Driver
 ```sh
 root@edison:~# cd
 root@edison:~# wget https://github.com/SourceCodeCat/IoTDownloads/raw/master/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
-root@edison:~# unzip linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb.zip
+root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
 Under Intel Edison
