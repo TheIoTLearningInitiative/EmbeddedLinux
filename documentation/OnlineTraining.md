@@ -1,6 +1,6 @@
 # Online Training
 
-# Online Training, Summer Short Course on Embedded Systems Programming
+# Summer Short Course on Embedded Systems Programming
 
 > The course was taught in Zhejiang University, Summer 2014. It provided the opportunities for students to learn various fundamental issues as well as practical development skill in the area of embedded systems programming. The goals of the course were to let student
 - Understand the design issues of embedded software and gain an in-depth knowledge of development and execution environment on target processors.
@@ -13,4 +13,3 @@
 - [Summer Short Course on Embedded Systems Programming](http://rts.lab.asu.edu/web_ESP_Summer2014/ESP_Main_page.htm)
 
 __Instruction__ Complete all "Summer Short Course on Embedded Systems Programming"
-
