@@ -31,6 +31,8 @@ __Instruction__
 
 > Write a Linux Kernel module under that gets registered under /sys/kernel/sensor using Native Compilation, Simulated Sensor Kernel Module will generate a random number
 
+Look at Linux Kernel Sysfs Documentation 
+
 ```sh
 root@edison:~# ls /sys/kernel/sensor
 status
