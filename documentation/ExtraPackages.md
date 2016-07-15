@@ -1,6 +1,6 @@
 # Extra Packages
 
-## Standard, Common
+# Standard, Common
 
 Review the content of "edison-image.bb" and add some extra packages
 
@@ -12,7 +12,7 @@ Review the content of "edison-image.bb" and add some extra packages
     PACKAGE_EXCLUDE = "libpng"
 ```
 
-## Third Party, Not Common, AX25
+# Third Party, Not Common, AX25
 
 ```sh
     user@host:~$ pwd
