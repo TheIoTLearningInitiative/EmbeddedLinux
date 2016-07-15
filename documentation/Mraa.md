@@ -13,9 +13,9 @@
 
 - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
 
-## Manual Installation, Latest Github
+# Manual Installation, Latest Github
 
-### Yocto
+## Yocto
 
 ```sh
     root@edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
@@ -32,7 +32,7 @@
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
 ```
 
-### Ubilinux
+## Ubilinux
 
 ```sh
     root@ubilinux:~# apt-get update
@@ -59,7 +59,7 @@
 
 Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison)
 
-## Testing, Opkg
+# Testing, Opkg
 
 ```sh
 root@edison:~# opkg list-installed | grep mraa
@@ -68,7 +68,7 @@ mraa-dev - 1.0.0-r0
 mraa-doc - 1.0.0-r0
 ```
 
-## Upgrade, Opkg
+# Upgrade, Opkg
 
 ```sh
 root@edison:~# opkg install mraa                                                
@@ -77,7 +77,7 @@ root@edison:~#
 ```
 
 
-## Hello Mraa
+# Hello Mraa
 
 ```sh
     root@edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
