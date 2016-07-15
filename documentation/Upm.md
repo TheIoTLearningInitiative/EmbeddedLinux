@@ -9,7 +9,7 @@
 - [UPM Github](https://github.com/intel-iot-devkit/upm)
 - [UPM Python Examples](https://github.com/intel-iot-devkit/upm/tree/master/examples/python)
 
-## UPM Updates
+# UPM Updates
 
 - Protocols such as ModBus and BACNet
 - Radio/wireless modules
