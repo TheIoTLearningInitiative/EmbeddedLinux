@@ -98,6 +98,8 @@ CANCELFORWARD 1 DELETE 1 REPLY
 
 
 ```sh
+root@edison:~# opkg install python-pip python-dev
+root@edison:~# pip install setuptools
 root@edison:~# pip install requests --upgrade
 root@edison:~# pip install future --upgrade
 root@edison:~# pip install python-telegram-bot --upgrade
