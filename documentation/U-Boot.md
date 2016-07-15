@@ -2,7 +2,7 @@
 
 > Das U-Boot (Universal Bootloader) is an open source, primary boot loader used in embedded devices to package the instructions to boot the device's operating system kernel. It is available for a number of computer architectures, including 68k, ARM, AVR32, Blackfin, MicroBlaze, MIPS, Nios, SuperH, PPC and x86.- [Wikipedia](https://en.wikipedia.org/wiki/Das_U-Boot)
 
-## Host Computer / Board Connection
+# Host Computer / Board Connection
 
 Connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
 
@@ -20,7 +20,7 @@ In Linux
    $ sudo minicom -D /dev/ttyUSB0 115200
 ```
 
-## Bootup Cancel
+# Bootup Cancel
 
 ```sh
 ******************************                                                  
@@ -57,9 +57,9 @@ Hit any key to stop autoboot:  1
 boot > 
 ```
 
-## U-Boot Commands from U-Boot
+# U-Boot Commands from U-Boot
 
-### help
+## help
 
 ```sh
     boot > help
@@ -74,7 +74,7 @@ boot >
     boot > 
 ```
 
-### printenv
+## printenv
 
 ```sh
 boot > printenv
@@ -148,7 +148,7 @@ Environment size: 4962/65531 bytes
 boot > 
 ```
 
-## Bootup Kernel
+# Bootup Kernel
 
 ```sh
 U-Boot 2014.04 (Jun 06 2016 - 14:40:07)                                         
@@ -353,7 +353,7 @@ Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
 edison login: 
 ```
 
-## U-Boot Commands from Linux
+# U-Boot Commands from Linux
 
 ```sh
 root@edison:~# fw_
