@@ -1,6 +1,6 @@
 # Manual
 
-## Pywapi
+# Pywapi
 
 > Pywapi is a Python wrapper around different weather APIs
 
@@ -63,7 +63,7 @@
     root@edison:~# 
 ```
 
-### Alternate Installation
+## Alternate Installation
 
 ```sh
     root@edison:~/pywapi-0.3.8# python setup.py install --user
