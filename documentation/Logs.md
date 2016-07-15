@@ -1,6 +1,6 @@
 # Logs
 
-## JournalCtl
+# JournalCtl
 
 > journalctl — Query the systemd journal. journalctl may be used to query the contents of the systemd journal as written by systemd-journald.service. [Homepage](https://www.freedesktop.org/software/systemd/man/journalctl.html)
 
