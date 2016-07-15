@@ -126,7 +126,7 @@ Output
     bcm4334x:
 ```
 
-## Search for a specific kernel module loaded or compiled
+# Search for a specific kernel module loaded or compiled
 
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
@@ -140,9 +140,9 @@ Output
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name ''
 ```
 
-## Intel Edison Linux Kernel all modules
+# Intel Edison Linux Kernel all modules
 
-### Release v3.5 Yocto 
+## Release v3.5 Yocto 
 
 ```sh
 root@edison:~# find /lib/modules/* -name '*'                                    
@@ -204,7 +204,7 @@ root@edison:~# find /lib/modules/* -name '*'
 root@edison:~# 
 ```
 
-### Release v3.0 Yocto 
+## Release v3.0 Yocto 
 
 ```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
