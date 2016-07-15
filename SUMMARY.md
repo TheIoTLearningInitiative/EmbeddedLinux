@@ -21,7 +21,7 @@
            * [Building](documentation/Building.md)
            * [Headers](documentation/Headers.md)
        * [Modules](documentation/Modules.md)
-           * Cross Compilation
+           * [Cross Compilation](documentation/ModulesCrossCompilation.md)
            * Native
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
