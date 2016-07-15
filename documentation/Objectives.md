@@ -6,3 +6,4 @@
 - Identify procedures to build different flavors of Linux distributions for Embedded Devices
 - Understand about Bootloaders
 - Extend U-Boot Command Line Interface functionality
+- 
