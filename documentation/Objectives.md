@@ -1,3 +1,3 @@
 # Objectives
 
-- Create a Base Support Package
+- Create an Base Support Package based on Yocto Project
