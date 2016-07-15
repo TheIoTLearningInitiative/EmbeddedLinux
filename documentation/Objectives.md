@@ -2,5 +2,5 @@
 
 - Create Base Support Packages for Embedded Devices
 - Develop a Linux Kernel module
-- Integrate your Linux Kernel module into your Board Support Package
+- Integrate your Linux Kernel module into your Board Support Package using Linux Kernel Configuration infrastructure
 - 
