@@ -4,9 +4,9 @@
 
 > In computing, a file system (or filesystem) is used to control how data is stored and retrieved. Without a file system, information placed in a storage area would be one large body of data with no way to tell where one piece of information stops and the next begins. By separating the data into pieces and giving each piece a name, the information is easily isolated and identified. Taking its name from the way paper-based information systems are named, each group of data is called a "file". The structure and logic rules used to manage the groups of information and their names is called a "file system". [Wikipedia](https://en.wikipedia.org/wiki/File_system)
 
-## File System Type
+# File System Type
 
-### Release v3.5 Yocto 
+## Release v3.5 Yocto 
 
 ```sh
 root@edison:~# df -h                                                            
@@ -25,7 +25,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 root@edison:~# 
 ```
 
-### Release v3.0 Yocto 
+## Release v3.0 Yocto 
 
 ```sh
 root@edison:~# df -h
@@ -75,9 +75,9 @@ tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,size=98312k,mode=700)
 /dev/mmcblk0p9 on /media/storage type vfat (ro,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=i)
 ```
 
-## File System Disk Space Usage
+# File System Disk Space Usage
 
-### Release v3.5 Yocto, Fresh Installation
+## Release v3.5 Yocto, Fresh Installation
 
 ```sh
 root@edison:~# df -h                                                            
@@ -96,7 +96,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 root@edison:~# 
 ```
 
-### Release v3.0 Yocto, Fresh Installation
+## Release v3.0 Yocto, Fresh Installation
 
 ```sh
 root@edison:~# df -h
@@ -114,7 +114,7 @@ tmpfs             97M     0   97M   0% /run/user/0
 /dev/mmcblk0p5  1003K   19K  913K   3% /factory
 ```
 
-### Release v2.1 Yocto, Fresh Installation
+## Release v2.1 Yocto, Fresh Installation
 
 ```sh
     root@edison:~# df -h
@@ -132,7 +132,7 @@ tmpfs             97M     0   97M   0% /run/user/0
     /dev/mmcblk0p5         1003.0K     19.0K    913.0K   2% /factory
 ```
 
-### Ubilinux, Fresh Installation
+## Ubilinux, Fresh Installation
 
 ```sh
     edison@ubilinux:~$ df -h
@@ -148,7 +148,7 @@ tmpfs             97M     0   97M   0% /run/user/0
     /dev/mmcblk0p10  1.3G  2.0M  1.3G   1% /home
 ```
 
-## File System Disk Space Free Up
+# File System Disk Space Free Up
 
 ```sh
     root@edison:~# mv /var/cache /home
@@ -161,12 +161,12 @@ tmpfs             97M     0   97M   0% /run/user/0
 
 - [Get additional 800 MB disk space](http://www.helios.de/heliosapp/edison/)
 
-## File System Disk Space uSD
+# File System Disk Space uSD
 
 ToDo
 
 - [How to boot Edison from an SD card (Linux)](https://communities.intel.com/thread/61048?tstart=0)
 
-## File System Disk Space Encryption
+# File System Disk Space Encryption
 
 ToDo
