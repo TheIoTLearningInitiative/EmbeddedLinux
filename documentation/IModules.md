@@ -2,7 +2,7 @@
 
 > In computing, a loadable kernel module (or LKM) is an object file that contains code to extend the running kernel, or so-called base kernel, of an operating system. LKMs are typically used to add support for new hardware (as device drivers) and/or filesystems, or for adding system calls. [Wikipedia](https://en.wikipedia.org/wiki/Loadable_kernel_module)
 
-## Project: Hello World Kernel Module Automatic Startup
+# Project: Hello World Kernel Module Automatic Startup
 
 ```sh
 root@edison:~# cd kernelmodule
@@ -38,7 +38,7 @@ root@edison:~/kernelmodule# echo helloworld > /usr/lib/modules-load.d/helloworld
 root@edison:~/kernelmodule# depmod -a
 ```
 
-## Release v3.5 Yocto Default Loaded Kernel Modules
+# Release v3.5 Yocto Default Loaded Kernel Modules
 
 ```sh
 root@edison:~# lsmod
@@ -51,7 +51,7 @@ bcm_bt_lpm             13708  0
 bcm4334x              587105  0       
 ```
 
-## Release v3.0 Yocto Default Loaded Kernel Modules
+# Release v3.0 Yocto Default Loaded Kernel Modules
 
 ```sh
 root@edison:~# lsmod
@@ -64,7 +64,7 @@ bcm_bt_lpm             13708  0
 bcm4334x              587105  0       
 ```
 
-## Release v2.1 Yocto Default Loaded Kernel Modules
+# Release v2.1 Yocto Default Loaded Kernel Modules
 
 ```sh
     root@edison:~# lsmod
