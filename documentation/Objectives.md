@@ -5,4 +5,4 @@
 - Integrate your Linux Kernel module into your Board Support Package using Linux Kernel Configuration infrastructure
 - Identify procedures to build different flavors of Linux distributions for Embedded Devices
 - Understand about Bootloaders
-- Inspect U-Boot Command Line Interface
+- Extend U-Boot Command Line Interface
