@@ -22,7 +22,7 @@
            * [Headers](documentation/Headers.md)
        * [Modules](documentation/Modules.md)
            * [Cross Compilation](documentation/ModulesCrossCompilation.md)
-           * Native
+           * [Native](documentation/ModulesNative.md)
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
