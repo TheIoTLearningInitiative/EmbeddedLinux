@@ -492,5 +492,5 @@ arch/x86/include/asm/gpio.h
 
 ### Multi-Function Device (MFD) for Low Power Subsystem
 
-### System Management Bus (SMBus).
+### System Management Bus (SMBus)
 
