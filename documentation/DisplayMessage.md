@@ -1,6 +1,6 @@
 # Display Message
 
-## Bootup Kernel Display Message
+# Bootup Kernel Display Message
 
 > dmesg (display message or driver message) is a command on most Unix-like operating systems that prints the message buffer of the kernel. [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
 
