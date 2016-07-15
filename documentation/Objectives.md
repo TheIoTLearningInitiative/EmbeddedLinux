@@ -7,4 +7,4 @@
 - Understand about Bootloaders
 - Extend U-Boot Command Line Interface functionality
 - Interpret the services available at Linux Embedded Devices boot time 
-- Validate Userspace development environment found in Linux Embedded Devices
+- Validate userspace development environment found in Linux Embedded Devices
