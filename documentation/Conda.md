@@ -17,7 +17,7 @@
     tar: Exiting with failure status due to previous errors
 ```
 
-## Miniconda
+# Miniconda
 
 > These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments, etc. 
 
