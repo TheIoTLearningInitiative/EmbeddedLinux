@@ -4,7 +4,7 @@
 * [Summary](SUMMARY.md)
 * About This Training
    * [Objectives](documentation/Objectives.md)
-   * Skills
+   * [Skills](documentation/Skills.md)
    * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
