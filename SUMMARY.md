@@ -119,7 +119,7 @@
    * [IRC](documentation/Irc.md)
    * [Location](documentation/Location.md)
    * [Facial Recognition](documentation/FacialRecognition.md)
-   * Software Defined Radio
+   * [Software Defined Radio](documentation/SoftwareDefinedRadio.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
    * [Challenge](documentation/Challenge.md)
