@@ -6,4 +6,4 @@
 - Identify procedures to build different flavors of Linux distributions for Embedded Devices
 - Understand about Bootloaders
 - Extend U-Boot Command Line Interface functionality
-- Interpret the states services available at Linux Embedded Devices boot time 
+- Interpret the services available at Linux Embedded Devices boot time 
