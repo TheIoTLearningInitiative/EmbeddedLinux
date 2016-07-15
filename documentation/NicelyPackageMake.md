@@ -4,7 +4,7 @@
 
 - [Npm Getting Started](https://docs.npmjs.com/getting-started/)
 
-## Update Npm
+# Update Npm
 
 ```sh
 root@edison:~# npm install npm -g
@@ -12,7 +12,7 @@ root@edison:~# npm install npm -g
 npm@3.8.3 /usr/lib/node_modules/npm
 ```
 
-## Install Npm Package
+# Install Npm Package
 
 ```sh
 root@edison:~# npm install mqtt -g
