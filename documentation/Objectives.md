@@ -8,3 +8,4 @@
 - Extend U-Boot Command Line Interface functionality
 - Interpret the services available at Linux Embedded Devices boot time 
 - Validate userspace development environment found in Linux Embedded Devices
+- Explain details of the Linux Kernel Subsystems
