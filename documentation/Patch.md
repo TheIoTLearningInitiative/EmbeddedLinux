@@ -151,9 +151,9 @@ arch/x86/Makefile_32.cpu
                 $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
 ```
 
-# Platform
+## Platform
 
-#### Intel MID Specific Setup Code
+### Intel MID Specific Setup Code
 
 ```sh
     arch/x86/include/asm/intel-mid.h
