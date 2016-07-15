@@ -4,7 +4,7 @@
 - [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
 - [How to compile Intel Edison Linux Kernel](http://www.iduino.cc/index.php/2015/10/20/how-to-compile-intel-edison-linux-kernel/)
 
-## Building via Make Detailed
+# Building via Make Detailed
 
 ```sh
     user@host:~$ ls
@@ -39,7 +39,7 @@
     user@host:~$ bitbake edison-image
 ```
 
-## Building via Make
+# Building via Make
 
 ```sh
     user@host:~$ pwd
@@ -58,7 +58,7 @@
     user@host:~$ make flash
     edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
 ```
-## Building via BitBake
+# Building via BitBake
 
 ```sh
     user@host:~$ pwd
