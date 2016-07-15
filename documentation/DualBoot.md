@@ -1,16 +1,16 @@
 # Dual Boot
 
-## Through Micro SD Card
+# Through Micro SD Card
 
 - [How to boot Edison from an SD card (Linux)](https://communities.intel.com/thread/61048?tstart=0)
 
-### How to boot Edison from an SD card (Linux)
+## How to boot Edison from an SD card (Linux)
 
 > by Carlos Rodriguez from [Here](https://communities.intel.com/thread/61048?tstart=0)
 
 This tutorial describes a way to boot an Edison board with the Root Filesystem on an external storage (SD card). The kernel and bootloader remain on the local eMMC. For now, we are not able to boot a kernel from an external storage.
 
-#### SD Card Format
+### SD Card Format
 
 1. You need to have a SD card formatted with ext4 file system to store your root file system (do not use FAT/FAT32 for that). You can use gparted or Intel Edison as follows:
 
@@ -95,7 +95,7 @@ Writing superblocks and filesystem accounting information: done
 root@edison:~# 
 ```
 
-#### Edison Ext 4 Image Writing
+### Edison Ext 4 Image Writing
 
 2. Download and unpack the Edison OS image from the Software Downloads section of the community. 
 
