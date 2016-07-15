@@ -3,9 +3,9 @@
 - [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 - [Flashing the firmware on a system with Windows (manual process)](https://software.intel.com/en-us/flashing-firmware-on-your-intel-edison-board-windows)
 
-## Board Support Package Update in a Nutshell
+# Board Support Package Update in a Nutshell
 
-### Intel® Edison
+## Intel® Edison
 
 > Download drivers, installers, new firmware images, IDEs and components like cloud analytics and gateway software.
 
@@ -106,13 +106,13 @@ The flashing process is in your Host Computer:
  - Within the terminal, go to the directory where the content has been unzipped
  - And flash the image with flashall.[sh/bat] script
 
-#### Windows based Development Workstation
+### Windows based Development Workstation
 
 ```sh
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 ```
 
-#### Linux based Development Workstation
+### Linux based Development Workstation
 
 ```sh
     user@host:~$ flashall.sh
