@@ -21,6 +21,7 @@
            * [Building](documentation/Building.md)
            * [Headers](documentation/Headers.md)
        * [Modules](documentation/Modules.md)
+           * Cross Compilation
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
