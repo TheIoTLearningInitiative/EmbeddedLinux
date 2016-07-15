@@ -1,14 +1,13 @@
 # Patch
 
-
-## Patch Location
+# Patch Location
 
 ```sh
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/
     defconfig  upstream_to_edison.patch
 ```
 
-## Patched Files
+# Patched Files
 
 ```sh
     Documentation/kernel-parameters.txt
@@ -78,8 +77,7 @@
     sound/soc/intel/
 ```
 
-## Patch Review
-
+# Patch Review
 
 ```sh
     x86 Intel MID Platform
@@ -153,7 +151,7 @@ arch/x86/Makefile_32.cpu
                 $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
 ```
 
-### Platform
+# Platform
 
 #### Intel MID Specific Setup Code
 
