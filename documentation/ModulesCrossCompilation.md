@@ -2,6 +2,7 @@
 
 # Hello World Kernel Module Cross Compilation
 
+```sh
     user@host:~$ pwd
     /home/xe1gyq/.../edison-src
     user@host:~$ cd out/current
@@ -11,6 +12,7 @@
     user@host:~$ cd tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/
     user@host:~$ mkdir drivers/helloworld
     user@host:~$ nano drivers/helloworld/helloworld.c
+```
 
 ```C
 #include <linux/init.h>
