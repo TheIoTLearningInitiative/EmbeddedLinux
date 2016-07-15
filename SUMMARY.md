@@ -4,8 +4,8 @@
 * [Summary](SUMMARY.md)
 * About This Training
    * [Objectives](documentation/Objectives.md)
-   * [Prerequisites](documentation/Prerequisites.md)
    * Skills
+   * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
