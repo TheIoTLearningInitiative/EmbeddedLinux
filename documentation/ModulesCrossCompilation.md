@@ -98,7 +98,6 @@ Symbol: LOCALVERSION [=-yocto-xe1gyq]
   Defined at init/Kconfig:56
 ```
 
-
 ```sh
 CONFIG_HELLO_WORLD:
 Select this option to run a Hello World Module!
