@@ -13,7 +13,7 @@
     root@edison:~# pip install setuptools
 ```
 
-## Python Library
+# Python Library
 
 ```sh
     root@edison:~# python
@@ -27,7 +27,7 @@
     >>> <CTRL-D>
 ```
 
-## Python Library Search
+# Python Library Search
 
 ```sh
     root@edison:~# pip search psutil
@@ -39,7 +39,7 @@
     ...
 ```
 
-## Python Library Optional Installation Path
+# Python Library Optional Installation Path
 
 ```sh
     root@edison:~# pip install psutil --target /root
@@ -77,7 +77,7 @@
     root@edison:~# pip uninstall psutil
 ```
 
-## Python Library Default Installation Path
+# Python Library Default Installation Path
 
 ```sh
     root@edison:~# pip install psutil
@@ -97,13 +97,13 @@
     Cleaning up...
 ```
 
-## Python Library Github Installation
+# Python Library Github Installation
 
 ```sh
     root@edison:~# pip install https://github.com/mitsuhiko/flask/tarball/master
 ```
 
-## Python Easy_Install
+# Python Easy_Install
 
 ```sh
 root@edison:~# easy_install requests
