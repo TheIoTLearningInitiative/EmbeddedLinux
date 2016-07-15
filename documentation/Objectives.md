@@ -9,5 +9,5 @@
 - Interpret services available at Linux Embedded Devices boot time 
 - Validate userspace development environment found in Linux Embedded Devices
 - Explain the different Linux Kernel Subsystems
-- Examine about debug resources in Linux Embedded Devices
+- Examine debug resources in Linux Embedded Devices
 - 
