@@ -2,7 +2,7 @@
 
 - Create Base Support Package and Software Development Kit for Embedded Devices based on Yocto Project
 - Develop Linux Kernel modules
-- Integrate your Linux Kernel module into your Board Support Package using Linux Kernel Configuration infrastructure
+- Integrate your Linux Kernel modules into your Board Support Package using Linux Kernel Configuration and Build Process
 - Identify procedures to build different flavors of Linux distributions for Embedded Devices
 - Understand about Bootloaders
 - Extend U-Boot Command Line Interface functionality
