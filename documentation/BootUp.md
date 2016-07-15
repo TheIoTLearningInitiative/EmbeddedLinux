@@ -1,6 +1,6 @@
 # Boot Up
 
-## Bootup Linux Login
+# Bootup Linux Login
 
 ```sh
     Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
@@ -9,7 +9,7 @@
     root@edison:~# 
 ```
 
-## Bootup Initial Configuration, Wifi
+# Bootup Initial Configuration, Wifi
 
 Check your kernel version
 
@@ -81,7 +81,7 @@ Shutdown USB0 interface
     root@edison:~# 
 ```
 
-## Error? Password Lenght
+# Error? Password Lenght
 
 > ... I am asked for a 5 or 13 character network password, but my network's password is 10 characters long ... [Edison WiFi setup - password must be either 5 or 13 characters](https://communities.intel.com/thread/59888?start=0&tstart=0)
 
