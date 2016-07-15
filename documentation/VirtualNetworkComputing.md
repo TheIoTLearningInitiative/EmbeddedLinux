@@ -2,7 +2,7 @@
 
 > In computing, Virtual Network Computing (VNC) is a graphical desktop sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. It transmits the keyboard and mouse events from one computer to another, relaying the graphical screen updates back in the other direction, over a network. Wikipedia
 
-### VNC Server @ Edison X Desktop @ Ubilinux
+## VNC Server @ Edison X Desktop @ Ubilinux
 
     root@edison:~# apt-get install xfce4
     root@edison:~# apt-get install vnc4server
@@ -19,7 +19,7 @@
     Starting applications specified in /home/root/.vnc/xstartup
     Log file is /home/root/.vnc/edison:1.log
 
-### VNC Server @ Edison Default Desktop
+## VNC Server @ Edison Default Desktop
 
 ```sh
     root@edison:~# vnc4server -kill :1
