@@ -1,4 +1,4 @@
 # Objectives
 
-- Create an Base Support Package based on Yocto Project
+- Create an Base Support Package from Yocto Project
 - Develop a Linux Kernel module
