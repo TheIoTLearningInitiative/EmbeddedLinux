@@ -1,6 +1,6 @@
 # Services
 
-## SystemD
+# SystemD
 
 > systemd is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. [Homepage](https://freedesktop.org/wiki/Software/systemd/)
 
@@ -30,8 +30,7 @@ rescue.service                          wyliodrin-server.service
 rescue.target                           xdk-daemon.service
 ```
 
-
-## Systemctl
+# Systemctl
 
 > systemctl — Control the systemd system and service manager. systemctl may be used to introspect and control the state of the "systemd" system and service manager. [Homepage](https://www.freedesktop.org/software/systemd/man/systemctl.html)
 
@@ -47,7 +46,7 @@ root@edison:~# ls /etc/systemd/system/*.wants/
 ...
 ```
 
-## Services, Disable/Enable
+# Services, Disable/Enable
 
 ```sh
 root@edison:~# systemctl stop xdk-daemon
@@ -57,7 +56,7 @@ root@edison:~# systemctl enable xdk-daemon
 ln -s '/lib/systemd/system/xdk-daemon.service' '/etc/systemd/system/multi-user.target.wants/xdk-daemon.service'
 ```
 
-## Services, Running by Default, Disable?
+# Services, Running by Default, Disable?
 
 ```sh
 root@edison:~# systemctl status clloader     
@@ -145,7 +144,7 @@ root@edison:~# systemctl status systemd-resolved
 May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
 ```
 
-## Services, Start Up Script Execution
+# Services, Start Up Script Execution
 
 - [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
 - [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
@@ -200,7 +199,7 @@ Once booted, verify again hello-world service status
     root@edison:~# systemctl status hello-world
 ```
 
-## Services, Web Server
+# Services, Web Server
 
 Location of the web server content
 
@@ -222,7 +221,7 @@ To stop actual webserver
     root@edison:~# systemctl status edison_config
 ```
 
-## Services, Butterfly, Web Based Terminal Emulator
+# Services, Butterfly, Web Based Terminal Emulator
 
 > A sleek web based terminal emulator
 
@@ -237,7 +236,7 @@ To stop actual webserver
     [W 160321 05:41:44 butterfly.server:317] Butterfly is ready, open your browser to: http://192.168.1.65:8885/
 ```
 
-### SystemD Automatic Run
+## SystemD Automatic Run
 
 ```sh
     root@edison:~#  cd /etc/systemd/system
