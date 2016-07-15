@@ -40,7 +40,7 @@
     Log file is /home/root/.vnc/edison:1.log
 ```
 
-### VNC Viewer @ Host
+## VNC Viewer @ Host
     
     root@jessie:/home/xe1gyq# apt-get install xvnc4viewer
     Reading package lists... Done
