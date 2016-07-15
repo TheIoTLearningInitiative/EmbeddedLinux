@@ -10,4 +10,4 @@
 - Validate userspace development environment found in Linux Embedded Devices
 - Explain the different Linux Kernel Subsystems
 - Examine debug resources in Linux Embedded Devices
-- Validate the Application Development available in Linux Embedded Devices
+- Validate the Application Development environment available in Linux Embedded Devices
