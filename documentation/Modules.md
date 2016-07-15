@@ -9,7 +9,3 @@
 - [Getting Started with the Edi-Expand](http://www.tektyte.com/docs/docpages/edi-expand/gettingstarted.html)
 
 
-
-## Project: Hello World Kernel Module Native Compilation Automatic Startup
-
-ToDo
