@@ -37,7 +37,11 @@
 > Bot executes...
 > > If your bot needs to perform an action on the context ...
 
+```sh
+root@edison:~# pip install wit
 ```
+
+```sh
 root@edison:~# cd
 root@edison:~# git clone https://github.com/wit-ai/pywit.git
 Cloning into 'pywit'...
