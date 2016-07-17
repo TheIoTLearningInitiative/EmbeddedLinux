@@ -1,20 +1,23 @@
 # Services
 
-#
 ```sh
 # mkdir /etc/init.d 
+```
 
+```sh
 # cat > /etc/init.d/helloservice.sh << EOF
 #!/bin/sh
 
 echo "Hello Service At Startup"
 EOF
+```
 
-# chmod 755 /etc/init.d/ble.sh
-# update-rc.d ble.sh defaults
+```sh
+# chmod 755 /etc/init.d/helloservice.sh
+# update-rc.d helloservice.sh defaults
+```
 
-And that should be it. Test by rebooting
-
+```sh
 # shutdown -r now
 ```
 
