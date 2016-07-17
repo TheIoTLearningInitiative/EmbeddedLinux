@@ -7,8 +7,7 @@
 # cat > /etc/init.d/hello.sh << EOF
 #!/bin/sh
 
-rfkill unblock bluetooth
-hciconfig hci0 up
+echo "Hello Service At Startup"
 EOF
 
 # chmod 755 /etc/init.d/ble.sh
