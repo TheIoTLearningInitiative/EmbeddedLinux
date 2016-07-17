@@ -1,24 +1,26 @@
 # Services
 
 ```sh
-# mkdir /etc/init.d 
+root@edison:~# mkdir /etc/init.d 
 ```
 
 ```sh
-# cat > /etc/init.d/helloservice.sh << EOF
+root@edison:~# nano /etc/init.d/helloservice.sh
+```
+
+```
 #!/bin/sh
 
 echo "Hello Service At Startup"
-EOF
 ```
 
 ```sh
-# chmod 755 /etc/init.d/helloservice.sh
-# update-rc.d helloservice.sh defaults
+root@edison:~# chmod 755 /etc/init.d/helloservice.sh
+root@edison:~# update-rc.d helloservice.sh defaults
 ```
 
 ```sh
-# shutdown -r now
+root@edison:~# shutdown -r now
 ```
 
 # SystemD
