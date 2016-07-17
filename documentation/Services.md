@@ -4,9 +4,7 @@
 ```sh
 # mkdir /etc/init.d 
 
-If there’s an error that it already exists, this is OK
-
-# cat > /etc/init.d/ble.sh << EOF
+# cat > /etc/init.d/hello.sh << EOF
 #!/bin/sh
 
 rfkill unblock bluetooth
