@@ -1,5 +1,26 @@
 # Services
 
+#
+```sh
+# mkdir /etc/init.d 
+
+If there’s an error that it already exists, this is OK
+
+# cat > /etc/init.d/ble.sh << EOF
+#!/bin/sh
+
+rfkill unblock bluetooth
+hciconfig hci0 up
+EOF
+
+# chmod 755 /etc/init.d/ble.sh
+# update-rc.d ble.sh defaults
+
+And that should be it. Test by rebooting
+
+# shutdown -r now
+```
+
 # SystemD
 
 > systemd is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. [Homepage](https://freedesktop.org/wiki/Software/systemd/)
