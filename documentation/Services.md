@@ -4,7 +4,7 @@
 ```sh
 # mkdir /etc/init.d 
 
-# cat > /etc/init.d/hello.sh << EOF
+# cat > /etc/init.d/helloservice.sh << EOF
 #!/bin/sh
 
 echo "Hello Service At Startup"
