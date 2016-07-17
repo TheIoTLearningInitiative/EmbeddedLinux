@@ -2,6 +2,8 @@
 
 # Init
 
+> In Unix-based computer operating systems, init (short for initialization) is the first process started during booting of the computer system. Init is a daemon process that continues running until the system is shut down. It is the direct or indirect ancestor of all other processes and automatically adopts all orphaned processes. Init is started by the kernel using a hard-coded filename; a kernel panic will occur if the kernel is unable to start it. Init is typically assigned process identifier 1. [Wikipedia]()
+
 ```sh
 root@edison:~# mkdir /etc/init.d 
 ```
