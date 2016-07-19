@@ -13,7 +13,7 @@
     build  poky
     user@host:~$ source poky/oe-init-build-env
 ```
-## Fix Paho-Mqtt
+# Fix Paho-Mqtt
 
 ```sh
     user@host:~$ wget http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware/plain/recipes-connectivity/paho-mqtt/paho-mqtt_3.1.bb
