@@ -30,7 +30,7 @@ Section [Build Systems Yocto Board Support Package Compilation](https://theiotle
 
 __Instruction__ 
 
-> Choose another version
+> Choose another version 
 
 - [01 Org Intel Edison Linux Kernel](https://github.com/01org/edison-linux)
   - edison-3.19.5
