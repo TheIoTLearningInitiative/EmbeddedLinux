@@ -14,7 +14,7 @@
            * [Make](documentation/CompilationMake.md)
            * [Bitbake](documentation/CompilationBitbake.md)
            * [Script](documentation/CompilationScript.md)
-           * Laboratory
+           * [Laboratory](documentation/BuildSystemsYoctoKernelLaboratory.md)
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [SDK](documentation/Sdk.md)
        * [Extra Packages](documentation/ExtraPackages.md)
