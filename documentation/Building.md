@@ -70,6 +70,18 @@
     user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/arch/x86/configs/i386_edison_defconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ cd ../../..
+```
+
+# Fix Paho-Mqtt
+
+[Problems compiling edison-src-ww25.5-15 using bitbake](https://communities.intel.com/thread/101849)
+
+```sh
+    user@host:~$ wget http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware/plain/recipes-connectivity/paho-mqtt/paho-mqtt_3.1.bb
+    user@host:~$ mv paho-mqtt_3.1.bb file/to/paho-mqtt_3.1.bb
+```
+
+```sh
     user@host:~$ make image
     user@host:~$ make flash
     edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
