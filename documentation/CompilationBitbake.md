@@ -12,7 +12,16 @@
     user@host:~$ ls
     build  poky
     user@host:~$ source poky/oe-init-build-env
-    user@host:~$ bitbake edison-image
+```
+## Fix Paho-Mqtt
+
+```sh
+    user@host:~$ wget http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware/plain/recipes-connectivity/paho-mqtt/paho-mqtt_3.1.bb
+    user@host:~$ mv paho-mqtt_3.1.bb file/to/paho-mqtt_3.1.bb
+```
+
+```sh
+user@host:~$ bitbake edison-image
     user@host:~$ ls tmp/deploy/images/edison
     bzImage
     bzImage--3.10.17+git0+6ad20f049a_c03195ed6e-r0-edison-20151220135703.bin
