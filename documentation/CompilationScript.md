@@ -20,7 +20,7 @@
     user@host:~$ mv paho-mqtt_3.1.bb file/to/paho-mqtt_3.1.bb
 ```
 
-```
+```sh
     user@host:~$ bitbake edison-image
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh .
     user@host:~$ build/toFlash/flashall.sh
