@@ -2,7 +2,8 @@
 
 With this step by step challenge you will maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
-01. Build Systems, Yocto Board Support Package, Compilation, Make
+00. Build Systems, Yocto Board Support Package, Compilation, Make
+01. Build Systems, Yocto Board Support Package, Compilation, Make, Kernel Version
 02. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 03. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, Load Automatically At Boot Time
 04. Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module, InternetOfThings101/main.py
@@ -15,6 +16,14 @@ With this step by step challenge you will maximize the capacity of your Developm
 11. Application Development, Artificial Intelligence, Wit.Ai
 12. Software Version Control System Pushing Code
 
+# 00 Build Systems, Yocto Board Support Package, Compilation, Make
+
+Section [Build Systems Yocto Board Support Package Compilation](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Compilation.html)
+
+__Instruction__ 
+
+> Under your Linux Host Development, install the required dependencies, download and decompress the Intel Edison Linux Sources and compile your own Intel Edison Board Support Package
+
 # 01 Build Systems, Yocto Board Support Package, Compilation, Make
 
 Section [Build Systems Yocto Board Support Package Compilation](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Compilation.html)
@@ -22,6 +31,11 @@ Section [Build Systems Yocto Board Support Package Compilation](https://theiotle
 __Instruction__ 
 
 > Under your Linux Host Development, install the required dependencies, download and decompress the Intel Edison Linux Sources and compile your own Intel Edison Board Support Package
+
+- [01 Org Intel Edison Linux Kernel](https://github.com/01org/edison-linux)
+  - edison-3.19.5
+  - edison-3.10.98
+  - edison-3.10.17
 
 # 02 Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 
