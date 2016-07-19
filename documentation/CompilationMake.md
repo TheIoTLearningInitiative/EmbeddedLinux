@@ -88,7 +88,9 @@
 
 ## Paho-Mqtt
 
-
+```sh
+    user@host:~$ make image
+```
 
 ## Make Image
 
