@@ -36,8 +36,8 @@ __Instruction__
   - edison-3.19.5
   - edison-3.10.98
   - edison-3.10.17
-- [](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb)
-- [](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/log/meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb)
+- [meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb log](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb)
+- [meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/log/meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb)
 
 # 02 Build Systems, Yocto Board Support Package, Modules, Simulated Sensor Kernel Module
 
