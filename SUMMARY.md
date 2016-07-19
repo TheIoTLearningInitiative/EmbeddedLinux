@@ -14,6 +14,7 @@
            * [Make](documentation/CompilationMake.md)
            * [Bitbake](documentation/CompilationBitbake.md)
            * [Script](documentation/CompilationScript.md)
+           * Laboratory
        * [Building Blocks](documentation/BuildingBlocks.md)
        * [SDK](documentation/Sdk.md)
        * [Extra Packages](documentation/ExtraPackages.md)
