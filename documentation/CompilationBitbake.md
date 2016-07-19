@@ -21,7 +21,7 @@
 ```
 
 ```sh
-user@host:~$ bitbake edison-image
+    user@host:~$ bitbake edison-image
     user@host:~$ ls tmp/deploy/images/edison
     bzImage
     bzImage--3.10.17+git0+6ad20f049a_c03195ed6e-r0-edison-20151220135703.bin
