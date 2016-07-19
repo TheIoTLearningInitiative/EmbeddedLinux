@@ -24,7 +24,7 @@ __Instruction__
 
 > Under your Linux Host Development, install the required dependencies, download and decompress the Intel Edison Linux Sources and compile your own Intel Edison Board Support Package
 
-# 01 Build Systems, Yocto Board Support Package, Compilation, Make
+# 01 Build Systems, Yocto Board Support Package, Compilation, Make, Kernel Version
 
 Section [Build Systems Yocto Board Support Package Compilation](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/documentation/Compilation.html)
 
