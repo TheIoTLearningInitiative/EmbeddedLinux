@@ -13,10 +13,6 @@
     user@host:~$ source poky/oe-init-build-env
 ```
 
-```
-    
-```
-
 # Fix Paho-Mqtt
 
 ```sh
