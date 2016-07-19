@@ -10,10 +10,11 @@
     user@host:~$ mkdir bitbake_download_dir
     user@host:~$ mkdir bitbake_sstate_dir
     user@host:~$ ./meta-intel-edison/setup.sh --dl_dir=bitbake_download_dir --sstate_dir=bitbake_sstate_dir
+    user@host:~$ source poky/oe-init-build-env
 ```
 
 ```
-    user@host:~$ source poky/oe-init-build-env
+    
 ```
 
 # Fix Paho-Mqtt
