@@ -12,6 +12,10 @@
     user@host:~$ ./meta-intel-edison/setup.sh --dl_dir=bitbake_download_dir --sstate_dir=bitbake_sstate_dir
 ```
 
+```
+    user@host:~$ source poky/oe-init-build-env
+```
+
 # Fix Paho-Mqtt
 
 ```sh
@@ -20,8 +24,7 @@
 ```
 
 ```
-    user@host:~$ source poky/oe-init-build-env
-    user@host:~$ bitbake edison-image
+user@host:~$ bitbake edison-image
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh .
     user@host:~$ build/toFlash/flashall.sh
     user@host:~$ build/toFlash/flashall.sh --keep-data
