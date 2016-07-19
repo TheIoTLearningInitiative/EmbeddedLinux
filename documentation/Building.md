@@ -8,6 +8,8 @@
   - edison-3.19.5
   - edison-3.10.98
   - edison-3.10.17
+- [meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb log](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb)
+- [meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb log](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/log/meta-intel-edison-bsp/recipes-kernel/linux/linux-externalsrc.bb)
 
 # Building via Make Detailed
 
