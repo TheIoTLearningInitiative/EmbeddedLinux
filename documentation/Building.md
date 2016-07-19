@@ -9,7 +9,6 @@
   - edison-3.10.98
   - edison-3.10.17
 
-
 # Building via Make Detailed
 
 ```sh
