@@ -2,7 +2,7 @@
 
 > In computing, the kernel is a computer program that manages input/output requests from software, and translates them into data processing instructions for the central processing unit and other electronic components of a computer. The kernel is a fundamental part of a modern computer's operating system. [Wikipedia](https://en.wikipedia.org/wiki/Kernel_(operating_system)
 
-- [01 Org Intel Edison](https://github.com/01org/edison-linux)
+- [01 Org Intel Edison Linux Kernel](https://github.com/01org/edison-linux)
 
 ## Intel Edison Default Version from Booted Device
 
