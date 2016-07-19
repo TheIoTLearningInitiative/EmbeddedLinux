@@ -20,7 +20,6 @@
        * [Kernel](documentation/Kernel.md)
            * [Patch](documentation/Patch.md)
            * [Building](documentation/Building.md)
-           * [Laboratory](documentation/BuildSystemsYoctoKernelLaboratory.md)
            * [Headers](documentation/Headers.md)
        * [Modules](documentation/Modules.md)
            * [Cross Compilation](documentation/ModulesCrossCompilation.md)
