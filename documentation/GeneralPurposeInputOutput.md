@@ -186,4 +186,4 @@ Then checking again the GPIO status we can see, that direction has changed. Here
 
 # Lab
 
-[](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-distro/recipes-support/blink-led)
+> Blinks the Edison LED [](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-distro/recipes-support/blink-led)
