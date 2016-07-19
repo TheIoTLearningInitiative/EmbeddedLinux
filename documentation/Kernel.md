@@ -4,8 +4,9 @@
 
 - [01 Org Intel Edison Linux Kernel](https://github.com/01org/edison-linux)
   - edison-3.19.5
+  - edison-3.10.98
   - edison-3.10.17
-  - 
+
 ## Intel Edison Default Version from Booted Device
 
 ```sh
