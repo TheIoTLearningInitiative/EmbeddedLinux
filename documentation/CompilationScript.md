@@ -24,7 +24,7 @@
 ```
 
 ```
-user@host:~$ bitbake edison-image
+    user@host:~$ bitbake edison-image
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh .
     user@host:~$ build/toFlash/flashall.sh
     user@host:~$ build/toFlash/flashall.sh --keep-data
