@@ -4,7 +4,9 @@
 
 ```sh
     user@host:~$ make setup
+```
 
+```c
     Setup buildenv for SDK host linux64
     ./meta-intel-edison/setup.sh  --dl_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/downloads --sstate_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/sstate-cache --build_dir=/home/abraham/Projects/RealTime/v25/edison-src/out/linux64 --build_name=custom_build_aarcemor@20151220153244 --sdk_host=linux64
     We are building in external mode
@@ -88,7 +90,9 @@
 
 ```sh
     user@host:~$ make image
+```
 
+```c
     /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/Projects/RealTime/v25/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
     ### Shell environment set up for builds. ###
