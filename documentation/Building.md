@@ -4,6 +4,12 @@
 - [Creating a Custom Linux Kernel for the Edison](http://shawnhymel.com/585/creating-a-custom-linux-kernel-for-the-edison/)
 - [How to compile Intel Edison Linux Kernel](http://www.iduino.cc/index.php/2015/10/20/how-to-compile-intel-edison-linux-kernel/)
 
+- [01 Org Intel Edison Linux Kernel](https://github.com/01org/edison-linux)
+  - edison-3.19.5
+  - edison-3.10.98
+  - edison-3.10.17
+
+
 # Building via Make Detailed
 
 ```sh
