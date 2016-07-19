@@ -90,7 +90,7 @@
 
 ```sh
     user@host:~$ wget http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware/plain/recipes-connectivity/paho-mqtt/paho-mqtt_3.1.bb
-    user@host:~$ mv     
+    user@host:~$ mv paho-mqtt_3.1.bb file/to/    
 ```
 
 ## Make Image
