@@ -87,4 +87,3 @@ Thanks for the fix [Angel Pérez @ Github ikcaro](https://github.com/ikcaro)
     Now waiting for dfu device 8087:0a99
     Please plug and reboot the board
 ```
-
