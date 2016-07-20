@@ -153,7 +153,7 @@ To boot using the external device, you need to modify the U-Boot environment var
 In the Edison Linux console set the U-Boot environment variables like the below:
 
 ```sh
-# the below is a single line
+# the below is a single line, make sure you write down the bootargs somewhere else to later being able to boot from our flash device
 
 root@edison:~# fw_printenv |grep mmc-bootargs=
 mmc-bootargs=setenv bootargs root=PARTUUID=${uuid_rootfs} rootfstype=ext4 ${bootargs_console} ${bootargs_debug} systemd.unit=${bootargs_target}.target hardware_id=${hardware_id} g_multi.iSerialNumber=${serial#} g_multi.dev_addr=${usb0addr}
