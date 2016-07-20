@@ -47,7 +47,7 @@
 Thanks for the fix [Angel Pérez @ Github ikcaro](https://github.com/ikcaro)
 
 ```sh
-    user@host:~$ wget http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware/plain/recipes-connectivity/paho-mqtt/paho-mqtt_3.1.bb
+    user@host:~$ wget https://raw.githubusercontent.com/ikcaro/TheIoTLearningInitiative/master/EmbeddedLinux/paho-mqtt_3.1.bb
     user@host:~$ mv paho-mqtt_3.1.bb file/to/paho-mqtt_3.1.bb
 ```
 
