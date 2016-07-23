@@ -1,6 +1,7 @@
 # SandBox
 
 - http://www.kdnuggets.com/2015/05/r-vs-python-data-science.html
+- https://community.arm.com/groups/processors/blog/2016/06/27/isc16-recap-fujitsu-takes-the-stage?utm_source=SocialMedia&utm_medium=Organic&utm_campaign=Enterpise
 
 ## ToDo
 
