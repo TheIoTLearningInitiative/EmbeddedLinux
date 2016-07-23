@@ -1,11 +1,10 @@
 # Bots
 
-> A new era of messaging. Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. [Homepage](https://telegram.org/)
-
-
-- [](https://adespresso.com/academy/blog/5-inspiring-chatbots-facebook-messenger/)
+- [The 5 Most Inspiring Chatbots On Facebook Messenger](https://adespresso.com/academy/blog/5-inspiring-chatbots-facebook-messenger/)
 
 # Telegram Bot
+
+> A new era of messaging. Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. [Homepage](https://telegram.org/)
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
