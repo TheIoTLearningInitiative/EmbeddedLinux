@@ -165,6 +165,10 @@ xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
 root@edison:~# pip install apiai
 ```
 
+## Moni.Ai
+
+[Homepage](https://moni.ai/)
+
 ## HeyAthena
 
 [HeyAthena](https://pypi.python.org/pypi/HeyAthena)
