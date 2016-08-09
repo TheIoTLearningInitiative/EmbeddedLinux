@@ -121,6 +121,7 @@
    * [Location](documentation/Location.md)
    * [Facial Recognition](documentation/FacialRecognition.md)
    * [Software Defined Radio](documentation/SoftwareDefinedRadio.md)
+   * REST
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
    * [Challenge](documentation/Challenge.md)
