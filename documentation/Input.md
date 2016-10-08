@@ -9,5 +9,5 @@
 
 ```
 # wget https://raw.githubusercontent.com/TheIoTLearningInitiative/EmbeddedLinux/master/tools/evtest.c
-# make
+# gcc evtest.c -o evtest
 ```
