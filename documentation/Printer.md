@@ -1,2 +1,3 @@
 # Printer
 
+- USB Printer
