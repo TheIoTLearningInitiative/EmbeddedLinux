@@ -98,7 +98,7 @@
    * [Graphics](documentation/Graphics.md)
    * [LED](documentation/Led.md)
    * [LIDAR](documentation/Lidar.md)
-   * Printer
+   * [Printer](documentation/Printer.md)
 * [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
