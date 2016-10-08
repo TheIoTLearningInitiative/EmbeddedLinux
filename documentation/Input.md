@@ -7,3 +7,6 @@
 > Daemon listening to Edison PWR long button press, and starting OOBE service when it happens [Power Button Handler](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-bsp/recipes-support/pwr-button-handler)
 
 
+```
+# wget https://raw.githubusercontent.com/TheIoTLearningInitiative/EmbeddedLinux/master/tools/evtest.c
+```
