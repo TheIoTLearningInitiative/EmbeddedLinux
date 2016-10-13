@@ -123,6 +123,7 @@
    * [Facial Recognition](documentation/FacialRecognition.md)
    * [Software Defined Radio](documentation/SoftwareDefinedRadio.md)
    * REST
+   * Notes
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
    * [Challenge](documentation/Challenge.md)
