@@ -24,7 +24,6 @@ config HID
 
 	  For docs and specs, see http://www.usb.org/developers/hidpage/
 
-	  If unsure, say Y.
 ```
 
 
