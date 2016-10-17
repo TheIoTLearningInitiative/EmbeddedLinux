@@ -1,5 +1,7 @@
 # Input
 
+> This is a collection of drivers that is designed to support all input devices under Linux. While it is currently used only on for USB input devices, future use (say 2.5/2.6) is expected to expand to replace most of the existing input system, which is why it lives in drivers/input/ instead of drivers/usb/. The centre of the input drivers is the input module, which must be loaded before any other of the input modules - it serves as a way of communication between two groups of modules [Linux Kernel Drivers Input Documentation](https://www.kernel.org/doc/Documentation/input/input.txt)
+
 - [Bluetooth Controller Input](http://2ld.de/edidoom/)
 
 ```sh
