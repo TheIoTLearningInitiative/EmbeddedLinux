@@ -1,6 +1,8 @@
 # Python USB
 
 ```sh
+>>> import usb.core
+>>> dev = usb.core.find()
 >>> print dev
 DEVICE ID 1d6b:0003 on Bus 002 Address 001 =================
  bLength                :   0x12 (18 bytes)
