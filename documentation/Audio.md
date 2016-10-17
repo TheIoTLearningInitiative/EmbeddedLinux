@@ -44,21 +44,13 @@ root@edison:~# dmesg
 [ 3751.056818] hid-generic 0003:0D8C:013C.0005: input,hidraw0: USB HID v1.00 Device [USB PnP Sound Device] on usb-dwc3-host.2-1/input3
 ```
 
+### USB Devices
+
 ```sh
 root@edison:~# lsusb
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 001 Device 002: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-```
-
-### USB Devices
-
-```sh
-    root@edison:~# lsusb 
-    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
-    Bus 001 Device 002: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
-    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-    root@edison:~# 
 ```
 
 ## Userspace Interfaces
