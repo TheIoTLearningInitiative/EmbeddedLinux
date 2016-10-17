@@ -26,13 +26,13 @@
            * [Native](documentation/ModulesNative.md)
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
+   * Distributions
    * [Ubilinux](documentation/Ubilinux.md)
    * [CentOS](documentation/CentOs.md)
    * [Kali](documentation/Kali.md)
    * [Google Brillo](documentation/GoogleBrillo.md)
    * [Ostro](documentation/Ostro.md)
    * [Jubilinux](documentation/Jubilinux.md)
-   * Distributions
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
