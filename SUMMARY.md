@@ -86,7 +86,7 @@
    * [Serial](documentation/Serial.md)
    * [Bluetooth](documentation/Bluetooth.md)
        * [Hackathon](documentation/HackathonBluetooth.md)
-       * Advanced Audio Distribution Profile
+       * [Advanced Audio Distribution Profile](documentation/BluetoothAdvancedAudioDistributionProfile.md)
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
