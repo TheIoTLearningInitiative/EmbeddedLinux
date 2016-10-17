@@ -30,9 +30,9 @@
        * [CentOS](documentation/CentOs.md)
        * [Google Brillo](documentation/GoogleBrillo.md)
        * [Kali](documentation/Kali.md)
+       * [Ostro](documentation/Ostro.md)
        * [Ubilinux](documentation/Ubilinux.md)
        * Tbd
-   * [Ostro](documentation/Ostro.md)
    * [Jubilinux](documentation/Jubilinux.md)
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
