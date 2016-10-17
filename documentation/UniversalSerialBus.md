@@ -81,6 +81,15 @@
     root@edison:~# opkg install libusb-1.0-dev
 ```
 
+#### Apt-Get
+
+```sh
+    root@edison:~# apt-get install libusb-1.0-dev libudev-dev
+    root@edison:~# apt-get install libtool
+```
+
+#### Pip
+
 ```sh
 root@edison:~# pip install pyusb
 Downloading/unpacking pyusb
@@ -93,13 +102,6 @@ Installing collected packages: pyusb
 Successfully installed pyusb
 Cleaning up...
 root@edison:~# 
-```
-
-#### Apt-Get
-
-```sh
-    root@edison:~# apt-get install libusb-1.0-dev libudev-dev
-    root@edison:~# apt-get install libtool
 ```
 
 ### Programs
