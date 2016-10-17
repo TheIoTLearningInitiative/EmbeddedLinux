@@ -28,9 +28,9 @@
        * [Flashing](documentation/FlashingYocto.md)
    * Distributions
        * [CentOS](documentation/CentOs.md)
+       * [Kali](documentation/Kali.md)
        * [Ubilinux](documentation/Ubilinux.md)
        * Tbd
-   * [Kali](documentation/Kali.md)
    * [Google Brillo](documentation/GoogleBrillo.md)
    * [Ostro](documentation/Ostro.md)
    * [Jubilinux](documentation/Jubilinux.md)
