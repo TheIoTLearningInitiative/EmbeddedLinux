@@ -47,3 +47,7 @@ root@edison:~# cat /sys/class/input/event3/device/name
 root@edison:~# cat /sys/class/input/event4/device/name 
   Mini Keyboard
 ```
+
+```sh
+root@edison:~# ./evtest /dev/input/event2
+```
