@@ -95,5 +95,6 @@ Downloaded: 1 files, 15K in 0.1s (124 KB/s)
 ```
 
 ```sh
-
+root@edison:~# gcc -o evtest evtest.c 
 ```
+
