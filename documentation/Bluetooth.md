@@ -606,6 +606,10 @@ root@edison:~# root@edison:~# pactl set-default-sink bluez_sink.58_51_00_00_41_4
 ```
 
 ```sh
+
+```
+
+```sh
 lsesinkison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! wavparse ! pu 
 Setting pipeline to PAUSED ...
 Pipeline is PREROLLING ...
