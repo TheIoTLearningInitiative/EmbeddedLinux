@@ -75,23 +75,23 @@ root@edison:~#
 #### Opkg
 
 ```sh
-    root@edison:~# opkg install alsa-utils mpg123 espeak
-    ...
-    Configuring libsamplerate0.
-    Configuring libjack.
-    Configuring alsa-utils-alsaloop.
-    Configuring alsa-utils-alsaucm.
-    Configuring alsa-utils-midi.
-    Configuring alsa-utils-iecset.
-    Configuring alsa-utils-aconnect.
-    Configuring libportaudio2.
-    Configuring espeak.
-    Configuring alsa-utils-speakertest.
-    Configuring alsa-utils-aseqnet.
-    Configuring alsa-utils-aseqdump.
-    Configuring alsa-utils.
-    Configuring mpg123.
-    ...
+root@edison:~# opkg install alsa-utils mpg123 espeak
+...
+Configuring libsamplerate0.
+Configuring libjack.
+Configuring alsa-utils-alsaloop.
+Configuring alsa-utils-alsaucm.
+Configuring alsa-utils-midi.
+Configuring alsa-utils-iecset.
+Configuring alsa-utils-aconnect.
+Configuring libportaudio2.
+Configuring espeak.
+Configuring alsa-utils-speakertest.
+Configuring alsa-utils-aseqnet.
+Configuring alsa-utils-aseqdump.
+Configuring alsa-utils.
+Configuring mpg123.
+...
 ```
 
 root@edison:~# opkg install --nodeps jack-dev 
