@@ -98,3 +98,6 @@ Downloaded: 1 files, 15K in 0.1s (124 KB/s)
 root@edison:~# gcc -o evtest evtest.c 
 ```
 
+```sh
+root@edison:~# ./evtest /dev/input/event2
+```
