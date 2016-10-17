@@ -87,6 +87,7 @@
    * [Bluetooth](documentation/Bluetooth.md)
        * [Hackathon](documentation/HackathonBluetooth.md)
        * [Advanced Audio Distribution Profile](documentation/BluetoothAdvancedAudioDistributionProfile.md)
+       * Human Interface Device
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
