@@ -231,21 +231,6 @@ root@edison:~# vi ~/.asoundrc
 
 ```sh
 pcm.!default {
-    type plug
-       slave {
-           pcm "hw:2,0"
-       }
-}
-ctl.!default {
-    type plug
-        slave {
-           pcm "hw:2,0"
-       }
-}
-```
-
-```sh
-pcm.!default {
         type asym
         playback.pcm {
                 type plug
@@ -274,6 +259,21 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 ```
 
 ## Other Configuration
+
+```sh
+pcm.!default {
+    type plug
+       slave {
+           pcm "hw:2,0"
+       }
+}
+ctl.!default {
+    type plug
+        slave {
+           pcm "hw:2,0"
+       }
+}
+```
 
 ```sh
 pcm.!default {
