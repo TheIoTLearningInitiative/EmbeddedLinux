@@ -6,18 +6,18 @@
 - [Edidoom Intel Edison Audio](https://github.com/llatta/edison-audio)
 - [Play Audio from your Intel® Edison via Bluetooth* using Advanced Audio Distribution Profile (A2DP)](https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile)
 
-### Required Hardware
+# Required Hardware
 
 USB Audio Dongle USB PnP Sound Device
 
-## Kernel Integration
+# Kernel Integration
 
 > Advanced Linux Sound Architecture
 > > The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
 
 - [Advanced Linux Sound Architecture Homepage](http://www.alsa-project.org/main/index.php/Main_Page)
 
-### Kernel Display Message
+## Kernel Display Message
 
 ```sh
 root@edison:~# dmesg
@@ -44,7 +44,7 @@ root@edison:~# dmesg
 [ 3751.056818] hid-generic 0003:0D8C:013C.0005: input,hidraw0: USB HID v1.00 Device [USB PnP Sound Device] on usb-dwc3-host.2-1/input3
 ```
 
-### USB Devices
+## USB Devices
 
 ```sh
 root@edison:~# lsusb
@@ -53,9 +53,9 @@ Bus 001 Device 002: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controlle
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ```
 
-## Userspace Interfaces
+# Userspace Interfaces
 
-### ProcFs
+## ProcFs
 
 ```sh
 root@edison:~# cat /proc/asound/cards
@@ -68,11 +68,11 @@ root@edison:~# cat /proc/asound/cards
 root@edison:~# 
 ```
 
-## Applications / Libraries
+# Applications / Libraries
 
-### Setup
+## Setup
 
-#### Opkg
+### Opkg
 
 ```sh
 root@edison:~# opkg install alsa-utils mpg123 espeak
@@ -109,7 +109,7 @@ Configuring libportaudio-dev.
 root@edison:~# 
 ```
 
-#### Apt-Get
+### Apt-Get
 
 ```sh
     root@edison:~# apt-get install alsa-utils mpg123 espeak
