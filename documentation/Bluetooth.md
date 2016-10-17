@@ -602,7 +602,7 @@ Sink #2
 ```sh
 root@edison:~# pactl set-default-sink
 You have to specify a sink name
-root@edison:~# pactl set-default-sink 2
+root@edison:~# root@edison:~# pactl set-default-sink bluez_sink.58_51_00_00_41_4D
 ```
 
 ```sh
