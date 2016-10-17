@@ -600,7 +600,13 @@ Sink #2
 ```
 
 ```sh
-root@edison:~# pactl set-default-sink bluez_sink.40_78_6A_26_4A_C1
+root@edison:~# pactl set-default-sink
+You have to specify a sink name
+root@edison:~# pactl set-default-sink 2
+```
+
+```sh
+bluez_sink.40_78_6A_26_4A_C1
 root@edison:~# gst-launch-1.0 filesrc location=sample.wav ! waveparse ! pulsesink
 root@edison:~# paired-devices
 root@edison:~# remove 40:78:6A:26:4A:C1
