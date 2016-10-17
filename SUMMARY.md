@@ -29,11 +29,11 @@
    * Distributions
        * [CentOS](documentation/CentOs.md)
        * [Google Brillo](documentation/GoogleBrillo.md)
+       * [Jubilinux](documentation/Jubilinux.md)
        * [Kali](documentation/Kali.md)
        * [Ostro](documentation/Ostro.md)
        * [Ubilinux](documentation/Ubilinux.md)
        * Tbd
-   * [Jubilinux](documentation/Jubilinux.md)
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
