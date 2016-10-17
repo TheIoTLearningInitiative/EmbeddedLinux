@@ -40,3 +40,10 @@ er 2
 [ 2624.768798] hid-generic 0003:1997:2433.0004: input,hidraw2: USB HID v1.01 Mouse [  Mini Keyboard] on usb-dwc3-host.2-1/input1
 root@edison:~# 
 ```
+
+```sh
+root@edison:~# cat /sys/class/input/event3/device/name 
+  Mini Keyboard
+root@edison:~# cat /sys/class/input/event4/device/name 
+  Mini Keyboard
+```
