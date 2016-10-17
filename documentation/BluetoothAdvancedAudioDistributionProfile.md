@@ -180,6 +180,17 @@ root@edison:~# bluetoothctl
 ```
 
 ```sh
-root@edison:~# paired-devices
-root@edison:~# remove 40:78:6A:26:4A:C1
+[bluetooth]# paired-devices
+Device 58:51:00:00:41:4D BT MINI
+```
+
+```sh
+[bluetooth]# remove 58:51:00:00:41:4D
+[bluetooth]# paired-devices
+Device 58:51:00:00:41:4D BT MINI
+Device has been removed
+[CHG] Device 58:51:00:00:41:4D Connected: no
+[DEL] Device 58:51:00:00:41:4D BT MINI
+[bluetooth]# paired-devices
+[bluetooth]# 
 ```
