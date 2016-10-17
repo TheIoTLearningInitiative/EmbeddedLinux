@@ -102,7 +102,6 @@
    * [LED](documentation/Led.md)
    * [LIDAR](documentation/Lidar.md)
    * [Printer](documentation/Printer.md)
-* [Debug](documentation/Debug.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
    * [Cross Compile](documentation/CrossCompile.md)
@@ -127,6 +126,7 @@
    * [Software Defined Radio](documentation/SoftwareDefinedRadio.md)
    * REST
    * [Notes](documentation/Notes.md)
+* [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
    * [Challenge](documentation/Challenge.md)
