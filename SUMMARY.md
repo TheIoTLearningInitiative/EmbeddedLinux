@@ -27,8 +27,8 @@
        * [Filesystem](documentation/FilesystemCustomization.md)
        * [Flashing](documentation/FlashingYocto.md)
    * Distributions
+       * [Ubilinux](documentation/Ubilinux.md)
        * Tbd
-   * [Ubilinux](documentation/Ubilinux.md)
    * [CentOS](documentation/CentOs.md)
    * [Kali](documentation/Kali.md)
    * [Google Brillo](documentation/GoogleBrillo.md)
