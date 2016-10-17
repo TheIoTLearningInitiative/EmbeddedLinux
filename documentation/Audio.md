@@ -94,6 +94,7 @@ Configuring mpg123.
 ...
 ```
 
+```sh
 root@edison:~# opkg install --nodeps jack-dev 
 Installing jack-dev (0.121.0-r0) on root.
 Downloading http://repo.opkg.net/edison/repo/core2-32/jack-dev_0.121.0-r0_core2-32.ipk.
@@ -103,7 +104,7 @@ Installing libportaudio-dev (v19+svnr1387-r0) on root.
 Downloading http://repo.opkg.net/edison/repo/core2-32/libportaudio-dev_v19+svnr1387-r0_core2-32.ipk.
 Configuring libportaudio-dev.
 root@edison:~# 
-
+```
 
 #### Apt-Get
 
