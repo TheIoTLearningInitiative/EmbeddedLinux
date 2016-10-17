@@ -59,6 +59,7 @@ Device 20:16:04:13:03:CE VR-PARK
 ```
 
 ```sh
+root@edison:~# 
 [ 1404.240260] pmic_ccsm pmic_ccsm: USB VBUS Removed. Notifying OTG driver
 [ 1685.170050] hid-generic 0005:05AC:3232.0001: unknown main item tag 0x0
 [ 1685.171030] input: VR-PARK as /devices/pci0000:00/0000:00:04.1/tty/ttyMFD0/h
