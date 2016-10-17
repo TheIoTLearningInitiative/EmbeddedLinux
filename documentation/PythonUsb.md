@@ -1,6 +1,14 @@
 # Python USB
 
 ```sh
+root@edison:~# python
+Python 2.7.3 (default, Jun  6 2016, 13:14:10) 
+[GCC 4.9.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
+```python
 >>> import usb.core
 >>> dev = usb.core.find()
 >>> print dev
