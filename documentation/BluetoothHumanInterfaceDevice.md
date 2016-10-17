@@ -41,7 +41,6 @@ config HID_GENERIC
 	will be called hid-generic.
 ```
 
-
 ```sh
 root@edison:~# bluetoothctl
 [NEW] Controller 98:4F:EE:04:21:2A edison [default]
