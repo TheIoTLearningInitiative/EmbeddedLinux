@@ -526,6 +526,20 @@ Sink #0
                 alsa.resolution_bits = "16"
                 device.api = "alsa"
                 device.class = "sound"
+                alsa.class = "generic"
+                alsa.subclass = "generic-mix"
+                alsa.name = ""
+                alsa.id = "1"
+                alsa.subdevice = "0"
+                alsa.subdevice_name = "subdevice #0"
+                alsa.device = "0"
+                alsa.card = "1"
+                alsa.card_name = "dummy-audio"
+                alsa.long_card_name = "dummy-audio"
+                device.bus_path = "platform-merr_dpcm_dummy.0"
+                sysfs.path = "/devices/platform/merr_dpcm_dummy.0/sound/card1"
+                device.string = "hw:1"
+
 ...
 ...
 Sink #1
@@ -547,9 +561,42 @@ Sink #1
                 device.api = "alsa"
                 device.class = "sound"
                 alsa.class = "generic"
+                alsa.subclass = "generic-mix"
+                alsa.name = "Loopback PCM"
+                alsa.id = "Loopback PCM"
+                alsa.subdevice = "0"
+                alsa.subdevice_name = "subdevice #0"
+                alsa.device = "0"
+                alsa.card = "0"
+                alsa.card_name = "Loopback"
+                alsa.long_card_name = "Loopback 1"
+                device.bus_path = "/devices/virtual/sound/card0"
 
 ...
 ...
+Sink #2
+        State: SUSPENDED
+        Name: bluez_sink.58_51_00_00_41_4D
+        Description: BT MINI
+        Driver: module-bluez5-device.c
+        Sample Specification: s16le 2ch 44100Hz
+        Channel Map: front-left,front-right
+        Owner Module: 13
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100%$
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: bluez_sink.58_51_00_00_41_4D.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY
+        Properties:
+                bluetooth.protocol = "a2dp_sink"
+                device.description = "BT MINI"
+                device.string = "58:51:00:00:41:4D"
+                device.api = "bluez"
+                device.class = "sound"
+                device.bus = "bluetooth"
+                device.form_factor = "headset"
 
 ```
 
