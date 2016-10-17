@@ -28,10 +28,10 @@
        * [Flashing](documentation/FlashingYocto.md)
    * Distributions
        * [CentOS](documentation/CentOs.md)
+       * [Google Brillo](documentation/GoogleBrillo.md)
        * [Kali](documentation/Kali.md)
        * [Ubilinux](documentation/Ubilinux.md)
        * Tbd
-   * [Google Brillo](documentation/GoogleBrillo.md)
    * [Ostro](documentation/Ostro.md)
    * [Jubilinux](documentation/Jubilinux.md)
 * Boot Loaders
