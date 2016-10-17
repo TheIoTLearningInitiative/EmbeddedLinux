@@ -315,26 +315,26 @@ root@edison:~#
 ## Speaker-Test
 
 ```sh
-    root@edison:~# speaker-test 
-    speaker-test 1.0.28
-    Playback device is default
-    Stream parameters are 48000Hz, S16_LE, 1 channels
-    Using 16 octaves of pink noise
-    ...
-    ...
-    ^C
-    root@edison:~# 
+root@edison:~# speaker-test 
+speaker-test 1.0.28
+Playback device is default
+Stream parameters are 48000Hz, S16_LE, 1 channels
+Using 16 octaves of pink noise
+...
+...
+^C
+root@edison:~# 
 ```
 
 # Mpg123
 
 ```sh
-    root@edison:~# mpg123 
+root@edison:~# mpg123 
 ```
 
 # Espeak
 
 ```sh
-    root@edison:~# espeak
+root@edison:~# espeak
 ```
 
