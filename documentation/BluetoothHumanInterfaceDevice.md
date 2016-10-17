@@ -1,5 +1,7 @@
 # Human Interface Device Generic Game Controller
 
+https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/hid/Kconfig
+
 ```sh
 #
 # HID driver configuration
