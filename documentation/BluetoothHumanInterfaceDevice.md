@@ -61,26 +61,16 @@ Device 20:16:04:13:03:CE VR-PARK
 ```sh
 root@edison:~# cat /sys/class/bluetooth/hci0/name
 edison
-root@edison:~# cat /sys/class/bluetooth/hci0      
-hci0/    hci0:11/ 
 root@edison:~# ls /sys/class/bluetooth/hci0     
 hci0/    hci0:11/ 
 root@edison:~# ls /sys/class/bluetooth/hci0:11/
 0005:05AC:3232.0002  device    input4  subsystem  uevent
 address              features  power   type
-root@edison:~# ls /sys/class/bluetooth/hci0:11/name
-ls: cannot access /sys/class/bluetooth/hci0:11/name: No such file or directory
-root@edison:~# cat /sys/class/bluetooth/hci0:11/device
-cat: /sys/class/bluetooth/hci0:11/device: Is a directory
 root@edison:~# cat /sys/class/bluetooth/hci0:11/type  
 ACL
-root@edison:~# cat /sys/class/bluetooth/hci0:11/input4/
-cat: /sys/class/bluetooth/hci0:11/input4/: Is a directory
 root@edison:~# ls /sys/class/bluetooth/hci0:11/input4/ 
 capabilities  event2  modalias  phys   properties  uevent
 device        id      name      power  subsystem   uniq
-root@edison:~# ls /sys/class/bluetooth/hci0:11/input4/name
-/sys/class/bluetooth/hci0:11/input4/name
 root@edison:~# cat /sys/class/bluetooth/hci0:11/input4/name
 VR-PARK
 root@edison:~# 
