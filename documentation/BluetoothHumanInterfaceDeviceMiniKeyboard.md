@@ -1,6 +1,24 @@
 # Human Interface Device Mini Keyboard
 
 ```sh
+[ 2619.263744] pmic_ccsm pmic_ccsm: USB ID Detected. Notifying OTG driver
+[ 2619.816228] dwc3-host dwc3-host.2: xHCI Host Controller
+[ 2619.817019] dwc3-host dwc3-host.2: new USB bus registered, assigned bus numb
+er 1
+[ 2619.817279] dwc3-host dwc3-host.2: irq 34, io mem 0xf9100000
+[ 2619.817420] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[ 2619.817444] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber
+=1
+[ 2619.817465] usb usb1: Product: xHCI Host Controller
+[ 2619.817484] usb usb1: Manufacturer: Linux 3.10.98-poky-edison+ dwc-xhci
+[ 2619.817503] usb usb1: SerialNumber: dwc3-host.2
+[ 2619.818295] xHCI xhci_add_endpoint called for root hub
+[ 2619.818316] xHCI xhci_check_bandwidth called for root hub
+[ 2619.818590] hub 1-0:1.0: USB hub found
+[ 2619.818634] hub 1-0:1.0: 1 port detected
+[ 2619.819221] dwc3-host dwc3-host.2: xHCI Host Controller
+[ 2619.819658] dwc3-host dwc3-host.2: new USB bus registered, assigned bus numb
+er 2
 [ 2619.819818] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
 [ 2619.819843] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
 [ 2619.819863] usb usb2: Product: xHCI Host Controller
