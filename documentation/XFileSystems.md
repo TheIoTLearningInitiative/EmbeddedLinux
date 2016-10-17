@@ -4,6 +4,8 @@
 
 > In Linux, all files are accessed through the Virtual Filesystem Switch, or VFS. This is a layer of code which implements generic filesystem actions and vectors requests to the correct specific code to handle the request. Two main types of code modules take advantage of the VFS services, device drivers and filesystems. [A tour of the Linux VFS](http://www.tldp.org/LDP/khg/HyperNews/get/fs/vfstour.html)
 
+> In order to support multiple filesystems, Linux contains a special kernel interface level called VFS (Virtual Filesystem Switch). This is similar to the vnode/vfs interface found in SVR4 derivatives (originally it came from BSD and Sun original implementations). []()
+
 # Procfs
 
 > The proc filesystem (procfs) is a special filesystem in Unix-like operating systems that presents information about processes and other system information in a hierarchical file-like structure, providing a more convenient and standardized method for dynamically accessing process data held in the kernel than traditional tracing methods or direct access to kernel memory. Typically, it is mapped to a mount point named /proc at boot time. [Wikipedia](https://en.wikipedia.org/wiki/Procfs)
