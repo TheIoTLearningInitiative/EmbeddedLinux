@@ -77,7 +77,7 @@ loop3            ptmx                tty10      tty39  ttyGS0
 loop4            pts                 tty11      tty4   ttyMFD0           
 ```
 
-## Sysfs
+# Sysfs
 
 > sysfs is a virtual file system provided by the Linux kernel that exports information about various kernel subsystems, hardware devices, and associated device drivers, from the kernel's device model to user space, through virtual files. [Wikipedia](https://en.wikipedia.org/wiki/Sysfs)
 
