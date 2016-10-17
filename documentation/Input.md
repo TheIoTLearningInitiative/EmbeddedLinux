@@ -2,10 +2,6 @@
 
 - [Bluetooth Controller Input](http://2ld.de/edidoom/)
 
-# Lab
-
-> Daemon listening to Edison PWR long button press, and starting OOBE service when it happens [Power Button Handler](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-bsp/recipes-support/pwr-button-handler)
-
 ```sh
 root@edison:~#wget https://raw.githubusercontent.com/TheIoTLearningInitiative/EmbeddedLinux/master/tools/evtest.c
 --2016-10-17 02:33:48--  https://raw.githubusercontent.com/TheIoTLearningInitiative/EmbeddedLinux/master/tools/evtest.c
@@ -27,3 +23,7 @@ Downloaded: 1 files, 15K in 0.1s (124 KB/s)
 ```sh
 root@edison:~# gcc -o evtest evtest.c 
 ```
+
+# Lab
+
+> Daemon listening to Edison PWR long button press, and starting OOBE service when it happens [Power Button Handler](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/meta-intel-edison-bsp/recipes-support/pwr-button-handler)
