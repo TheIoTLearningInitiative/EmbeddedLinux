@@ -465,7 +465,15 @@ root@edison:~# scan off
 [CHG] Device F1:C1:83:A4:17:0C RSSI is nil
 [CHG] Controller 98:4F:EE:04:21:2A Discovering: no
 Discovery stopped
-root@edison:~# pair 40:78:6A:26:4A:C1
+[bluetooth]# pair 58:51:00:00:41:4D
+Attempting to pair with 58:51:00:00:41:4D
+[CHG] Device 58:51:00:00:41:4D Connected: yes
+[CHG] Device 58:51:00:00:41:4D UUIDs: 00001108-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000110b-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000111e-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D Paired: yes
+Pairing successful
 root@edison:~# connect 40:78:6A:26:4A:C1
 root@edison:~# quit
 root@edison:~# pactl list sinks
