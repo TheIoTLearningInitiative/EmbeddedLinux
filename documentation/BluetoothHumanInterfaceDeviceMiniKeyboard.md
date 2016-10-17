@@ -93,6 +93,7 @@ Event: time 1476672551.923169, -------------- Report Sync ------------
 ```
 
 ```sh
+root@edison:~# dmesg
 [ 3208.262322] usb 1-1: USB disconnect, device number 2
 [ 3208.292448] pmic_ccsm pmic_ccsm: USB ID Removed. Notifying OTG driver
 [ 3208.551732] dwc3-host dwc3-host.2: remove, state 4
