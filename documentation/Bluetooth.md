@@ -493,11 +493,67 @@ Pairing successful
 Attempting to connect to 58:51:00:00:41:4D
 [CHG] Device 58:51:00:00:41:4D Connected: yes
 Connection successful
+[CHG] Device 58:51:00:00:41:4D UUIDs: 00001108-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000110b-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000111e-0000-1000-8000-00805f9b34fb
+[CHG] Device 58:51:00:00:41:4D UUIDs: 0000111f-0000-1000-8000-00805f9b34fb
 ```
 
 ```sh
-root@edison:~# quit
+[BT MINI]# quit
+[DEL] Controller 98:4F:EE:04:21:2A edison [default]
+```
+
+```sh
 root@edison:~# pactl list sinks
+Sink #0
+        State: SUSPENDED
+        Name: alsa_output.platform-merr_dpcm_dummy.0.analog-stereo
+        Description: dummy-audio Analog Stereo
+        Driver: module-alsa-card.c
+        Sample Specification: s16le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 1
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100%$
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: alsa_output.platform-merr_dpcm_dummy.0.analog-stereo.mo$
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY
+        Properties:
+                alsa.resolution_bits = "16"
+                device.api = "alsa"
+                device.class = "sound"
+...
+...
+Sink #1
+        State: SUSPENDED
+        Name: alsa_output.0.analog-stereo
+        Description: Loopback Analog Stereo  
+        Driver: module-alsa-card.c
+        Sample Specification: s16le 2ch 44100Hz
+        Channel Map: front-left,front-right
+        Owner Module: 2
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100%$
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: alsa_output.0.analog-stereo.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE HW_VOLUME_CTRL DECIBEL_VOLUME LATENCY
+        Properties:
+                alsa.resolution_bits = "16"
+                device.api = "alsa"
+                device.class = "sound"
+                alsa.class = "generic"
+
+...
+...
+
+```
+
+```sh
 root@edison:~# pactl set-default-sink bluez_sink.40_78_6A_26_4A_C1
 root@edison:~# gst-launch-1.0 filesrc location=sample.wav ! waveparse ! pulsesink
 root@edison:~# paired-devices
