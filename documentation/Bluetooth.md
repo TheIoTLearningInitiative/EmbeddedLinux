@@ -454,17 +454,28 @@ Write data from Android device from BlueTerm application
 ```sh
 root@edison:~# rfkill unblock bluetooth
 root@edison:~# bluetoothctl
-root@edison:~# scan on
+```
+
+```sh
+[bluetooth]# scan on
+Discovery started
+[CHG] Controller 98:4F:EE:04:21:2A Discovering: yes
 [NEW] Device F1:C1:83:A4:17:0C Evolutel
 [NEW] Device 58:51:00:00:41:4D BT MINI
 [CHG] Device F1:C1:83:A4:17:0C RSSI: -83
 [CHG] Device F1:C1:83:A4:17:0C RSSI: -73
-root@edison:~# scan off
+```
+
+```sh
+[bluetooth]# scan off
 [CHG] Device 58:51:00:00:41:4D RSSI is nil
 [CHG] Device F1:C1:83:A4:17:0C TxPower is nil
 [CHG] Device F1:C1:83:A4:17:0C RSSI is nil
 [CHG] Controller 98:4F:EE:04:21:2A Discovering: no
 Discovery stopped
+```
+
+```sh
 [bluetooth]# pair 58:51:00:00:41:4D
 Attempting to pair with 58:51:00:00:41:4D
 [CHG] Device 58:51:00:00:41:4D Connected: yes
@@ -474,7 +485,14 @@ Attempting to pair with 58:51:00:00:41:4D
 [CHG] Device 58:51:00:00:41:4D UUIDs: 0000111e-0000-1000-8000-00805f9b34fb
 [CHG] Device 58:51:00:00:41:4D Paired: yes
 Pairing successful
+[CHG] Device 58:51:00:00:41:4D Connected: no
+```
+
+```sh
 root@edison:~# connect 40:78:6A:26:4A:C1
+```
+
+```sh
 root@edison:~# quit
 root@edison:~# pactl list sinks
 root@edison:~# pactl set-default-sink bluez_sink.40_78_6A_26_4A_C1
