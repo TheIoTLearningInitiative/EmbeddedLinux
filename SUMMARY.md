@@ -94,6 +94,7 @@
    * [Camera](documentation/Camera.md)
    * [Block](documentation/Block.md)
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
+       * Human Interface Device
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
    * [Peripheral Component Interconnect](documentation/PeripheralComponentInterconnect.md)
    * [Clock](documentation/Clock.md)
