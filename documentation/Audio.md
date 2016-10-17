@@ -125,7 +125,7 @@ root@edison:~#
 
 - [Mad](http://www.underbit.com/products/mad/)
 
-#### Audio Files
+### Audio Files
 
 ```sh
     root@edison:~# ls /usr/share/sounds/alsa/
@@ -134,7 +134,7 @@ root@edison:~#
     Front_Right.wav   Rear_Left.wav     Side_Right.wav
 ```
 
-#### List Capture Hardware Devices
+# List Capture Hardware Devices
 
 ```sh
 root@edison:~# arecord -l
@@ -174,7 +174,7 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
 root@edison:~# 
 ```
 
-#### List Playback Hardware Devices
+# List Playback Hardware Devices
 
 ```sh
 root@edison:~# aplay -l
@@ -213,7 +213,7 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
   Subdevice #0: subdevice #0
 ```
 
-#### Arecord / Aplay
+# Arecord / Aplay
 
 ```sh
 root@edison:~# arecord -f cd -D plughw:2,0 -d 20 test.wav # USB
@@ -223,7 +223,7 @@ root@edison:~# aplay -D hw:2,0 test.wav # USB
 Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 ```
 
-#### Device Configuration
+## Device Configuration
 
 ```sh
 root@edison:~# vi ~/.asoundrc
@@ -273,7 +273,7 @@ ctl.!default {
 }
 ```
 
-#### Play Wav Sample File
+## Play Wav Sample File
 
 ```sh
 root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav                                        Playing WAVE '/usr/share/sounds/alsa/Front_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Mo
@@ -282,7 +282,7 @@ Playing WAVE '/usr/share/sounds/alsa/Rear_Center.wav' : Signed 16 bit Little End
 root@edison:~# 
 ```
 
-#### Speaker-Test
+## Speaker-Test
 
 ```sh
     root@edison:~# speaker-test 
@@ -296,45 +296,15 @@ root@edison:~#
     root@edison:~# 
 ```
 
-#### Mpg123
+# Mpg123
 
 ```sh
     root@edison:~# mpg123 
 ```
 
-#### Espeak
+# Espeak
 
 ```sh
     root@edison:~# espeak
-```
-
-#### Other Configuration
-
-```sh
-pcm.!default {
-        type asym
-        playback.pcm {
-                type plug
-                slave.pcm "hw:2,0"
-        }
-        capture.pcm {
-                type plug
-                slave.pcm "hw:2,0"
-        } 
-}
-```
-
-```sh
-    root@edison:~# vi /etc/asound.conf
-    pcm.!default sysdefault:Device
-```
-
-```
-    root@edison:~# aplay -Ll
-    root@edison:~# vi ~/.asoundrc
-    root@edison:~# vi /etc/asound.conf
-    pcm.!default sysdefault:Device
-    root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
-    root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
 ```
 
