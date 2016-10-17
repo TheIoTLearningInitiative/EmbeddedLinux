@@ -100,4 +100,12 @@ root@edison:~# gcc -o evtest evtest.c
 
 ```sh
 root@edison:~# ./evtest /dev/input/event2
+...
+Testing ... (interrupt to exit)
+Event: time 1476671884.164894, type 4 (Misc), code 4 (ScanCode), value 90005
+Event: time 1476671884.164894, type 1 (Key), code 308 (BtnY), value 1
+Event: time 1476671884.164894, -------------- Report Sync ------------
+Event: time 1476671884.296148, type 4 (Misc), code 4 (ScanCode), value 90005
+Event: time 1476671884.296148, type 1 (Key), code 308 (BtnY), value 0
+Event: time 1476671884.296148, -------------- Report Sync ------------
 ```
