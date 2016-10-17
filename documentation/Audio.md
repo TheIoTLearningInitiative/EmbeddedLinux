@@ -273,6 +273,36 @@ ctl.!default {
 }
 ```
 
+## Other Configuration
+
+```sh
+pcm.!default {
+        type asym
+        playback.pcm {
+                type plug
+                slave.pcm "hw:2,0"
+        }
+        capture.pcm {
+                type plug
+                slave.pcm "hw:2,0"
+        } 
+}
+```
+
+```sh
+    root@edison:~# vi /etc/asound.conf
+    pcm.!default sysdefault:Device
+```
+
+```
+    root@edison:~# aplay -Ll
+    root@edison:~# vi ~/.asoundrc
+    root@edison:~# vi /etc/asound.conf
+    pcm.!default sysdefault:Device
+    root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
+    root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
+```
+
 ## Play Wav Sample File
 
 ```sh
