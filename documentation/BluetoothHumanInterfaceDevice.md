@@ -59,6 +59,23 @@ Device 20:16:04:13:03:CE VR-PARK
 ```
 
 ```sh
+[ 1404.240260] pmic_ccsm pmic_ccsm: USB VBUS Removed. Notifying OTG driver
+[ 1685.170050] hid-generic 0005:05AC:3232.0001: unknown main item tag 0x0
+[ 1685.171030] input: VR-PARK as /devices/pci0000:00/0000:00:04.1/tty/ttyMFD0/h
+ci0/hci0:12/input3
+[ 1685.179288] hid-generic 0005:05AC:3232.0001: input,hidraw0: BLUETOOTH HID v0
+.01 Mouse [VR-PARK] on 98:4f:ee:04:21:2a
+[ 1811.274092] hid-generic 0005:05AC:3232.0002: unknown main item tag 0x0
+[ 1811.275029] input: VR-PARK as /devices/pci0000:00/0000:00:04.1/tty/ttyMFD0/h
+ci0/hci0:11/input4
+[ 1811.288008] hid-generic 0005:05AC:3232.0002: input,hidraw0: BLUETOOTH HID v0
+.01 Mouse [VR-PARK] on 98:4f:ee:04:21:2a
+[ 2323.876693] perf samples too long (2540 > 2500), lowering kernel.perf_event_
+max_sample_rate to 50000
+```
+
+
+```sh
 root@edison:~# cat /sys/class/bluetooth/hci0/name
 edison
 root@edison:~# ls /sys/class/bluetooth/hci0     
