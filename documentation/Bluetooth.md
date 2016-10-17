@@ -539,7 +539,6 @@ Sink #0
                 device.bus_path = "platform-merr_dpcm_dummy.0"
                 sysfs.path = "/devices/platform/merr_dpcm_dummy.0/sound/card1"
                 device.string = "hw:1"
-
 ...
 ...
 Sink #1
