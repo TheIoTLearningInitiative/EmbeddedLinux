@@ -254,7 +254,6 @@ Playing WAVE 'test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 
 ## Other Configuration
 
-
 ```sh
 pcm.!default {
         type asym
