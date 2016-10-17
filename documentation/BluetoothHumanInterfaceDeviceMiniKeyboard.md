@@ -66,3 +66,29 @@ Event: time 1476672497.117568, type 1 (Key), code 48 (B), value 0
 Event: time 1476672497.117568, -------------- Report Sync ------------
 ...
 ```
+
+```sh
+root@edison:~# ./evtest /dev/input/event4
+...
+Testing ... (interrupt to exit)
+Event: time 1476672547.074346, type 4 (Misc), code 4 (ScanCode), value 90001
+Event: time 1476672547.074346, type 1 (Key), code 272 (LeftBtn), value 1
+Event: time 1476672547.074346, -------------- Report Sync ------------
+Event: time 1476672547.082311, type 4 (Misc), code 4 (ScanCode), value 90001
+Event: time 1476672547.082311, type 1 (Key), code 272 (LeftBtn), value 0
+Event: time 1476672547.082311, -------------- Report Sync ------------
+Event: time 1476672550.842835, type 4 (Misc), code 4 (ScanCode), value 90001
+Event: time 1476672550.842835, type 1 (Key), code 272 (LeftBtn), value 1
+Event: time 1476672550.842835, -------------- Report Sync ------------
+Event: time 1476672551.032624, type 4 (Misc), code 4 (ScanCode), value 90001
+Event: time 1476672551.032624, type 1 (Key), code 272 (LeftBtn), value 0
+Event: time 1476672551.032624, -------------- Report Sync ------------
+Event: time 1476672551.748106, type 4 (Misc), code 4 (ScanCode), value 90002
+Event: time 1476672551.748106, type 1 (Key), code 273 (RightBtn), value 1
+Event: time 1476672551.748106, -------------- Report Sync ------------
+Event: time 1476672551.923169, type 4 (Misc), code 4 (ScanCode), value 90002
+Event: time 1476672551.923169, type 1 (Key), code 273 (RightBtn), value 0
+Event: time 1476672551.923169, -------------- Report Sync ------------
+
+
+```
