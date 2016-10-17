@@ -606,7 +606,20 @@ root@edison:~# root@edison:~# pactl set-default-sink bluez_sink.58_51_00_00_41_4
 ```
 
 ```sh
-root@edison:~# gst-launch-1.0 filesrc location=sample.wav ! waveparse ! pulsesink
+lsesinkison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! wavparse ! pu 
+Setting pipeline to PAUSED ...
+Pipeline is PREROLLING ...
+Pipeline is PREROLLED ...
+Setting pipeline to PLAYING ...
+New clock: GstPulseSinkClock
+Got EOS from element "pipeline0".
+Execution ended after 0:00:04.593652623
+Setting pipeline to PAUSED ...
+Setting pipeline to READY ...
+root@edison:~# 
+```
+
+```sh
 root@edison:~# paired-devices
 root@edison:~# remove 40:78:6A:26:4A:C1
 ```
