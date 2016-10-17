@@ -91,3 +91,19 @@ Event: time 1476672551.923169, type 1 (Key), code 273 (RightBtn), value 0
 Event: time 1476672551.923169, -------------- Report Sync ------------
 ...
 ```
+
+```sh
+[ 3208.262322] usb 1-1: USB disconnect, device number 2
+[ 3208.292448] pmic_ccsm pmic_ccsm: USB ID Removed. Notifying OTG driver
+[ 3208.551732] dwc3-host dwc3-host.2: remove, state 4
+[ 3208.551797] usb usb2: USB disconnect, device number 1
+[ 3208.552429] xHCI xhci_drop_endpoint called for root hub
+[ 3208.552449] xHCI xhci_check_bandwidth called for root hub
+[ 3208.553238] dwc3-host dwc3-host.2: USB bus 2 deregistered
+[ 3208.553678] dwc3-host dwc3-host.2: remove, state 1
+[ 3208.553720] usb usb1: USB disconnect, device number 1
+[ 3208.563867] xHCI xhci_drop_endpoint called for root hub
+[ 3208.563893] xHCI xhci_check_bandwidth called for root hub
+[ 3208.565069] dwc3-host dwc3-host.2: USB bus 1 deregistered
+[ 3209.377983] pmic_ccsm pmic_ccsm: USB VBUS Removed. Notifying OTG driver
+```
