@@ -50,3 +50,8 @@ Attempting to connect to 20:16:04:13:03:CE
 Connection successful
 [VR-PARK]# [ 1811.274092] hid-generic 0005:05AC:3232.0002: unknown main item tag 0x0
 ```
+
+```sh
+[VR-PARK]# paired-devices
+Device 20:16:04:13:03:CE VR-PARK
+```
