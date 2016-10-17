@@ -32,13 +32,21 @@ Discovery stopped
 ```
 
 ```sh
-[bluetooth]# connect 20:16:04:13:03:CE
-Attempting to connect to 20:16:04:13:03:CE
+[bluetooth]# pair 20:16:04:13:03:CE
+Attempting to pair with 20:16:04:13:03:CE
 [CHG] Device 20:16:04:13:03:CE Connected: yes
 [CHG] Device 20:16:04:13:03:CE Modalias: usb:v05ACp3232d0001
 [CHG] Device 20:16:04:13:03:CE UUIDs: 00001124-0000-1000-8000-00805f9b34fb
 [CHG] Device 20:16:04:13:03:CE UUIDs: 00001200-0000-1000-8000-00805f9b34fb
 [CHG] Device 20:16:04:13:03:CE Paired: yes
-[VR-PARK]# p[ 1685.170050] hid-generic 0005:05AC:3232.0001: unknown main item tag 0x0
+Pairing successful
+[CHG] Device 20:16:04:13:03:CE Connected: no
+```
+
+```sh
+[bluetooth]# connect 20:16:04:13:03:CE
+Attempting to connect to 20:16:04:13:03:CE
+[CHG] Device 20:16:04:13:03:CE Connected: yes
 Connection successful
+[VR-PARK]# [ 1811.274092] hid-generic 0005:05AC:3232.0002: unknown main item tag 0x0
 ```
