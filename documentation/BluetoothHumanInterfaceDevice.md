@@ -1,6 +1,34 @@
 # Human Interface Device Generic Game Controller
 
 ```sh
+#
+# HID driver configuration
+#
+menu "HID support"
+     depends on INPUT
+
+config HID
+	tristate "HID bus support"
+	depends on INPUT
+	default y
+	---help---
+	  A human interface device (HID) is a type of computer device that
+	  interacts directly with and takes input from humans. The term "HID"
+	  most commonly used to refer to the USB-HID specification, but other
+	  devices (such as, but not strictly limited to, Bluetooth) are
+	  designed using HID specification (this involves certain keyboards,
+	  mice, tablets, etc). This option adds the HID bus to the kernel,
+	  together with generic HID layer code. The HID devices are added and
+	  removed from the HID bus by the transport-layer drivers, such as
+	  usbhid (USB_HID) and hidp (BT_HIDP).
+
+	  For docs and specs, see http://www.usb.org/developers/hidpage/
+
+	  If unsure, say Y.
+```
+
+
+```sh
 root@edison:~# bluetoothctl
 [NEW] Controller 98:4F:EE:04:21:2A edison [default]
 [NEW] Device 58:51:00:00:41:4D BT MINI
