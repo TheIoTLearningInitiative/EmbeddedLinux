@@ -455,6 +455,10 @@ Write data from Android device from BlueTerm application
 root@edison:~# rfkill unblock bluetooth
 root@edison:~# bluetoothctl
 root@edison:~# scan on
+[NEW] Device F1:C1:83:A4:17:0C Evolutel
+[NEW] Device 58:51:00:00:41:4D BT MINI
+[CHG] Device F1:C1:83:A4:17:0C RSSI: -83
+[CHG] Device F1:C1:83:A4:17:0C RSSI: -73
 root@edison:~# scan off
 root@edison:~# pair 40:78:6A:26:4A:C1
 root@edison:~# connect 40:78:6A:26:4A:C1
