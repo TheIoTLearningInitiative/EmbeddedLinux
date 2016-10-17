@@ -1,4 +1,4 @@
-# Human Interface Device Generic
+# Human Interface Device Generic Game Controller
 
 ```sh
 root@edison:~# bluetoothctl
