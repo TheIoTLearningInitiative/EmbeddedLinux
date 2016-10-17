@@ -1,5 +1,46 @@
 # Human Interface Device Mini Keyboard
 
+[Linux Kernel Drivers HID Kconfig](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/hid/Kconfig)
+
+```sh
+#
+# HID driver configuration
+#
+menu "HID support"
+     depends on INPUT
+
+config HID
+	tristate "HID bus support"
+	depends on INPUT
+	default y
+	---help---
+	  A human interface device (HID) is a type of computer device that
+	  interacts directly with and takes input from humans. The term "HID"
+	  most commonly used to refer to the USB-HID specification, but other
+	  devices (such as, but not strictly limited to, Bluetooth) are
+	  designed using HID specification (this involves certain keyboards,
+	  mice, tablets, etc). This option adds the HID bus to the kernel,
+	  together with generic HID layer code. The HID devices are added and
+	  removed from the HID bus by the transport-layer drivers, such as
+	  usbhid (USB_HID) and hidp (BT_HIDP).
+
+	  For docs and specs, see http://www.usb.org/developers/hidpage/
+
+```
+
+```sh
+config HID_GENERIC
+	tristate "Generic HID driver"
+	depends on HID
+	default HID
+	---help---
+	Support for generic devices on the HID bus. This includes most
+	keyboards and mice, joysticks, tablets and digitizers.
+
+	To compile this driver as a module, choose M here: the module
+	will be called hid-generic.
+```
+
 ```sh
 [ 2619.263744] pmic_ccsm pmic_ccsm: USB ID Detected. Notifying OTG driver
 [ 2619.816228] dwc3-host dwc3-host.2: xHCI Host Controller
