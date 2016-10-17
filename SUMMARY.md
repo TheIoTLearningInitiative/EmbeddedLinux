@@ -32,6 +32,7 @@
    * [Google Brillo](documentation/GoogleBrillo.md)
    * [Ostro](documentation/Ostro.md)
    * [Jubilinux](documentation/Jubilinux.md)
+   * Distributions
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
