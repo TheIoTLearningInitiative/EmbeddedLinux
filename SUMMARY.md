@@ -94,6 +94,7 @@
    * [Block](documentation/Block.md)
    * [Universal Serial Bus](documentation/UniversalSerialBus.md)
        * [Human Interface Device Mini Keyboard](documentation/BluetoothHumanInterfaceDeviceMiniKeyboard.md)
+       * Python USB
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
    * [Peripheral Component Interconnect](documentation/PeripheralComponentInterconnect.md)
    * [Clock](documentation/Clock.md)
