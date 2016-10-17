@@ -31,7 +31,7 @@
    * [Kali](documentation/Kali.md)
    * [Google Brillo](documentation/GoogleBrillo.md)
    * [Ostro](documentation/Ostro.md)
-   * Jubilinux
+   * [Jubilinux](documentation/Jubilinux.md)
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
