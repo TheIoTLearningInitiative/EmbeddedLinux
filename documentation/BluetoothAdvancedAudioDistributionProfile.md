@@ -173,6 +173,13 @@ root@edison:~#
 ```
 
 ```sh
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:04:21:2A edison [default]
+[NEW] Device 58:51:00:00:41:4D BT MINI
+[bluetooth]# 
+```
+
+```sh
 root@edison:~# paired-devices
 root@edison:~# remove 40:78:6A:26:4A:C1
 ```
