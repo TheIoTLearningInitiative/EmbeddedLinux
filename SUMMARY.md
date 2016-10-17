@@ -88,6 +88,7 @@
        * [Hackathon](documentation/HackathonBluetooth.md)
        * [Advanced Audio Distribution Profile](documentation/BluetoothAdvancedAudioDistributionProfile.md)
        * [Human Interface Device](documentation/BluetoothHumanInterfaceDevice.md)
+       * Human Interface Device Mini Keyboard
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
