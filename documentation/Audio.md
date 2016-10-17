@@ -58,14 +58,14 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ### ProcFs
 
 ```sh
-    root@edison:~# cat /proc/asound/cards
-     0 [Loopback       ]: Loopback - Loopback
-                          Loopback 1
-     1 [dummyaudio     ]: dummy-audio - dummy-audio
-                          dummy-audio
-     2 [Device         ]: USB-Audio - USB PnP Sound Device
-                          C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1, full speed
-    root@edison:~# 
+root@edison:~# cat /proc/asound/cards
+ 0 [Loopback       ]: Loopback - Loopback
+                      Loopback 1
+ 1 [dummyaudio     ]: dummy-audio - dummy-audio
+                      dummy-audio
+ 2 [Device         ]: USB-Audio - USB PnP Sound Device
+                      USB PnP Sound Device at usb-dwc3-host.2-1, full speed
+root@edison:~# 
 ```
 
 ## Applications / Libraries
