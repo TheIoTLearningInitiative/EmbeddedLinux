@@ -489,7 +489,10 @@ Pairing successful
 ```
 
 ```sh
-root@edison:~# connect 40:78:6A:26:4A:C1
+[bluetooth]# connect 58:51:00:00:41:4D
+Attempting to connect to 58:51:00:00:41:4D
+[CHG] Device 58:51:00:00:41:4D Connected: yes
+Connection successful
 ```
 
 ```sh
