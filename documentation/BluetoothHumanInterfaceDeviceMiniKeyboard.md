@@ -49,5 +49,20 @@ root@edison:~# cat /sys/class/input/event4/device/name
 ```
 
 ```sh
-root@edison:~# ./evtest /dev/input/event2
+root@edison:~# ./evtest /dev/input/event3
+...
+Testing ... (interrupt to exit)
+Event: time 1476672494.485588, type 4 (Misc), code 4 (ScanCode), value 70004
+Event: time 1476672494.485588, type 1 (Key), code 30 (A), value 1
+Event: time 1476672494.485588, -------------- Report Sync ------------
+Event: time 1476672494.709656, type 4 (Misc), code 4 (ScanCode), value 70004
+Event: time 1476672494.709656, type 1 (Key), code 30 (A), value 0
+Event: time 1476672494.709656, -------------- Report Sync ------------
+Event: time 1476672496.885543, type 4 (Misc), code 4 (ScanCode), value 70005
+Event: time 1476672496.885543, type 1 (Key), code 48 (B), value 1
+Event: time 1476672496.885543, -------------- Report Sync ------------
+Event: time 1476672497.117568, type 4 (Misc), code 4 (ScanCode), value 70005
+Event: time 1476672497.117568, type 1 (Key), code 48 (B), value 0
+Event: time 1476672497.117568, -------------- Report Sync ------------
+...
 ```
