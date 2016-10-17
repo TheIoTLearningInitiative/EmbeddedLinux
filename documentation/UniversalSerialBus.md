@@ -81,6 +81,20 @@
     root@edison:~# opkg install libusb-1.0-dev
 ```
 
+```sh
+root@edison:~# pip install pyusb
+Downloading/unpacking pyusb
+  Downloading PyUSB-1.0.0.tar.gz (52kB): 52kB downloaded
+  Running setup.py egg_info for package pyusb
+    
+Installing collected packages: pyusb
+  Running setup.py install for pyusb
+    
+Successfully installed pyusb
+Cleaning up...
+root@edison:~# 
+```
+
 #### Apt-Get
 
 ```sh
