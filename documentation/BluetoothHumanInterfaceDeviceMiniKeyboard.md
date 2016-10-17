@@ -89,5 +89,5 @@ Event: time 1476672551.748106, -------------- Report Sync ------------
 Event: time 1476672551.923169, type 4 (Misc), code 4 (ScanCode), value 90002
 Event: time 1476672551.923169, type 1 (Key), code 273 (RightBtn), value 0
 Event: time 1476672551.923169, -------------- Report Sync ------------
-....
+...
 ```
