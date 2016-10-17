@@ -54,4 +54,6 @@ Connection successful
 ```sh
 [VR-PARK]# paired-devices
 Device 20:16:04:13:03:CE VR-PARK
+[VR-PARK]# exit
+[DEL] Controller 98:4F:EE:04:21:2A edison [default]
 ```
