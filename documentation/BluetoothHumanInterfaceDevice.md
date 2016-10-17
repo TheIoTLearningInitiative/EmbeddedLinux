@@ -28,6 +28,19 @@ config HID
 
 ```
 
+```sh
+config HID_GENERIC
+	tristate "Generic HID driver"
+	depends on HID
+	default HID
+	---help---
+	Support for generic devices on the HID bus. This includes most
+	keyboards and mice, joysticks, tablets and digitizers.
+
+	To compile this driver as a module, choose M here: the module
+	will be called hid-generic.
+```
+
 
 ```sh
 root@edison:~# bluetoothctl
