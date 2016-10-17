@@ -460,6 +460,11 @@ root@edison:~# scan on
 [CHG] Device F1:C1:83:A4:17:0C RSSI: -83
 [CHG] Device F1:C1:83:A4:17:0C RSSI: -73
 root@edison:~# scan off
+[CHG] Device 58:51:00:00:41:4D RSSI is nil
+[CHG] Device F1:C1:83:A4:17:0C TxPower is nil
+[CHG] Device F1:C1:83:A4:17:0C RSSI is nil
+[CHG] Controller 98:4F:EE:04:21:2A Discovering: no
+Discovery stopped
 root@edison:~# pair 40:78:6A:26:4A:C1
 root@edison:~# connect 40:78:6A:26:4A:C1
 root@edison:~# quit
