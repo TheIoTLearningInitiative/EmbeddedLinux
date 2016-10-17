@@ -1,4 +1,4 @@
-# Human Interface Device
+# Human Interface Device Generic
 
 ```sh
 root@edison:~# bluetoothctl
