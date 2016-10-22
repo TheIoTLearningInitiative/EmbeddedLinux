@@ -76,7 +76,7 @@ var board = new five.Board({
 
 board.on("ready", function() {
 
-  var button = new five.Button(4);
+  var button = new five.Button(8);
   var led = new five.Led(13);
 
   button.on("press", function() {
