@@ -13,5 +13,5 @@
 
 ## 
 
-[](http://openframeworks.cc/)
-[](https://processing.org/)
+[OpenFrameworks](http://openframeworks.cc/)
+[Processing](https://processing.org/)
