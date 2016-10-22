@@ -7,7 +7,7 @@
 - [Embedded Linux Applications](http://www.ibm.com/developerworks/library/l-embl/)
 - [Top IoT Open Source Projects](http://iotawards.postscapes.com/2015-16/top-iot-open-source-project)
 
-## Envronments
+## Environments
 
 - [OpenFrameworks](http://openframeworks.cc/)
 - [Processing](https://processing.org/)
