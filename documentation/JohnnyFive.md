@@ -136,7 +136,7 @@ board.on("ready", function() {
 
 Requirements:
 
-- Grove LCD RGB Backlight @ I2C
+- [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
 
 ```js
 var songs = require("j5-songs");
