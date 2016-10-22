@@ -33,7 +33,6 @@
        * [Kali](documentation/Kali.md)
        * [Ostro](documentation/Ostro.md)
        * [Ubilinux](documentation/Ubilinux.md)
-       * Tbd
 * Boot Loaders
    * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
