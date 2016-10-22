@@ -131,6 +131,7 @@
    * REST
    * [Notes](documentation/Notes.md)
    * [Security](documentation/Security.md)
+   * HAM Radio
 * [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
