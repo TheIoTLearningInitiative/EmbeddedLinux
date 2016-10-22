@@ -109,6 +109,7 @@
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
    * [Cross Compile](documentation/CrossCompile.md)
+   * Containers
    * [Python](documentation/Python.md)
    * [NodeJS](documentation/NodeJs.md)
    * [Cloud9](documentation/Cloud9.md)
@@ -130,7 +131,6 @@
    * [Software Defined Radio](documentation/SoftwareDefinedRadio.md)
    * REST
    * [Notes](documentation/Notes.md)
-   * Containers
 * [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
