@@ -131,3 +131,24 @@ board.on("ready", function() {
   lcd.cursor(1, 0).print("Blinking? ");
 });
 ```
+
+## Buzzer
+
+Requirements:
+
+- Grove LCD RGB Backlight @ I2C
+
+```js
+var songs = require("j5-songs");
+var five = require("johnny-five");
+var Edison = require("edison-io");
+var board = new five.Board({
+  io: new Edison()
+});
+
+board.on("ready", function() {
+  var buzzer = new five.Piezo(4);
+  var tetris = songs.load("tetris-theme");
+  buzzer.play(tetris);
+});
+```
