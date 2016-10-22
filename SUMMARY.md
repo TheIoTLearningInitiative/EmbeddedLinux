@@ -130,6 +130,7 @@
    * [Software Defined Radio](documentation/SoftwareDefinedRadio.md)
    * REST
    * [Notes](documentation/Notes.md)
+   * Security
 * [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
