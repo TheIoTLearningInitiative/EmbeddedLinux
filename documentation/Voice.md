@@ -6,6 +6,7 @@
 - [PyAudio](http://www.programcreek.com/python/example/52624/pyaudio.PyAudio)
 - [SR Lists](http://raspberrypi.stackexchange.com/questions/10384/speech-processing-on-the-raspberry-pi/10392)
 - [Digital signal processing through speech, hearing, and Python](http://www.slideshare.net/mchua/sigproc-selfstudy-17323823)
+- [Create an Amazon Echo clone based on the Intel Edison hardware and IBM Watson platform](https://www.losant.com/blog/how-to-build-an-amazon-echo-clone-with-ibm-watson-and-intel-edison)
 
 ## eSpeak
 
