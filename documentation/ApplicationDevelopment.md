@@ -11,7 +11,7 @@
 
 - [OpenFrameworks](http://openframeworks.cc/)
 - [Processing](https://processing.org/)
-- [+(https://iotdb.org/)
+- [IOTDB](https://iotdb.org/)
 
 # Heroku
 
