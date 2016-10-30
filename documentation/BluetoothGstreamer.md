@@ -10,8 +10,22 @@ root@edison:~# wget https://dl.last.fm/static/1477806840/131211148/80e73bda617b3
 root@edison:~# mv Death+Grips+-+Get+Got.mp3 music.mp3
 root@edison:~# gst-launch-1.0 filesrc location=music.mp3  ! mad ! pulsesink
 WARNING: erroneous pipeline: no element "mad"
-root@edison:~# gst-launch-1.0 filesrc location=music.mp3 ! mad ! audioconvert ! audioresample ! pulsesink
 ```
+
+```
+root@edison:~# gst-launch-1.0 filesrc location=music.mp3 ! mad ! audioconvert ! audioresample ! pulsesink
+Setting pipeline to PAUSED ...
+Pipeline is PREROLLING ...
+Missing element: ID3 tag demuxer
+ERROR: from element /GstPipeline:pipeline0/GstDecodeBin:decodebin0: Your GStreamer installation is missing a plug-in.
+Additional debug info:
+/export/users/neck/iotdk_3.5_dev/workdir/build_edison/tmp/work/core2-32-poky-linux/gstreamer1.0-plugins-base/1.4.1-r0/gst-plugins-base-1.4.1/gst/playback/gstdecodebin2.c(3977): gst_decode_bin_expose (): /GstPipeline:pipeline0/GstDecodeBin:decodebin0:
+no suitable plugins found
+ERROR: pipeline doesn't want to preroll.
+Setting pipeline to NULL ...
+Freeing pipeline ...
+root@edison:~/sounds/0x01# 
+
 
 ```sh
 root@edison:~# opkg list | grep gstreamer | grep bad > bad
