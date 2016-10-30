@@ -82,6 +82,10 @@ lue=100
            power_line_frequency (menu)   : min=0 max=2 default=1 value=1
       white_balance_temperature (int)    : min=2800 max=6500 step=1 default=500
 0 value=5000 flags=inactive
+                      sharpness (int)    : min=0 max=31 step=1 default=16 value
+=16
+         backlight_compensation (int)    : min=0 max=2 step=1 default=0 value=0
+
         
 ```
 
