@@ -84,9 +84,7 @@ lue=100
 0 value=5000 flags=inactive
                       sharpness (int)    : min=0 max=31 step=1 default=16 value
 =16
-         backlight_compensation (int)    : min=0 max=2 step=1 default=0 value=0
-
-        
+         backlight_compensation (int)    : min=0 max=2 step=1 default=0 value=0        
 ```
 
 ### Kernel Modules
