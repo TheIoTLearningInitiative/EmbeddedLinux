@@ -28,7 +28,7 @@ no suitable plugins found
 ERROR: pipeline doesn't want to preroll.
 Setting pipeline to NULL ...
 Freeing pipeline ...
-root@edison:~/sounds/0x01# 
+root@edison:~# 
 
 
 ```sh
