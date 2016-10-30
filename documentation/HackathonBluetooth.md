@@ -29,9 +29,6 @@ root@edison:~# Waiting for connection on channel 1
 
 root@edison:~# Connection from F8:CF:C5:D4:CB:BC to /dev/rfcomm0
 Press CTRL-C for hangup
-
-root@edison:~# cat /dev/rfcomm0
-ythgffuuhgghhgg
 ```
 
 Connect from Android device from BlueTerm application
