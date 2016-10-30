@@ -66,6 +66,6 @@ In case the modules (=plugins) can not be found:
 ```
 
 ```
-root@edison:~# mjpg_streamer -i "input_uvc.so -d /dev/video0" -o "output_http.so" -f "15" -r "640x480" -w "./www"
+root@edison:~# mjpg_streamer -i "input_uvc.so -d /dev/video0" -o "output_http.so"
 mjpg_streamer -i "input_uvc.so -f "15" -r "640x480" -w "./www"
 ```
