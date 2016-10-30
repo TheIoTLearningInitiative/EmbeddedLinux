@@ -18,8 +18,8 @@ root@edison:/usr/include/linux# cd -
 ```
 
 ```sh
+root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick_6.9.2-r0_core2-32.ipk
 root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick-dev_6.9.2-r0_core2-32.ipk
-root@edison:~# opkg install 
 root@edison:~# opkg install 
 ```
 
