@@ -9,7 +9,7 @@
 
 ## Opkg Packages
 
-```
+```sh
 blink-led-dbg_0.1-r0_core2-32.ipk
 blink-led-dev_0.1-r0_core2-32.ipk
 blink-led_0.1-r0_core2-32.ipk
@@ -22,6 +22,29 @@ bluez5-doc_5.37-r0_core2-32.ipk
 bluez5-obex_5.37-r0_core2-32.ipk
 bluez5-testtools_5.37-r0_core2-32.ipk
 bluez5_5.37-r0_core2-32.ipk
+```
+
+```sh
+root@edison:~/bluez-alsa/build# opkg list | grep blue
+bluetooth-rfkill-event - 1.0-r0 - bluetooth-rfkill-event version 1.0-r0  Bluetooth rfkill event daemon for
+bluetooth-rfkill-event-dbg - 1.0-r0 - bluetooth-rfkill-event version 1.0-r0 - Debugging files  Bluetooth rfkill
+bluetooth-rfkill-event-dev - 1.0-r0 - bluetooth-rfkill-event version 1.0-r0 - Development files  Bluetooth
+bluez5 - 5.37-r0 - Linux Bluetooth Stack Userland V5  Linux Bluetooth stack V5 userland
+bluez5-dbg - 5.37-r0 - Linux Bluetooth Stack Userland V5 - Debugging files  Linux Bluetooth
+bluez5-dev - 5.37-r0 - Linux Bluetooth Stack Userland V5 - Development files  Linux Bluetooth
+bluez5-doc - 5.37-r0 - Linux Bluetooth Stack Userland V5 - Documentation files  Linux Bluetooth
+bluez5-obex - 5.37-r0 - Linux Bluetooth Stack Userland V5  Linux Bluetooth stack V5 userland
+bluez5-testtools - 5.37-r0 - Linux Bluetooth Stack Userland V5  Linux Bluetooth stack V5 userland
+kernel-module-bcm-bt-lpm - 1.0-r2 - bcm-bt-lpm kernel module  bcm-bt-lpm kernel module; bcm43xx_bluetooth
+libasound-module-bluez - 5.37-r0 - Linux Bluetooth Stack Userland V5  Linux Bluetooth stack V5 userland
+pulseaudio-lib-bluez5-util - 6.0-r0 - PulseAudio library for bluez5-util  PulseAudio library for bluez5-util
+pulseaudio-module-bluetooth-discover - 6.0-r0 - PulseAudio module for bluetooth-discover  PulseAudio module for
+ bluetooth-discover
+pulseaudio-module-bluetooth-policy - 6.0-r0 - PulseAudio module for bluetooth-policy  PulseAudio module for bluetooth-
+pulseaudio-module-bluez5-device - 6.0-r0 - PulseAudio module for bluez5-device  PulseAudio module for bluez5-device
+pulseaudio-module-bluez5-discover - 6.0-r0 - PulseAudio module for bluez5-discover  PulseAudio module for
+ bluez5-discover
+webmin-theme-blue-theme - 1.700-r0 - Webmin theme for blue-theme  Webmin theme for blue-theme
 ```
 
 ## Kernel Integration
