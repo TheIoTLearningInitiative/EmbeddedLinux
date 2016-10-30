@@ -120,5 +120,7 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! oggdemux ! vor
 
 # RTSP
 
+http://www.instructables.com/id/Bluetooth-Speakers-using-Raspberry-Pi/?ALLSTEPS
+
 ```sh
 ```
