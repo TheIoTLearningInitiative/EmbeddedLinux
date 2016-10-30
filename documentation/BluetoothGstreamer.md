@@ -155,6 +155,8 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! decodebin ! pu
 
 # Conversion
 
+From .wav file containing raw audio data into an .ogg Ogg Vorbis
+
 ```sh
 root@edison:~/sounds# gst-launch filesrc location=music.wav ! wavparse ! audioconvert ! vorbisenc ! oggmux ! filesink location=music.ogg
 Setting pipeline to PAUSED ...
