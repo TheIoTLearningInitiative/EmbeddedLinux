@@ -5,7 +5,7 @@
 ```sh
 root@edison:~# wget https://dl.last.fm/static/1477806840/131211148/80e73bda617b3f102999b714b5515dc57d8c33986ea28b4a3a8395b62f15700c/Death+Grips+-+Get+Got.mp3
 root@edison:~# mv Death+Grips+-+Get+Got.mp3 music.mp3
-root@edison:~# gst-launch-1.0 filesrc location=music.mp3  ! mad
+  root@edison:~# gst-launch-1.0 filesrc location=music.mp3  ! mad ! pulsesink
 WARNING: erroneous pipeline: no element "mad"
 ```
 
@@ -53,4 +53,9 @@ Randomize9.ogg - audio/ogg
 root@edison:~/sounds# gst-typefind-1.0 Randomize9.wav 
 Randomize9.wav - audio/x-wav
 root@edison:~/sounds# 
+```
+
+```sh
+root@edison:~/sounds# opkg install gstreamer1.0-plugins-base-ogg
+root@edison:~/sounds# opkg install gstreamer1.0-plugins-base-ogg-dev
 ```
