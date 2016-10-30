@@ -31,7 +31,7 @@ Qt4               --with-qt=no
 ```
 
 ```sh
-root@edison:/home/root/zbar-0.10# cd -
+root@edison:/home/root/zbar-0.10# 
 
 ```
 
