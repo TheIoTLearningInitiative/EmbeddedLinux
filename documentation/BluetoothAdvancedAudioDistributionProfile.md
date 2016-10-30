@@ -205,7 +205,7 @@ root@edison:~#
 ```
 
 ```
-    root@edison:~# gst-launch-1.0 filesrc location=music.ogg  ! decodebin ! pulsesink
+root@edison:~# gst-launch-1.0 filesrc location=music.ogg  ! decodebin ! pulsesink
 ```
 
 ```sh
