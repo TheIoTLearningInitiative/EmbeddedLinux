@@ -41,7 +41,7 @@ root@edison:~/bluez-alsa# ../configure --enable-aac --enable-debug
 ```
 
 ```sh
-linphone/ortp/sources/ortp-0.9.1.tar.gztps://download.savannah.gnu.org/releases/ 
+root@edison:~/bluez-alsa# wget https://download.savannah.gnu.org/releases/linphone/ortp/sources/ortp-0.9.1.tar.gz
 --2016-10-30 05:16:21--  https://download.savannah.gnu.org/releases/linphone/ortp/sources/ortp-0.9.1.tar.gz
 Resolving download.savannah.gnu.org... 208.118.235.73
 Connecting to download.savannah.gnu.org|208.118.235.73|:443... connected.
