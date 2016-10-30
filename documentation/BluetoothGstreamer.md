@@ -101,10 +101,15 @@ Saving to: 'green-20-ogg.zip'
 2016-10-30 06:37:29 (803 KB/s) - 'green-20-ogg.zip' saved [12960542/12960542]
 
 root@edison:~/sounds# 
-
 ```
 
 ```sh
+root@edison:~/sounds# unzip green-20-ogg.zip 
+Archive:  green-20-ogg.zip
+  inflating: Maxime Abbey - Green Hills.ogg
+  inflating: ReadMe.txt
+  inflating: ReadMe - OGG Version.txt
+root@edison:~/sounds# 
 ```
 
 ```sh
