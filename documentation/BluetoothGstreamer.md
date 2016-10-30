@@ -25,5 +25,9 @@ root@edison:~# unzip GAME\ SOUND\ FX\ PACK\ WAV\ OGG\ M4A_0.zip
 root@edison:~# mv GAME\ SOUND\ FX\ PACK\ WAV\ OGG\ M4A sounds
 root@edison:~# cd sounds/ 
 root@edison:~/sounds# ls
-
+...
+Explosion3.m4a     Laser_Shoot17.ogg  Powerup12.wav      Randomize9.m4a
+Explosion3.ogg     Laser_Shoot17.wav  Powerup13.m4a      Randomize9.ogg
+Explosion3.wav     Laser_Shoot18.m4a  Powerup13.ogg      Randomize9.wav
+Explosion4.m4a     Laser_Shoot18.ogg  Powerup13.wav
 ```
