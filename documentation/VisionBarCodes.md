@@ -100,7 +100,8 @@ make[1]: *** [zbarimg/zbarimg] Error 1
 make[1]: Leaving directory '/home/root/zbar-0.10'
 Makefile:820: recipe for target 'all' failed
 make: *** [all] Error 2
-
+root@edison:~/zbar-0.10# cd
+root@edison:~# 
 ```
 
 zbar_0.10-r0_core2-32.ipkopkg install http://repo.opkg.net/edison/repo/core2-32/ 
