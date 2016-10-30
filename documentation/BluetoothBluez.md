@@ -64,3 +64,7 @@ Saving to: 'ortp-0.9.1.tar.gz'
 
 root@edison:~/bluez-alsa/build# 
 ```
+
+```sh
+root@edison:~/bluez-alsa/build# tar zxvf ortp-0.9.1.tar.gz
+```
