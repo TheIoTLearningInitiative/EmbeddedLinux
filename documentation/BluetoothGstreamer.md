@@ -144,11 +144,28 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! oggdemux ! vor
 ```
 
 ```sh
-root@edison:~# gst-launch-1.0 filesrc location=music.ogg ! decodebin ! pulsesink
+root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! decodebin ! pulsesink
 ```
-
 
 # RTSP
 
 ```sh
+
+```
+
+# Conversion
+root@edison:~/sounds# gst-launch filesrc location=music.wav ! wavparse ! audioconvert ! vorbisenc ! oggmux ! filesink location=music.ogg
+Setting pipeline to PAUSED ...
+Pipeline is PREROLLING ...
+Redistribute latency...
+Pipeline is PREROLLED ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+Got EOS from element "pipeline0".
+Execution ended after 0:00:00.049028761
+Setting pipeline to PAUSED ...
+Setting pipeline to READY ...
+Setting pipeline to NULL ...
+Freeing pipeline ...
+root@edison:~/sounds# 
 ```
