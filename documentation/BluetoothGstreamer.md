@@ -113,6 +113,8 @@ root@edison:~/sounds#
 ```
 
 ```sh
+root@edison:~/sounds# mv Maxime\ Abbey\ -\ Green\ Hills.ogg music.ogg
+root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! oggdemux ! vorbisdec ! audioconvert ! audioresample ! pulsesink
 ```
 
 ```sh
