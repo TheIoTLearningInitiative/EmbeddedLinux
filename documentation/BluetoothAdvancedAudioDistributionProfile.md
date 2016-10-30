@@ -50,6 +50,26 @@ Connection successful
 ```
 
 ```sh
+[bluetooth]# info 58:51:00:00:41:4D
+Device 58:51:00:00:41:4D
+        Name: BT MINI
+        Alias: BT MINI
+        Class: 0x240404
+        Icon: audio-card
+        Paired: yes
+        Trusted: no
+        Blocked: no
+        Connected: yes
+        LegacyPairing: no
+        UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+        UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+        UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+        UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+        UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+[bluetooth]# 
+```
+
+```sh
 [BT MINI]# quit
 [DEL] Controller 98:4F:EE:04:21:2A edison [default]
 ```
