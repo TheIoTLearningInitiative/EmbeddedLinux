@@ -11,6 +11,8 @@ root@edison:~#  bluetoothctl
 Agent registered
 [bluetooth]# default-agent
 Default agent request successful
+[bluetooth]# scan on
+[bluetooth]# scan off
 [bluetooth]# pair F8:CF:C5:D4:CB:BC
 [bluetooth]# disconnect F8:CF:C5:D4:CB:BC
 Attempting to disconnect from F8:CF:C5:D4:CB:BC
