@@ -1,7 +1,7 @@
 # Bar Codes
 
 ```sh
-root@edison:~# opkg install imagemagick    
+root@edison:~# opkg install imagemagick imagemagick-dev
 Installing imagemagick (6.8.9-r0) on root.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/imagemagick_6.8.9-r0_core2-32.ipk.
 Installing libfftw (3.3.4-r0) on root.
