@@ -39,4 +39,13 @@ root@edison:~#
 ```sh
 root@edison:~# wget http://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10.tar.bz2
 root@edison:~# tar xvf zbar-0.10.tar.bz2
+root@edison:~# cd zbar-0.10
+root@edison:~/zbar-0.10# ls
+COPYING      Makefile.in     config        include  test            zbar.pc.in
+ChangeLog    NEWS            configure     perl     zbar            zbarcam
+HACKING      README          configure.ac  plugin   zbar-gtk.pc.in  zbarimg
+INSTALL      README.windows  doc           pygtk    zbar-qt.pc.in
+LICENSE      TODO            examples      python   zbar.ico
+Makefile.am  aclocal.m4      gtk           qt       zbar.nsi
+root@edison:~/zbar-0.10# 
 ```
