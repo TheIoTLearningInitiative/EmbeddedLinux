@@ -1,9 +1,7 @@
 # Gstreamer
 
 ```sh
-root@edison:~# ls
-CodeLabs          bluetooth.txt  control.tar.gz  evtest    lib       usr
-%20PACK%20WAV%20OGG%20M4A_0.zipgameart.org/sites/default/files/GAME%20SOUND%20FX%
+root@edison:~# wget http://opengameart.org/sites/default/files/GAME%20SOUND%20FX%20PACK%20WAV%20OGG%20M4A_0.zip
 --2016-10-30 06:12:31--  http://opengameart.org/sites/default/files/GAME%20SOUND%20FX%20PACK%20WAV%20OGG%20M4A_0.zip
 Resolving opengameart.org... 199.180.155.30
 Connecting to opengameart.org|199.180.155.30|:80... connected.
