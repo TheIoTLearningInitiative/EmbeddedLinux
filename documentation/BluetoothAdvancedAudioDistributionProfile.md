@@ -2,7 +2,7 @@
 
 ```sh
 root@edison:~# rfkill unblock bluetooth
-root@edison:~# bluetoothctl
+  root@edison:~# bluetoothctl
 ```
 
 ```sh
@@ -146,6 +146,14 @@ Sink #2
                 device.bus = "bluetooth"
                 device.form_factor = "headset"
 
+```
+
+```sh
+root@edison:~# pactl list sinks | grep "Name:"
+        Name: alsa_output.platform-merr_dpcm_dummy.0.analog-stereo
+        Name: alsa_output.0.analog-stereo
+        Name: bluez_sink.58_51_00_00_41_4D
+root@edison:~# 
 ```
 
 ```sh
