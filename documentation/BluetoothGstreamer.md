@@ -126,7 +126,7 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! oggdemux ! vor
 ```
 
 ```sh
-root@edison:~# gst-launch-1.0 filesrc location=Randomize9.ogg  ! decodebin ! pulsesink
+root@edison:~# gst-launch-1.0 filesrc location=music.ogg  ! decodebin ! pulsesink
 ```
 
 
