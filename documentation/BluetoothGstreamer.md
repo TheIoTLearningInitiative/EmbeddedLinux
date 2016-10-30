@@ -2,6 +2,8 @@
 
 [Gstreamer Overview of available plug-ins](https://gstreamer.freedesktop.org/documentation/plugins.html)
 
+# MP3
+
 ```sh
 root@edison:~# wget https://dl.last.fm/static/1477806840/131211148/80e73bda617b3f102999b714b5515dc57d8c33986ea28b4a3a8395b62f15700c/Death+Grips+-+Get+Got.mp3
 root@edison:~# mv Death+Grips+-+Get+Got.mp3 music.mp3
@@ -15,6 +17,8 @@ gstreamer1.0-plugins-bad
 root@edison:~# opkg install gstreamer1.0-plugins-bad
 root@edison:~# gst-inspect-1.0
 ```
+
+# OGG
 
 ```sh
 root@edison:~# wget http://opengameart.org/sites/default/files/GAME%20SOUND%20FX%20PACK%20WAV%20OGG%20M4A_0.zip
