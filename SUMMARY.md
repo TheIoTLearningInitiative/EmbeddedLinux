@@ -99,6 +99,7 @@
        * [Human Interface Device Mini Keyboard](documentation/BluetoothHumanInterfaceDeviceMiniKeyboard.md)
        * [Python USB](documentation/PythonUsb.md)
    * [Inter Integrated Circuit](documentation/InterIntegratedCircuit.md)
+   * Inter Process Communication
    * [Peripheral Component Interconnect](documentation/PeripheralComponentInterconnect.md)
    * [Clock](documentation/Clock.md)
    * [Modems](documentation/Modems.md)
@@ -109,7 +110,6 @@
    * [LED](documentation/Led.md)
    * [LIDAR](documentation/Lidar.md)
    * [Printer](documentation/Printer.md)
-   * Inter Process Communication
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
    * [Cross Compile](documentation/CrossCompile.md)
