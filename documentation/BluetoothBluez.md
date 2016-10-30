@@ -34,3 +34,33 @@ src/Makefile.am: installing './depcomp'
 parallel-tests: installing './test-driver'
 root@edison:~/bluez-alsa# 
 ```
+
+```sh
+root@edison:~/bluez-alsa# mkdir build && cd build
+root@edison:~/bluez-alsa# mkdir build && cd build
+```
+
+```sh
+linphone/ortp/sources/ortp-0.9.1.tar.gztps://download.savannah.gnu.org/releases/ 
+--2016-10-30 05:16:21--  https://download.savannah.gnu.org/releases/linphone/ortp/sources/ortp-0.9.1.tar.gz
+Resolving download.savannah.gnu.org... 208.118.235.73
+Connecting to download.savannah.gnu.org|208.118.235.73|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://download.savannah.gnu.org/releases-redirect/linphone/ortp/sources/ortp-0.9.1.tar.gz [following]
+--2016-10-30 05:16:23--  https://download.savannah.gnu.org/releases-redirect/linphone/ortp/sources/ortp-0.9.1.tar.gz
+Reusing existing connection to download.savannah.gnu.org:443.
+HTTP request sent, awaiting response... 302 Found
+Location: http://nongnu.askapache.com//linphone/ortp/sources/ortp-0.9.1.tar.gz [following]
+--2016-10-30 05:16:24--  http://nongnu.askapache.com//linphone/ortp/sources/ortp-0.9.1.tar.gz
+Resolving nongnu.askapache.com... 192.185.42.228
+Connecting to nongnu.askapache.com|192.185.42.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 445857 (435K) [application/x-gzip]
+Saving to: 'ortp-0.9.1.tar.gz'
+
+100%[======================================>] 445,857     41.9KB/s   in 9.6s   
+
+2016-10-30 05:16:35 (45.5 KB/s) - 'ortp-0.9.1.tar.gz' saved [445857/445857]
+
+root@edison:~/bluez-alsa/build# 
+```
