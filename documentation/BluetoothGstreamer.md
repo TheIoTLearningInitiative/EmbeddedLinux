@@ -1,7 +1,7 @@
 # Gstreamer
 
 - [Gstreamer Overview of available plug-ins](https://gstreamer.freedesktop.org/documentation/plugins.html)
-- [](https://www.mankier.com/1/gst-launch-1.0)
+- [Gstreamer Launch](https://www.mankier.com/1/gst-launch-1.0)
 
 # MP3
 
