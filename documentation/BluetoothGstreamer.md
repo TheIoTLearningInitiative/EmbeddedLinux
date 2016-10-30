@@ -30,4 +30,12 @@ Explosion3.m4a     Laser_Shoot17.ogg  Powerup12.wav      Randomize9.m4a
 Explosion3.ogg     Laser_Shoot17.wav  Powerup13.m4a      Randomize9.ogg
 Explosion3.wav     Laser_Shoot18.m4a  Powerup13.ogg      Randomize9.wav
 Explosion4.m4a     Laser_Shoot18.ogg  Powerup13.wav
+root@edison:~/sounds# gst-typefind-1.0 Randomize9.m4a
+Randomize9.m4a - audio/x-m4a
+root@edison:~/sounds# gst-typefind-1.0 Randomize9.ogg
+Randomize9.ogg - audio/ogg
+root@edison:~/sounds# gst-typefind-1.0 Randomize9.wav 
+Randomize9.wav - audio/x-wav
+root@edison:~/sounds# 
+
 ```
