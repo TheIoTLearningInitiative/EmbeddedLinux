@@ -38,6 +38,30 @@ root@edison:~# dmesg
 root@edison:~# 
 ```
 
+```sh
+Driver Info (not using libv4l2):
+        Driver name   : uvcvideo
+        Card type     : FaceCam 320X
+        Bus info      : usb-dwc3-host.2-1
+        Driver version: 3.10.98
+        Capabilities  : 0x84000001
+                Video Capture
+                Streaming
+                Device Capabilities
+        Device Caps   : 0x04000001
+                Video Capture
+                Streaming
+Priority: 2
+Video input : 0 (Camera 1: ok)
+Format Video Capture:
+        Width/Height  : 640/480
+        Pixel Format  : 'YUYV'
+        Field         : None
+        Bytes per Line: 1280
+        Size Image    : 614400
+        Colorspace    : SRGB
+```
+
 ### Kernel Modules
 
 ```sh
