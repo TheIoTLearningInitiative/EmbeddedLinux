@@ -69,4 +69,5 @@ root@edison:~/bluez-alsa/build#
 root@edison:~/bluez-alsa/build# tar zxvf ortp-0.9.1.tar.gz
 root@edison:~/bluez-alsa/build# cd ortp-0.9.1
 root@edison:~/bluez-alsa/build# CFLAGS=-Wno-unused-but-set-variable ./configure
+root@edison:~/bluez-alsa/build# make
 ```
