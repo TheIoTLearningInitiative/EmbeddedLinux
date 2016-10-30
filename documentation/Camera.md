@@ -126,21 +126,33 @@ Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com
 #### Opkg
 
 ```sh
-    root@edison:~# opkg install kernel-module-uvcvideo
-    Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
-    root@edison:~# opkg install libx264-133 libx264-bin libx264-dev libx264-staticdev
-    Installing libx264-133 (r2265+git0+ffc3ad4945-r0) on root.
-    Installing libx264-bin (r2265+git0+ffc3ad4945-r0) on root.
-    Installing libx264-dev (r2265+git0+ffc3ad4945-r0) on root.
-    Installing libx264-staticdev (r2265+git0+ffc3ad4945-r0) on root.
-    root@edison:~# opkg install opencv python-opencv
-    Package opencv (2.4.11+git0+2c9547e314-r0) installed in root is up to date.
-    Package python-opencv (2.4.11+git0+2c9547e314-r0) installed in root is up to date.
-    root@edison:~# opkg install fswebcam
-    Installing fswebcam (20140113-r0) on root.
-    Installing libgd3 (2.1.0-r0) on root.
-    Installing libvpx (1.3.0-r0) on root.
-    
+root@edison:~# opkg install kernel-module-uvcvideo
+Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
+```
+
+```sh
+root@edison:~# opkg install libx264-133 libx264-bin libx264-dev libx264-staticdev
+Installing libx264-133 (r2265+git0+ffc3ad4945-r0) on root.
+Installing libx264-bin (r2265+git0+ffc3ad4945-r0) on root.
+Installing libx264-dev (r2265+git0+ffc3ad4945-r0) on root.
+Installing libx264-staticdev (r2265+git0+ffc3ad4945-r0) on root.
+```
+root@edison:~# opkg install opencv python-opencv
+Package opencv (2.4.11+git0+2c9547e314-r0) installed in root is up to date.
+Package python-opencv (2.4.11+git0+2c9547e314-r0) installed in root is up to date.
+```
+```sh
+root@edison:~# opkg install fswebcam
+Installing fswebcam (20140113-r0) on root.
+Downloading http://repo.opkg.net/edison/repo/core2-32/fswebcam_20140113-r0_core2-32.ipk.
+Installing libgd3 (2.1.0-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libgd3_2.1.0-r0_core2-32.ipk.
+Installing libvpx (1.3.0-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libvpx_1.3.0-r0_core2-32.ipk.
+Configuring libvpx.
+Configuring libgd3.
+Configuring fswebcam.
+root@edison:~# 
 ```
 
 #### Pip
