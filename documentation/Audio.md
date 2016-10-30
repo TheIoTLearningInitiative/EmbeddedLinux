@@ -76,7 +76,7 @@ root@edison:~#
 ### Opkg
 
 ```sh
-root@edison:~# opkg install alsa-utils mpg123 espeak
+root@edison:~# opkg install alsa-utils espeak
 ...
 Configuring libsamplerate0.
 Configuring libjack.
