@@ -14,6 +14,22 @@ root@edison:/usr/include/linux# cd -
 /home/root/zbar-0.10
 ```
 
+```
+please verify that the detected configuration matches your expectations:
+------------------------------------------------------------------------
+X                 --with-x=disabled
+pthreads          --enable-pthread=yes
+v4l               --enable-video=no
+        => zbarcam video scanner will *NOT* be built
+jpeg              --with-jpeg=yes
+Magick++          --with-imagemagick=yes
+Python            --with-python=yes
+GTK+              --with-gtk=no
+        => the GTK+ widget will *NOT* be built
+Qt4               --with-qt=no
+        => the Qt4 widget will *NOT* be built
+```
+
 ```sh
 root@edison:~# opkg install imagemagick imagemagick-dev
 Installing imagemagick (6.8.9-r0) on root.
