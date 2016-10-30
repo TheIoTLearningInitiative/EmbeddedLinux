@@ -3,6 +3,20 @@
 [Gstreamer Overview of available plug-ins](https://gstreamer.freedesktop.org/documentation/plugins.html)
 
 ```sh
+root@edison:~# wget https://dl.last.fm/static/1477806840/131211148/80e73bda617b3f102999b714b5515dc57d8c33986ea28b4a3a8395b62f15700c/Death+Grips+-+Get+Got.mp3
+root@edison:~# mv Death+Grips+-+Get+Got.mp3 music.mp3
+root@edison:~# gst-launch-1.0 filesrc location=music.mp3  ! mad
+WARNING: erroneous pipeline: no element "mad"
+```
+
+```sh
+root@edison:~# opkg list | grep gstreamer | grep bad > bad
+gstreamer1.0-plugins-bad
+root@edison:~# opkg install gstreamer1.0-plugins-bad
+root@edison:~# gst-inspect-1.0
+```
+
+```sh
 root@edison:~# wget http://opengameart.org/sites/default/files/GAME%20SOUND%20FX%20PACK%20WAV%20OGG%20M4A_0.zip
 --2016-10-30 06:12:31--  http://opengameart.org/sites/default/files/GAME%20SOUND%20FX%20PACK%20WAV%20OGG%20M4A_0.zip
 Resolving opengameart.org... 199.180.155.30
