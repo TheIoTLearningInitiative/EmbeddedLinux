@@ -38,20 +38,5 @@ root@edison:~#
 
 ```sh
 root@edison:~# wget http://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10.tar.bz2
-Resolving downloads.sourceforge.net... 216.34.181.59
-Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: http://ufpr.dl.sourceforge.net/project/zbar/zbar/0.10/zbar-0.10.tar.bz2 [following]
---2016-10-30 15:57:31--  http://ufpr.dl.sourceforge.net/project/zbar/zbar/0.10/zbar-0.10.tar.bz2
-Resolving ufpr.dl.sourceforge.net... 200.236.31.2, 2801:82:80ff:8000::3
-Connecting to ufpr.dl.sourceforge.net|200.236.31.2|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 592602 (579K) [application/x-bzip2]
-Saving to: 'zbar-0.10.tar.bz2'
-
-100%[======================================>] 592,602      273KB/s   in 2.1s   
-
-2016-10-30 15:57:34 (273 KB/s) - 'zbar-0.10.tar.bz2' saved [592602/592602]
-
-root@edison:~# 
+root@edison:~# tar xvf zbar-0.10.tar.bz2
 ```
