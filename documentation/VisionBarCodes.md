@@ -18,6 +18,12 @@ root@edison:/usr/include/linux# cd -
 ```
 
 ```sh
+root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick-dev_6.9.2-r0_core2-32.ipk
+root@edison:~# opkg install 
+root@edison:~# opkg install 
+```
+
+```sh
 root@edison:~# opkg install imagemagick imagemagick-dev
 Installing imagemagick (6.8.9-r0) on root.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/imagemagick_6.8.9-r0_core2-32.ipk.
