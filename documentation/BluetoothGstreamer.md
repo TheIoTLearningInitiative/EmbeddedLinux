@@ -86,6 +86,11 @@ root@edison:~/sounds#
 root@edison:~/sounds# gst-launch-1.0 filesrc location=Randomize9.ogg ! oggdemux ! vorbisdec ! audioconvert ! audioresample ! pulsesink
 ```
 
+```sh
+root@edison:~# gst-launch-1.0 filesrc location=Randomize9.ogg  ! decodebin ! pulsesink
+```
+
+
 [Arachnosoft](http://www.arachnosoft.com/main/music.php)
 
 ```sh
