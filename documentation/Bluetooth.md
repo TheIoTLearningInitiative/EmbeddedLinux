@@ -10,18 +10,18 @@
 ## Opkg Packages
 
 ```
-      blink-led-dbg_0.1-r0_core2-32.ipk
-      blink-led-dev_0.1-r0_core2-32.ipk
-      blink-led_0.1-r0_core2-32.ipk
-      bluetooth-rfkill-event-dbg_1.0-r0_core2-32.ipk
-      bluetooth-rfkill-event-dev_1.0-r0_core2-32.ipk
-      bluetooth-rfkill-event_1.0-r0_core2-32.ipk
-      bluez5-dbg_5.37-r0_core2-32.ipk
-      bluez5-dev_5.37-r0_core2-32.ipk
-      bluez5-doc_5.37-r0_core2-32.ipk
-      bluez5-obex_5.37-r0_core2-32.ipk
-      bluez5-testtools_5.37-r0_core2-32.ipk
-      bluez5_5.37-r0_core2-32.ipk
+blink-led-dbg_0.1-r0_core2-32.ipk
+blink-led-dev_0.1-r0_core2-32.ipk
+blink-led_0.1-r0_core2-32.ipk
+bluetooth-rfkill-event-dbg_1.0-r0_core2-32.ipk
+bluetooth-rfkill-event-dev_1.0-r0_core2-32.ipk
+bluetooth-rfkill-event_1.0-r0_core2-32.ipk
+bluez5-dbg_5.37-r0_core2-32.ipk
+bluez5-dev_5.37-r0_core2-32.ipk
+bluez5-doc_5.37-r0_core2-32.ipk
+bluez5-obex_5.37-r0_core2-32.ipk
+bluez5-testtools_5.37-r0_core2-32.ipk
+bluez5_5.37-r0_core2-32.ipk
 ```
 
 ## Kernel Integration
