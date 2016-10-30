@@ -60,5 +60,5 @@ while count == None:
 while True:
     bluetoothSerial.write( str("hola") )
     sleep(2)
-print bluetoothSerial.readline()
+    print bluetoothSerial.readline()
 ```
