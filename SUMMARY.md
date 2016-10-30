@@ -110,7 +110,7 @@
    * [LED](documentation/Led.md)
    * [LIDAR](documentation/Lidar.md)
    * [Printer](documentation/Printer.md)
-   * Serial Peripheral Interface
+   * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
    * [Cross Compile](documentation/CrossCompile.md)
