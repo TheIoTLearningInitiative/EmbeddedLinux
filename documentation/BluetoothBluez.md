@@ -97,6 +97,15 @@ root@edison:~/bluez-alsa/build#
 ```
 
 ```sh
+root@edison:~/bluez-alsa/build# opkg install libbsd
+Installing libbsd0 (0.7.0-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libbsd0_0.7.0-r0_core2-32.ipk.
+Configuring libbsd0.
+root@edison:~/bluez-alsa/build# opkg install libbsd-dev
+Installing libbsd-dev (0.7.0-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libbsd-dev_0.7.0-r0_core2-32.ipk.
+Configuring libbsd-dev.
+root@edison:~/bluez-alsa/build# 
 ```
 
 ```sh
