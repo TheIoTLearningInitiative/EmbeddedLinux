@@ -90,5 +90,25 @@ Qt4               --with-qt=no
 ```
 
 ```sh
-root@edison:/home/root/zbar-0.10# 
+root@edison:~/zbar-0.10# make
+make  all-am
+make[1]: Entering directory '/home/root/zbar-0.10'tp://repo.opkg.net/edison/repo/core2-32/i
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -Wno-parentheses -g -O2   -o zbarimg/zbarimg zbarimg/zbarimg_zbarimg-zbarimg.o  -lMagickWand-6.Q16 -lMagickCore-6.Q16  zbar/libzbar.la  -ljpeg -lpthread 
+libtool: link: cannot find the library `=/usr/lib/libMagickCore-6.Q16.la' or unhandled argument `=/usr/lib/libMagickCore-6.Q16.la'
+Makefile:1270: recipe for target 'zbarimg/zbarimg' failed
+make[1]: *** [zbarimg/zbarimg] Error 1
+make[1]: Leaving directory '/home/root/zbar-0.10'
+Makefile:820: recipe for target 'all' failed
+make: *** [all] Error 2
+
 ```
+
+zbar_0.10-r0_core2-32.ipkopkg install http://repo.opkg.net/edison/repo/core2-32/ 
+Downloading http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk.
+Installing zbar (0.10-r0) on root.
+Configuring zbar.
+root@edison:~/zbar-0.10# zbarcam
+ERROR: zbar processor in _zbar_video_open():
+    system error: opening video device '/dev/video0': No such file or directory (2)
+root@edison:~/zbar-0.10# zbarcam^C
+root@edison:~/zbar-0.10# 
