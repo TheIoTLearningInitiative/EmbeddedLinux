@@ -104,6 +104,7 @@ root@edison:~/zbar-0.10# cd
 root@edison:~# 
 ```
 
+```sh
 root@edison:~# wget opkg install http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk
 Downloading http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk.
 Installing zbar (0.10-r0) on root.
@@ -113,3 +114,4 @@ ERROR: zbar processor in _zbar_video_open():
     system error: opening video device '/dev/video0': No such file or directory (2)
 root@edison:~/zbar-0.10# zbarcam^C
 root@edison:~/zbar-0.10# 
+```
