@@ -104,7 +104,7 @@ root@edison:~/zbar-0.10# cd
 root@edison:~# 
 ```
 
-zbar_0.10-r0_core2-32.ipkopkg install http://repo.opkg.net/edison/repo/core2-32/ 
+root@edison:~# wget opkg install http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk
 Downloading http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk.
 Installing zbar (0.10-r0) on root.
 Configuring zbar.
