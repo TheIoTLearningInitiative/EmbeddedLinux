@@ -112,6 +112,6 @@ Configuring zbar.
 root@edison:~/zbar-0.10# zbarcam
 ERROR: zbar processor in _zbar_video_open():
     system error: opening video device '/dev/video0': No such file or directory (2)
-root@edison:~/zbar-0.10# zbarcam^C
+root@edison:~/zbar-0.10# 
 root@edison:~/zbar-0.10# 
 ```
