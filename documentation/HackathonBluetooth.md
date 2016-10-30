@@ -32,7 +32,7 @@ Press CTRL-C for hangup
 
 root@edison:~# cat /dev/rfcomm0
 ythgffuuhgghhgg
-
+```
 
 ```sh
 root@edison:~# rfkill unblock bluetooth
