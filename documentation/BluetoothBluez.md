@@ -12,4 +12,23 @@ Checking connectivity... done.
 cd bluez
 root@edison:~# cd bluez-alsa/
 root@edison:~/bluez-alsa# autoreconf --install
+aclocal: warning: couldn't open directory 'm4': No such file or directory
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+configure.ac:12: installing './ar-lib'
+configure.ac:10: installing './compile'
+configure.ac:14: installing './config.guess'
+configure.ac:14: installing './config.sub'
+configure.ac:5: installing './install-sh'
+configure.ac:5: installing './missing'
+src/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+root@edison:~/bluez-alsa# 
+
 ```
