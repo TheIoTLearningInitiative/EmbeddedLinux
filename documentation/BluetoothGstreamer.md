@@ -90,7 +90,6 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=Randomize9.ogg ! oggdemux 
 root@edison:~# gst-launch-1.0 filesrc location=Randomize9.ogg  ! decodebin ! pulsesink
 ```
 
-
 [Arachnosoft](http://www.arachnosoft.com/main/music.php)
 
 ```sh
@@ -120,8 +119,16 @@ root@edison:~/sounds#
 
 ```sh
 root@edison:~/sounds# mv Maxime\ Abbey\ -\ Green\ Hills.ogg music.ogg
+```
+
+```sh
 root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! oggdemux ! vorbisdec ! audioconvert ! audioresample ! pulsesink
 ```
+
+```sh
+root@edison:~# gst-launch-1.0 filesrc location=Randomize9.ogg  ! decodebin ! pulsesink
+```
+
 
 # RTSP
 
