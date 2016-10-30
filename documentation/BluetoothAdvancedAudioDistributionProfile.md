@@ -177,9 +177,11 @@ root@edison:~#
 ```
 
 ```sh
-root@edison:~# pactl set-default-sink
-You have to specify a sink name
 root@edison:~# pactl set-default-sink bluez_sink.58_51_00_00_41_4D
+```
+
+```sh
+root@edison:~# gst-launch-1.0 audiotestsrc ! audioconvert ! audioresample ! pulsesink
 ```
 
 ```sh
