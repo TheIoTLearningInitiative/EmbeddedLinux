@@ -60,6 +60,29 @@ Format Video Capture:
         Bytes per Line: 1280
         Size Image    : 614400
         Colorspace    : SRGB
+Crop Capability Video Capture:
+        Bounds      : Left 0, Top 0, Width 640, Height 480
+        Default     : Left 0, Top 0, Width 640, Height 480
+        Pixel Aspect: 1/1
+Streaming Parameters Video Capture:
+        Capabilities     : timeperframe
+        Frames per second: 5.000 (5/1)
+        Read buffers     : 0
+                     brightness (int)    : min=-255 max=255 step=1 default=0 va
+lue=0
+                       contrast (int)    : min=0 max=30 step=1 default=15 value
+=15
+                     saturation (int)    : min=0 max=127 step=1 default=32 valu
+e=32
+                            hue (int)    : min=-16000 max=16000 step=1 default=
+0 value=0
+ white_balance_temperature_auto (bool)   : default=1 value=1
+                          gamma (int)    : min=20 max=250 step=1 default=100 va
+lue=100
+           power_line_frequency (menu)   : min=0 max=2 default=1 value=1
+      white_balance_temperature (int)    : min=2800 max=6500 step=1 default=500
+0 value=5000 flags=inactive
+        
 ```
 
 ### Kernel Modules
