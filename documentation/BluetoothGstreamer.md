@@ -59,3 +59,34 @@ root@edison:~/sounds#
 root@edison:~/sounds# opkg install gstreamer1.0-plugins-base-ogg
 root@edison:~/sounds# opkg install gstreamer1.0-plugins-base-ogg-dev
 ```
+
+```sh
+root@edison:~/sounds# gst-inspect-1.0 | grep ogg 
+typefindfunctions: application/x-id3v2: mp3, mp2, mp1, mpga, ogg, flac, tta
+typefindfunctions: application/x-id3v1: mp3, mp2, mp1, mpga, ogg, flac, tta
+typefindfunctions: application/ogg: ogg, oga, ogv, ogm, ogx, spx, anx, axa, axv
+typefindfunctions: application/x-ogg-skeleton: no extensions
+ogg:  oggdemux: Ogg demuxer
+ogg:  oggmux: Ogg muxer
+ogg:  ogmaudioparse: OGM audio stream parser
+ogg:  ogmvideoparse: OGM video stream parser
+ogg:  ogmtextparse: OGM text stream parser
+ogg:  oggparse: Ogg parser
+ogg:  oggaviparse: Ogg AVI parser
+root@edison:~/sounds# 
+```
+
+```sh
+```
+
+```sh
+```
+
+```sh
+```
+
+```sh
+```
+
+```sh
+```
