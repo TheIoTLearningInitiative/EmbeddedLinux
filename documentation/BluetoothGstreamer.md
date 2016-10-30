@@ -29,7 +29,7 @@ ERROR: pipeline doesn't want to preroll.
 Setting pipeline to NULL ...
 Freeing pipeline ...
 root@edison:~# 
-
+```
 
 ```sh
 root@edison:~# opkg list | grep gstreamer | grep bad > bad
@@ -154,6 +154,8 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=music.ogg ! decodebin ! pu
 ```
 
 # Conversion
+
+```sh
 root@edison:~/sounds# gst-launch filesrc location=music.wav ! wavparse ! audioconvert ! vorbisenc ! oggmux ! filesink location=music.ogg
 Setting pipeline to PAUSED ...
 Pipeline is PREROLLING ...
