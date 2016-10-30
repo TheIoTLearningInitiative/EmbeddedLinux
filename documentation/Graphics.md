@@ -41,6 +41,31 @@ Configuring mjpg-streamer.
 mjpg-streamer-dbg
 ```
 
+```sh
+-----------------------------------------------------------------------
+Example #1:
+ To open an UVC webcam "/dev/video1" and stream it via HTTP:
+  mjpg_streamer -i "input_uvc.so -d /dev/video1" -o "output_http.so"
+-----------------------------------------------------------------------
+Example #2:
+ To open an UVC webcam and stream via HTTP port 8090:
+  mjpg_streamer -i "input_uvc.so" -o "output_http.so -p 8090"
+-----------------------------------------------------------------------
+Example #3:
+ To get help for a certain input plugin:
+  mjpg_streamer -i "input_uvc.so --help"
+-----------------------------------------------------------------------
+In case the modules (=plugins) can not be found:
+ * Set the default search path for the modules with:
+   export LD_LIBRARY_PATH=/path/to/plugins,
+ * or put the plugins into the "/lib/" or "/usr/lib" folder,
+ * or instead of just providing the plugin file name, use a complete
+   path and filename:
+   mjpg_streamer -i "/path/to/modules/input_uvc.so"
+-----------------------------------------------------------------------
 ```
-root@edison:~# mjpg_streamer -i "input_uvc.so -d /dev/video0" -o "output_http.so"
+
+```
+root@edison:~# mjpg_streamer -i "input_uvc.so -d /dev/video0" -o "output_http.so" -f "15" -r "640x480" -w "./www"
+mjpg_streamer -i "input_uvc.so -f "15" -r "640x480" -w "./www"
 ```
