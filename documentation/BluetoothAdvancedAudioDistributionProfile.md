@@ -212,7 +212,7 @@ WARNING: erroneous pipeline: no element "mad"
 ```sh
 root@edison:~# opkg list | grep gstreamer | grep bad > bad
 gstreamer1.0-plugins-bad
-root@edison:~# opkg install install gstreamer1.0-plugins-bad
+root@edison:~# opkg install gstreamer1.0-plugins-bad
 ```
 
 ```sh
