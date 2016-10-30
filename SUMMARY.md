@@ -89,7 +89,7 @@
            * [Gstreamer](documentation/BluetoothGstreamer.md)
            * [Alsa](documentation/BluetoothAlsa.md)
        * [Human Interface Device Game Controller](documentation/BluetoothHumanInterfaceDevice.md)
-       * [Hackathon](documentation/HackathonBluetooth.md)
+       * [Serial Port Protocol](documentation/HackathonBluetooth.md)
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
