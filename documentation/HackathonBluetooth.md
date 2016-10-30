@@ -12,10 +12,6 @@ Agent registered
 [bluetooth]# default-agent
 Default agent request successful
 [bluetooth]# pair F8:CF:C5:D4:CB:BC
-Attempting to pair with F8:CF:C5:D4:CB:BC
-Failed to pair: org.bluez.Error.AlreadyExists
-[bluetooth]# disconnect 
-Missing device address argument
 [bluetooth]# disconnect F8:CF:C5:D4:CB:BC
 Attempting to disconnect from F8:CF:C5:D4:CB:BC
 Successful disconnected
