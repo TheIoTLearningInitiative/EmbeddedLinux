@@ -125,6 +125,7 @@
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
    * [Games](documentation/Games.md)
    * [Vision](documentation/Vision.md)
+       * Bar Codes
    * [Messaging](documentation/Messaging.md)
    * [Entertainment](documentation/Entertainment.md)
    * [Home Assistants](documentation/HomeAssistants.md)
