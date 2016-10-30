@@ -1,14 +1,17 @@
 # Bar Codes
 
 ```sh
-root@edison:~/zbar-0.10# opkg install libv4l-dev
+root@edison:~# opkg install libv4l-dev
 Installing libv4l-dev (1.0.1-r0) on root.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libv4l-dev_1.0.1-r0_core2-32.ipk.
 Installing libv4l (1.0.1-r0) on root.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libv4l_1.0.1-r0_core2-32.ipk.
 Configuring libv4l.
 Configuring libv4l-dev.
-root@edison:~/zbar-0.10# 
+root@edison:~# cd /usr/include/linux
+root@edison:/usr/include/linux# sudo ln -s ../libv4l1-videodev.h videodev.h
+root@edison:/usr/include/linux# cd -
+/home/root/zbar-0.10
 ```
 
 ```sh
