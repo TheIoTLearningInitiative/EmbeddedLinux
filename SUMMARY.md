@@ -90,7 +90,7 @@
            * [Alsa](documentation/BluetoothAlsa.md)
        * [Human Interface Device Game Controller](documentation/BluetoothHumanInterfaceDevice.md)
        * [Serial Port Protocol](documentation/HackathonBluetooth.md)
-       * Arduino
+       * [Arduino](documentation/BluetoothArduino.md)
    * [WiFi](documentation/WiFi.md)
    * [Audio](documentation/Audio.md)
    * [Camera](documentation/Camera.md)
