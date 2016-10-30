@@ -83,6 +83,23 @@ while True:
     sleep(2)
 ```
 
+```sh
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:04:21:2A edison [default]
+[NEW] Device F8:CF:C5:D4:CB:BC Nexus 6
+[NEW] Device F1:C1:83:A4:17:0C Evolutel
+[bluetooth]# connect F8:CF:C5:D4:CB:BC
+Attempting to connect to F8:CF:C5:D4:CB:BC
+[CHG] Device F8:CF:C5:D4:CB:BC Connected: yes
+Connection successful
+[Nexus 6]# quit
+[DEL] Controller 98:4F:EE:04:21:2A edison [default]
+root@edison:~# rfcomm bind 0 F8:CF:C5:D4:CB:BC 1
+root@edison:~# ls /dev/rfcomm0 
+/dev/rfcomm0
+root@edison:~# 
+```
+
 # Node
 
 ```sh
