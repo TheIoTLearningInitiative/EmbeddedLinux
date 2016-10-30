@@ -48,17 +48,10 @@ Write data from Android device from BlueTerm application
 import serial
 from time import sleep
 
-bluetoothSerial = serial.Serial( "/dev/rfcomm0", baudrate=9600 )
-
-count = None
-while count == None:
-    try:
-        count = int(raw_input( "Please enter the number of times to blink the LED" ))
-    except:
-        pass
+bluetoothSerial = serial.Serial("/dev/rfcomm0", baudrate=9600)
 
 while True:
-    bluetoothSerial.write( str("hola") )
+
+    bluetoothSerial.write(str("Hola!"))
     sleep(2)
-    print bluetoothSerial.readline()
 ```
