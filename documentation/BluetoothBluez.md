@@ -30,5 +30,4 @@ configure.ac:5: installing './missing'
 src/Makefile.am: installing './depcomp'
 parallel-tests: installing './test-driver'
 root@edison:~/bluez-alsa# 
-
 ```
