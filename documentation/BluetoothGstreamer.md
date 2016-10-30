@@ -12,9 +12,11 @@ root@edison:~# gst-launch-1.0 filesrc location=music.mp3  ! mad ! pulsesink
 WARNING: erroneous pipeline: no element "mad"
 ```
 
-```
+```sh
 root@edison:~# gst-launch-1.0 filesrc location=music.mp3 ! mad ! audioconvert ! audioresample ! pulsesink
+```
 
+```sh
 root@edison:~# gst-launch-1.0 filesrc location=music.mp3 ! decodebin ! pulsesink
 Setting pipeline to PAUSED ...
 Pipeline is PREROLLING ...
