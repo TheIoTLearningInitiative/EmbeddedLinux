@@ -85,7 +85,7 @@
    * [Serial](documentation/Serial.md)
    * [Bluetooth](documentation/Bluetooth.md)
        * [Advanced Audio Distribution Profile](documentation/BluetoothAdvancedAudioDistributionProfile.md)
-           * Bluez
+           * [Bluez](documentation/BluetoothBluez.md)
        * [Human Interface Device Game Controller](documentation/BluetoothHumanInterfaceDevice.md)
        * [Hackathon](documentation/HackathonBluetooth.md)
    * [WiFi](documentation/WiFi.md)
