@@ -129,7 +129,7 @@ root@edison:~#
 
 ```sh
     root@edison:~# ls /usr/share/sounds/alsa/
-      Front_Center.wav  Noise.wav         Rear_Right.wav
+    Front_Center.wav  Noise.wav         Rear_Right.wav
     Front_Left.wav    Rear_Center.wav   Side_Left.wav
     Front_Right.wav   Rear_Left.wav     Side_Right.wav
 ```
