@@ -20,6 +20,9 @@ Successful disconnected
 [bluetooth]# exit
 Agent unregistered
 [DEL] Controller 98:4F:EE:04:21:2A edison [default]
+```
+
+```sh
 root@edison:~# rfcomm listen 0 1 &
 [1] 400
 root@edison:~# Waiting for connection on channel 1
