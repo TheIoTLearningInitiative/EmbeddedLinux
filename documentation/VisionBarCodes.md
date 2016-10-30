@@ -1,5 +1,7 @@
 # Bar Codes
 
+[](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
+
 ```sh
 root@edison:~# opkg install libv4l-dev
 Installing libv4l-dev (1.0.1-r0) on root.
