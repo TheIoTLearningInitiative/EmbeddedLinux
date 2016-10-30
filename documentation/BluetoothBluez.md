@@ -84,5 +84,27 @@ root@edison:~/bluez-alsa/build#
 ```
 
 ```sh
+root@edison:~/bluez-alsa/build# opkg install sbc-dev
+Installing sbc-dev (1.2-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/sbc-dev_1.2-r0_core2-32.ipk.
+libsndfile-dev: unsatisfied recommendation for libasound-dev
+libsndfile-dev: unsatisfied recommendation for sqlite3-dev
+Installing libsndfile-dev (1.0.25-r2) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libsndfile-dev_1.0.25-r2_core2-32.ipk.
+Configuring libsndfile-dev.
+Configuring sbc-dev.
+root@edison:~/bluez-alsa/build# 
+```
+
+```sh
+```
+
+```sh
+```
+
+```sh
+```
+
+```sh
 ```
 
