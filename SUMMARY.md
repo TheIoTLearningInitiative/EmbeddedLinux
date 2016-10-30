@@ -109,6 +109,7 @@
    * [LED](documentation/Led.md)
    * [LIDAR](documentation/Lidar.md)
    * [Printer](documentation/Printer.md)
+   * Inter Process Communication
 * [Application Development](documentation/ApplicationDevelopment.md)
    * [C Compiler](documentation/C.md)
    * [Cross Compile](documentation/CrossCompile.md)
