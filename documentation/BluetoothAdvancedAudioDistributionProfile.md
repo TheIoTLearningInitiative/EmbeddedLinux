@@ -205,7 +205,7 @@ root@edison:~#
 ```
 
 ```sh
-root@edison:~# gst-launch filesrc location=bear_growl_y.wav ! decodebin ! audioconvert ! audioresample ! pulsesink
+root@edison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav ! decodebin ! audioconvert ! audioresample ! pulsesink
 ```
 
 ```sh
