@@ -25,6 +25,19 @@ USB Camera HD Webcam C525
     [ 1858.582915] USB Video Class driver (1.1.1)
 ```
 
+```sh
+root@edison:~# dmesg
+...
+[31587.442854] usb 1-1: new high-speed USB device number 4 using dwc3-host
+[31587.498763] usb 1-1: New USB device found, idVendor=0458, idProduct=708a
+[31587.498795] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[31587.498816] usb 1-1: Product: FaceCam 320X
+[31587.498835] usb 1-1: Manufacturer: KYE Systems Corp.
+[31587.510744] uvcvideo: Found UVC 1.00 device FaceCam 320X (0458:708a)
+[31587.518655] input: FaceCam 320X as /devices/pci0000:00/0000:00:11.0/dwc3-host.2/usb1/1-1/1-1:1.0/input/input6
+root@edison:~# 
+```
+
 ### Kernel Modules
 
 ```sh
