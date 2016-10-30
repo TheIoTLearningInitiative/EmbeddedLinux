@@ -23,4 +23,13 @@ root@edison:~s# sudo opkg install mjpg-streamer
 Installing mjpg-streamer (r182-r0) on root.
 Downloading http://repo.opkg.net/edison/repo/core2-32/mjpg-streamer_r182-r0_core2-32.ipk.
 Configuring mjpg-streamer.
+mjpg-streamer-dbg
+```
+
+```sh
+root@edison:~# opkg install  v4l-utils
+Installing v4l-utils (1.0.1-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/v4l-utils_1.0.1-r0_core2-32.ipk.
+Configuring v4l-utils.
+root@edison:~#  
 ```
