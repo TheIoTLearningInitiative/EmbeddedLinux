@@ -14,27 +14,6 @@ root@edison:/usr/include/linux# cd -
 /home/root/zbar-0.10
 ```
 
-```
-please verify that the detected configuration matches your expectations:
-------------------------------------------------------------------------
-X                 --with-x=disabled
-pthreads          --enable-pthread=yes
-v4l               --enable-video=no
-        => zbarcam video scanner will *NOT* be built
-jpeg              --with-jpeg=yes
-Magick++          --with-imagemagick=yes
-Python            --with-python=yes
-GTK+              --with-gtk=no
-        => the GTK+ widget will *NOT* be built
-Qt4               --with-qt=no
-        => the Qt4 widget will *NOT* be built
-```
-
-```sh
-root@edison:/home/root/zbar-0.10# 
-
-```
-
 ```sh
 root@edison:~# opkg install imagemagick imagemagick-dev
 Installing imagemagick (6.8.9-r0) on root.
@@ -83,4 +62,24 @@ INSTALL      README.windows  doc           pygtk    zbar-qt.pc.in
 LICENSE      TODO            examples      python   zbar.ico
 Makefile.am  aclocal.m4      gtk           qt       zbar.nsi
 root@edison:~/zbar-0.10# ./configure --without-qt --without-gtk --without-xv --without-xshm --with-imagemagick --with-x=no --prefix="/usr"
+```
+
+```
+please verify that the detected configuration matches your expectations:
+------------------------------------------------------------------------
+X                 --with-x=disabled
+pthreads          --enable-pthread=yes
+v4l               --enable-video=no
+        => zbarcam video scanner will *NOT* be built
+jpeg              --with-jpeg=yes
+Magick++          --with-imagemagick=yes
+Python            --with-python=yes
+GTK+              --with-gtk=no
+        => the GTK+ widget will *NOT* be built
+Qt4               --with-qt=no
+        => the Qt4 widget will *NOT* be built
+```
+
+```sh
+root@edison:/home/root/zbar-0.10# 
 ```
