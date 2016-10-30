@@ -204,7 +204,7 @@ Freeing pipeline ...
 root@edison:~# 
 ```
 
-```
+```sh
 root@edison:~# gst-launch-1.0 filesrc location=music.bear_growl_y.wav  ! decodebin ! pulsesink
 ```
 
