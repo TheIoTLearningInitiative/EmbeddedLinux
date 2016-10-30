@@ -37,3 +37,4 @@ Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/v4l-utils-dev
 Configuring v4l-utils-dev.
 root@edison:~# 
 ```
+
