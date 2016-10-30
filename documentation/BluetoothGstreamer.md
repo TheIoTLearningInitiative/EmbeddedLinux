@@ -78,6 +78,8 @@ root@edison:~/sounds#
 
 ```sh
 root@edison:~/sounds# gst-launch-1.0 filesrc location=Randomize9.ogg ! ogmaudioparse ! pulsesink
+root@edison:~/sounds# gst-launch-1.0 filesrc location=Randomize9.ogg ! oggparse ! pulsesink
+gst-launch-1.0 filesrc location=music.ogg ! oggdemux ! vorbisdec ! audioconvert ! audioresample ! pulsesink
 ```
 
 ```sh
