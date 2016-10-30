@@ -86,7 +86,7 @@
    * [Bluetooth](documentation/Bluetooth.md)
        * [Advanced Audio Distribution Profile](documentation/BluetoothAdvancedAudioDistributionProfile.md)
            * [Bluez](documentation/BluetoothBluez.md)
-           * Gstreamer
+           * [Gstreamer](documentation/BluetoothGstreamer.md)
        * [Human Interface Device Game Controller](documentation/BluetoothHumanInterfaceDevice.md)
        * [Hackathon](documentation/HackathonBluetooth.md)
    * [WiFi](documentation/WiFi.md)
