@@ -31,5 +31,9 @@ root@edison:~# opkg install  v4l-utils
 Installing v4l-utils (1.0.1-r0) on root.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/v4l-utils_1.0.1-r0_core2-32.ipk.
 Configuring v4l-utils.
-root@edison:~#  
+root@edison:~# opkg install v4l-utils-dev
+Installing v4l-utils-dev (1.0.1-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/v4l-utils-dev_1.0.1-r0_core2-32.ipk.
+Configuring v4l-utils-dev.
+root@edison:~# 
 ```
