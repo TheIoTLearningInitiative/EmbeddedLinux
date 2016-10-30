@@ -37,7 +37,7 @@ root@edison:~/bluez-alsa#
 
 ```sh
 root@edison:~/bluez-alsa# mkdir build && cd build
-root@edison:~/bluez-alsa# mkdir build && cd build
+root@edison:~/bluez-alsa# 
 ```
 
 ```sh
