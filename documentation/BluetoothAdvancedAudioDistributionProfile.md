@@ -189,7 +189,7 @@ root@edison:~# wget http://www.wavsource.com/snds_2016-10-09_1797402624934163/an
 ```
 
 ```sh
-    root@edison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! wavparse ! pulsesink
+root@edison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! wavparse ! pulsesink
 Setting pipeline to PAUSED ...
 Pipeline is PREROLLING ...
 Pipeline is PREROLLED ...
@@ -202,6 +202,10 @@ Setting pipeline to READY ...
 Setting pipeline to NULL ...
 Freeing pipeline ...
 root@edison:~# 
+```
+
+```
+    root@edison:~# gst-launch-1.0 filesrc location=music.ogg  ! decodebin ! pulsesink
 ```
 
 ```sh
