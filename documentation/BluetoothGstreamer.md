@@ -88,6 +88,20 @@ root@edison:~/sounds# gst-launch-1.0 filesrc location=Randomize9.ogg ! oggdemux 
 [Arachnosoft](http://www.arachnosoft.com/main/music.php)
 
 ```sh
+root@edison:~/sounds# wget http://maxime.abbey.free.fr/mirror/arachnosoft/files/music/current/green/green-20-ogg.zip
+--2016-10-30 06:37:12--  http://maxime.abbey.free.fr/mirror/arachnosoft/files/music/current/green/green-20-ogg.zip
+Resolving maxime.abbey.free.fr... 212.27.63.116
+Connecting to maxime.abbey.free.fr|212.27.63.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12960542 (12M) [application/zip]
+Saving to: 'green-20-ogg.zip'
+
+100%[======================================>] 12,960,542  1.08MB/s   in 16s    
+
+2016-10-30 06:37:29 (803 KB/s) - 'green-20-ogg.zip' saved [12960542/12960542]
+
+root@edison:~/sounds# 
+
 ```
 
 ```sh
