@@ -205,6 +205,10 @@ root@edison:~#
 ```
 
 ```sh
+root@edison:~# gst-launch filesrc location=Randomize9.m4a ! decodebin ! audioconvert ! audioresample ! pulsesink
+```
+
+```sh
 root@edison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! decodebin ! pulsesink
 ```
 
