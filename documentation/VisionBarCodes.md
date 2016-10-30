@@ -9,7 +9,7 @@ Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/libv4l_1.0.1-
 Configuring libv4l.
 Configuring libv4l-dev.
 root@edison:~# cd /usr/include/linux
-root@edison:/usr/include/linux# ln -s ../libv4l1-videodev.h videodev.h
+root@edison:/usr/include/linux# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison/include/linux/videodev2.h videodev.h
 root@edison:/usr/include/linux# cd -
 /home/root/zbar-0.10
 ```
