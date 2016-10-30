@@ -52,3 +52,9 @@ while True:
     bluetoothSerial.write(str("Hola!"))
     sleep(2)
 ```
+
+# Node
+
+```sh
+root@edison:~# npm install bluetooth-serial-port
+```
