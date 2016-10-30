@@ -14,6 +14,8 @@ WARNING: erroneous pipeline: no element "mad"
 
 ```
 root@edison:~# gst-launch-1.0 filesrc location=music.mp3 ! mad ! audioconvert ! audioresample ! pulsesink
+
+root@edison:~# gst-launch-1.0 filesrc location=music.mp3 ! decodebin ! pulsesink
 Setting pipeline to PAUSED ...
 Pipeline is PREROLLING ...
 Missing element: ID3 tag demuxer
