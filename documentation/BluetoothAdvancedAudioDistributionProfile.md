@@ -207,7 +207,10 @@ root@edison:~# wget https://dl.last.fm/static/1477806840/131211148/80e73bda617b3
 root@edison:~# mv Death+Grips+-+Get+Got.mp3 music.mp3
 root@edison:~# gst-launch-1.0 filesrc location=music.mp3  ! mad
 WARNING: erroneous pipeline: no element "mad"
+```
 
+```sh
+root@edison:~/bluez-alsa/build# opkg list | grep gstreamer | grep bad > bad
 ```
 
 ```sh
