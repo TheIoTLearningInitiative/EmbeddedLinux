@@ -167,7 +167,7 @@ root@edison:~# wget http://www.wavsource.com/snds_2016-10-09_1797402624934163/an
 ```
 
 ```sh
-root@edison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! wavparse ! pulsesink
+  root@edison:~# gst-launch-1.0 filesrc location=bear_growl_y.wav  ! wavparse ! pulsesink
 Setting pipeline to PAUSED ...
 Pipeline is PREROLLING ...
 Pipeline is PREROLLED ...
@@ -178,6 +178,10 @@ Execution ended after 0:00:04.593652623
 Setting pipeline to PAUSED ...
 Setting pipeline to READY ...
 root@edison:~# 
+```
+
+```sh
+root@edison:~# wget https://dl.last.fm/static/1477806840/131211148/80e73bda617b3f102999b714b5515dc57d8c33986ea28b4a3a8395b62f15700c/Death+Grips+-+Get+Got.mp3
 ```
 
 ```sh
