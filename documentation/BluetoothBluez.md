@@ -71,3 +71,18 @@ root@edison:~/bluez-alsa/build# cd ortp-0.9.1
 root@edison:~/bluez-alsa/build# CFLAGS=-Wno-unused-but-set-variable ./configure
 root@edison:~/bluez-alsa/build# make
 ```
+
+```sh
+root@edison:~/bluez-alsa/build# opkg install alsa-dev
+Installing alsa-lib-dev (1.0.28-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/alsa-lib-dev_1.0.28-r0_core2-32.ipk.
+alsa-lib-dev: unsatisfied recommendation for alsa-conf-base-dev
+alsa-lib-dev: unsatisfied recommendation for libasound-dev
+alsa-lib-dev: unsatisfied recommendation for alsa-conf-dev
+Configuring alsa-lib-dev.
+root@edison:~/bluez-alsa/build# 
+```
+
+```sh
+```
+
