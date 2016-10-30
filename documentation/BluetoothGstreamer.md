@@ -23,5 +23,7 @@ root@edison:~# unzip GAME\ SOUND\ FX\ PACK\ WAV\ OGG\ M4A_0.zip
   inflating: GAME SOUND FX PACK WAV OGG M4A/Randomize9.ogg
   inflating: GAME SOUND FX PACK WAV OGG M4A/Randomize9.wav
 root@edison:~# mv GAME\ SOUND\ FX\ PACK\ WAV\ OGG\ M4A sounds
-root@edison:~# 
+root@edison:~# cd sounds/ 
+root@edison:~/sounds# ls
+
 ```
