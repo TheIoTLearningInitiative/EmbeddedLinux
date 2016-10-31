@@ -5,14 +5,11 @@ import speech_recognition as sr
 import pyaudio
 import wit
 
-
 r = sr.Recognizer()
 with sr.Microphone() as source:
     r.adjust_for_ambient_noise(source) # listen for 1 second to calibrate the energy threshold for ambient noise levels
     print("Say something!")
     audio = r.listen(source)
-
-    
 
     WIT_AI_KEY = "32-character uppercase alphanumeric strings"
 try:
