@@ -9,6 +9,10 @@
 - [Create an Amazon Echo clone based on the Intel Edison hardware and IBM Watson platform](https://www.losant.com/blog/how-to-build-an-amazon-echo-clone-with-ibm-watson-and-intel-edison)
   - [Github](https://github.com/Losant/example-edison-echo)
 
+# IBM Watson
+
+[IBM Watson](https://www.losant.com/blog/how-to-build-an-amazon-echo-clone-with-ibm-watson-and-intel-edison)
+
 ## eSpeak
 
 > eSpeak is a compact open source software speech synthesizer for English and other languages, for Linux and Windows [Homepage](http://espeak.sourceforge.net)
