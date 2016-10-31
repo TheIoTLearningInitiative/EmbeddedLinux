@@ -7,6 +7,11 @@ Downloading/unpacking SpeechRecognition
 
 ```sh
 root@edison:~# pip install wit
+Collecting wit
+  Downloading wit-4.1.0.tar.gz
+Collecting simplejson (from wit)
+  Downloading simplejson-3.10.0.tar.gz (77kB)
+Successfully installed simplejson-3.10.0 wit-4.1.0
 ```
 
 ```python
