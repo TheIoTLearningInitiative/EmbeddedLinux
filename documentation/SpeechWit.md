@@ -35,6 +35,8 @@ root@edison:~# opkg install libjack                                           ro
 root@edison:~# opkg install flac-dev
 ```
 
+## Google
+
 ```python
 import speech_recognition as sr
 from os import path
@@ -50,6 +52,8 @@ print("Google Speech Recognition thinks you said " + r.recognize_google(audio, k
 WIT_AI_KEY = ""
 print("Wit.ai thinks you said " + r.recognize_wit(audio, key=WIT_AI_KEY))
 ```
+
+## Wit
 
 ```python
 import speech_recognition as sr
