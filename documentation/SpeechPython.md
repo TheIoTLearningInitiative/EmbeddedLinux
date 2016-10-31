@@ -3,11 +3,14 @@
 ```sh
 root@edison:~# pip install SpeechRecognition
 Downloading/unpacking SpeechRecognition
-...
-root@edison:~# python
+```
+
+```sh
+root@edison:~# pip install wit
 ```
 
 ```python
+root@edison:~# python
 >>> import speech_recognition as sr
 >>> list = sr.Microphone.list_microphone_names()
 >>> for element in list:
