@@ -13,15 +13,15 @@
 
 [IBM Watson](https://www.losant.com/blog/how-to-build-an-amazon-echo-clone-with-ibm-watson-and-intel-edison)
 
-## eSpeak
+# eSpeak
 
 > eSpeak is a compact open source software speech synthesizer for English and other languages, for Linux and Windows [Homepage](http://espeak.sourceforge.net)
 
-## VoiceRss
+# VoiceRss
 
 > The Voice RSS Text-to-Speech (TTS) API allows conversion of textual content to speech easier than ever. Just connect to our Text-to-Speech (TTS) API with a few lines of code and get verbal representation of a textual content. For converting text to speech you don’t need special hardware to care about intensive use of CPU and memory during conversion operations. [Homepage](http://www.voicerss.org/)
 
-## OpenSST
+# OpenSST
 
 > An Open Source Speech To Text Project
 
@@ -30,7 +30,7 @@
 - [Mycroft Adapt](https://adapt.mycroft.ai/)
 - [Mycroft Mimic](https://mimic.mycroft.ai/)
 
-## Google Cloud Speech API Alpha
+# Google Cloud Speech API Alpha
  
 > Speech to text conversion powered by machine learning [Homepage](https://cloud.google.com/speech/)
  
@@ -42,22 +42,22 @@
 
 - [Python Google Text to Speech](https://pypi.python.org/pypi/gTTS)
 
-### gRPC
+## gRPC
 
 > A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. [Homepage](http://www.grpc.io/)
 
-### Pyttsx
+## Pyttsx
 
 > Text-to-Speech X-Platform [Homepage](http://pyttsx.readthedocs.io/en/latest/index.html)
 
-### Jasper
+## Jasper
 
 > Control anything with your voice [Homepage](http://jasperproject.github.io/)
 
 - [Jasper Hackaday](http://hackaday.com/2014/04/09/create-your-own-j-a-r-v-i-s-using-jasper/)
 - [Jasper Github](https://github.com/jasperproject)
 
-## Lab
+# Lab
 
 ```sh
 root@edison:~# pip install SpeechRecognition
