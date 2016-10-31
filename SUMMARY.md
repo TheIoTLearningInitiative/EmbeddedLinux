@@ -122,7 +122,6 @@
    * [Drone Code](documentation/DroneCode.md)
    * [Speech](documentation/Voice.md)
        * [Python](documentation/SpeechPython.md)
-       * [WIT](documentation/SpeechWit.md)
    * [Radio Frequency](documentation/Radio.md)
    * [Bots](documentation/Bots.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
