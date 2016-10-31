@@ -1,6 +1,5 @@
 # Python SpeechRecognition
 
-
 ```sh
 root@edison:~# pip install SpeechRecognition
 Downloading/unpacking SpeechRecognition
@@ -34,49 +33,6 @@ default
 ```sh
 root@edison:~# opkg install libjack                                           root@edison:~# opkg install --nodeps jack-dev                                 root@edison:~# opkg install libportaudio-dev
 root@edison:~# opkg install flac-dev
-```
-
-## Google
-
-```python
-import speech_recognition as sr
-from os import path
-
-AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "hello.wav")
-
-r = sr.Recognizer()
-with sr.AudioFile(AUDIO_FILE) as source:
-    audio = r.record(source) # read the entire audio file
-
-print("Google Speech Recognition thinks you said " + r.recognize_google(audio, key=""))
-
-WIT_AI_KEY = ""
-print("Wit.ai thinks you said " + r.recognize_wit(audio, key=WIT_AI_KEY))
-```
-
-## Wit
-
-```python
-import speech_recognition as sr
-import pyaudio
-import wit
-
-
-r = sr.Recognizer()
-with sr.Microphone() as source:
-    r.adjust_for_ambient_noise(source) # listen for 1 second to calibrate the energy threshold for ambient noise levels
-    print("Say something!")
-    audio = r.listen(source)
-
-    
-
-    WIT_AI_KEY = "32-character uppercase alphanumeric strings"
-try:
-    print("Wit.ai thinks you said " + r.recognize_wit(audio, key=WIT_AI_KEY))
-except sr.UnknownValueError:
-    print("Wit.ai could not understand audio")
-except sr.RequestError:
-    print("Could not request results from Wit.ai service")
 ```
 
 ## Wave
@@ -124,3 +80,22 @@ waveFile.setframerate(RATE)
 waveFile.writeframes(b''.join(frames))
 waveFile.close()
 ```
+
+## Google
+
+```python
+import speech_recognition as sr
+from os import path
+
+AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "hello.wav")
+
+r = sr.Recognizer()
+with sr.AudioFile(AUDIO_FILE) as source:
+    audio = r.record(source) # read the entire audio file
+
+print("Google Speech Recognition thinks you said " + r.recognize_google(audio, key=""))
+
+WIT_AI_KEY = ""
+print("Wit.ai thinks you said " + r.recognize_wit(audio, key=WIT_AI_KEY))
+```
+
