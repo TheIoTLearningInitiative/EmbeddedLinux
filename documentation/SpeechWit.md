@@ -78,6 +78,8 @@ except sr.RequestError:
     print("Could not request results from Wit.ai service")
 ```
 
+## Wave
+
 ```python
 import audioop
 import pyaudio
