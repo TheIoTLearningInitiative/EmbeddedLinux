@@ -35,7 +35,7 @@ root@edison:~# opkg install libjack                                           ro
 root@edison:~# opkg install flac-dev
 ```
 
-```sh
+```python
 import speech_recognition as sr
 from os import path
 
