@@ -31,9 +31,7 @@ default
 ```
 
 ```sh
-root@edison:~# opkg install libjack                                             
-root@edison:~# opkg install --nodeps jack-dev                                   
-root@edison:~# opkg install libportaudio-dev
+root@edison:~# opkg install libjack                                           root@edison:~# opkg install --nodeps jack-dev                                 root@edison:~# opkg install libportaudio-dev
 root@edison:~# opkg install flac-dev
 ```
 
