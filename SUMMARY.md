@@ -140,7 +140,7 @@
    * [Notes](documentation/Notes.md)
    * [Security](documentation/Security.md)
    * [HAM Radio](documentation/HamRadio.md)
-   * Automotive
+   * [Automotive](documentation/Automotive.md)
 * [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
