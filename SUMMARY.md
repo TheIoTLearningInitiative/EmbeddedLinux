@@ -141,6 +141,7 @@
    * [Security](documentation/Security.md)
    * [HAM Radio](documentation/HamRadio.md)
    * [Automotive](documentation/Automotive.md)
+   * Digital Signage
 * [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
