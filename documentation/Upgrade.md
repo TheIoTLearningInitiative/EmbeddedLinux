@@ -8,7 +8,7 @@
 - [Flasheable Image](https://seven.centos.org/2015/08/a-flashable-centos-image-for-the-intel-edison/)
 
 ```sh
-xe1gyq@jessie:~$ sudo dfu-util -l -d 8087:0a99
+user@workstation:~$ sudo dfu-util -l -d 8087:0a99
 dfu-util 0.8
 
 Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
@@ -31,7 +31,7 @@ Found DFU: [8087:0a99] ver=9999, devnum=14, cfg=1, intf=0, alt=0, name="ifwi00",
 ```
 
 ```sh
-xe1gyq@jessie:~/Downloads/latestedison$ dfu-util -d 8087:0a99 -a rootfs -D edison-image-edison.ext4 
+user@workstation:~/Downloads/latestedison$ dfu-util -d 8087:0a99 -a rootfs -D edison-image-edison.ext4 
 dfu-util 0.8
 
 Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
