@@ -39,6 +39,7 @@
    * [Upgrade](documentation/Upgrade.md)
    * [Boot Up](documentation/BootUp.md)
    * [Dual Boot](documentation/DualBoot.md)
+   * Root Directory
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
@@ -47,7 +48,6 @@
    * [Recovery](documentation/Recovery.md)
    * [Reboot](documentation/Reboot.md)
    * [Processes](documentation/Processes.md)
-   * Root Directory
 * User Space
    * [Virtual Network Computing](documentation/VirtualNetworkComputing.md)
    * [Text Editors](documentation/TextEditors.md)
