@@ -39,7 +39,7 @@
    * [Upgrade](documentation/Upgrade.md)
    * [Boot Up](documentation/BootUp.md)
    * [Dual Boot](documentation/DualBoot.md)
-   * Root Directory
+   * [Root Directory](documentation/RootDirectory.md)
    * [Display Message](documentation/DisplayMessage.md)
    * [Modules](documentation/IModules.md)
    * [Filesystem](documentation/Filesystem.md)
