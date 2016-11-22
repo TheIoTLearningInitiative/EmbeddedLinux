@@ -15,7 +15,6 @@
 - [Mycroft Community](https://community.mycroft.ai/)
 - [Gnome Shell GUI Extension for Mycroft Ai](https://github.com/AIIX)
 
-
 ## Components
 
 ### Adapt Intent Parser
