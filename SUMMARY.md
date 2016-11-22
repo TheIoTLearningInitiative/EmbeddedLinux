@@ -126,6 +126,7 @@
    * [Radio Frequency](documentation/Radio.md)
    * [Bots](documentation/Bots.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
+       * WitAi
    * [Games](documentation/Games.md)
    * [Vision](documentation/Vision.md)
        * [Bar Codes](documentation/VisionBarCodes.md)
