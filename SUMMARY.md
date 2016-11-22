@@ -47,6 +47,7 @@
    * [Recovery](documentation/Recovery.md)
    * [Reboot](documentation/Reboot.md)
    * [Processes](documentation/Processes.md)
+   * Root Directory
 * User Space
    * [Virtual Network Computing](documentation/VirtualNetworkComputing.md)
    * [Text Editors](documentation/TextEditors.md)
