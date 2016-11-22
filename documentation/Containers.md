@@ -16,6 +16,7 @@
 > Userspace (FUSE) filesystem offering two main things:
 > - Overlay files for cpuinfo, meminfo, stat and uptime.
 > - A cgroupfs compatible tree allowing unprivileged writes.
+> 
 > It's designed to workaround the shortcomings of procfs, sysfs and cgroupfs by exporting files which match what a system container user would expect.
 
 More »
