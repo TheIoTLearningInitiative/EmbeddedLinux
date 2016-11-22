@@ -11,6 +11,17 @@
 
 > LXD is the new LXC experience. It offers a completely fresh and intuitive user experience with a single command line tool to manage your containers. Containers can be managed over the network in a transparent way through a REST API. It also works with large scale deployments by integrating with OpenStack.
 
+## LXCFS
+
+> Userspace (FUSE) filesystem offering two main things:
+> - Overlay files for cpuinfo, meminfo, stat and uptime.
+> - A cgroupfs compatible tree allowing unprivileged writes.
+> It's designed to workaround the shortcomings of procfs, sysfs and cgroupfs by exporting files which match what a system container user would expect.
+
+More »
+
+
+
 # Resin.io
 
 > Resin.io brings the benefits of Linux containers to the IoT. Develop iteratively, deploy safely, and manage at scale. [Homepage](https://resin.io/)
