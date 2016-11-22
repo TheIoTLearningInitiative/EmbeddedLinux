@@ -131,6 +131,7 @@
    * [Games](documentation/Games.md)
    * [Vision](documentation/Vision.md)
        * [Bar Codes](documentation/VisionBarCodes.md)
+       * Google Cloud Vision API
    * [Messaging](documentation/Messaging.md)
    * [Entertainment](documentation/Entertainment.md)
    * [Home Assistants](documentation/HomeAssistants.md)
