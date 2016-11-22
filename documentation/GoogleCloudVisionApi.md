@@ -61,7 +61,7 @@ root@edison:~# export GOOGLE_APPLICATION_CREDENTIALS=/home/root/gcp.json
 }
 ```
 
-## Laboratory
+# Laboratory
 
 ```sh
 root@edison:~# mkdir vision
