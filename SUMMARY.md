@@ -127,6 +127,7 @@
    * [Bots](documentation/Bots.md)
    * [Artificial Intelligence](documentation/ArtificialIntelligence.md)
        * [WitAi](documentation/WitAi.md)
+       * MycroftAi
    * [Games](documentation/Games.md)
    * [Vision](documentation/Vision.md)
        * [Bar Codes](documentation/VisionBarCodes.md)
