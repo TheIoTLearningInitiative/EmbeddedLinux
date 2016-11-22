@@ -1,9 +1,13 @@
 # Containers
 
-# 
+# LinuxContainers.org 
+
+> Infrastructure for container projects. The goal is to offer a distro and vendor neutral environment for the development of Linux container technologies. Our main focus is system containers. That is, containers which offer an environment as close to possible as the one you'd get from a VM but without the overhead that comes with running a separate kernel and simulating all the hardware. This is achieved through a combination of kernel security features such as namespaces, mandatory access control and control groups.
 
 ## LXC
 > LXC is the well known set of tools, templates, library and language bindings. It's pretty low level, very flexible and covers just about every containment feature supported by the upstream kernel.
+
+## 
 
 # Resin.io
 
