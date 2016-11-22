@@ -4,7 +4,7 @@
 - [Tech’s Biggest Names Are Giving Millions to Crisis Text Line](http://www.wired.com/2016/06/techs-biggest-names-giving-millions-crisis-text-line?mbid=social_twitter)
 - [Hanging out with Anki's Cozmo, the toy robot putting AI at our fingertips](http://www.theverge.com/2016/7/11/12144618/anki-cozmo-ai-robots-toys-hands-on-sdk-developers)
 
-## Wit.Ai
+# Wit.Ai
 
 > Natural Language for Developers. [Homepage](https://wit.ai/)
 
@@ -12,7 +12,7 @@
 
 - [Alex Lebrun, Wit Ai](https://www.youtube.com/watch?v=vATExKGuPTY)
 
-### Components
+## Components
 
 - Bots
 - Mobile apps
@@ -20,7 +20,7 @@
 - Wearable devices
 - Robots
 
-### Laboratory
+## Laboratory
 
 - Go to [wit.ai](https://wit.ai/)
   - Sign up / Log in
@@ -56,7 +56,7 @@ CHANGES.md  LICENSE  README.md  examples  setup.py  wit
 root@edison:~/pywit# 
 ```
 
-## Mycroft AI
+# Mycroft AI
 
 > A.I. for everyone. Connecting the Internet of things has never been easier. Mycroft has a lot of native skills and abilities baked in and, since it is open source, it allows outside developers to add more features over time. [Mycroft](https://mycroft.ai/)
 
@@ -74,9 +74,9 @@ root@edison:~/pywit#
 - [Gnome Shell GUI Extension for Mycroft Ai](https://github.com/AIIX)
 
 
-### Components
+## Components
 
-#### Adapt Intent Parser
+### Adapt Intent Parser
 
 > The Adapt Intent Parser is an open source software library for converting natural language into machine readable data structures. Adapt is lightweight and streamlined and is designed to run on devices with limited computing resources. Adapt takes in natural language and outputs a data structure that includes the intent, a match probability, a tagged list of entities.
 
@@ -138,11 +138,11 @@ xe1gyq@jessie:~/mycroft-core$
 xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
 ```
 
-#### Mimic Text to Speech
+### Mimic Text to Speech
 
 > Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University’s FLITE software. Mimic takes in text and reads it out loud to create a high quality voice. Mimic’s low-latency, small resource footprint, and good quality voices set it apart from other open source text-to-speech projects.
 
-#### Open Speech to Text
+### Open Speech to Text
 
 > OpenSTT is being led by members of the Mycroft A.I. team as they strive to create a powerful voice interface and artificial intelligence platform. Our goal is to make this technology available to as many people as possible. We do this by leading development of open source projects, OpenSTT is one of these initiatives.
 
@@ -153,11 +153,11 @@ xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
 - [Mycroft Core, the Mycroft Artificial Intelligence Platform Github](https://github.com/MycroftAI/mycroft-core)
 - [Mycroft Alpha v0.6 Software Demo](https://www.youtube.com/watch?v=-c8kfupIbO4&feature=youtu.be)
 
-## Viv.Ai
+# Viv.Ai
 
 > Viv is an artificial intelligence platform that enables developers to distribute their products through an intelligent, conversational interface. It’s the simplest way for the world to interact with devices, services and things everywhere. Viv is taught by the world, knows more than it is taught, and learns every day. [Homepage](http://viv.ai/)
 
-## Api.Ai
+# Api.Ai
 
 - [Homepage](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
 
@@ -165,15 +165,15 @@ xe1gyq@jessie:~/mycroft-core$ ./dev_setup.sh
 root@edison:~# pip install apiai
 ```
 
-## Moni.Ai
+# Moni.Ai
 
 [Homepage](https://moni.ai/)
 
-## HeyAthena
+# HeyAthena
 
 [HeyAthena](https://pypi.python.org/pypi/HeyAthena)
 
-## Others
+# Others
 
 - [Virtual Assistants Startups](http://www.inc.com/magazine/201604/tess-townsend/virtual-assistant-startups.html)
 - [2016 Artificial Intelligence](http://www.inc.com/christine-lagorio/best-industries-2016-artificial-intelligence.html)
