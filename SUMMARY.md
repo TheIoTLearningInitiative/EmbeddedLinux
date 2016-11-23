@@ -8,7 +8,6 @@
    * [Skills](documentation/Skills.md)
    * [Prerequisites](documentation/Prerequisites.md)
 * [Embedded Linux](documentation/EmbeddedLinux.md)
-* [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
        * [Yocto](documentation/Yocto.md)
