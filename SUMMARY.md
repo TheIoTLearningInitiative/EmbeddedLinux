@@ -2,7 +2,7 @@
 
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
-* Once Upon A Time ...
+* [Once Upon A Time ...](documentation/OnceUponATime.md)
 * About This Training
    * [Objectives](documentation/Objectives.md)
    * [Skills](documentation/Skills.md)
