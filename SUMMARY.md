@@ -7,6 +7,7 @@
    * [Objectives](documentation/Objectives.md)
    * [Skills](documentation/Skills.md)
    * [Prerequisites](documentation/Prerequisites.md)
+* Embedded Linux
 * [Introduction](documentation/Introduction.md)
 * [Build Systems](documentation/BuildSystems.md)
    * [Yocto Board Support Package](documentation/YoctoBoardSupportPackage.md)
@@ -153,5 +154,4 @@
    * [Challenge](documentation/Challenge.md)
    * Tbd
 * [SandBox](documentation/Sandbox.md)
-* Embedded Linux
 
