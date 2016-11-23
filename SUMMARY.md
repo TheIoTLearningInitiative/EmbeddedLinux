@@ -49,7 +49,7 @@
    * [Recovery](documentation/Recovery.md)
    * [Reboot](documentation/Reboot.md)
    * [Processes](documentation/Processes.md)
-* [User Space](UserSpace.md)
+* [User Space](documentation/UserSpace.md)
    * [Virtual Network Computing](documentation/VirtualNetworkComputing.md)
    * [Text Editors](documentation/TextEditors.md)
    * [Services](documentation/Services.md)
