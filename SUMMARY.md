@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
+* Once Upon A Time
 * About This Training
    * [Objectives](documentation/Objectives.md)
    * [Skills](documentation/Skills.md)
@@ -152,5 +153,4 @@
    * [Challenge](documentation/Challenge.md)
    * Tbd
 * [SandBox](documentation/Sandbox.md)
-* Once Upon A Time
 
