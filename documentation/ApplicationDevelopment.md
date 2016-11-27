@@ -7,6 +7,7 @@
 - [Embedded Linux Applications](http://www.ibm.com/developerworks/library/l-embl/)
 - [Top IoT Open Source Projects](http://iotawards.postscapes.com/2015-16/top-iot-open-source-project)
 - [Get Started with Microsoft Azure IoT Starter Kit - Intel Edison](https://azure.microsoft.com/en-us/documentation/samples/iot-hub-node-intel-edison-getstartedkit/)
+- [Ameba IoT](http://www.amebaiot.com/en/)
 
 ## Environments
 
