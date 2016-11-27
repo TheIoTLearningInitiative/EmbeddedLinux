@@ -147,6 +147,7 @@
    * [HAM Radio](documentation/HamRadio.md)
    * [Automotive](documentation/Automotive.md)
    * [Digital Signage](documentation/DigitalSignage.md)
+   * Photography
 * [Debug](documentation/Debug.md)
 * Wrap-Up
    * [Online Training](documentation/OnlineTraining.md)
