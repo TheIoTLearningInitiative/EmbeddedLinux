@@ -1,11 +1,13 @@
 # Home Assistants
 
+- [Open Source Automation Tools](https://opensource.com/life/16/3/5-open-source-home-automation-tools)
+
 ## Home Assistant Io
 
 ```sh
 root@edison:~# source activate homeassistant                                    
 prepending /home/root/miniconda3/envs/homeassistant/bin to PATH                 
-(homeassistant) root@edison:~# 
+(homeassistant) root@edison:~#
 ```
 
 ```sh
@@ -77,3 +79,6 @@ root@edison:~# hass
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
+
+
+
