@@ -27,7 +27,7 @@
             * [Native](documentation/ModulesNative.md)
         * [Filesystem](documentation/FilesystemCustomization.md)
         * [Flashing](documentation/FlashingYocto.md)
-    * Distributions
+    * [Distributions](documentation/Distributions.md)
         * [CentOS](documentation/CentOs.md)
         * [Google Brillo](documentation/GoogleBrillo.md)
         * [Jubilinux](documentation/Jubilinux.md)
