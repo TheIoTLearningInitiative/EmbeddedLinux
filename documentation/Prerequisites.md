@@ -1,5 +1,9 @@
 # Prerequisites
 
+# Trainings
+
+- Internet of Things 101
+
 # Accounts
 
 None
