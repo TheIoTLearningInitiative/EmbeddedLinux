@@ -4,7 +4,6 @@
 
 - [Internet of Things 101](https://theiotlearninginitiative.gitbooks.io/internetofthings101/)
 
-
 # Accounts
 
 None
