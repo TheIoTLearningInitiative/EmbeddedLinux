@@ -1,4 +1,4 @@
-# Requiremnents
+# Requirements
 
 # Equipment
 
