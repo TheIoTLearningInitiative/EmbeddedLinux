@@ -4,7 +4,7 @@
 
 - [Internet of Things 101](https://theiotlearninginitiative.gitbooks.io/internetofthings101/)
 
-# Gitbook
+# Source Code
 
 ```sh
 root@edison:~# git clone https://github.com/YourGithubUserName/TheIoTLearningInitiative.git
