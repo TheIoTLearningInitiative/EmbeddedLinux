@@ -9,4 +9,3 @@
 - Grove Indoor Environment Kit for Intel® Edison
 - USB External Sound Card Audio Adapter
 - Logitech HD Webcam C525, Portable HD 720p Video Calling with Autofocus
-
