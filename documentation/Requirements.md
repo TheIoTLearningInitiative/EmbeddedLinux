@@ -2,7 +2,7 @@
 
 # Equipment
 
-- Laptop (Linux or Windows)
+- Workstation (Linux, Windows, OS X)
 - Internet Connection
 - Micro USB Cable
 - Linux Based Board Development (Intel Edison, Intel Galileo)
