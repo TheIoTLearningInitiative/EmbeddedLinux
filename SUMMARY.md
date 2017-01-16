@@ -6,6 +6,7 @@
     * [Objectives](documentation/Objectives.md)
     * [Skills](documentation/Skills.md)
     * [Prerequisites](documentation/Prerequisites.md)
+    * [Requirements](documentation/Requirements.md)
 * [Once Upon A Time ...](documentation/OnceUponATime.md)
 * [Embedded Linux](documentation/EmbeddedLinux.md)
 * [Build Systems](documentation/BuildSystems.md)
