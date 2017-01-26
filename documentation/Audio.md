@@ -1,11 +1,11 @@
 # Audio
 
-> An audio signal is a representation of sound, typically as an electrical voltage. Audio signals have frequencies in the audio frequency range of roughly 20 to 20,000 Hz (the limits of human hearing). [wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
+> An audio signal is a representation of sound, typically as an electrical voltage. Audio signals have frequencies in the audio frequency range of roughly 20 to 20,000 Hz \(the limits of human hearing\). [wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
 
-- [Intel Edison Audio Setup Guide](http://download.intel.com/support/edison/sb/edisonaudio_332434001.pdf)
-- [Edidoom Intel Edison Audio](https://github.com/llatta/edison-audio)
-- [Play Audio from your Intel® Edison via Bluetooth* using Advanced Audio Distribution Profile (A2DP)](https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile)
-- [Intel Edison - Simple I2S Audio Setup](http://www.malinov.com/Home/sergey-s-blog/inteledison-simplei2saudiosetup)
+* [Intel Edison Audio Setup Guide](http://download.intel.com/support/edison/sb/edisonaudio_332434001.pdf)
+* [Edidoom Intel Edison Audio](https://github.com/llatta/edison-audio)
+* [Play Audio from your Intel® Edison via Bluetooth\* using Advanced Audio Distribution Profile \(A2DP\)](https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile)
+* [Intel Edison - Simple I2S Audio Setup](http://www.malinov.com/Home/sergey-s-blog/inteledison-simplei2saudiosetup)
 
 # Required Hardware
 
@@ -14,9 +14,10 @@ USB Audio Dongle USB PnP Sound Device
 # Kernel Integration
 
 > Advanced Linux Sound Architecture
-> > The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.
+>
+> > The Advanced Linux Sound Architecture \(ALSA\) provides audio and MIDI functionality to the Linux operating system.
 
-- [Advanced Linux Sound Architecture Homepage](http://www.alsa-project.org/main/index.php/Main_Page)
+* [Advanced Linux Sound Architecture Homepage](http://www.alsa-project.org/main/index.php/Main_Page)
 
 ## Kernel Display Message
 
@@ -118,13 +119,13 @@ root@edison:~#
 
 ### Free Sound Effects
 
-- [Soundbible](http://soundbible.com/)
-- [Soundjay](http://www.soundjay.com/)
-- [freeSFX](http://www.freesfx.co.uk/)
+* [Soundbible](http://soundbible.com/)
+* [Soundjay](http://www.soundjay.com/)
+* [freeSFX](http://www.freesfx.co.uk/)
 
 ### Programs
 
-- [Mad](http://www.underbit.com/products/mad/)
+* [Mad](http://www.underbit.com/products/mad/)
 
 ### Audio Files
 
@@ -338,4 +339,6 @@ root@edison:~# mpg123
 ```sh
 root@edison:~# espeak
 ```
+
+
 
