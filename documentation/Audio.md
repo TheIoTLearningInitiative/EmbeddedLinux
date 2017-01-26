@@ -277,6 +277,8 @@ ctl.!default {
 }
 ```
 
+## Other Configuration
+
 ```sh
 pcm.!default {
         type asym
@@ -290,6 +292,8 @@ pcm.!default {
         } 
 }
 ```
+
+## Other Configuration
 
 ```sh
     root@edison:~# vi /etc/asound.conf
