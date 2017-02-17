@@ -129,7 +129,7 @@ lue=100
 
 ### Setup
 
-```
+```bash
 root@board:~# echo > /etc/opkg/base-feeds.conf
 root@board:~# cat << EOT >> /etc/opkg/base-feeds.conf
 src/gz all http://repo.opkg.net/edison/repo/all
