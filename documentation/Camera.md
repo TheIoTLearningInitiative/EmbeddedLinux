@@ -1,6 +1,6 @@
 # Camera
 
-> USB Video Device Class Webcam UVC-compatible. The USB video device class (also USB video class or UVC) is a USB device class that describes devices capable of streaming video like webcams, digital camcorders, transcoders, analog video converters and still-image cameras. [Wikipedia](https://en.wikipedia.org/wiki/List_of_USB_video_class_devices)
+> USB Video Device Class Webcam UVC-compatible. The USB video device class \(also USB video class or UVC\) is a USB device class that describes devices capable of streaming video like webcams, digital camcorders, transcoders, analog video converters and still-image cameras. [Wikipedia](https://en.wikipedia.org/wiki/List_of_USB_video_class_devices)
 
 ### Required Hardware
 
@@ -25,7 +25,7 @@ USB Camera HD Webcam C525
     [ 1858.582915] USB Video Class driver (1.1.1)
 ```
 
-```sh
+```bash
 root@edison:~# dmesg
 ...
 [31587.442854] usb 1-1: new high-speed USB device number 4 using dwc3-host
@@ -109,12 +109,15 @@ lue=100
     root@edison:~# ls -l /dev/video0
     crw-rw----    1 root     video      81,   0 Mar 21 18:21 /dev/video0
 ```
+
 ## Applications / Libraries
 
 > fswebcam
-> > a  small  and  simple webcam app for *nix. It can capture images  from  a  number  of  different  sources  and   perform   simple manipulation  on  the  captured image. The image can be saved as one or more PNG or JPEG files.
-       
+>
+> > a  small  and  simple webcam app for \*nix. It can capture images  from  a  number  of  different  sources  and   perform   simple manipulation  on  the  captured image. The image can be saved as one or more PNG or JPEG files.
+>
 > ffmpeg
+>
 > > A complete, cross-platform solution to record, convert and stream audio and video. [FFMpeg Homepage](https://www.ffmpeg.org/)
 
 ### Setup
@@ -189,16 +192,16 @@ class Camera(object):
     def __init__(self):
         self.cap = cv2.VideoCapture(0)
         # Reset camera capture size for faster processing
-	    self.cap.set(3,480)
-	    self.cap.set(4,360)
+        self.cap.set(3,480)
+        self.cap.set(4,360)
 
     def get_frame(self):
-	    ret, frame = self.cap.read()
+        ret, frame = self.cap.read()
         # Apply laplacian edge detection to image
-	    laplacian = cv2.Laplacian(frame,cv2.CV_64F)
+        laplacian = cv2.Laplacian(frame,cv2.CV_64F)
         # Write out original and edge detected images at once
-	    cv2.imwrite('blah.jpg',np.hstack((frame,laplacian)))
-	    return open('blah.jpg', 'rb').read()
+        cv2.imwrite('blah.jpg',np.hstack((frame,laplacian)))
+        return open('blah.jpg', 'rb').read()
 
 app = Flask(__name__)
 
@@ -225,21 +228,23 @@ if __name__ == '__main__':
      * Debugger pin code: 775-529-825
 ```
 
-See Live Stream by connecting from a web browser to http://youripaddress:5000/
-
+See Live Stream by connecting from a web browser to [http://youripaddress:5000/](http://youripaddress:5000/)
 
 ```sh
     192.168.1.70 - - [21/Mar/2016 18:48:16] "GET / HTTP/1.1" 200 -
     192.168.1.70 - - [21/Mar/2016 18:48:17] "GET / HTTP/1.1" 200 -
 ```
+
 #### Online Examples
 
-- [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
-- [Rustem Iskuzhin Making your own live streaming camera](http://rustemiskuzhin.com/?p=1)
+* [Github Smoyerman Video Capture](https://github.com/smoyerman/EdisonOpenCVVideo/blob/master/VideoCapture.py)
+* [Rustem Iskuzhin Making your own live streaming camera](http://rustemiskuzhin.com/?p=1)
 
 ### OpenCV
 
 #### USB Camera
 
 #### IP Camera
+
+
 
