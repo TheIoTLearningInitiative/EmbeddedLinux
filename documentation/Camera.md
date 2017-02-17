@@ -1,3 +1,10 @@
+
+---
+
+---
+
+---
+
 # Camera
 
 > USB Video Device Class Webcam UVC-compatible. The USB video device class \(also USB video class or UVC\) is a USB device class that describes devices capable of streaming video like webcams, digital camcorders, transcoders, analog video converters and still-image cameras. [Wikipedia](https://en.wikipedia.org/wiki/List_of_USB_video_class_devices)
@@ -122,8 +129,6 @@ lue=100
 
 ### Setup
 
-
-
 ```
 root@board:~# echo > /etc/opkg/base-feeds.conf
 root@board:~# cat << EOT >> /etc/opkg/base-feeds.conf
@@ -133,8 +138,6 @@ src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 EOT
 root@board:~# 
 ```
-
-
 
 #### Manual
 
@@ -259,6 +262,4 @@ See Live Stream by connecting from a web browser to [http://youripaddress:5000/]
 #### USB Camera
 
 #### IP Camera
-
-
 
