@@ -122,6 +122,20 @@ lue=100
 
 ### Setup
 
+
+
+```
+root@board:~# echo > /etc/opkg/base-feeds.conf
+root@board:~# cat << EOT >> /etc/opkg/base-feeds.conf
+src/gz all http://repo.opkg.net/edison/repo/all
+src/gz edison http://repo.opkg.net/edison/repo/edison
+src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
+EOT
+root@board:~# 
+```
+
+
+
 #### Manual
 
 Install ffmpeg by following [Video Streaming on Intel Edison](https://github.com/drejkim/edi-cam)
