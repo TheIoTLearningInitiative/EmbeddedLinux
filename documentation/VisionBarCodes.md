@@ -75,7 +75,7 @@ HACKING      README          configure.ac  plugin   zbar-gtk.pc.in  zbarimg
 INSTALL      README.windows  doc           pygtk    zbar-qt.pc.in
 LICENSE      TODO            examples      python   zbar.ico
 Makefile.am  aclocal.m4      gtk           qt       zbar.nsi
-root@edison:~/zbar-0.10# ./configure --without-qt --without-gtk --without-xv --without-xshm --with-imagemagick --with-x=no --prefix="/usr"
+root@edison:~/zbar-0.10# ./configure --without-qt --without-gtk --without-xv --without-xshm --with-imagemagick --with-x=no --prefix="/usr" 
 ```
 
 ```
