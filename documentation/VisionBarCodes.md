@@ -112,10 +112,12 @@ root@edison:~#
 ## Zbar Installation Automated
 
 ```sh
-root@edison:~# wget opkg install http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk
-Downloading http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk.
+root@edison:~# opkg install zbar
 Installing zbar (0.10-r0) on root.
-Configuring zbar.
+Downloading http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk.
+```
+
+```sh
 root@edison:~/zbar-0.10# zbarcam
 ERROR: zbar processor in _zbar_video_open():
     system error: opening video device '/dev/video0': No such file or directory (2)
