@@ -115,13 +115,31 @@ root@edison:~#
 root@edison:~# opkg install zbar
 Installing zbar (0.10-r0) on root.
 Downloading http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk.
+Configuring zbar.
+root@edison:~# 
 ```
 
 ```sh
-root@edison:~/zbar-0.10# zbarcam
-ERROR: zbar processor in _zbar_video_open():
-    system error: opening video device '/dev/video0': No such file or directory (2)
-root@edison:~/zbar-0.10# 
+root@edison:~# zbarcam -h
+usage: zbarcam [options] [/dev/video?]
+
+scan and decode bar codes from a video stream
+
+options:
+    -h, --help      display this help text
+    --version       display version information and exit
+    -q, --quiet     disable beep when symbol is decoded
+    -v, --verbose   increase debug output level
+    --verbose=N     set specific debug output level
+    --xml           use XML output format
+    --raw           output decoded symbol data without symbology prefix
+    --nodisplay     disable video display window
+    --prescale=<W>x<H>
+                    request alternate video image size from driver
+    -S<CONFIG>[=<VALUE>], --set <CONFIG>[=<VALUE>]
+                    set decoder/scanner <CONFIG> to <VALUE> (or 1)
+
+root@edison:~# 
 ```
 
 
