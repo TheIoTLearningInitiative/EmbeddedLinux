@@ -1,7 +1,7 @@
 # Bar Codes
 
-* [1](https://software.intel.com/en-us/blogs/2015/11/30/barcodescanner-with-webcam-on-intel-edison)
-* [2](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
+* [Bar Code Scanner with Webcam On Intel Edison](https://software.intel.com/en-us/blogs/2015/11/30/barcodescanner-with-webcam-on-intel-edison)
+* [Real Time QR Code Detection](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
 
 ```sh
 root@edison:~# opkg install libv4l-dev
@@ -61,6 +61,8 @@ Configuring librsvg-2-dev.
 Configuring imagemagick-dev.
 root@edison:~# 
 ```
+
+
 
 ```sh
 root@edison:~# wget http://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10.tar.bz2
