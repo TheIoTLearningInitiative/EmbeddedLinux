@@ -17,14 +17,14 @@ root@edison:/usr/include/linux# cd -
 /home/root/zbar-0.10
 ```
 
-## ImageMagick Method Url
+## ImageMagick installation Method Url
 
 ```sh
 root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick_6.9.2-r0_core2-32.ipk
 root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick-dev_6.9.2-r0_core2-32.ipk
 ```
 
-# ImageMagick Method Auto
+# ImageMagick installation Method Auto
 
 ```sh
 root@edison:~# opkg install imagemagick imagemagick-dev
@@ -62,7 +62,7 @@ Configuring imagemagick-dev.
 root@edison:~# 
 ```
 
-
+## Zbar Installation
 
 ```sh
 root@edison:~# wget http://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10.tar.bz2
