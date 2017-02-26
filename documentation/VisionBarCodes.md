@@ -1,7 +1,7 @@
 # Bar Codes
 
-- [1](https://software.intel.com/en-us/blogs/2015/11/30/barcodescanner-with-webcam-on-intel-edison)
-- [2](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
+* [1](https://software.intel.com/en-us/blogs/2015/11/30/barcodescanner-with-webcam-on-intel-edison)
+* [2](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
 
 ```sh
 root@edison:~# opkg install libv4l-dev
@@ -20,7 +20,6 @@ root@edison:/usr/include/linux# cd -
 ```sh
 root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick_6.9.2-r0_core2-32.ipk
 root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick-dev_6.9.2-r0_core2-32.ipk
-root@edison:~# opkg install 
 ```
 
 ```sh
@@ -114,3 +113,6 @@ ERROR: zbar processor in _zbar_video_open():
     system error: opening video device '/dev/video0': No such file or directory (2)
 root@edison:~/zbar-0.10# 
 ```
+
+
+
