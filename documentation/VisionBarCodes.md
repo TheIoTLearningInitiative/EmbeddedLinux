@@ -95,6 +95,11 @@ Qt4               --with-qt=no
 ```
 
 ```sh
+root@edison:~/zbar-0.10# rm libtool
+root@edison:~/zbar-0.10# ln -s /usr/bin/libtool libtool
+```
+
+```sh
 root@edison:~/zbar-0.10# make
 make  all-am
 make[1]: Entering directory '/home/root/zbar-0.10'tp://repo.opkg.net/edison/repo/core2-32/i
