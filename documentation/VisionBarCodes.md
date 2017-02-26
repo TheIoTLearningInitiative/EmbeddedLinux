@@ -24,7 +24,7 @@ root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagic
 root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/imagemagick-dev_6.9.2-r0_core2-32.ipk
 ```
 
-# ImageMagick Installation Method Auto
+# ImageMagick Installation Method Automated
 
 ```sh
 root@edison:~# opkg install imagemagick imagemagick-dev
@@ -62,7 +62,7 @@ Configuring imagemagick-dev.
 root@edison:~# 
 ```
 
-## Zbar Installation
+## Zbar Installation Manual
 
 ```sh
 root@edison:~# wget http://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10.tar.bz2
@@ -108,6 +108,8 @@ make: *** [all] Error 2
 root@edison:~/zbar-0.10# cd
 root@edison:~# 
 ```
+
+## Zbar Installation Automated
 
 ```sh
 root@edison:~# wget opkg install http://repo.opkg.net/edison/repo/core2-32/zbar_0.10-r0_core2-32.ipk
