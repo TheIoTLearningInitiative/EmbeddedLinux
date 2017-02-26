@@ -1,7 +1,7 @@
 # Bar Codes
 
-* [Bar Code Scanner with Webcam On Intel Edison](https://software.intel.com/en-us/blogs/2015/11/30/barcodescanner-with-webcam-on-intel-edison)
-* [Real Time QR Code Detection](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
+- [Bar Code Scanner with Webcam On Intel Edison](https://software.intel.com/en-us/blogs/2015/11/30/barcodescanner-with-webcam-on-intel-edison)
+- [Real Time QR Code Detection](http://blog.ayoungprogrammer.com/2014/04/real-time-qr-code-bar-code-detection.html/)
 
 ```sh
 root@edison:~# opkg install libv4l-dev
