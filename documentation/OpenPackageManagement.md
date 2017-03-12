@@ -72,3 +72,9 @@ root@edison:~# git config --global user.email email@adress.com
 root@edison:~# wget http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
 root@edison:~# opkg install less_458-r0_core2-32.ipk
 ```
+
+# Package Installation via Url Files
+
+```sh
+root@edison:~# opkg install http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
+```
