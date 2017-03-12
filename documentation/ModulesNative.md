@@ -11,19 +11,19 @@ root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386
 ```
 
 ```sh
-    root@edison:~# ls data.tar.gz 
-    data.tar.gz
+root@edison:~# ls data.tar.gz 
+data.tar.gz
 ```
 
 ```sh
-    root@edison:~# tar -xvf data.tar.gz
-    ...
-    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
-    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Kconfig
-    ./lib/
-    ./lib/modules/
-    ./lib/modules/3.10.17-poky-edison/
-    ./lib/modules/3.10.17-poky-edison/build
+root@edison:~# tar -xvf data.tar.gz
+...
+./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
+./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Kconfig
+./lib/
+./lib/modules/
+./lib/modules/3.10.17-poky-edison/
+./lib/modules/3.10.17-poky-edison/build
 ```
 
 ```sh
@@ -42,26 +42,26 @@ linux-headers-3.10.17-poky-edison  linux-headers-3.10.98-poky-edison
 ```
 
 ```sh
-    root@edison:~# nano ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.h
-    #define UTS_RELEASE "3.10.98-poky-edison+"
-    <Save Changes>
+root@edison:~# nano ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.h
+#define UTS_RELEASE "3.10.98-poky-edison+"
+<Save Changes>
 ```
 
 ```sh
-    root@edison:~# cd /lib/modules/3.10.98-poky-edison+
+root@edison:~# cd /lib/modules/3.10.98-poky-edison+
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.98-poky-edison+# ls
-    extra                modules.builtin.bin  modules.softdep
-    kernel               modules.dep          modules.symbols
-    modules.alias        modules.dep.bin      modules.symbols.bin
-    modules.alias.bin    modules.devname
-    modules.builtin      modules.order
+root@edison:/lib/modules/3.10.98-poky-edison+# ls
+extra                modules.builtin.bin  modules.softdep
+kernel               modules.dep          modules.symbols
+modules.alias        modules.dep.bin      modules.symbols.bin
+modules.alias.bin    modules.devname
+modules.builtin      modules.order
 ```
 
 ```sh
-    root@edison:/lib/modules/3.10.98-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
+root@edison:/lib/modules/3.10.98-poky-edison+# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
 ```
 
 ```sh
