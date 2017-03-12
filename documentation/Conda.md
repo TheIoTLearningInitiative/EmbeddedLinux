@@ -22,8 +22,8 @@
 > These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments, etc. 
 
 - [Miniconda Python on Intel Edison](https://scivision.co/miniconda-python-on-intel-edison/)
-- [The most important stuff to know about Intel Edison](http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
-
+- [The most important stuff to know about Intel Edison]
+(http://tiredhacker.blogspot.mx/2015/01/the-most-important-stuff-to-know-about.html)
 
 ```sh
 root@edison:~# wget http://ftp.gnu.org/gnu/tar/tar-latest.tar.gz                
