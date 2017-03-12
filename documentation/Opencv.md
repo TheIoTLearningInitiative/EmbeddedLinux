@@ -23,11 +23,11 @@ src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 ### Opkg Installation
 
 ```sh
-    root@edison:~# opkg update
-    root@edison:~# opkg install opencv opencv-dev opencv-apps
-    root@edison:~# opkg install opencv-samples opencv-samples-dev  
-    root@edison:~# opkg install libopencv-imgproc-dev
-    root@edison:~# opkg install python-numpy python-opencv
+root@edison:~# opkg update
+root@edison:~# opkg install opencv opencv-dev opencv-apps
+root@edison:~# opkg install opencv-samples opencv-samples-dev  
+root@edison:~# opkg install libopencv-imgproc-dev
+root@edison:~# opkg install python-numpy python-opencv
 ```
 
 Cannot install in some devices
@@ -39,22 +39,22 @@ root@edison:~# opkg install opencv-samples-dev opencv-dev
 ### Apt-Get Installation
 
 ```sh
-    root@edison:~# apt-get update
-    root@edison:~# apt-get install git python-pip python-serial python-pyparsing
-    root@edison:~# apt-get install opencv opencv-samples opencv-apps
-    root@edison:~# apt-get install opencv-dev opencv-samples-dev 
-    root@edison:~# apt-get install libopencv-imgproc-dev
-    root@edison:~# apt-get install python-numpy python-opencv
+root@edison:~# apt-get update
+root@edison:~# apt-get install git python-pip python-serial python-pyparsing
+root@edison:~# apt-get install opencv opencv-samples opencv-apps
+root@edison:~# apt-get install opencv-dev opencv-samples-dev 
+root@edison:~# apt-get install libopencv-imgproc-dev
+root@edison:~# apt-get install python-numpy python-opencv
 ```
 
 ## Hello OpenCV, Face Recognition
 
 ```sh
-    root@edison:~# cd /home/root/
-    root@edison:~# mkdir opencv
-    root@edison:~# cd opencv/
-    root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
-    root@edison:~/opencv# nano facerecognition.py
+root@edison:~# cd /home/root/
+root@edison:~# mkdir opencv
+root@edison:~# cd opencv/
+root@edison:~/opencv# wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
+root@edison:~/opencv# nano facerecognition.py
 ```
 
 ```sh
