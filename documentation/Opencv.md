@@ -24,16 +24,23 @@ src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 
 ```sh
 root@edison:~# opkg update
-root@edison:~# opkg install opencv opencv-dev opencv-apps
-root@edison:~# opkg install opencv-samples opencv-samples-dev  
-root@edison:~# opkg install libopencv-imgproc-dev
-root@edison:~# opkg install python-numpy python-opencv
+root@board:~# opkg install python-dev
 ```
 
-Cannot install in some devices
+```sh
+root@edison:~# opkg install opencv opencv-dev opencv-apps
+root@edison:~# opkg install opencv-samples opencv-samples-dev
+root@edison:~# opkg install libopencv-imgproc-dev
+```
 
 ```sh
-root@edison:~# opkg install opencv-samples-dev opencv-dev 
+root@board:~# opkg install http://repo.opkg.net/edison/repo/core2-32/python-numpy_1.7.0-r1_core2-32.ipk
+root@board:~# opkg install http://repo.opkg.net/edison/repo/core2-32/python-opencv_2.4.11+git0+2c9547e314-r0_core2-32.ipk
+```
+
+```sh
+root@board:~# pip install pip --upgrade
+root@board:~# pip install flask numpy
 ```
 
 ### Apt-Get Installation
