@@ -2,10 +2,10 @@
 
 # Init
 
-> In Unix-based computer operating systems, init (short for initialization) is the first process started during booting of the computer system. Init is a daemon process that continues running until the system is shut down. It is the direct or indirect ancestor of all other processes and automatically adopts all orphaned processes. Init is started by the kernel using a hard-coded filename; a kernel panic will occur if the kernel is unable to start it. Init is typically assigned process identifier 1. [Wikipedia](https://en.wikipedia.org/wiki/Init)
+> In Unix-based computer operating systems, init \(short for initialization\) is the first process started during booting of the computer system. Init is a daemon process that continues running until the system is shut down. It is the direct or indirect ancestor of all other processes and automatically adopts all orphaned processes. Init is started by the kernel using a hard-coded filename; a kernel panic will occur if the kernel is unable to start it. Init is typically assigned process identifier 1. [Wikipedia](https://en.wikipedia.org/wiki/Init)
 
 ```sh
-root@edison:~# mkdir /etc/init.d 
+root@edison:~# mkdir /etc/init.d
 ```
 
 ```sh
@@ -30,12 +30,12 @@ root@edison:~# shutdown -r now
 # SystemD
 
 > systemd is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. [Homepage](https://freedesktop.org/wiki/Software/systemd/)
-
-> systemd is an init system used by some Linux distributions to bootstrap the user space and manage all processes subsequently, instead of the UNIX System V or Berkeley Software Distribution (BSD) init systems. The name systemd adheres to the Unix convention of naming daemons by appending the letter d. [Wikipedia](https://en.wikipedia.org/wiki/Systemd)
-
+>
+> systemd is an init system used by some Linux distributions to bootstrap the user space and manage all processes subsequently, instead of the UNIX System V or Berkeley Software Distribution \(BSD\) init systems. The name systemd adheres to the Unix convention of naming daemons by appending the letter d. [Wikipedia](https://en.wikipedia.org/wiki/Systemd)
+>
 > Systemd is an init system and system manager that is widely becoming the new standard for Linux machines. While there are considerable opinions about whether systemd is an improvement over the traditional SysV init systems it is replacing, the majority of distributions plan to adopt it or have already done so. [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
-- [ArchLinux systemd System and Service Manager](https://wiki.archlinux.org/index.php/systemd)
+* [ArchLinux systemd System and Service Manager](https://wiki.archlinux.org/index.php/systemd)
 
 ```sh
 root@edison:~# ls /lib/systemd/system
@@ -60,7 +60,7 @@ rescue.target                           xdk-daemon.service
 # Systemctl
 
 > systemctl — Control the systemd system and service manager. systemctl may be used to introspect and control the state of the "systemd" system and service manager. [Homepage](https://www.freedesktop.org/software/systemd/man/systemctl.html)
-
+>
 > systemctl command, the central management tool for controlling the init system
 
 ```sh
@@ -173,8 +173,8 @@ May 08 04:15:14 edison systemd[1]: Started Network Name Resolution.
 
 # Services, Start Up Script Execution
 
-- [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
-- [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
+* [Musings from Stephanie Automatic Scripting at Boot-Up](http://stephaniemoyerman.com/?p=41)
+* [Tektyte Running a Script On Startup](http://www.tektyte.com/docs/docpages/edison-reference/runonstartup.html)
 
 ```sh
     root@edison:~# cd /home/root/
@@ -234,7 +234,7 @@ Location of the web server content
     root@edison:~# ls /usr/lib/edison_config_tools/public/
 ```
 
-Location of the web server configuration script 
+Location of the web server configuration script
 
 ```sh
     root@edison:~# ls /usr/lib/edison_config_tools/edison-config-server.js
@@ -251,7 +251,7 @@ To stop actual webserver
 # Services, Butterfly, Web Based Terminal Emulator
 
 > A sleek web based terminal emulator
-
+>
 > Butterfly is a xterm compatible terminal that runs in your browser
 
 [Butterfly Github](https://github.com/paradoxxxzero/butterfly)
@@ -272,3 +272,6 @@ To stop actual webserver
     root@edison:~#  systemctl enable butterfly.socket
     root@edison:~#  systemctl start butterfly.socket
 ```
+
+
+
