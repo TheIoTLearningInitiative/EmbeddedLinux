@@ -30,6 +30,7 @@
     * [Flashing](documentation/FlashingYocto.md)
   * [Distributions](documentation/Distributions.md)
     * [CentOS](documentation/CentOs.md)
+    * [Gentoo for edison](documentation/Gentoo_for_edison.md)
     * [Google Brillo](documentation/GoogleBrillo.md)
     * [Jubilinux](documentation/Jubilinux.md)
     * [Kali](documentation/Kali.md)
