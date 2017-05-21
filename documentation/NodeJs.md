@@ -29,7 +29,7 @@ pinDigital.write(1);
 ```
 
 ```sh
-    root@edison:~# node mr.js
+root@edison:~# node mr.js
 ```
 
 ## Nodejs, Socket.io and Intel Edison
