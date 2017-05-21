@@ -15,7 +15,7 @@
 ## Mraa
 
 ```sh
-    root@edison:~# nano mr.js
+root@edison:~# nano mr.js
 ```
 
 ```js
