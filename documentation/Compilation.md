@@ -11,7 +11,13 @@
 # Host Development Dependencies
 
 ```sh
-    user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools automake autoconf-doc gnu-standards
+user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools automake autoconf-doc gnu-standards
+    
+user@host:~# apt-get install sed wget cvs subversion git-core coreutils \
+  unzip texi2html texinfo libsdl1.2-dev docbook-utils gawk \
+  python-pysqlite2 diffstat help2man make gcc build-essential \
+  g++ desktop-file-utils chrpath libgl1-mesa-dev libglu1-mesa-dev \
+  mercurial autoconf automake groff libtool xterm
 ```
 
 # Board Support Package
