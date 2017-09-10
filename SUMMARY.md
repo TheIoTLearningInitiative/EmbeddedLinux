@@ -35,6 +35,7 @@
     * [Kali](documentation/Kali.md)
     * [Ostro](documentation/Ostro.md)
     * [Ubilinux](documentation/Ubilinux.md)
+    * [Debian](documentation/Debian.md)
 * [Boot Loaders](documentation/BootLoaders.md)
   * [U-Boot](documentation/U-Boot.md)
 * [Initialization](documentation/Initialization.md)
@@ -156,6 +157,4 @@
   * [Challenge](documentation/Challenge.md)
   * Tbd
 * [SandBox](documentation/Sandbox.md)
-
-
 
